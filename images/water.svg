@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" width="900" height="675">
+  <rect width="900" height="420" fill="#7ea0a8"/>
+  <path fill="#1c3d2c" d="M0 260 L140 120 L280 250 L420 80 L600 240 L760 110 L900 250 L900 420 L0 420 Z"/>
+  <rect y="400" width="900" height="275" fill="#2f5d66"/>
+  <path fill="#3d7a86" d="M0 470 C160 450 280 500 450 470 C640 435 760 500 900 470 L900 675 L0 675 Z"/>
+</svg>
