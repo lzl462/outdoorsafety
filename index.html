@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outdoor Safety | Sea-to-Sky District</title>
+  <meta name="description" content="Practical outdoor safety for hiking, skiing, biking, climbing, and paddling in B.C.'s Sea-to-Sky corridor. Checklists, emergency numbers, and what to do when things go wrong.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="emergency-bar">
+    Lost, injured, or in danger in the backcountry? Call <a href="tel:911">9-1-1</a>. Search and rescue in B.C. is free.
+  </div>
+  <header class="site-header">
+    <a class="logo" href="#top">
+      <span class="mark" aria-hidden="true">△</span>
+      Outdoor Safety · Sea-to-Sky
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false">Menu</button>
+    <nav aria-label="Primary">
+      <a href="#activities">Activities</a>
+      <a href="#checklists">Checklists</a>
+      <a href="#if">If something goes wrong</a>
+      <a href="#mistakes">Common mistakes</a>
+      <a href="#emergency">Emergency numbers</a>
+      <a href="#plan">Trip plan</a>
+      <a href="#share">QR / share</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <img src="images/hero.svg" alt="Howe Sound and the Coast Mountains along the Sea-to-Sky corridor">
+      <div class="hero-copy">
+        <p class="kicker">Sea-to-Sky District, British Columbia</p>
+        <h1>Come home from the mountains.</h1>
+        <p class="lede">A simple safety guide for hiking, skiing, biking, climbing, and paddling between Howe Sound, Squamish, Whistler, and Pemberton.</p>
+        <div class="hero-actions">
+          <a class="btn btn-alert" href="tel:911">Call 9-1-1</a>
+          <a class="btn btn-light" href="#checklists">Open checklists</a>
+          <a class="btn btn-light" href="pdfs/emergency-numbers.html">Emergency numbers card</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="activities">
+      <div class="section-head">
+        <h2>Outdoor activities in this corridor</h2>
+        <p>The Sea-to-Sky is beautiful and busy. Terrain can change from ocean to alpine in a short drive. Match the trip to your skills, not the photo.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <img src="images/hiking.svg" alt="Alpine hiking trail beside a mountain lake">
+          <div class="card-body">
+            <span class="tag">Land</span>
+            <h3>Hiking &amp; scrambling</h3>
+            <p>Chief, Garibaldi Lake, Black Tusk, Panorama Ridge, Joffre Lakes, and the Sea to Sky Gondola area see many rescues. Trails can be icy, snow-covered, or much longer than they look.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/winter.svg" alt="Snow-covered Coast Mountains in winter">
+          <div class="card-body">
+            <span class="tag">Snow</span>
+            <h3>Ski, snowboard, snowmobile</h3>
+            <p>This is avalanche country, including some popular hiking trails in shoulder season. Check <a href="https://avalanche.ca" rel="noopener">avalanche.ca</a>, carry transceiver, shovel, and probe, and know how to use them.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/water.svg" alt="Howe Sound water with steep forested mountains">
+          <div class="card-body">
+            <span class="tag">Water</span>
+            <h3>Paddle, swim, bike, climb</h3>
+            <p>Cold lakes, fast rivers, and Howe Sound can turn a short outing into an emergency. Wear a PFD on the water. Mountain biking and granite climbing need a plan, a partner, and a way to call for help.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="checklists">
+      <div class="section-head">
+        <h2>Checklists so less goes wrong</h2>
+        <p>AdventureSmart’s 3 Ts: trip plan, training, and take the essentials. Tick the boxes here. They stay saved on this device. Print or download the PDFs before you lose cell service.</p>
+      </div>
+      <div class="checklist-grid">
+        <div class="panel">
+          <h3>Before you leave</h3>
+          <label class="check"><input type="checkbox" data-key="route"> Route matches the group’s fitness, skills, and daylight.</label>
+          <label class="check"><input type="checkbox" data-key="weather"> Weather, trail, road, wildfire, and avalanche conditions checked.</label>
+          <label class="check"><input type="checkbox" data-key="plan"> Trip plan left with someone who will call 9-1-1 if you are overdue.</label>
+          <label class="check"><input type="checkbox" data-key="partner"> Not going alone, or a solo plan is extra conservative.</label>
+          <label class="check"><input type="checkbox" data-key="comms"> Phone charged, offline map downloaded, satellite messenger if out of cell range.</label>
+          <label class="check"><input type="checkbox" data-key="return"> Turnaround time set. You will use it.</label>
+          <h3 style="margin-top:1.2rem">In the pack</h3>
+          <label class="check"><input type="checkbox" data-key="nav"> Navigation: map, compass or GPS, and the skill to use them.</label>
+          <label class="check"><input type="checkbox" data-key="light"> Headlamp and spare batteries.</label>
+          <label class="check"><input type="checkbox" data-key="food"> Extra food and at least 1 litre of water per person.</label>
+          <label class="check"><input type="checkbox" data-key="clothes"> Extra warm layer, rain shell, and sun protection.</label>
+          <label class="check"><input type="checkbox" data-key="firstaid"> First aid kit, knife or multi-tool, fire starter, whistle.</label>
+          <label class="check"><input type="checkbox" data-key="shelter"> Emergency shelter or bivy.</label>
+          <label class="check"><input type="checkbox" data-key="shoes"> Footwear that can handle mud, snow, and rock — not fashion sneakers.</label>
+          <label class="check"><input type="checkbox" data-key="avi"> Winter or alpine: transceiver, shovel, probe, and training.</label>
+          <label class="check"><input type="checkbox" data-key="pfd"> Water: PFD worn, not stored. Cold water, no alcohol.</label>
+        </div>
+        <div class="panel">
+          <h3>Downloadable PDFs</h3>
+          <p class="note">Print these, put one in the glove box, and send the trip plan to your emergency contact.</p>
+          <div class="pdf-list">
+            <a href="pdfs/day-hike-checklist.html">Day hike checklist <span>Print / PDF</span></a>
+            <a href="pdfs/winter-backcountry-checklist.html">Winter &amp; avalanche checklist <span>Print / PDF</span></a>
+            <a href="pdfs/trip-plan.html">Trip plan to leave behind <span>Print / PDF</span></a>
+            <a href="pdfs/if-lost.html">If you are lost <span>Print / PDF</span></a>
+            <a href="pdfs/if-injured.html">If someone is hurt <span>Print / PDF</span></a>
+            <a href="pdfs/emergency-numbers.html">Sea-to-Sky emergency numbers <span>Print / PDF</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="if">
+      <div class="section-head">
+        <h2>What to do if…</h2>
+        <p>In an emergency, use STOP: Stop, Think, Observe, Plan. Call 9-1-1 early. You will not be billed for a rescue in B.C.</p>
+      </div>
+      <div class="guides">
+        <article class="guide">
+          <h3>If you are lost</h3>
+          <ol>
+            <li>Stop moving. Stay together. Stay put if you told someone a route.</li>
+            <li>Call or text 9-1-1. A 9-1-1 call can sometimes connect even without regular cell service.</li>
+            <li>Give GPS coordinates from your phone’s compass or maps app.</li>
+            <li>Use a whistle: three blasts, repeat. Make yourself visible.</li>
+            <li>Shelter, extra layers, and food first. Do not bushwhack in the dark.</li>
+          </ol>
+        </article>
+        <article class="guide">
+          <h3>If someone is injured</h3>
+          <ol>
+            <li>Make the scene safe. Do not create a second patient.</li>
+            <li>Call 9-1-1 and ask for police. They dispatch Search and Rescue.</li>
+            <li>Share location, number of people, injuries, and weather.</li>
+            <li>Treat life-threatening bleeding, keep the person warm, and stay with them.</li>
+            <li>Rescues can take hours. Prepare to wait.</li>
+          </ol>
+        </article>
+        <article class="guide">
+          <h3>If there is an avalanche</h3>
+          <ol>
+            <li>If you are the survivor: shout, watch the burial site, switch your transceiver to search.</li>
+            <li>Search, probe, shovel. Companions are the best chance of survival.</li>
+            <li>Call 9-1-1 as soon as you can without stopping the search.</li>
+            <li>Do not go into avalanche terrain without training and the full kit.</li>
+          </ol>
+        </article>
+        <article class="guide">
+          <h3>If you are in the water</h3>
+          <ol>
+            <li>Wear the PFD. Cold B.C. water steals strength fast.</li>
+            <li>Stay with the board or boat if it still floats.</li>
+            <li>Call 9-1-1 from shore or a companion. For marine distress: VHF 16 or 1-800-567-5111.</li>
+            <li>Do not swim rivers, log booms, or glacier-fed lakes alone.</li>
+          </ol>
+        </article>
+        <article class="guide">
+          <h3>If you meet wildlife</h3>
+          <ul>
+            <li>Make noise on the trail. Keep dogs leashed.</li>
+            <li>Never approach bears, cougars, or elk for a photo.</li>
+            <li>Back away slowly. Carry bear spray where it is legal and you know how to use it.</li>
+            <li>Report aggressive wildlife to the Conservation Officer Service: 1-877-952-7277.</li>
+          </ul>
+        </article>
+        <article class="guide">
+          <h3>If your phone is dying</h3>
+          <ul>
+            <li>Turn on Low Power Mode. Download offline maps before you go.</li>
+            <li>A battery pack is cheaper than a night out.</li>
+            <li>Carry a satellite messenger in places like Garibaldi, Sky Pilot, and Duffey Lake.</li>
+            <li>If you must call 9-1-1, say your location first.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div class="section" id="mistakes">
+        <div class="section-head">
+          <h2>The most common mistakes</h2>
+          <p>B.C. Search and Rescue keeps seeing the same patterns: people get lost without a map, slip in poor shoes, or choose a trail harder than their skills. Half of the busiest hiking-rescue trails in the province are in this corridor.</p>
+        </div>
+        <div class="mistakes">
+          <article class="mistake"><strong>01</strong><h3>No trip plan</h3><p>Nobody knows where you went or when you are due back. Leave a written plan and a call-out time.</p></article>
+          <article class="mistake"><strong>02</strong><h3>Trail harder than it looks</h3><p>Rubble Creek, Black Tusk, the Chief, Habrich, and Joffre Lakes punish “we’ll just see.” Turn around early.</p></article>
+          <article class="mistake"><strong>03</strong><h3>Late start, no light</h3><p>Many rescues are people still on the trail after dark without a headlamp.</p></article>
+          <article class="mistake"><strong>04</strong><h3>Phone as the only plan</h3><p>Cell coverage dies in the trees, at the lake, and in the alpine. Phones also die.</p></article>
+          <article class="mistake"><strong>05</strong><h3>Ignoring snow and ice</h3><p>Popular summer trails hold snow late. Avalanche terrain is not only for skiers.</p></article>
+          <article class="mistake"><strong>06</strong><h3>No PFD, cold water</h3><p>Lakes that look calm are still cold. Wear the lifejacket. Do not mix alcohol and water.</p></article>
+          <article class="mistake"><strong>07</strong><h3>Waiting to call</h3><p>Calling 9-1-1 is free. Waiting until night, hypothermia, or no battery makes the rescue harder.</p></article>
+          <article class="mistake"><strong>08</strong><h3>Forest service roads in winter</h3><p>They are not maintained. Getting the car stuck can become a SAR call.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="emergency">
+      <div class="section-head">
+        <h2>Emergency numbers</h2>
+        <p>There is no special Sea-to-Sky rescue number. For backcountry emergencies, call 9-1-1 and ask for police. They activate the local volunteer SAR team.</p>
+      </div>
+      <div class="numbers">
+        <article class="number-card priority">
+          <span class="tag" style="color:#fff">Life-threatening</span>
+          <h3>Search and rescue, police, fire, ambulance</h3>
+          <p><a href="tel:911">9-1-1</a></p>
+          <p>Ask for police if you are lost or hurt in the backcountry. Rescue is free.</p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Wildfire</span>
+          <h3>Report a wildfire</h3>
+          <p><a href="tel:18006635555">1-800-663-5555</a></p>
+          <p>Or *5555 from a cell phone. You can also use the BC Wildfire Service app.</p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Marine</span>
+          <h3>Joint Rescue Coordination Centre</h3>
+          <p><a href="tel:18005675111">1-800-567-5111</a></p>
+          <p>Boat, kayak, or Howe Sound distress. VHF Channel 16.</p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Squamish</span>
+          <h3>RCMP non-emergency</h3>
+          <p><a href="tel:6048926100">604-892-6100</a></p>
+          <p>1000 Finch Drive. SAR: <a href="https://squamishsar.org" rel="noopener">squamishsar.org</a></p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Whistler</span>
+          <h3>RCMP non-emergency</h3>
+          <p><a href="tel:6049323044">604-932-3044</a></p>
+          <p>4315 Blackcomb Way. SAR: <a href="https://whistlersar.com" rel="noopener">whistlersar.com</a></p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Pemberton</span>
+          <h3>RCMP non-emergency</h3>
+          <p><a href="tel:6048946634">604-894-6634</a></p>
+          <p>7413 Prospect Street. SAR: <a href="https://www.pembertonsar.ca" rel="noopener">pembertonsar.ca</a></p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Wildlife</span>
+          <h3>Conservation Officer Service</h3>
+          <p><a href="tel:18779527277">1-877-952-7277</a></p>
+          <p>Report aggressive wildlife, cougars, or grizzly sightings. Cell: #7277.</p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Roads</span>
+          <h3>DriveBC</h3>
+          <p><a href="tel:18005504997">1-800-550-4997</a></p>
+          <p>Highway 99 conditions: <a href="https://drivebc.ca" rel="noopener">drivebc.ca</a></p>
+        </article>
+        <article class="number-card">
+          <span class="tag">Poison</span>
+          <h3>Poison Control</h3>
+          <p><a href="tel:18005678911">1-800-567-8911</a></p>
+          <p>Crisis support: call or text 9-8-8.</p>
+        </article>
+      </div>
+      <p class="note" style="margin-top:1rem">Hospitals and clinics: Squamish General Hospital, 38140 Behrner Drive · Whistler Health Care Centre, 4380 Lorimer Road · Pemberton Health Care Centre, 1403 Portage Road.</p>
+    </section>
+
+    <section class="section" id="plan">
+      <div class="section-head">
+        <h2>Leave a trip plan</h2>
+        <p>Fill this in, print it, and give it to someone who will call 9-1-1 if you are late. A PDF version is in the checklist section.</p>
+      </div>
+      <div class="panel">
+        <div class="form-grid">
+          <label>Name(s)<input type="text" name="names"></label>
+          <label>Phone<input type="text" name="phone"></label>
+          <label>Date<input type="date" name="date"></label>
+          <label>Return time<input type="time" name="return"></label>
+          <label class="full">Trail / area / parking<input type="text" name="trail" placeholder="e.g. Rubble Creek to Garibaldi Lake"></label>
+          <label class="full">Vehicle description and plate<input type="text" name="vehicle"></label>
+          <label class="full">Call 9-1-1 if we are not back by<textarea rows="2" placeholder="Time, plus who to call"></textarea></label>
+        </div>
+        <p style="margin:1rem 0 0">
+          <button class="btn btn-alert" type="button" id="print-plan">Print this plan</button>
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="share">
+      <div class="section-head">
+        <h2>Share this site</h2>
+        <p>Scan the QR code, or send the link. After GitHub Pages is on, the live address is <a href="https://lzl462.github.io/outdoorsafety/">https://lzl462.github.io/outdoorsafety/</a>.</p>
+      </div>
+      <div class="panel" style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:center">
+        <img src="images/qr.svg" alt="QR code linking to the Outdoor Safety Sea-to-Sky website" width="180" height="180">
+        <div>
+          <p><strong>Print this code</strong> and put it on a fridge, trailhead notice, or glove-box card.</p>
+          <p><a class="btn btn-alert" href="images/qr.svg" download>Download QR code</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="links">
+      <div class="section-head">
+        <h2>Trusted links</h2>
+        <p>Check conditions the morning you go. These are the official or volunteer sources local SAR teams point people to.</p>
+      </div>
+      <div class="links">
+        <a href="https://www.adventuresmart.ca" rel="noopener"><strong>AdventureSmart</strong> Trip planning, 10 essentials, and training.</a>
+        <a href="https://avalanche.ca" rel="noopener"><strong>Avalanche Canada</strong> Daily bulletin for South Coast and Sea-to-Sky.</a>
+        <a href="https://weather.gc.ca" rel="noopener"><strong>Environment Canada</strong> Mountain weather, not just the town forecast.</a>
+        <a href="https://drivebc.ca" rel="noopener"><strong>DriveBC</strong> Highway 99, Duffey Lake Road, and cameras.</a>
+        <a href="https://www2.gov.bc.ca/gov/content/industry/natural-resource-use/resource-roads/local-road-safety-information/sea-to-sky-natural-resource-district-road-safety-information" rel="noopener"><strong>Sea to Sky forest roads</strong> Closures, winter zones, and FSR notices.</a>
+        <a href="https://bcparks.ca" rel="noopener"><strong>BC Parks</strong> Garibaldi, Joffre Lakes, Stawamus Chief, and alerts.</a>
+        <a href="https://wildfiresituation.nrs.gov.bc.ca" rel="noopener"><strong>BC Wildfire</strong> Fire bans, smoke, and closures.</a>
+        <a href="https://emergencyinfobc.gov.bc.ca" rel="noopener"><strong>EmergencyInfoBC</strong> Evacuation alerts and orders.</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p><strong>Outdoor Safety · Sea-to-Sky</strong></p>
+      <p class="land">This guide is for public education. It is not an official Search and Rescue, RCMP, or government site. Always follow current local advice. This region includes the unceded traditional territories of the Skwxwú7mesh Êxwumixw (Squamish), Líl̓wat, and neighbouring Nations.</p>
+      <p class="note">Numbers and links checked in 2026 from official SAR, RCMP, and Province of B.C. sources. Verify before you go.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
