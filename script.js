@@ -8,29 +8,19 @@ document.querySelectorAll("[data-key]").forEach((el) => {
     el.value = store[key];
   }
 
-  el.addEventListener("input", () => {
+  const save = () => {
     store[key] = el.type === "checkbox" ? el.checked : el.value;
     localStorage.setItem("sts-draft", JSON.stringify(store));
-  });
+  };
 
-  el.addEventListener("change", () => {
-    store[key] = el.type === "checkbox" ? el.checked : el.value;
-    localStorage.setItem("sts-draft", JSON.stringify(store));
-  });
+  el.addEventListener("input", save);
+  el.addEventListener("change", save);
 });
 
-const links = [...document.querySelectorAll(".sidebar nav a")];
-
-const setActive = () => {
-  const y = window.scrollY + 80;
-  let current = links[0];
-  links.forEach((link) => {
-    const id = link.getAttribute("href").slice(1);
-    const section = document.getElementById(id);
-    if (section && section.offsetTop <= y) current = link;
-  });
-  links.forEach((link) => link.classList.toggle("active", link === current));
-};
-
-window.addEventListener("scroll", setActive);
-setActive();
+const page = (location.pathname.split("/").pop() || "index.html");
+document.querySelectorAll(".sidebar nav a").forEach((link) => {
+  const href = link.getAttribute("href");
+  if (href === page || (page === "" && href === "index.html")) {
+    link.classList.add("active");
+  }
+});
