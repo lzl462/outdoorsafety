@@ -1,29 +1,36 @@
-const menuBtn = document.querySelector(".menu-btn");
-const nav = document.querySelector("nav");
+const store = JSON.parse(localStorage.getItem("sts-draft") || "{}");
 
-if (menuBtn && nav) {
-  menuBtn.addEventListener("click", () => {
-    const open = nav.classList.toggle("open");
-    menuBtn.setAttribute("aria-expanded", String(open));
+document.querySelectorAll("[data-key]").forEach((el) => {
+  const key = el.dataset.key;
+  if (el.type === "checkbox") {
+    el.checked = Boolean(store[key]);
+  } else if (store[key]) {
+    el.value = store[key];
+  }
+
+  el.addEventListener("input", () => {
+    store[key] = el.type === "checkbox" ? el.checked : el.value;
+    localStorage.setItem("sts-draft", JSON.stringify(store));
   });
 
-  nav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => nav.classList.remove("open"));
-  });
-}
-
-const saved = JSON.parse(localStorage.getItem("sts-checklists") || "{}");
-
-document.querySelectorAll("label.check input").forEach((box) => {
-  const key = box.dataset.key;
-  if (saved[key]) box.checked = true;
-
-  box.addEventListener("change", () => {
-    saved[key] = box.checked;
-    localStorage.setItem("sts-checklists", JSON.stringify(saved));
+  el.addEventListener("change", () => {
+    store[key] = el.type === "checkbox" ? el.checked : el.value;
+    localStorage.setItem("sts-draft", JSON.stringify(store));
   });
 });
 
-document.getElementById("print-plan")?.addEventListener("click", () => {
-  window.print();
-});
+const links = [...document.querySelectorAll(".sidebar nav a")];
+
+const setActive = () => {
+  const y = window.scrollY + 80;
+  let current = links[0];
+  links.forEach((link) => {
+    const id = link.getAttribute("href").slice(1);
+    const section = document.getElementById(id);
+    if (section && section.offsetTop <= y) current = link;
+  });
+  links.forEach((link) => link.classList.toggle("active", link === current));
+};
+
+window.addEventListener("scroll", setActive);
+setActive();
