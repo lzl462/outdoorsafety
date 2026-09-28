@@ -96,17 +96,41 @@ See Before you leave / In the pack above.
 
 ## What to do if…
 
+Simple tips, in our own words. This is not an official rescue site. Call 9-1-1. Rescue in B.C. is free.
+
 ### If you are lost
-(write here)
+- Stop. Do not keep walking.
+- Stay with your group.
+- Stay in that spot unless it is unsafe.
+- Call 9-1-1.
+- Put on warm clothes before dark.
+- Blow a whistle 3 times.
 
 ### If someone is hurt
-(write here)
+- Make sure you are safe first.
+- Call 9-1-1 right away.
+- Say where you are and what happened.
+- Keep the person warm and dry.
+- Stay with them. Help can take a long time.
 
 ### If there is an avalanche
-(write here)
+- Shout "avalanche."
+- Try to move to the side.
+- Try to stay on top of the snow.
+- Put a hand over your mouth so you can breathe.
+- Search only if your group has practiced and has the tools.
+- If you have not practiced, stay off the snow pile.
+- Call 9-1-1 from a safe spot.
 
 ### If you are in the water
-(write here)
+- The water here is very cold.
+- Keep your face up and breathe slowly.
+- A life jacket holds you up.
+- Get out as soon as you can.
+- Swim only if the shore or the boat is close.
+- Do not jump in after someone.
+- Reach out, or throw something they can grab.
+- Call 9-1-1.
 
 ---
 
