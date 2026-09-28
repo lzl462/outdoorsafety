@@ -50,31 +50,34 @@ Download: pdfs/before-you-leave.html
 
 ## Be aware
 
-### Weather changes fast
-Mountain weather is not the weather in town. Check the forecast before you leave. Carry a warm layer and a rain jacket.
+Written in our own words. Facts checked against Squamish Search and Rescue, Sea to Sky RCMP, AdventureSmart, and the Squamish-Lillooet Regional District.
 
-### Snow and ice can stay
-Higher trails can still have snow and ice after the valley looks like summer. If you are not ready for that, turn around.
+### The trip has to match the people
+A well-known trail can still be too far or too steep for your group. Before you go, read how long it is, how much climbing it has, and how many hours it usually takes. If that is too much, choose a smaller trip.
 
-### Avalanche terrain
-Some hiking routes cross avalanche terrain. This is not only a skiing problem. In winter and spring, check the Avalanche Canada forecast. A rescue there can take longer, because the team must make a safety plan before they travel. Carry extra layers, food, and water in case help is delayed.
+### Town weather can lie
+The street can look sunny while the trail is already cold and wet. Read a forecast for the mountain, not only for town. Take a layer you can put on, and a jacket that blocks rain. A very hot day is a problem too.
 
-### The water is cold
-Howe Sound, rivers, and alpine lakes can cause cold shock even on a warm day. On a boat, kayak, or paddleboard, wear your life jacket.
+### Snow can linger up high
+The valley can be green while the upper trail still has snow or ice. If your shoes or your skills do not match that, head back down.
 
-### Bears and cougars live here
-Make noise on the trail. Keep your distance. Do not leave food or garbage out. Do not walk up to an animal for a photo. If you carry bear spray, know how to use it.
+### Some slopes can slide
+Avalanche terrain is not only for skiers. Some walking routes cross it. In winter and spring, read the Avalanche Canada forecast before you start. Help can be slow to arrive there, because the team has to judge the snow first. Bring more clothes, food, and water than a short walk seems to need.
 
-### Your phone may not work
-Many valleys and mountains have no cell service. Download offline maps before you go. A phone is not a full plan. There is no separate Sea-to-Sky rescue number. If you can call, call 9-1-1.
+### Cold water and rising creeks
+Howe Sound, creeks, and alpine lakes stay cold even when the air feels warm. A fall in can take your breath. On a boat, kayak, or board, wear the life jacket. A creek that was easy in the morning can be too high on the way back. Fast water, or water that is climbing, means you do not cross.
 
-### Forest roads
-Forest roads can be rough, gated, or not plowed. Do not count on driving out after dark.
+### You are in their home
+Bears and cougars use these trails. Talk while you walk, especially on a bend you cannot see around and beside a creek. Leave them space. Pack food and garbage away. Do not step closer for a photo. On a bike or a run, slow down where the view is blocked, and keep a dog beside you. Spray only helps if you already know how it works.
 
-### Daylight runs out
-Pick a turnaround time and keep it. Carry a headlamp. Many rescues start when people are still out after dark.
+### Your phone is a weak plan
+Plenty of valleys and ridges have no signal. Save the battery for a real call, and bring a separate light. Download a map that works with no service before you leave. If a call goes through, it is 9-1-1. This corridor does not have its own rescue line. Far from cell towers, a satellite messenger is what can still reach someone.
 
-Sources: public advice from Squamish Search and Rescue, Sea to Sky RCMP, and AdventureSmart.
+### The road out can fail
+A forest road can be rough, blocked by a gate, or buried in snow. Do not bet on the car getting you out once it is dark.
+
+### Dark arrives on its own clock
+Set a clock time to turn around, and turn around then. Carry a headlamp. People often need help because they are still out when the light is gone.
 
 ---
 
