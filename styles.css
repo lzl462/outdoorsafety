@@ -126,6 +126,16 @@ textarea { min-height: 5rem; resize: vertical; }
 
 .files .empty { color: #777; }
 
+.jumps {
+  display: flex;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+.jumps a { font-weight: 700; }
+
+.activity { scroll-margin-top: 1rem; }
+
 .topics {
   display: grid;
   gap: 0.6rem;

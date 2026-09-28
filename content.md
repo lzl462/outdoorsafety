@@ -19,24 +19,14 @@ The goal is to keep people safe and help them be prepared in the wilderness. A l
 
 ## Activities
 
-### Hiking
-(write here)
-
-### Winter / snow
-(write here)
-
-### Water
-(write here)
-
-### Bike / climb
-(write here)
+Activities are not a separate page. Checklist PDFs are sorted on the Checklists page: hiking, biking, climbing.
 
 ---
 
 ## Checklists
 
-### Before you leave
-Download: pdfs/before-you-leave.pdf
+### Before every trip
+Download: pdfs/before-you-leave.html
 - Leave a trip plan with someone you trust
 - Time of departure
 - Starting point
@@ -47,10 +37,14 @@ Download: pdfs/before-you-leave.pdf
 - Anticipated return time
 - Call 9-1-1 if we are not back by
 
-### In the pack
-- (item)
-- (item)
-- (item)
+### Hiking
+- (PDF later)
+
+### Biking
+- (PDF later)
+
+### Climbing
+- (PDF later)
 
 ---
 
