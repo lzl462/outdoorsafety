@@ -206,6 +206,82 @@ textarea { min-height: 5rem; resize: vertical; }
   min-height: 2.5rem;
 }
 
+.crayon-defs { position: absolute; width: 0; height: 0; }
+
+main.aware { max-width: 980px; }
+
+.aware-points {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.blob {
+  position: relative;
+  z-index: 0;
+  color: #1c2416;
+}
+
+.blob h3 {
+  color: #1c2416;
+  text-align: center;
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+}
+
+.blob p { margin: 0; }
+
+.blob::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--fill);
+  background-image:
+    repeating-linear-gradient(118deg, transparent 0 3px, rgba(255,255,255,0.35) 3px 4px),
+    repeating-linear-gradient(28deg, transparent 0 6px, rgba(0,0,0,0.045) 6px 7px);
+  border: 5px solid var(--edge);
+  border-radius: inherit;
+  filter: url("#crayon-edge");
+  box-shadow: 3px 4px 0 rgba(28, 36, 22, 0.12);
+}
+
+.shape-circle {
+  width: min(500px, 100%);
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4.2rem 3.3rem;
+  border-radius: 49% 51% 48% 52% / 52% 48% 51% 49%;
+}
+
+.shape-oval {
+  width: min(640px, 100%);
+  padding: 2.35rem 3rem 2.55rem;
+  border-radius: 50% 50% 50% 50% / 62% 58% 42% 46%;
+}
+
+.shape-oval::before {
+  inset: -6px -2px;
+}
+
+.pos-right { margin-left: auto; margin-right: 0; transform: rotate(1deg); }
+.pos-left { margin-right: auto; margin-left: 0; transform: rotate(-1deg); }
+.pos-middle { margin-left: auto; margin-right: auto; transform: rotate(0.4deg); }
+
+.tone-yellow { --fill: #ffe56a; --edge: #d4a017; }
+.tone-green { --fill: #b7e39a; --edge: #2f7d32; }
+.tone-blue { --fill: #9fd4f5; --edge: #2b7bb9; }
+.tone-orange { --fill: #ffc07a; --edge: #e07a1f; }
+.tone-pink { --fill: #f7b6c8; --edge: #d4537e; }
+
+.aware-points .blob:nth-child(3) { border-radius: 52% 48% 51% 49% / 49% 53% 47% 51%; }
+.aware-points .blob:nth-child(4) { border-radius: 48% 52% 46% 54% / 58% 64% 40% 46%; }
+.aware-points .blob:nth-child(6) { border-radius: 54% 46% 52% 48% / 60% 56% 44% 40%; }
+.aware-points .blob:nth-child(7) { border-radius: 50% 50% 47% 53% / 53% 47% 50% 50%; }
+.aware-points .blob:nth-child(8) { border-radius: 46% 54% 50% 50% / 64% 60% 40% 42%; }
+
 @media (max-width: 720px) {
   .layout { grid-template-columns: 1fr; }
   .sidebar {
@@ -217,4 +293,26 @@ textarea { min-height: 5rem; resize: vertical; }
   nav { grid-template-columns: 1fr 1fr; }
   .grid, .pair { grid-template-columns: 1fr; }
   main { padding: 1rem; }
+  .shape-circle {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 1;
+    padding: 2.5rem 1.6rem;
+  }
+  .shape-oval,
+  .aware-points .blob.shape-oval {
+    width: 94%;
+    border-radius: 3.2rem;
+    padding: 1.45rem 1.35rem 1.55rem;
+  }
+  .shape-oval::before { inset: 0; }
+  .pos-right,
+  .pos-left,
+  .pos-middle {
+    width: 94%;
+    transform: none;
+  }
+  .pos-right { margin-left: 6%; margin-right: 0; }
+  .pos-left { margin-right: 6%; margin-left: 0; }
+  .pos-middle { margin-left: auto; margin-right: auto; }
 }
