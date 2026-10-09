@@ -207,7 +207,8 @@ textarea { min-height: 5rem; resize: vertical; }
 }
 
 
-main.if-page { max-width: 920px; }
+main.if-page,
+main.aware { max-width: 920px; }
 
 .crayon-defs { position: absolute; width: 0; height: 0; }
 
@@ -246,7 +247,10 @@ main.if-page { max-width: 920px; }
 }
 
 .bubble h3,
-.bubble ul { position: relative; z-index: 1; }
+.bubble ul,
+.bubble p { position: relative; z-index: 1; }
+
+.bubble p { margin: 0; }
 
 .bubble h3 {
   color: #1c2416;
@@ -316,5 +320,11 @@ main.if-page { max-width: 920px; }
   .bubble.size-xl { width: 100%; padding: 1rem 0.95rem; font-size: 0.78rem; line-height: 1.25; }
   .bubble.side-right { margin-left: auto; margin-right: 0; }
   .bubble.side-left { margin-right: auto; margin-left: 0; }
+
+  main.aware .bubble { font-size: 0.78rem; line-height: 1.28; }
+  main.aware .bubble.size-s { width: 90%; padding: 1.2rem 1.05rem; }
+  main.aware .bubble.size-m { width: 96%; padding: 1.25rem 1.1rem; }
+  main.aware .bubble.size-l,
+  main.aware .bubble.size-xl { width: 100%; padding: 1.2rem 1.15rem; }
 }
 
