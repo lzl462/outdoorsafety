@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What to do if… — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
+  <svg class="crayon-defs" width="0" height="0" aria-hidden="true">
+    <filter id="crayon-edge" x="-12%" y="-12%" width="124%" height="124%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
   <div class="layout">
     <aside class="sidebar">
       <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
@@ -28,7 +34,7 @@
         <p class="note">Simple tips, in our own words. This is not an official rescue site. Call 9-1-1. Rescue in B.C. is free.</p>
       </div>
       <div class="bubbles">
-        <section class="bubble side-right size-m">
+        <section class="bubble side-right size-m tone-yellow">
           <h3>If you are lost</h3>
           <ul>
             <li>Stop. Do not keep walking.</li>
@@ -39,7 +45,7 @@
             <li>Blow a whistle 3 times.</li>
           </ul>
         </section>
-        <section class="bubble side-left size-s">
+        <section class="bubble side-left size-s tone-green">
           <h3>If someone is hurt</h3>
           <ul>
             <li>Make sure you are safe first.</li>
@@ -49,7 +55,7 @@
             <li>Stay with them. Help can take a long time.</li>
           </ul>
         </section>
-        <section class="bubble side-right size-l">
+        <section class="bubble side-right size-l tone-blue">
           <h3>If there is an avalanche</h3>
           <ul>
             <li>Shout “avalanche.”</li>
@@ -61,7 +67,7 @@
             <li>Call 9-1-1 from a safe spot.</li>
           </ul>
         </section>
-        <section class="bubble side-left size-xl">
+        <section class="bubble side-left size-xl tone-orange">
           <h3>If you are in the water</h3>
           <ul>
             <li>The water here is very cold.</li>
