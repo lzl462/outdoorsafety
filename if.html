@@ -4,13 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>What to do if… — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <svg class="crayon-defs" width="0" height="0" aria-hidden="true">
-    <filter id="crayon-edge" x="-12%" y="-12%" width="124%" height="124%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="4" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    <filter id="crayon-edge" x="-22%" y="-22%" width="144%" height="144%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="3" result="wave"/>
+      <feDisplacementMap in="SourceGraphic" in2="wave" scale="16" xChannelSelector="R" yChannelSelector="G" result="wobbly"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.4" numOctaves="2" seed="7" result="tooth"/>
+      <feDisplacementMap in="wobbly" in2="tooth" scale="5" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="3" seed="5" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.42  0 0 0 0 0.3  0 0 0 0 0.16  0 0 0 0.4 0" result="speck"/>
+      <feComposite in="speck" in2="rough" operator="in" result="speckOn"/>
+      <feBlend in="speckOn" in2="rough" mode="multiply"/>
     </filter>
   </svg>
   <div class="layout">

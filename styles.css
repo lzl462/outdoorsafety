@@ -218,19 +218,15 @@ main.if-page { max-width: 920px; }
 }
 
 .bubble {
-  --fill: #ffe56a;
-  --edge: #c98912;
+  --fill: #f4e3a4;
+  --edge: #d2ae55;
   position: relative;
   z-index: 0;
   margin: 0;
   padding-top: 0;
-  color: #1c2416;
-  background-color: var(--fill);
-  background-image:
-    repeating-linear-gradient(118deg, transparent 0 3px, rgba(255,255,255,0.45) 3px 4px),
-    repeating-linear-gradient(28deg, transparent 0 7px, rgba(80, 40, 0, 0.06) 7px 8px);
-  border: 7px solid var(--edge);
-  box-shadow: 4px 5px 0 rgba(40, 28, 12, 0.14);
+  color: #241c12;
+  background: transparent;
+  border: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -240,11 +236,12 @@ main.if-page { max-width: 920px; }
 .bubble::before {
   content: "";
   position: absolute;
-  inset: -3px;
+  inset: -4px;
   z-index: -1;
   border-radius: inherit;
-  background: inherit;
-  border: 7px solid var(--edge);
+  background:
+    radial-gradient(circle at 38% 32%, rgba(255,255,255,0.34), transparent 34%),
+    radial-gradient(circle at 50% 48%, var(--fill) 0 68%, var(--edge) 100%);
   filter: url("#crayon-edge");
 }
 
@@ -260,10 +257,10 @@ main.if-page { max-width: 920px; }
 .bubble ul { margin: 0; padding-left: 1.15rem; }
 .bubble li + li { margin-top: 0.2rem; }
 
-.tone-yellow { --fill: #ffe56a; --edge: #c98912; }
-.tone-green { --fill: #b6e394; --edge: #3d8a32; }
-.tone-blue { --fill: #9ed4f6; --edge: #2d7cb8; }
-.tone-orange { --fill: #ffc07a; --edge: #e07a1a; }
+.tone-yellow { --fill: #f6e6a6; --edge: #e0bc62; }
+.tone-green { --fill: #d5ebc0; --edge: #7eae68; }
+.tone-blue { --fill: #c9e6f6; --edge: #6aafd2; }
+.tone-orange { --fill: #f8d2aa; --edge: #e39455; }
 
 .bubble.size-s {
   width: min(390px, 82%);
@@ -306,6 +303,7 @@ main.if-page { max-width: 920px; }
   main { padding: 1rem; }
 
   .bubble { transform: none; font-size: 0.9rem; }
+  .bubble::before { inset: -3px; }
   .bubble ul { padding-left: 1.4rem; }
   .bubble.size-s,
   .bubble.size-m,
