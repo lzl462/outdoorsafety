@@ -218,3 +218,27 @@ textarea { min-height: 5rem; resize: vertical; }
   .grid, .pair { grid-template-columns: 1fr; }
   main { padding: 1rem; }
 }
+
+.sea-photo {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+  z-index: 0;
+}
+
+body.if-body { background: transparent; }
+body.if-body .layout { position: relative; z-index: 1; }
+
+main.if-page { background: transparent; }
+
+.if-intro {
+  background: rgba(255,255,255,0.92);
+  border-radius: 16px;
+  padding: 0.85rem 1rem 0.15rem;
+  margin-bottom: 1rem;
+}
+
+main.if-page .box { background: rgba(255,255,255,0.94); }
