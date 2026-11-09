@@ -11,9 +11,11 @@ When you have something new, put it here (or in Obsidian `Website-Inhalte`) and 
 
 ### Name
 Outdoor Safety — Sea-to-Sky
+*(requires some work — not the final project name)*
 
-### What this website is for
-The goal is to keep people safe and help them be prepared in the wilderness. A lot of people do not know what to do in a dangerous situation. We have to change that.
+### Opening quote
+add quote
+*(Liz still has to write the quote. Do not invent one. The old “What this website is for” text is off the page.)*
 
 ---
 

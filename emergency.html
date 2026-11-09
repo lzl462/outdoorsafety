@@ -5,6 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Emergency numbers — Outdoor Safety Sea-to-Sky</title>
   <link rel="stylesheet" href="styles.css?v=7">
+  <style>
+    main.emergency-page h1 {
+      color: #ff0000;
+      font-family: "Chalkboard SE", sans-serif;
+      text-align: center;
+    }
+    .call-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.25rem;
+    }
+    .call-table th,
+    .call-table td {
+      padding: 0.85rem 0.9rem;
+      vertical-align: middle;
+      border-bottom: 1px solid var(--green-line);
+    }
+    .call-table th {
+      text-align: left;
+      background: var(--green-soft);
+      color: var(--green-dark);
+      font-weight: 700;
+      border-bottom: 3px solid var(--green);
+    }
+    .call-table th.num,
+    .call-table td.num {
+      text-align: right;
+      width: 42%;
+    }
+    .call-table td { color: #111; }
+    .call-table td.num a,
+    .call-table td.num strong {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: var(--green-dark);
+      text-decoration: none;
+    }
+    .call-table .or { font-weight: 400; font-size: 1rem; color: #111; }
+  </style>
 </head>
 <body>
   <div class="layout">
@@ -21,15 +60,35 @@
         <a href="mistakes.html">Common mistakes</a>
       </nav>
     </aside>
-    <main>
+    <main class="emergency-page">
       <p class="back"><a href="index.html">← Home</a></p>
       <h1>Emergency numbers</h1>
-      <ul class="files">
-        <li><a href="tel:911">9-1-1</a> — Emergency (police, fire, ambulance, search and rescue). Rescue in B.C. is free.</li>
-        <li><a href="tel:18005678911">1-800-567-8911</a> — Poison Control</li>
-        <li><a href="tel:18006635555">1-800-663-5555</a> or *5555 from a cell — BC Wildfire Service (report a wildfire)</li>
-        <li><a href="tel:18005675111">1-800-567-5111</a> — Marine / Howe Sound (Joint Rescue Coordination Centre)</li>
-      </ul>
+      <table class="call-table">
+        <thead>
+          <tr>
+            <th scope="col">What it is</th>
+            <th class="num" scope="col">Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Emergency (police, fire, ambulance, search and rescue). Rescue in B.C. is free.</td>
+            <td class="num"><a href="tel:911">9-1-1</a></td>
+          </tr>
+          <tr>
+            <td>Poison Control</td>
+            <td class="num"><a href="tel:18005678911">1-800-567-8911</a></td>
+          </tr>
+          <tr>
+            <td>BC Wildfire Service (report a wildfire)</td>
+            <td class="num"><a href="tel:18006635555">1-800-663-5555</a><br><span class="or">or</span> <strong>*5555</strong> <span class="or">from a cell</span></td>
+          </tr>
+          <tr>
+            <td>Marine / Howe Sound (Joint Rescue Coordination Centre)</td>
+            <td class="num"><a href="tel:18005675111">1-800-567-5111</a></td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </div>
   <script src="script.js"></script>
