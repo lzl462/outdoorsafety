@@ -147,6 +147,6 @@ Simple tips, in our own words. This is not an official rescue site. Call 9-1-1. 
 
 ## Common mistakes
 
-1. (write here)
-2. (write here)
-3. (write here)
+1. Not doing your research. Can you really do that hike?
+2. Not being prepared for emergencies.
+3. Underestimating nature and overestimating yourself. Know your limits.
