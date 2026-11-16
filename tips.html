@@ -5,6 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tips — Outdoor Safety Sea-to-Sky</title>
   <link rel="stylesheet" href="styles.css?v=7">
+  <style>
+    .tip {
+      border: 4px solid var(--green);
+      margin: 0 0 0.75rem;
+      background: #fff;
+    }
+    .tip summary {
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--green-dark);
+      padding: 0.85rem 2.2rem 0.85rem 1rem;
+      list-style: none;
+      position: relative;
+    }
+    .tip summary::-webkit-details-marker { display: none; }
+    .tip summary::after {
+      content: "+";
+      position: absolute;
+      right: 0.9rem;
+      top: 0.75rem;
+      color: var(--green);
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+    .tip[open] summary::after { content: "–"; }
+    .tip p { margin: 0; padding: 0 1rem 0.95rem; }
+  </style>
 </head>
 <body>
   <div class="layout">
@@ -24,12 +51,31 @@
     <main>
       <p class="back"><a href="index.html">← Home</a></p>
       <h1>Tips</h1>
-      <p class="slot">Tip 1 will go here.</p>
-      <p class="slot">Tip 2 will go here.</p>
-      <p class="slot">Tip 3 will go here.</p>
-      <p class="slot">Tip 4 will go here.</p>
-      <p class="slot">Tip 5 will go here.</p>
-      <p class="slot">Tip 6 will go here.</p>
+      <p class="note">Click a box to open it.</p>
+      <details class="tip">
+        <summary>Leave your trip plan with someone before you start.</summary>
+        <p>Fill in the time, the date, your starting point, your destination, your route, the people with you, and your contact numbers. Write when they should call 9-1-1 if you are not back. Leave that page with someone you trust.</p>
+      </details>
+      <details class="tip">
+        <summary>Turn around at the time you set, even if the top is close.</summary>
+        <p>Set a clock time to turn around, and turn around then. People often need help because they are still out when the light is gone.</p>
+      </details>
+      <details class="tip">
+        <summary>Call 9-1-1 early.</summary>
+        <p>If you are lost, or someone is hurt, call 9-1-1 right away. Help can take a long time. Rescue in B.C. is free.</p>
+      </details>
+      <details class="tip">
+        <summary>Talk while you walk, especially on a bend and beside a creek.</summary>
+        <p>Bears and cougars use these trails. A bend you cannot see around, and the noise of a creek, hide you. Talking lets the animal hear you and move off. Leave them space. A normal voice is enough.</p>
+      </details>
+      <details class="tip">
+        <summary>If a creek is higher on the way back, do not cross.</summary>
+        <p>A creek that was easy in the morning can be too high on the way back. Fast water, or water that is climbing, means you do not cross.</p>
+      </details>
+      <details class="tip">
+        <summary>Save your phone battery for a real call.</summary>
+        <p>Plenty of valleys and ridges have no signal. Save the battery for a real call. If a call goes through, it is 9-1-1. Bring a separate light, and download a map that works with no service before you leave.</p>
+      </details>
     </main>
   </div>
   <script src="script.js"></script>
