@@ -92,7 +92,7 @@ def footer(canvas, doc):
     canvas.drawString(
         0.75 * inch,
         0.45 * inch,
-        "Educational handout. Not an official SAR or government document. Rescue in B.C. is free.",
+        "Educational handout. Not an official SAR or government document.",
     )
     canvas.restoreState()
 
@@ -150,7 +150,7 @@ def day_hike(sty):
     story = [
         Paragraph("Day hike checklist", sty["title"]),
         Paragraph("Sea-to-Sky corridor  ·  Howe Sound, Squamish, Whistler, Pemberton", sty["sub"]),
-        banner("Call 9-1-1 if you are lost, injured, or overdue. Rescue in B.C. is free.", sty),
+        banner("Call 9-1-1 if you are lost, injured, or overdue.", sty),
         Spacer(1, 10),
         Paragraph("Before you leave", sty["h"]),
         bullets(
@@ -366,7 +366,7 @@ def numbers(sty):
     story = [
         Paragraph("Sea-to-Sky emergency numbers", sty["title"]),
         Paragraph("Keep this card in the glove box and a photo on your phone.", sty["sub"]),
-        banner("Backcountry emergency: 9-1-1  ·  ask for police  ·  rescue is free", sty),
+        banner("Backcountry emergency: 9-1-1  ·  ask for police", sty),
         Spacer(1, 12),
     ]
     body = sty["body"]
