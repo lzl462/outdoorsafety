@@ -28,10 +28,12 @@
       grid-template-columns: 1fr 1fr;
       column-gap: 1.6rem;
       row-gap: 1.35rem;
-      align-items: start;
+      align-items: stretch;
       margin-top: 0.35rem;
     }
     main.if-page .if-card {
+      box-sizing: border-box;
+      height: 100%;
       background: rgba(255,255,255,0.96);
       border: 4px solid var(--green);
       padding: 0.85rem 1rem 0.9rem;
@@ -138,6 +140,22 @@
       <p class="note photo-credit">Sea-to-Sky Highway and Howe Sound.</p>
     </main>
   </div>
+  <script>
+    (function () {
+      function sizeIfCards() {
+        var cards = document.querySelectorAll("main.if-page .if-card");
+        if (!cards.length) return;
+        cards.forEach(function (card) { card.style.minHeight = "0px"; });
+        var max = 0;
+        cards.forEach(function (card) {
+          if (card.offsetHeight > max) max = card.offsetHeight;
+        });
+        cards.forEach(function (card) { card.style.minHeight = max + "px"; });
+      }
+      window.addEventListener("load", sizeIfCards);
+      window.addEventListener("resize", sizeIfCards);
+    })();
+  </script>
   <script src="script.js"></script>
 </body>
 </html>
