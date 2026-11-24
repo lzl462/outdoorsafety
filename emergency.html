@@ -6,6 +6,8 @@
   <title>Emergency numbers — Outdoor Safety Sea-to-Sky</title>
   <link rel="stylesheet" href="styles.css?v=7">
   <style>
+    body.emergency-body { background: var(--green-soft); }
+    main.emergency-page { max-width: 1040px; background: transparent; }
     main.emergency-page h1 {
       color: #ff0000;
       font-family: "Chalkboard SE", sans-serif;
@@ -14,7 +16,9 @@
     .call-table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 1.25rem;
+      margin: 0.4rem 0 1.6rem;
+      background: #fff;
+      border: 4px solid var(--green);
     }
     .call-table th,
     .call-table td {
@@ -34,7 +38,7 @@
       text-align: right;
       width: 42%;
     }
-    .call-table td { color: #111; }
+    .call-table td { color: #111; background: #fff; }
     .call-table td.num a,
     .call-table td.num strong {
       font-weight: 800;
@@ -43,9 +47,45 @@
       text-decoration: none;
     }
     .call-table .or { font-weight: 400; font-size: 1rem; color: #111; }
+    main.emergency-page .pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1.6rem;
+      align-items: center;
+      margin: 0.2rem 0 1.5rem;
+    }
+    main.emergency-page .photo-spot { text-align: center; margin: 0; }
+    main.emergency-page .photo-spot img {
+      width: 280px;
+      height: 280px;
+      max-width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 8px 18px rgba(12, 28, 20, 0.16);
+    }
+    main.emergency-page .trail { object-position: center; }
+    main.emergency-page .sound { object-position: center 40%; }
+    main.emergency-page .photo-credit { margin: 0.45rem 0 0; text-align: center; }
+    main.emergency-page .story {
+      background: rgba(255,255,255,0.96);
+      border: 4px solid var(--green);
+      padding: 0.75rem 0.9rem;
+      box-shadow: 0 8px 18px rgba(12, 28, 20, 0.16);
+      margin: 0;
+    }
+    main.emergency-page .story h2 {
+      margin: 0 0 0.3rem;
+      font-size: 18px;
+      color: var(--green);
+    }
+    main.emergency-page .story p { margin: 0; }
+    @media (max-width: 800px) {
+      main.emergency-page .pair { grid-template-columns: 1fr; row-gap: 0.8rem; }
+    }
   </style>
 </head>
-<body>
+<body class="emergency-body">
   <div class="layout">
     <aside class="sidebar">
       <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
@@ -89,6 +129,26 @@
           </tr>
         </tbody>
       </table>
+      <div class="pair">
+        <div class="photo-spot">
+          <img class="trail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Harmony_Lakes_Loop_trail_%287734111396%29.jpg/960px-Harmony_Lakes_Loop_trail_%287734111396%29.jpg" alt="A boardwalk hiking trail on Whistler Mountain, with mountains behind it">
+          <p class="note photo-credit">Trail photo: <a href="https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg">Harmony Lakes Loop trail</a> on Whistler Mountain by <a href="https://www.flickr.com/people/95142644@N00">Ruth Hartnup</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>. Resized.</p>
+        </div>
+        <section class="story">
+          <h2>Add a story</h2>
+          <p>A real hike. No names.</p>
+        </section>
+      </div>
+      <div class="pair">
+        <section class="story">
+          <h2>Add a story</h2>
+          <p>Something real on the water. No names.</p>
+        </section>
+        <div class="photo-spot">
+          <img class="sound" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Howe_Sound_%2854538272996%29.jpg/960px-Howe_Sound_%2854538272996%29.jpg" alt="Howe Sound at sunrise, with mountains around the water">
+          <p class="note photo-credit">Water photo: <a href="https://commons.wikimedia.org/wiki/File:Howe_Sound_(54538272996).jpg">Howe Sound</a> by <a href="https://www.flickr.com/people/129867116@N08">David Zhang</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>. Resized.</p>
+        </div>
+      </div>
     </main>
   </div>
   <script src="script.js"></script>

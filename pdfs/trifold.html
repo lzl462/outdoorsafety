@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cardboard plan — Outdoor Safety Sea-to-Sky</title>
+  <style>
+    :root {
+      --green: #1b6b3a;
+      --green-dark: #14532d;
+      --green-soft: #e8f3ec;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #d9d9d9;
+      color: #111;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .note {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1rem 0;
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+    }
+    .board {
+      display: flex;
+      gap: 10px;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1rem 2rem;
+      align-items: stretch;
+    }
+    .panel {
+      flex: 1;
+      background: var(--green-soft);
+      border: 3px solid var(--green);
+      min-height: 720px;
+      padding: 1.1rem 1rem 1rem;
+    }
+    .panel.center { background: #f4faf6; }
+    h1, h2 { margin: 0; color: var(--green-dark); text-align: center; }
+    h1 { font-size: 1.7rem; line-height: 1.15; }
+    h2 { font-size: 1.35rem; margin-bottom: 0.8rem; }
+    h2.danger { color: #ff0000; }
+    .lead, .place, .line, .case { text-align: center; }
+    .lead { margin: 0.9rem 0 0.3rem; font-size: 1.05rem; }
+    .place { margin: 0.8rem 0 0; color: var(--green-dark); }
+    .qr { display: block; width: 140px; height: 140px; margin: 0.8rem auto; background: #fff; }
+    ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+    li { margin: 0.45rem 0; }
+    .case { margin: 0.7rem 0; }
+    .nums { margin-top: 0.8rem; text-align: center; }
+    .nums p { margin: 0.35rem 0; }
+    .nums strong { color: var(--green-dark); font-size: 1.15rem; }
+    .photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      display: block;
+      margin: 1rem auto 0.35rem;
+    }
+    .credit { font-size: 0.72rem; text-align: center; margin: 0; }
+    @media print {
+      .note { display: none; }
+      body { background: #fff; }
+      .board { max-width: none; padding: 0; gap: 4mm; }
+      .panel { min-height: 250mm; }
+    }
+  </style>
+</head>
+<body>
+  <p class="note">This is the plan for the cardboard. It is not on the website. On the real board, make the middle title much bigger.</p>
+  <div class="board">
+    <section class="panel">
+      <h2>Before you go</h2>
+      <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Harmony_Lakes_Loop_trail_%287734111396%29.jpg/960px-Harmony_Lakes_Loop_trail_%287734111396%29.jpg" alt="A boardwalk hiking trail on Whistler Mountain">
+      <ul>
+        <li>The trip has to match the people.</li>
+        <li>Town weather can lie.</li>
+        <li>Leave your plan with someone you trust.</li>
+        <li>Your phone may have no signal.</li>
+      </ul>
+      <p class="credit">Trail photo: Harmony Lakes Loop trail, Ruth Hartnup, CC BY 2.0.</p>
+    </section>
+    <section class="panel center">
+      <h1>Outdoor Safety<br>Sea-to-Sky</h1>
+      <p class="lead">Simple tips, in our own words.</p>
+      <p class="lead">This is not an official rescue site.</p>
+      <img class="qr" src="../images/qr-website.svg" alt="QR code for the website">
+      <p class="place">Website</p>
+      <p class="place">Howe Sound, Squamish, Whistler, and Pemberton.</p>
+    </section>
+    <section class="panel">
+      <h2 class="danger">If something goes wrong</h2>
+      <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Howe_Sound_%2854538272996%29.jpg/960px-Howe_Sound_%2854538272996%29.jpg" alt="Howe Sound at sunrise">
+      <p class="case">If you are lost: stop. Stay with your group. Call 9-1-1.</p>
+      <p class="case">If someone is hurt: make sure you are safe first. Call 9-1-1.</p>
+      <div class="nums">
+        <p><strong>9-1-1</strong></p>
+        <p>Poison Control<br><strong>1-800-567-8911</strong></p>
+        <p>BC Wildfire<br><strong>1-800-663-5555</strong> or <strong>*5555</strong></p>
+        <p>Marine / Howe Sound<br><strong>1-800-567-5111</strong></p>
+      </div>
+      <p class="credit">Water photo: Howe Sound, David Zhang, CC BY-SA 2.0.</p>
+    </section>
+  </div>
+</body>
+</html>

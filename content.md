@@ -29,30 +29,25 @@ Activities are not a separate page. Checklist PDFs are sorted on the Checklists 
 
 ### Before every trip
 Download: pdfs/before-you-leave.html
-- Leave a trip plan with someone you trust
-- Time of departure
-- Starting point
-- Destination
-- Planned route
-- People in the group
-- Contact numbers
-- Anticipated return time
-- Call 9-1-1 if we are not back by
+Fill-in lines. The second page says “For this trip, I need” and has checkboxes with blank lines. It does not list a layer, a rain jacket, extra clothes, food, water, a headlamp, a whistle, or packing food and garbage away. This is not a full gear list.
 
 ### Hiking
-- (PDF later)
+Download: pdfs/trip-hiking.html
+Same lines as the general trip plan. The bend check and the creek check are off. Call 911 sits above “Things you might need”: a layer you can put on, a jacket that blocks rain, extra warm clothes, extra food, extra water, a headlamp, a whistle, pack food and garbage away. The second page says “For this hike, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-hiking.html is not on the site.
 
 ### Biking
-- (PDF later)
+Download: pdfs/trip-biking.html
+Same lines as the general trip plan. The ride check, the checklist ideas, and the extra-equipment line are off this sheet. The second page says “For this ride, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-biking.html is not on the site.
 
 ### Climbing
-- (PDF later)
+Download: pdfs/trip-climbing.html
+Same lines as the general trip plan. The slope line is off this sheet. The second page says “For this climb, I need” and has checkboxes with blank lines. This sheet does not list ropes or a helmet. The older pack list in pdfs/pack-climbing.html is not on the site.
 
 ---
 
 ## Be aware
 
-Written in our own words. Facts checked against Squamish Search and Rescue, Sea to Sky RCMP, AdventureSmart, and the Squamish-Lillooet Regional District.
+Written in our own words. The source line is not on the page. Liz asked to leave it off the bottom. Do not put it back unless she asks for an About page.
 
 ### The trip has to match the people
 A well-known trail can still be too far or too steep for your group. Before you go, read how long it is, how much climbing it has, and how many hours it usually takes. If that is too much, choose a smaller trip.
@@ -85,9 +80,15 @@ Set a clock time to turn around, and turn around then. Carry a headlamp. People 
 
 ## Tips
 
-1. (write here)
-2. (write here)
-3. (write here)
+Click a box to open the explanation. Words taken from the other pages.
+
+1. Be prepared.
+2. Leave your trip plan with someone before you start.
+3. Turn around at the time you set, even if the top is close.
+4. Call 9-1-1 early.
+5. Talk while you walk, especially on a bend and beside a creek.
+6. If a creek is higher on the way back, do not cross.
+7. Save your phone battery for a real call.
 
 ---
 
@@ -98,7 +99,11 @@ See Before you leave / In the pack above.
 
 ## What to do if…
 
-Simple tips, in our own words. This is not an official rescue site. Call 9-1-1. Rescue in B.C. is free.
+Simple tips, in our own words. This is not an official rescue site. Call 9-1-1.
+
+Photos, published 2026-11-18 in commit a8dbb30. The four boxes are the same height.
+- After the lost and hurt cards: Blackcomb Powder on Blackcomb Mountain by Tucker Sherman, CC BY 3.0. Resized.
+- At the bottom: the old Sea-to-Sky Highway and Howe Sound background, now a circle. That file has no photographer name.
 
 ### If you are lost
 - Stop. Do not keep walking.
@@ -138,10 +143,34 @@ Simple tips, in our own words. This is not an official rescue site. Call 9-1-1. 
 
 ## Emergency numbers
 
-- 9-1-1 — Emergency (police, fire, ambulance, search and rescue). Rescue in B.C. is free.
+- 9-1-1 — Emergency (police, fire, ambulance, search and rescue).
 - 1-800-567-8911 — Poison Control
 - 1-800-663-5555 or *5555 — BC Wildfire Service (report a wildfire)
 - 1-800-567-5111 — Marine / Howe Sound (Joint Rescue Coordination Centre)
+
+Light green page. The table stays at the top. Under it, two rows. First row: trail photo on the left, a short story on the right. Second row: a short story on the left, Howe Sound photo on the right. Story boxes say “Add a story.” Liz writes the real stories. No names. Do not invent them.
+
+Photos:
+- Harmony Lakes Loop trail on Whistler Mountain by Ruth Hartnup, CC BY 2.0. Resized.
+- Howe Sound by David Zhang, CC BY-SA 2.0. Resized.
+
+The two story boxes are still empty. Liz still needs to write the real stories. No names. Do not invent them.
+
+---
+
+## Cardboard trifold
+
+The cardboard plan is pdfs/trifold.html. The big title can change when the project name is chosen.
+
+Middle: Outdoor Safety — Sea-to-Sky. Simple tips, in our own words. This is not an official rescue site. Website QR is images/qr-website.svg and opens https://lzl462.github.io/outdoorsafety/. An Instagram follow QR goes beside it after Liz sends the real @ name. Howe Sound, Squamish, Whistler, and Pemberton.
+
+Left, Before you go: The trip has to match the people. Town weather can lie. Leave your plan with someone you trust. Your phone may have no signal.
+
+Right, If something goes wrong: If you are lost, stop, stay with your group, call 9-1-1. If someone is hurt, make sure you are safe first, call 9-1-1. Then 9-1-1, Poison Control 1-800-567-8911, BC Wildfire 1-800-663-5555 or *5555, Marine / Howe Sound 1-800-567-5111.
+
+## Instagram
+
+Not created yet. Liz creates the account herself. Draft name: Outdoor Safety — Sea-to-Sky. Draft bio: Simple tips, in our own words. Not an official rescue site. Link: https://lzl462.github.io/outdoorsafety/
 
 ---
 
