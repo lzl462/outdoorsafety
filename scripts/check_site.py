@@ -12,9 +12,10 @@ DISCLAIMER = "This is not an official rescue site. In an emergency, call 9-1-1."
 CONTENT_PAGES = {
     "index.html", "checklists.html", "pack-lists.html", "be-aware.html",
     "if.html", "no-service.html", "emergency.html", "about.html",
-    "mistakes.html", "tips.html",
+    "mistakes.html", "tips.html", "resources.html", "trip-plan.html",
 }
-MAIN_PAGES = CONTENT_PAGES | {"404.html", "pdfs/before-you-leave.html"}
+CONCEPT_PAGES = {"prototypes/trail-sign.html", "prototypes/trail-briefing.html"}
+MAIN_PAGES = CONTENT_PAGES | CONCEPT_PAGES | {"404.html", "pdfs/before-you-leave.html"}
 REDIRECT_PAGES = {"activities.html", "pdfs.html"}
 POSTER_PAGE = "pdfs/trifold.html"
 EXPECTED_PAGES = MAIN_PAGES | REDIRECT_PAGES | {POSTER_PAGE}
@@ -66,7 +67,7 @@ def contract_errors(label, doc):
         if text.count(DISCLAIMER) != 1:
             errors.append(f"{label}: expected one shared disclaimer")
     if label in CONTENT_PAGES and doc.current != 1:
-        errors.append(f"{label}: expected one current page in full navigation")
+        errors.append(f"{label}: expected one current page indicator")
     return errors
 
 def resolve(source, reference):
@@ -86,7 +87,8 @@ def resolve(source, reference):
 
 def main():
     errors, checked = [], 0
-    public = list(ROOT.glob("*.html")) + list((ROOT / "pdfs").glob("*.html"))
+    public_dirs = [ROOT, ROOT / "pdfs", ROOT / "prototypes"]
+    public = [path for directory in public_dirs for path in directory.glob("*.html")]
     for label in sorted(EXPECTED_PAGES - {p.relative_to(ROOT).as_posix() for p in public}):
         errors.append(f"{label}: missing expected public page")
     docs = {}
@@ -135,7 +137,7 @@ def main():
     home = docs.get((ROOT / "index.html").resolve())
     if home and quote not in " ".join(" ".join(home.text).split()):
         errors.append("Home must retain Christine's exact quotation")
-    for css in list(ROOT.glob("*.css")) + list((ROOT / "pdfs").glob("*.css")):
+    for css in (path for directory in public_dirs for path in directory.glob("*.css")):
         for reference in re.findall(r"url\([\"']?([^\"')]+)", css.read_text()):
             target, _ = resolve(css, reference)
             if target is not None and not target.is_file():

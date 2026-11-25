@@ -19,6 +19,7 @@
       type="font/ttf"
     />
     <link href="styles.css?v=redesign-1" rel="stylesheet" />
+    <link href="resources.css" rel="stylesheet" />
     <script defer="" src="script.js?v=redesign-1"></script>
   </head>
   <body data-page="checklists">
@@ -121,18 +122,21 @@
           A good trip starts with a realistic plan, the skills to follow it, and
           equipment you know how to use.
         </p>
-        <a class="button button-dark" href="pdfs/before-you-leave.html"
-          >Printable trip plan
-          <svg
-            aria-hidden="true"
-            class="arrow"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="1.6"
-            viewbox="0 0 24 24"
-          >
-            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
-        ></a>
+        <div class="page-actions">
+          <a class="button button-dark" href="trip-plan.html"
+            >Online trip plan
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <a href="pdfs/before-you-leave.html">Printable trip plan</a>
+        </div>
       </header>
       <div class="guide-layout">
         <aside class="guide-sidebar">
@@ -169,12 +173,16 @@
             <section class="box">
               <h2>Make and leave your trip plan</h2>
               <p>
-                This is a one-page printable sheet to fill in by hand. Print it,
-                write the route, people, turnaround and return times, then give
-                a copy to someone reliable. Agree when they should call 9-1-1 if
-                you have not returned or checked in.
+                Fill out the plan online, or use the one-page printable sheet by
+                hand. Record the route, people, turnaround and return times,
+                then give a copy to someone reliable. Agree when they should
+                call 9-1-1 if you have not returned or checked in.
               </p>
               <p>
+                <a class="action-link" href="trip-plan.html"
+                  >Online trip plan</a
+                >
+                ·
                 <a class="action-link" href="pdfs/before-you-leave.html"
                   >Printable trip plan</a
                 >
@@ -359,6 +367,7 @@
         <p class="site-disclaimer">
           This is not an official rescue site. In an emergency, call 9-1-1.
         </p>
+        <a href="resources.html">Print &amp; share</a>
         <a href="about.html#photo-credits">Photo credits</a
         ><a href="#main-content">Back to top ↑</a>
       </div>

@@ -52,7 +52,7 @@ Learn
 
 This is not an official rescue site. In an emergency, call 9-1-1.
 
-[Photo credits](about.html#photo-credits) [Back to top ↑](#main-content)
+[Print & share](resources.html) [Photo credits](about.html#photo-credits) [Back to top ↑](#main-content)
 
 Print this guide; On this page; Keep going; The next step; If you cannot connect.
 
@@ -132,7 +132,7 @@ Prepare / Before you leave
 
 A good trip starts with a realistic plan, the skills to follow it, and equipment you know how to use.
 
-[Printable trip plan](pdfs/before-you-leave.html)
+[Online trip plan](trip-plan.html) · [Printable trip plan](pdfs/before-you-leave.html)
 
 On this page
 
@@ -142,9 +142,9 @@ Print this guide
 
 #### Make and leave your trip plan
 
-This is a one-page printable sheet to fill in by hand. Print it, write the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
+Fill out the plan online, or use the one-page printable sheet by hand. Record the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
 
-[Printable trip plan](pdfs/before-you-leave.html)
+[Online trip plan](trip-plan.html) · [Printable trip plan](pdfs/before-you-leave.html)
 
 #### Pack for more than the planned trip
 
@@ -627,6 +627,8 @@ Hi, I’m Liz. I made this website as a school capstone project here in the Sea-
 
 The local hiking and biking examples below show why this project matters. A planned day outside can turn into a long wait for help. The interviews connect those examples to practical preparation, knowing when to stop, and calling for help early.
 
+Find the trip plan, printable trail-sign concept and website QR in [Print & share](resources.html).
+
 Hiking / The reported 2026 case
 
 #### A day hike became five nights lost
@@ -851,7 +853,7 @@ Keep going
 
 Page: `pdfs/before-you-leave.html`
 
-Actions: Print / save as PDF · [Before you leave](../checklists.html) · [Essentials & activities](../pack-lists.html)
+Actions: Print / save as PDF · [Fill out online](../trip-plan.html) · [Before you leave](../checklists.html) · [Essentials & activities](../pack-lists.html)
 
 Outdoor Safety · Sea-to-Sky
 
@@ -890,6 +892,214 @@ This is not an official rescue site. In an emergency, call 9-1-1.
 
 ---
 
+## Print & share
+
+Page: `resources.html`
+
+[Home](index.html) / Print & share
+
+Take it with you
+
+### Print & share
+
+A plan to leave with someone. A sign to start a conversation. Simple materials from Liz's school project.
+
+#### Your trip plan
+
+Fill out a plan online, check the summary and copy it or open an email draft. You can also print a blank one-page sheet to fill in by hand.
+
+[Online trip plan](trip-plan.html) · [Blank printable plan](pdfs/before-you-leave.html)
+
+#### Trail-sign concept
+
+BIG VIEWS. SAFE RETURN.
+
+An A6 school-project design with a QR to Quick reminders. This is a design concept; no trail placement has been arranged.
+
+[View sign](prototypes/trail-sign.html) · [Download A6 PDF](prototypes/trail-sign-a6.pdf)
+
+Image description: A green trail-sign concept with mountains, a walker, a return arrow and a large QR code.
+
+#### Website QR
+
+A simple QR that opens the website's home page, for project materials.
+
+[Open printable QR](images/qr-website-print.svg) · [Download QR](images/qr-website-print.svg)
+
+Image description: QR code linking to the Outdoor Safety website home page.
+
+## Online trip plan
+
+Page: `trip-plan.html`
+
+[Home](index.html) / [Print & share](resources.html) / Trip Plan
+
+Prepare / Make and leave a plan
+
+### Trip Plan
+
+Fill in your plan, review it, then give it to someone you trust. Agree when they should call 9-1-1 if you have not returned or checked in.
+
+[Blank printable plan](pdfs/before-you-leave.html)
+
+#### Before you start
+
+Check your [route and conditions](checklists.html#check-conditions), [shared essentials](pack-lists.html#essentials) and [contact's role](checklists.html#your-contact).
+
+Fields marked * are required. Use the local date and time for your trip throughout, including the return and calling deadline.
+
+The website does not save your entries. Leaving or reloading this page may lose them. Copy, email or print your reviewed plan to keep it.
+
+Online filling needs JavaScript. You can still use the [blank printable plan](pdfs/before-you-leave.html).
+
+#### 1. Your trip
+
+- Date of the trip *
+- Time of departure *
+- Who is going * — Names of the people on the trip.
+- Number of people / dogs
+- Starting point * — Trailhead, parking location or GPS coordinates.
+- Destination *
+- Planned route * — Include the route out and back, and any planned alternative.
+- Turnaround date and time
+- Expected return date and time *
+
+#### 2. Contact and equipment
+
+- Your contact numbers * — Numbers your trusted contact can pass to responders.
+- Vehicle make, colour and plate
+- Satellite messenger — Device or contact details, if carried.
+- Medical notes — Optional. Include only what you want to share with your contact.
+- Equipment for this trip — Use the existing essentials and activity lists. One item per line if useful.
+
+#### 3. Agree when your contact should act
+
+- Call 9-1-1 if we have not returned or checked in by * — Agree this deadline with the person who has your plan. It can be different from your expected return time.
+
+Review trip plan · Clear form
+
+#### Review and share
+
+Trip plan text
+
+Check the complete plan, then send it yourself. Make sure your contact received it and knows when to act. This page cannot confirm delivery or monitor your return.
+
+- Email to (optional) — Leave this blank to choose the recipient in your email app.
+- Open email draft
+- Copy plan text
+- Print / save as PDF
+
+If no email app opens, copy the plan into your email or a message instead. A long plan may need to be copied rather than opened as an email draft. Printed plans may use more than one page.
+
+#### Form feedback and generated plan wording
+
+- Please check the highlighted fields.
+- Complete this field.
+- Enter a valid date or time.
+- Expected return must be after departure.
+- The calling deadline cannot be earlier than expected return.
+- Turnaround must be between departure and expected return.
+- Please enter one valid email address, or leave it blank.
+- Your plan has changed. Review it again before sharing.
+- Review ready. Check the plan below before sharing.
+- Plan text copied. Paste it into your message and send it yourself.
+- Copy is unavailable. The plan text is selected; copy it manually.
+- This plan is too long to open reliably as an email draft. Copy the complete text into a message instead.
+- Check your email app for the draft. If it does not open, copy the plan text instead. You still need to send the message yourself.
+- Form cleared. The website has not saved your entries.
+- Complete the required fields and review your plan before printing. You can also use the blank printable plan.
+
+Generated text labels: TRIP PLAN; Date of trip; Departure; People; Number of people / dogs; Starting point; Destination; Planned route; Turnaround; Expected return; Contact numbers; Vehicle; Satellite messenger; Medical notes; Equipment; CALL 9-1-1 IF WE HAVE NOT RETURNED OR CHECKED IN BY; Not provided; All dates and times are local to this trip.; Please keep this plan and agree the calling deadline with us. If we miss it, call 9-1-1 and share this plan.; Trip plan — {destination} — {date}.
+
+The generated plan ends with the shared disclaimer: This is not an official rescue site. In an emergency, call 9-1-1.
+
+## Trail-start sign concept
+
+Sign preview: `prototypes/trail-sign.html`. Short-briefing preview: `prototypes/trail-briefing.html`. The real QR opens the existing `tips.html`; the briefing below is a design preview of a possible evolution of that entry point.
+
+### Sign artwork
+
+TRAIL START
+
+BIG VIEWS.
+SAFE RETURN.
+
+SCAN BEFORE YOU GO
+
+Outdoor Safety · Liz's school project
+
+Symbol description: A walker, mountains and a returning arrow.
+
+### Sign preview interface
+
+Concept preview
+
+[Back to the website](../index.html)
+
+A small sign. A useful first step.
+
+A6 · 105 × 148 mm
+
+[View short briefing](trail-briefing.html) · Print A6 sign · [A6 PDF](trail-sign-a6.pdf)
+
+One glance. One scan.
+
+A mountain, a walker and a returning arrow introduce the idea of going out and getting back. A large, plain QR keeps the next step obvious.
+
+The QR works now: it opens the website's Quick reminders. The separate phone preview shows a shorter possible entry page for trail visitors.
+
+School-project concept. No trail placement has been arranged.
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+### Proposed short briefing
+
+Briefing concept · preview · [Sign concept](trail-sign.html)
+
+[Outdoor Safety · Sea-to-Sky](../index.html) · [Help now](../if.html#main-content)
+
+TRAIL-START CHECK
+
+Before the first step.
+
+New to these trails? Start with the basics.
+
+#### Does this trip fit your group?
+
+Check the route, terrain, elevation and the return journey. Choose a trip that matches everyone's fitness and experience.
+
+[Plan your trip](../checklists.html)
+
+#### Have you checked conditions?
+
+Check weather and trail advisories for your actual route. Set a turnaround time and keep enough daylight and energy for the return.
+
+[Check the local risks](../be-aware.html)
+
+#### Does someone have your plan?
+
+Leave your route and expected return or check-in time with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
+
+[Plan with your contact](../checklists.html#your-contact)
+
+#### Are you ready for a delay?
+
+Take the shared essentials and extra warmth. Download maps before leaving, save battery for emergency contact and plan a suitable communication backup.
+
+[Shared essentials](../pack-lists.html#essentials) · [No cell service](../no-service.html)
+
+#### Lost or someone hurt?
+
+If you are lost, stop and stay with your group in a safe place. Call 9-1-1, tell the call taker where you are and what has happened, and follow their instructions.
+
+[Call 9-1-1](tel:911) · [What to do next](../if.html)
+
+[Full website](../index.html) · [Why Liz made this](../about.html)
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+---
+
 ## Editorial source notes — 25 Nov 2026
 
 Liz requested direct implementation and publication of the interview-based revision and removed the extra speaker-approval steps. No claim is made that the interviewees reviewed the final website. The rider remains anonymous, with no medical or recovery details. The original audio and working transcripts remain in `interviews/`; the unresolved phrase in the second recording is not used.
@@ -919,7 +1129,7 @@ The old About draft's 2026 incident figures are not used on the public page. The
 
 ## Content-baseline source checks — 25 Nov 2026
 
-The audience is beginners/visitors preparing Sea-to-Sky day trips, with short emergency orientation and links to specialist training. This is not a complete technical sport kit or rescue manual. The current trip plan remains a clearly labelled print/handwrite route. The subsequent one-page follow-up completes the responsive preview and Chrome A4/Letter print checks. Any additional digital form, saved/offline feature and native iOS acceptance remain part of the later redesign; no custom data storage was introduced.
+The audience is beginners/visitors preparing Sea-to-Sky day trips, with short emergency orientation and links to specialist training. This is not a complete technical sport kit or rescue manual. The blank trip plan remains a labelled print/handwrite route with Chrome A4/Letter checks. The later Print & share slice adds a browser-only online form, reviewed text, copy/email-draft/print actions and field/time checks. A saved/offline feature and native iOS acceptance remain deferred; no custom server data storage was introduced.
 
 - Immediate care: Canadian Red Cross 2025 CPR learner guide, printed pp. 12–13, for responsiveness, normal breathing, life-threatening conditions and care priorities. The movement wording now allows necessary life-saving care; the summary is not a CPR lesson.
 - Water: CSBC cold-water guidance and Lifesaving Society's rescue approach, checked 25 Nov, for initial breathing control, safe self-rescue when possible, flotation/waiting when not possible, and helping from shore. No universal swim-for-shore rule or survival-time promise is used.

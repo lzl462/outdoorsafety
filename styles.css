@@ -1283,6 +1283,7 @@ svg {
 }
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
   border-top: 1px solid #54705f;
@@ -1291,6 +1292,7 @@ svg {
   color: #d4dfce;
 }
 .footer-bottom p {
+  flex: 1 1 360px;
   margin: 0 auto 0 0;
 }
 .footer-bottom a {

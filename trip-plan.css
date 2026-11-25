@@ -1,0 +1,221 @@
+.planner-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 48px;
+  align-items: start;
+}
+.planner-guide {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 24px;
+  background: var(--soft);
+  font-size: 14px;
+}
+.planner-guide h2 {
+  font-size: 22px;
+}
+.planner-guide a {
+  font-weight: 700;
+}
+.planner-guide p:last-child {
+  margin-bottom: 0;
+}
+.planner-body {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+.trip-form fieldset {
+  min-width: 0;
+  margin: 0 0 36px;
+  padding: 24px 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+.trip-form legend {
+  padding: 0 16px 0 0;
+  font: 700 30px/1.2 var(--display);
+  text-transform: uppercase;
+}
+.trip-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.trip-field {
+  min-width: 0;
+}
+.trip-field--wide {
+  grid-column: 1 / -1;
+}
+.trip-field label,
+.share-recipient label,
+.plan-review label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.trip-field input,
+.trip-field textarea,
+.share-recipient input,
+.plan-review textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px;
+  border: 1px solid #829185;
+  border-radius: 0;
+  background: white;
+  color: var(--ink);
+  font: 400 16px/1.5 var(--body);
+}
+.trip-field textarea {
+  resize: vertical;
+}
+.trip-field small,
+.share-recipient small {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.trip-field .field-error {
+  color: var(--alert);
+  font-weight: 700;
+}
+[aria-invalid="true"] {
+  border-color: var(--alert) !important;
+}
+.form-errors {
+  padding: 20px;
+  margin-bottom: 28px;
+  border-left: 3px solid var(--alert);
+  background: var(--alert-soft);
+  color: var(--alert);
+  font-size: 15px;
+}
+.form-errors p {
+  margin: 0;
+  font-weight: 700;
+}
+.planner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+.planner-secondary {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--pine);
+}
+.planner-status {
+  margin-top: 16px;
+  font-size: 14px;
+}
+.plan-review {
+  border-top: 2px solid var(--pine);
+  padding-top: 28px;
+  margin-top: 36px;
+}
+.plan-review > p,
+.share-note {
+  font-size: 14px;
+}
+.plan-review textarea {
+  height: 380px;
+  resize: vertical;
+  font:
+    14px/1.65 ui-monospace,
+    monospace;
+  white-space: pre-wrap;
+}
+.share-recipient {
+  margin: 24px 0;
+}
+.share-note {
+  margin-top: 20px;
+  color: var(--muted);
+}
+.trip-notice {
+  font-size: 13px;
+  color: var(--muted);
+}
+.plan-print,
+.print-needed {
+  display: none;
+}
+@media (max-width: 900px) {
+  .planner-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .planner-guide,
+  .planner-body {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+@media (max-width: 560px) {
+  .trip-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .trip-field--wide {
+    grid-column: auto;
+  }
+  .planner-actions {
+    align-items: stretch;
+  }
+  .planner-actions .button {
+    justify-content: center;
+  }
+}
+@page {
+  size: auto;
+  margin: 15mm;
+}
+@media print {
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .page-heading,
+  .planner-guide,
+  .trip-notice,
+  .trip-form,
+  .plan-review,
+  .planner-status,
+  #online-unavailable {
+    display: none !important;
+  }
+  .guide-main {
+    width: auto;
+    margin: 0;
+  }
+  .planner-layout,
+  .planner-body {
+    display: block;
+  }
+  body {
+    background: white;
+    color: #111;
+  }
+  .plan-print {
+    display: block;
+    margin: 0;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font:
+      10pt/1.35 Arial,
+      sans-serif;
+  }
+  body:not(.plan-reviewed) .print-needed {
+    display: block;
+    font:
+      12pt/1.5 Arial,
+      sans-serif;
+  }
+}

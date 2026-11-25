@@ -45,7 +45,7 @@ class DocumentContracts(unittest.TestCase):
     def test_content_needs_one_current_navigation_item(self):
         for navigation in ("", '<a aria-current="page">A</a><a aria-current="page">B</a>'):
             with self.subTest(navigation=navigation):
-                self.assertIn("about.html: expected one current page in full navigation",
+                self.assertIn("about.html: expected one current page indicator",
                               self.errors("about.html", self.page(navigation=navigation)))
 
     def test_print_and_error_pages_do_not_need_current_navigation(self):

@@ -10,6 +10,10 @@ The website's content baseline, interview integration, redesign and first wordin
 
 After the documentation-only review, Liz authorized the clearly beneficial small corrections and their commit/push. R01–R04 and R07–R08 from the [follow-up review](reviews/2026-11-25-follow-up.md) are now implemented and checked: visible keyboard focus, an explicit agreed calling time, clear bear-spray/RAPP wording, stronger structural checks and local poster photos. R05 (story chronology) and R06 (mobile contents labels) remain optional proposals; the completed redesign is retained.
 
+Liz subsequently approved Print & share and a small online trip planner. [Print & share](resources.html), linked from the shared footer and About, now gathers the online plan, existing blank sheet, A6 sign preview/PDF and website QR. [Trip Plan](trip-plan.html) processes entries in the browser, validates core details/times and creates one reviewed text for copying, email drafts and printing. There is no account, server submission, automatic delivery or return monitoring. The blank sheet still prints on one A4/Letter page.
+
+The [trail-sign concept](prototypes/trail-sign.html) is now available as a labelled design preview. Its real QR opens the existing Quick reminders page. The separate briefing remains a preview of a possible shorter version of that entry point; the actual Quick reminders page is retained. Real placement and multilingual work remain separate from this slice.
+
 ## Open work and decisions
 
 “Unverified” means completion is not evidenced in this repository; it does not mean Liz has not done it elsewhere.
@@ -17,6 +21,7 @@ After the documentation-only review, Liz authorized the clearly beneficial small
 | Owner / status | Remaining item | Evidence and boundary |
 | --- | --- | --- |
 | Liz / later decision | Consider the two deferred proposals, R05 and R06, if useful. | The other six follow-up proposals are implemented. No story rewrite or mobile contents-label experiment is needed to complete this small correction package. |
+| Later / optional next slice | Review the shorter trail-start briefing before adopting it on Quick reminders. | The sign preview/PDF is available through Print & share. Its QR opens the existing `tips.html`; the shorter briefing is a labelled concept preview. Physical printing, visitor/icon recognition and field scans remain unverified. |
 | Liz / decision | Keep the current project name or choose the final one. | Outdoor Safety — Sea-to-Sky is still described as a working title. If it changes, update site branding/page titles and print materials; the old global sidebar no longer exists. |
 | Liz / unverified | Complete or confirm the portfolio and her own interview notes. | The source interviews and transcripts are ready. They do not prove that the three notes, Interview page or portfolio are finished. The portfolio's location is unknown; it is not in the tracked repository. |
 | Liz / unverified | Check the actual school rubric and whether any further course interviews are required. | Two contributors are documented. The rubric is absent, so the old “remaining interviews” line is an unanswered course-requirement question, not proof that interviews still need doing. |
@@ -40,8 +45,10 @@ After the documentation-only review, Liz authorized the clearly beneficial small
 | Done | Three licensed local website photographs, local fonts and source/credit information. | [Image notes](images/README.md), [About credits](about.html#photo-credits), fonts/ licences. The cardboard layout now reuses the local Harmony Lakes and Howe Sound photos with its existing credits. |
 | Done | Cardboard layout and website QR source assets. | [Layout](pdfs/trifold.html), [print QR](images/qr-website-print.svg). Physical completion remains unverified above. |
 | Done | Initial implementation reviews and targeted follow-up wording. | Three design reviewers, recorded browser/accessibility/PDF checks, then Liz's audio-detail simplification at ae4220f. |
-| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 15 public HTML files and 497 local references. Explicit expected-page/landmark/disclaimer contracts, the poster disclaimer and pdfs/ stylesheet assets are checked; nine regression tests pass. |
+| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 19 public HTML files and 620 local references, including the two concept pages. Explicit page/landmark/disclaimer contracts and root/print/concept stylesheet assets are checked; nine structural regression tests pass. |
 | Done | Six bounded follow-up corrections after the independent review. | R01–R04 and R07–R08 in the [review record](reviews/2026-11-25-follow-up.md#implementation-follow-up). Targeted Chromium/WebKit focus/layout checks and Chromium accessibility, menu and poster/PDF checks passed. |
+| Done / design preview | A6 trail-start QR sign and concise mobile-briefing prototype. | [Prototype notes](prototypes/README.md), editable HTML/CSS/SVG, PNG preview and one-page PDF. The code was decoded from the actual PNG/PDF and opens `tips.html`. Resources exposes the design; no physical installation is claimed. |
+| Done | Print & share page and online trip planner. | [Acceptance record](reviews/2026-11-25-planning-acceptance.md). Five logic tests plus browser validation/export/fallback checks; Chromium/WebKit layouts and Unicode email handoff checked. Short filled-plan A4 output is one page; longer content flows to further pages without truncation. Actual external email-app delivery is not certified. |
 | Done | GitHub Pages publication from main, repository root. | [README](README.md). Existing Git/SSH/credential configuration remains unchanged. |
 
 ## Superseded or deliberately dropped tasks
@@ -63,10 +70,11 @@ After the documentation-only review, Liz authorized the clearly beneficial small
 These are not required completion work and do not authorize implementation now:
 
 - Additional genuine stories, quotations or a distinct interview page only if new material has a clear use.
-- A download/offline bundle or extra digital trip-planning route only if useful; evaluate existing official tools before building a custom form/backend.
+- A download/offline bundle or further planning features only if useful. The bounded online form is now implemented; accounts, server storage, automatic reminders and return monitoring remain outside scope. Link to official tools before considering a larger planner.
 - Generated illustrations if they improve the final presentation. Current regional photographs already have documented licences.
 - Pruning unused legacy image files. Photo replacement/local delivery is complete; removal of every unused asset was deliberately not done.
 - Instagram and optional local-rescuer feedback, if Liz keeps those ideas in scope.
+- Deferred multilingual website: French, German, Spanish and Italian alongside English. Start with the concise trail-start briefing; expand to the main guides later if useful. Retain one stable QR and English fallback, use language names, and check translations against the canonical safety meaning. This is lower priority than the sign/entry-page concept; no translations or language switcher are implemented now.
 
 ## Evidence and limits
 
@@ -77,4 +85,4 @@ These are not required completion work and do not authorize implementation now:
 
 ## Working rules
 
-Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks; her latest request authorizes implementation, commit and push of this small correction package.
+Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks. Her “Okay, let's go” approves the proposed Print & share/online-plan slice following the earlier commit/push instructions; retain the labelled design previews and keep larger planner/multilingual features deferred.
