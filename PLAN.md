@@ -50,6 +50,8 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 
 ## 2. Website technical
 
+- [ ] **Ready** — Responsive, mobile-first design. The site must work well and adapt automatically on iOS devices from iPhone to iPad, and in normal desktop browsers. A PWA is optional.
+- [ ] **Later** — Independent design review once the site structure is finished. Check that the whole design is modern, uses current web features, and is genuinely good: inviting but clear, and cool.
 - [ ] **Blocked** — Make the Instagram follow QR after the @ name exists, and put it beside the website QR.
 - [x] **Done** — Leftover print sheets were archived to `archive/pdfs/`. `trip-plan.css` stays in `pdfs/` because the live trip plan uses it. `scripts/build_pdfs.py` was retired to `archive/scripts/`.
 
@@ -75,7 +77,9 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 ## Next up
 
 1. **Liz** — Write the Home quote, the two emergency stories, and/or choose the project name. These unblock most of the public-facing work.
-2. **Later** — Print/PDF feature (download key pages as PDF), after the remaining Liz writing is in.
+2. **Ready** — Responsive, mobile-first design so the site adapts automatically on iPhone, iPad, and desktop.
+3. **Later** — Independent design review once the site structure is finished.
+4. **Later** — Print/PDF feature (download key pages as PDF), after the remaining Liz writing is in.
 
 ## Open questions
 
