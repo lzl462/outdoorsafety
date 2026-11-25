@@ -78,3 +78,8 @@ Rebuilt the ten-page website and 404 page on 25 Nov 2026 at Liz's request, with 
 Three independent agents reviewed the implementation before commit; their clipping, menu, TOC and deep-link findings were resolved and rechecked. Chromium/WebKit layout and journey checks passed, as did automated accessibility checks and actual PDF text/pagination checks. Fixed a brand-label mismatch and closed reminders missing from PDF export. Native Apple devices and physical printers remain untested. Runtime dependencies, hosting method and Git/SSH/credential configuration were not changed.
 
 Simplified Ms. Lejeune's About introduction on 25 Nov 2026, updating canonical copy first. Reason: Liz found the recording count, format and date too specific for the public page; the introduction now focuses on her interview contribution.
+
+
+Reconciled the plan against the original task list, current artifacts and Liz's feedback on 25 Nov 2026. Moved detailed completed implementation history into docs/history, corrected stale layout/name references, and separated ready files from unverified school, account and physical-presentation work. Reason: make the actual remaining work clear without claiming that transcripts or layout files complete Liz's personal deliverables.
+
+Collected six read-only agent reviews in two passes in reviews/2026-11-25-follow-up.md, grouping eight small proposals with evidence, effort and acceptance checks. Preserved a focus-state screenshot and recorded reviewer tradeoffs. Reason: Liz wants choices for tomorrow; no website wording, code, assets, print layouts or checker implementation was changed.
