@@ -4,57 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Before you leave — trip plan</title>
-  <link rel="stylesheet" href="../print.css">
-  <link rel="stylesheet" href="trip-plan.css">
+  <link rel="stylesheet" href="trip-plan-one-page.css">
 </head>
 <body>
-  <div class="actions">
+  <nav class="actions" aria-label="Trip plan actions">
     <button type="button" onclick="window.print()">Print / save as PDF</button>
-    <a href="../checklists.html">Back to Before you leave</a>
-  </div>
-  <article class="page">
-    <p class="kicker">Outdoor Safety · Sea-to-Sky</p>
-    <div class="sheet compact">
+    <a href="../checklists.html">Before you leave</a>
+    <a href="../pack-lists.html">Essentials &amp; activities</a>
+  </nav>
+  <main class="plan-sheet">
+    <header>
+      <p class="kicker">Outdoor Safety · Sea-to-Sky</p>
       <h1>Trip Plan</h1>
-      <p class="sub">Fill in the lines. Leave this page with someone you trust.</p>
-      <div class="fill">
-        <ul class="lines">
-          <li><span>Date of the trip:</span><span class="blank"></span></li>
-          <li><span>Who is going on the trip:</span><span class="blank"></span></li>
-          <li><span>Number of people / dogs:</span><span class="blank"></span></li>
-          <li><span>Time of departure:</span><span class="blank"></span></li>
-          <li><span>Starting point (trailhead, parking, or GPS):</span><span class="blank"></span></li>
-          <li><span>Your destination:</span><span class="blank"></span></li>
-          <li><span>Your planned route:</span><span class="blank"></span></li>
-          <li><span>Turnaround time:</span><span class="blank"></span></li>
-          <li><span>Anticipated return time:</span><span class="blank"></span></li>
-          <li><span>Your contact numbers:</span><span class="blank"></span></li>
-          <li><span>Vehicle make, colour, and plate:</span><span class="blank"></span></li>
-          <li><span>Satellite messenger:</span><span class="blank"></span></li>
-          <li><span>Medical notes:</span><span class="blank"></span></li>
-        </ul>
-        <p class="call"><span>Call 9-1-1 if we are not back by:</span><span class="blank"></span></p>
-      </div>
-      <p class="foot site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-    </div>
-  </article>
-  <article class="page">
-    <p class="kicker">Outdoor Safety · Sea-to-Sky</p>
-    <div class="sheet need-sheet">
-      <h1>For this trip, I need</h1>
-      <p class="sub">Write it on the lines. Ideas are on the Pack lists page.</p>
-      <ul class="tick write">
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
-        <li><span class="box"></span><span class="blank"></span></li>
+      <p class="intro">Fill in by hand. Leave a copy with someone you trust before you go.</p>
+    </header>
+    <section aria-labelledby="trip-details">
+      <h2 id="trip-details">Your trip</h2>
+<dl class="fields">
+  <div><dt>Date of the trip:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div><dt>Time of departure:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Who is going on the trip:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div><dt>Number of people / dogs:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div><dt>Turnaround time:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Starting point (trailhead, parking, or GPS):</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Your destination:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Your planned route:</dt><dd><span class="writing-line" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Anticipated return time:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+</dl>
+    </section>
+    <section aria-labelledby="contact-details">
+      <h2 id="contact-details">Contact and emergency details</h2>
+<dl class="fields">
+  <div class="wide"><dt>Your contact numbers:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div><dt>Vehicle make, colour, and plate:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div><dt>Satellite messenger:</dt><dd><span class="writing-line" aria-hidden="true"></span></dd></div>
+  <div class="wide"><dt>Medical notes:</dt><dd><span class="writing-line" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></dd></div>
+</dl>
+      <p class="call"><strong>Call 9-1-1 if we are not back by:</strong><span class="writing-line" aria-hidden="true"></span></p>
+    </section>
+    <section class="equipment" aria-labelledby="equipment-heading">
+      <h2 id="equipment-heading">For this trip, I need</h2>
+      <p>Write equipment and personal items on the eight checklist lines. See <a href="../pack-lists.html">Essentials &amp; activities</a> for ideas.</p>
+      <ul class="equipment-lines" aria-label="Eight blank equipment checklist lines">
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+        <li><span class="checkbox" aria-hidden="true"></span><span class="writing-line" aria-hidden="true"></span></li>
+
       </ul>
-      <p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-    </div>
-  </article>
+    </section>
+    <footer class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</footer>
+  </main>
 </body>
 </html>

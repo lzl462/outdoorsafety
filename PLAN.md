@@ -26,7 +26,7 @@ The name is still a stand-in. The current website includes the interview materia
 
 - The website is on GitHub Pages.
 - Pages: Home, Before you leave, Shared essentials and activity notes, Be aware, Quick reminders, What to do if, No cell service, Emergency numbers, Common mistakes, About this project. `activities.html` and `pdfs.html` redirect to the Before you leave page (`checklists.html`).
-- There is one printable, handwritten trip plan, `pdfs/before-you-leave.html`, linked from the Before you leave page. It includes the useful fields from the older leave-behind form. The hiking, biking, and climbing trip-plan variants were archived.
+- There is one single-page printable, handwritten trip plan, `pdfs/before-you-leave.html`, linked from the Before you leave page. It includes the useful fields from the older leave-behind form. The hiking, biking, and climbing trip-plan variants were archived.
 - Shared emergency essentials and hiking, biking, climbing and winter considerations are on `pack-lists.html`, built from existing lists in the repo, the 24 Nov 2026 backup zip and AdventureSmart. These are not complete technical sport-equipment checklists.
 - A short No cell service page is on `no-service.html`.
 - Be aware has two photo circles. The source line at the bottom is off the page. Liz asked to leave it off. Do not put it back unless she asks for an About page.
@@ -41,6 +41,8 @@ The name is still a stand-in. The current website includes the interview materia
 
 - [x] **Done** — Home uses Christine Strub’s genuine interview quote, with her name/role and a link to About. The old “What this website is for” text stays off the page.
 - [x] **Done** — Removed the empty public hike/water story prompts from Emergency numbers (section 7, C8). The verified hiking case and anonymous rider account are on About. Any additional real story, including a water example, remains optional.
+- [x] **Done** — Shortened the two Before you leave destination links to “Printable trip plan” and “Essentials & activities” at Liz's request. The print/handwrite explanation remains beside the trip-plan link.
+- [x] **Done** — Reworked the printable trip plan into one page at Liz's request. All 13 trip/contact fields, the 9-1-1 deadline and eight equipment lines remain. Chrome-generated A4 and Canadian Letter PDFs each contain one page with all labels and the disclaimer present. The screen preview adapts to small phones.
 - [ ] **Liz** — Choose the real project name. Update Home, the sidebar, and the trifold title when it is chosen.
 - [x] **Done** — One short page for when a phone has no service (`no-service.html`).
 - [x] **Obsolete** — Make the hike, ride, and climb plans less alike. Replaced by one shared trip plan plus the Pack lists page.
@@ -55,7 +57,7 @@ The name is still a stand-in. The current website includes the interview materia
 - [ ] **Ready** — Complete redesign following the completed content/structure baseline in section 7. Rework navigation, layouts and usability across phone, tablet and desktop, including the trip-plan destination. Native iOS/iPadOS acceptance remains open. A PWA is optional.
 - [ ] **Later** — Independent review of the complete redesign, using the reader-task and device acceptance criteria in section 7. A no-overflow result alone does not establish usable navigation or task completion.
 - [ ] **Blocked** — Make the Instagram follow QR after the @ name exists, and put it beside the website QR.
-- [x] **Done** — Leftover print sheets were archived to `archive/pdfs/`. `trip-plan.css` stays in `pdfs/` because the live trip plan uses it. `scripts/build_pdfs.py` was retired to `archive/scripts/`.
+- [x] **Done** — Leftover print sheets were archived to `archive/pdfs/`. The legacy `trip-plan.css` stays in `pdfs/` for the archived variants; the current plan uses `trip-plan-one-page.css`. `scripts/build_pdfs.py` was retired to `archive/scripts/`.
 
 ## 3. Capstone deliverables / school
 
@@ -151,7 +153,7 @@ P1 and P2 were review priorities, not a claim that every earlier sentence was wr
 | **P1 / C2 — Water decisions and roles** | Separated falling in from helping from shore. Breathing control precedes a conditional safe exit; flotation/waiting remains when exit is unsafe. No universal swim-for-shore rule. Sources: [CSBC](https://csbc.ca/cold-water/) and [Lifesaving Society](https://sauvetage.qc.ca/en/services/developpment/ladder-approach). |
 | **P2 / C3 — Avalanche scope** | Separated being caught from helping a buried companion. Completed spare/no-spare caller qualifications, including 10 m separation from transceiver searchers, and linked the [full Avalanche Canada reminder](https://avysavvy.avalanche.ca/en-ca/when-to-call-for-help). Immediate companion rescue remains the priority. |
 | **P2 / C4 — Small safety instructions** | Dogs are explicitly leashed and prohibited-pet areas respected. Removed the carrier-specific RAPP shortcut while retaining the full number. Turnaround wording now says to turn around at the agreed time/point. [BC Parks](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) supports the wildlife/number qualifications. |
-| **P1 / C5 — Honest plan entry** | Before you leave labels the sheet as printable and handwritten before the click and explains the copy handed to a trusted contact. It has no digital form controls. Mobile sheet layout and actual A4/Letter acceptance remain below. |
+| **P1 / C5 — Honest plan entry** | Before you leave labels the sheet as printable and handwritten before the click and explains the copy handed to a trusted contact. It has no digital form controls. The subsequent one-page follow-up below completes responsive-preview and Chrome A4/Letter checks; native Safari remains untested. |
 | **P2 / C6 — Packing promise** | Home, navigation, page title and introduction now describe shared essentials plus activity considerations. No complete technical cycling/climbing kit or invented equipment is promised. |
 | **P2 / C7 — Evidence and useful links** | Added dated wildlife/stream source notes; used [Parks Canada's mountain-stream guidance](https://parks.canada.ca/pn-np/ab/jasper/activ/passez-stay/arrierepays-backcountry/securite-safety) with general scope. Removed the unsupported local cliff quantifier. Before you leave links to BC Parks route/advisory tools, ECCC weather, DriveBC and Avalanche Canada beside the planning task. No live forecast is copied. |
 | **P1 / C8 — Public placeholders** | Removed both empty story/photo rows from Emergency numbers. Kept real examples on About; an optional water story does not block completion. No image assets were deleted. |
@@ -170,14 +172,20 @@ P1 and P2 were review priorities, not a claim that every earlier sentence was wr
 
 - Source/copy checks cover local links and anchors, consistent navigation, one main page heading, the shared disclaimer, genuine quote, and retained embedded image data. Public editing prompts and the unsupported local cliff claim are absent.
 - Chrome checks covered all ten pages at 320/390/768/1440-pixel widths without horizontal overflow. Preparation/story/turnaround, printable-plan, urgent-help/no-signal/waiting and packing links were followed; all seven reminder accordions opened. The trip plan was checked as a printable sheet with no input controls, not certified as a usable mobile digital form.
-- Native Safari/iOS/iPadOS, actual A4/Letter pagination, offline behaviour, phone/SOS networks and field/clinical validation remain outside these checks. A no-overflow result is not evidence that the current design is good. The school rubric is absent, so this is not a certification of every course deliverable.
+- At the initial content-baseline check, actual A4/Letter pagination was not tested; the one-page follow-up below closes that Chrome print check. Native Safari/iOS/iPadOS, offline behaviour, phone/SOS networks and field/clinical validation remain outside these checks. A no-overflow result is not evidence that the current design is good. The school rubric is absent, so this is not a certification of every course deliverable.
 - No extra speaker-approval gate, claim of organizational endorsement, billing claim or image-file cleanup was introduced. Git/SSH/credential configuration remains unchanged.
+
+### One-page trip-plan follow-up
+
+Completed on 25 Nov at Liz's request. The plan now combines the existing trip/contact fields with the eight equipment lines on one sheet. Route and medical-note fields have two writing lines. The 9-1-1 deadline remains prominent. There are no new gear recommendations, digital form controls or storage.
+
+The dedicated stylesheet keeps the archived forms' styles intact. The preview reflows at phone widths, while printing uses the selected portrait paper size with 12 mm margins. Chrome PDF generation at 100% scale produced one page on both A4 and Canadian Letter; all 13 field labels, the deadline, equipment heading and disclaimer were present. Rendered output was inspected for legibility and clipping. Phone/tablet/desktop preview and print-button checks passed. Native Apple printing and physical printer output remain untested.
 
 ### Step 2 redesign brief and acceptance
 
 - [ ] **Ready** — Create one coherent design around the reader tasks: navigation hierarchy, typography, spacing, page templates, contact/action components and responsive behaviour. Keep the school project's voice and real local material. Do not select a new framework or hosting service merely for appearance.
 - [ ] **Ready** — Make urgent entry/actions visible and reachable on a small phone without scrolling past the full menu. At the pre-baseline review snapshot `37eaea8`, the 320 × 568 menu was about 382 pixels tall and the call box began about 618 pixels down; at 390 × 844 the call box began about 574 pixels down. A situation index is now present, but the shared visual layout still needs replacement.
-- [ ] **Ready** — Rework the trip-plan destination for phone/tablet/desktop and actual A4/Canadian Letter output. The current fixed 210 mm screen sheet produced an approximately 810-pixel layout viewport and 794-pixel sheet in 390-pixel emulation. Retain a clear print/handwrite option. Evaluate [AdventureSmart's existing web plan](https://plan.adventuresmart.ca/) before proposing any additional phone-fillable/shareable local tool. Define what is saved/shared and what the trusted contact receives; this slice introduced no custom form/backend.
+- [ ] **Ready** — Integrate the new responsive, one-page trip plan into the complete redesign. Preserve the tested A4/Canadian Letter output and repeat print checks if its layout changes. Retain a clear print/handwrite option. Evaluate [AdventureSmart's existing web plan](https://plan.adventuresmart.ca/) before proposing any additional phone-fillable/shareable local tool. Define what is saved/shared and what the trusted contact receives; this slice introduced no custom form/backend.
 - [ ] **Ready** — Decide a practical save/print/offline strategy for emergency information. Do not promise the current online site works without a connection. A PWA is optional.
 - [ ] **Ready** — Validate complete reader tasks on phone, tablet and desktop: keyboard access, focus/heading structure, contrast, readable text at zoom, slow loading, missing images, JavaScript unavailable and direct section links. Include actual Safari/iOS/iPadOS when available; distinguish it from emulation.
 - [ ] **Ready** — Independently review the completed design and resolve material findings. Preserve old routes, anchors, contact links and printed QR destinations. Image-file cleanup can follow completed content work, but was deliberately not bundled into this slice.
@@ -186,7 +194,7 @@ P1 and P2 were review priorities, not a claim that every earlier sentence was wr
 
 1. **Ready** — Review the completed content/structure baseline with Liz, then implement the complete redesign using section 7's reader tasks and functional/device acceptance requirements.
 2. **Liz** — Continue the project name, portfolio, interviews and presentation tasks. Check the actual school rubric when it becomes available.
-3. **Later** — General Print/PDF feature and image-file cleanup. The existing trip plan's responsive preview and A4/Letter behaviour belong in the redesign itself.
+3. **Later** — General Print/PDF feature and image-file cleanup. The trip plan's responsive preview and A4/Letter checks are complete in Chrome; preserve them during the redesign.
 
 ## Open questions
 

@@ -1,0 +1,113 @@
+:root {
+  --green: #1b6b3a;
+  --green-dark: #14532d;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 20px 16px 32px;
+  background: #edf1ee;
+  color: #171c18;
+  font: 10pt/1.3 Arial, Helvetica, sans-serif;
+}
+
+a { color: var(--green-dark); }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  width: 210mm;
+  max-width: 100%;
+  margin: 0 auto 16px;
+  font-size: 14px;
+}
+
+.actions button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--green-dark);
+  color: white;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+a:focus-visible, button:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
+}
+
+.plan-sheet {
+  width: 210mm;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 12mm;
+  background: white;
+  box-shadow: 0 2px 12px #0002;
+}
+
+header { margin-bottom: 4mm; }
+.kicker { margin: 0 0 1.5mm; color: var(--green-dark); font-size: 9pt; }
+h1 { margin: 0 0 1.5mm; color: var(--green-dark); font-size: 24pt; line-height: 1.1; }
+.intro { margin: 0; }
+section { margin: 0 0 3.5mm; break-inside: avoid; }
+h2 { margin: 0 0 2mm; color: var(--green-dark); font-size: 11pt; }
+
+.fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.6mm 7mm;
+  margin: 0;
+}
+
+.fields > div { min-width: 0; }
+.fields .wide { grid-column: 1 / -1; }
+dt { font-size: 9pt; font-weight: 700; }
+dd { margin: 0; }
+.writing-line { display: block; min-height: 6mm; border-bottom: 0.25mm solid #5b645e; }
+
+.call {
+  display: flex;
+  align-items: flex-end;
+  gap: 4mm;
+  margin: 3mm 0 0;
+  padding: 2mm 3mm;
+  border: 0.5mm solid var(--green-dark);
+}
+
+.call strong { font-size: 10pt; }
+.call .writing-line { flex: 1; min-width: 20mm; }
+.equipment p { margin: 0 0 2mm; font-size: 9pt; }
+.equipment-lines {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1.5mm 7mm;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.equipment-lines li { display: flex; align-items: flex-end; gap: 2mm; min-width: 0; }
+.equipment-lines .writing-line { flex: 1; min-width: 0; }
+.checkbox { width: 3.5mm; height: 3.5mm; border: 0.3mm solid #5b645e; flex: none; }
+.site-disclaimer { margin-top: 4mm; padding-top: 2mm; border-top: 0.25mm solid #bec9c1; font-size: 9pt; }
+
+@media screen and (max-width: 560px) {
+  .plan-sheet { padding: 20px; }
+  .fields, .equipment-lines { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .call { display: block; }
+  .call .writing-line { margin-top: 2mm; }
+}
+
+@page { size: auto; margin: 12mm; }
+
+@media print {
+  body { padding: 0; background: white; }
+  .actions { display: none; }
+  .plan-sheet { width: auto; max-width: none; padding: 0; margin: 0; box-shadow: none; }
+}

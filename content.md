@@ -56,15 +56,15 @@ A good trip starts with a realistic plan, the skills to follow it, and equipment
 
 ### Make and leave your trip plan
 
-This is a printable sheet to fill in by hand. Print it, write the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
+This is a one-page printable sheet to fill in by hand. Print it, write the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
 
-[Open the printable trip plan](pdfs/before-you-leave.html)
+[Printable trip plan](pdfs/before-you-leave.html)
 
 ### Pack for more than the planned trip
 
 Bring the shared essentials as well as what your activity and the conditions need. Prepare to stay warm if you have to stop or wait for help.
 
-[Open the essentials and activity notes](pack-lists.html)
+[Essentials & activities](pack-lists.html)
 
 ### The three T’s
 
@@ -558,6 +558,49 @@ This is not an official rescue site. In an emergency, call 9-1-1.
 
 ---
 
+## Printable trip plan
+
+Page: `pdfs/before-you-leave.html`
+
+Actions: Print / save as PDF · [Before you leave](../checklists.html) · [Essentials & activities](../pack-lists.html)
+
+Outdoor Safety · Sea-to-Sky
+
+### Trip Plan
+
+Fill in by hand. Leave a copy with someone you trust before you go.
+
+#### Your trip
+
+- Date of the trip:
+- Time of departure:
+- Who is going on the trip:
+- Number of people / dogs:
+- Turnaround time:
+- Starting point (trailhead, parking, or GPS):
+- Your destination:
+- Your planned route:
+- Anticipated return time:
+
+#### Contact and emergency details
+
+- Your contact numbers:
+- Vehicle make, colour, and plate:
+- Satellite messenger:
+- Medical notes:
+
+**Call 9-1-1 if we are not back by:**
+
+#### For this trip, I need
+
+Write equipment and personal items on the eight checklist lines. See [Essentials & activities](../pack-lists.html) for ideas.
+
+Eight blank checklist lines, arranged in two columns on the printed sheet.
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+---
+
 ## Editorial source notes — 25 Nov 2026
 
 Liz requested direct implementation and publication of the interview-based revision and removed the extra speaker-approval steps. No claim is made that the interviewees reviewed the final website. The rider remains anonymous, with no medical or recovery details. The original audio and working transcripts remain in `interviews/`; the unresolved phrase in the second recording is not used.
@@ -573,7 +616,7 @@ Liz requested direct implementation and publication of the interview-based revis
 
 ## Trip plan and print sheets
 
-The shared trip plan is `pdfs/before-you-leave.html`. Its fields remain: trip date, people and number of people/dogs, departure time, starting point, destination, route, turnaround time, expected return, contact numbers, vehicle details, satellite messenger, medical notes, and when the contact should call 9-1-1. The second page has blank lines for this trip's equipment. Older variants remain in `archive/pdfs/`.
+The shared trip plan is `pdfs/before-you-leave.html`. Its fields remain: trip date, people and number of people/dogs, departure time, starting point, destination, route, turnaround time, expected return, contact numbers, vehicle details, satellite messenger, medical notes, and when the contact should call 9-1-1. The same page now has eight blank equipment lines in two columns when printed. The live plan uses `pdfs/trip-plan-one-page.css`; the legacy stylesheet remains for archived variants. Older variants remain in `archive/pdfs/`.
 
 The cardboard is `pdfs/trifold.html`. Its title and QR remain the same. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. An Instagram QR waits for the account name.
 
@@ -586,7 +629,7 @@ The old About draft's 2026 incident figures are not used on the public page. The
 
 ## Content-baseline source checks — 25 Nov 2026
 
-The audience is beginners/visitors preparing Sea-to-Sky day trips, with short emergency orientation and links to specialist training. This is not a complete technical sport kit or rescue manual. The current trip plan remains a clearly labelled print/handwrite route. Any additional digital form, saved/offline feature, native iOS acceptance and A4/Letter layout work remain part of the later redesign; no custom data storage was introduced.
+The audience is beginners/visitors preparing Sea-to-Sky day trips, with short emergency orientation and links to specialist training. This is not a complete technical sport kit or rescue manual. The current trip plan remains a clearly labelled print/handwrite route. The subsequent one-page follow-up completes the responsive preview and Chrome A4/Letter print checks. Any additional digital form, saved/offline feature and native iOS acceptance remain part of the later redesign; no custom data storage was introduced.
 
 - Immediate care: Canadian Red Cross 2025 CPR learner guide, printed pp. 12–13, for responsiveness, normal breathing, life-threatening conditions and care priorities. The movement wording now allows necessary life-saving care; the summary is not a CPR lesson.
 - Water: CSBC cold-water guidance and Lifesaving Society's rescue approach, checked 25 Nov, for initial breathing control, safe self-rescue when possible, flotation/waiting when not possible, and helping from shore. No universal swim-for-shore rule or survival-time promise is used.
@@ -605,3 +648,7 @@ Checked 25 Nov 2026. This is separate from the anonymous biker account in Ms. Le
 - Fog warnings and the trip plan with his wife: [Stacy Thomas, The Squamish Chief / Local Journalism Initiative, original publication 29 October; authorized reprint at TheRegional, 3 November 2026](https://www.theregional.com/hiker-shares-about-his-six-days-lost-on-squamish-mountain/). This is reported first-person recollection, not a new independent accident investigation. That account also credits the trip plan and the family's call for help.
 - Primary follow-up: [BC Search and Rescue Association, Five Nights Lost, 22 October 2026](https://www.youtube.com/watch?v=j_dN2ElyQYM); the official episode presents the hiker's account and a SAR manager's perspective. The full video was not independently transcribed for this change.
 - The site's stop/call/stay-put lesson is a separate general recommendation supported by AdventureSmart. The case is not said to prove that every search difficulty was caused by movement, and walking out is not presented as the recommended response to being lost. User requested this as the leading About example and a motivation for the project, with the biker account retained as a second activity.
+
+## One-page trip-plan checks — 25 Nov 2026
+
+Liz requested a one-page sheet to make it easier to use. All existing 13 trip/contact field labels, the 9-1-1 deadline and eight equipment lines are retained. Chrome-generated A4 and Canadian Letter PDFs at 100% scale each contain one page, with all labels and the disclaimer present. Rendered output was inspected. The screen preview adapts to phone widths. No digital inputs or new equipment recommendations were added. Native Apple printing and physical printers were not tested.
