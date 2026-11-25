@@ -7,6 +7,14 @@ When you have something new, put it here (or in Obsidian `Website-Inhalte`) and 
 
 ---
 
+## Shared disclaimer
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+Use this exact sentence on every public page and print sheet. Write 9-1-1 with hyphens, the way E-Comm 9-1-1 writes it. Do not add that rescue is free.
+
+---
+
 ## Home
 
 ### Name
@@ -33,7 +41,7 @@ Fill-in lines. The second page says “For this trip, I need” and has checkbox
 
 ### Hiking
 Download: pdfs/trip-hiking.html
-Same lines as the general trip plan. The bend check and the creek check are off. Call 911 sits above “Things you might need”: a layer you can put on, a jacket that blocks rain, extra warm clothes, extra food, extra water, a headlamp, a whistle, pack food and garbage away. The second page says “For this hike, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-hiking.html is not on the site.
+Same lines as the general trip plan. The bend check and the creek check are off. Call 9-1-1 sits above “Things you might need”: a layer you can put on, a jacket that blocks rain, extra warm clothes, extra food, extra water, a headlamp, a whistle, pack food and garbage away. The second page says “For this hike, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-hiking.html is not on the site.
 
 ### Biking
 Download: pdfs/trip-biking.html
@@ -99,7 +107,7 @@ See Before you leave / In the pack above.
 
 ## What to do if…
 
-Simple tips, in our own words. This is not an official rescue site. Call 9-1-1.
+Simple tips, in our own words.
 
 Photos, published 2026-11-18 in commit a8dbb30. The four boxes are the same height.
 - After the lost and hurt cards: Blackcomb Powder on Blackcomb Mountain by Tucker Sherman, CC BY 3.0. Resized.
@@ -162,7 +170,7 @@ The two story boxes are still empty. Liz still needs to write the real stories. 
 
 The cardboard plan is pdfs/trifold.html. The big title can change when the project name is chosen.
 
-Middle: Outdoor Safety — Sea-to-Sky. Simple tips, in our own words. This is not an official rescue site. Website QR is images/qr-website.svg and opens https://lzl462.github.io/outdoorsafety/. An Instagram follow QR goes beside it after Liz sends the real @ name. Howe Sound, Squamish, Whistler, and Pemberton.
+Middle: Outdoor Safety — Sea-to-Sky. Simple tips, in our own words. This is not an official rescue site. In an emergency, call 9-1-1. Website QR is images/qr-website.svg and opens https://lzl462.github.io/outdoorsafety/. An Instagram follow QR goes beside it after Liz sends the real @ name. Howe Sound, Squamish, Whistler, and Pemberton.
 
 Left, Before you go: The trip has to match the people. Town weather can lie. Leave your plan with someone you trust. Your phone may have no signal.
 

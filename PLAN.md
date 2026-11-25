@@ -30,7 +30,9 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - Be aware has two photo circles. The source line at the bottom is off the page. Liz asked to leave it off. Do not put it back unless she asks for an About page.
 - Emergency numbers has the table at the top, then two photo circles with an “Add a story” box beside each one. The boxes are still empty.
 - The cardboard plan is `pdfs/trifold.html`. The website QR is `images/qr-website.svg`.
+- Every public page and print sheet has the shared disclaimer: “This is not an official rescue site. In an emergency, call 9-1-1.” The number is written 9-1-1, with hyphens, to match E-Comm 9-1-1.
 - Local branch `main` tracks `origin/main`.
+- GitHub Pages is published from the `main` branch, folder `/` (root), not from GitHub Actions. The README now says this.
 
 ## 1. Website content
 
@@ -38,17 +40,13 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - [ ] **Liz** — Two emergency stories. The boxes still say “Add a story.” One is a real hike, the other something real on the water. No names. Do not invent them.
 - [ ] **Liz** — Choose the real project name. Update Home, the sidebar, and the trifold title when it is chosen.
 - [ ] **Ready** — Make the hike, ride, and climb plans less alike, using lines already on the site.
-- [ ] **Ready** — Add the line “This is not an official rescue site. Call 9-1-1.” on pages that do not have it. It is already on What to do if, Be aware, and most trip-plan sheets. It is missing on Home, Tips, Emergency numbers, Common mistakes, the Before you leave page, `pdfs/emergency-numbers.html`, and `pdfs/trip-plan.html`.
 - [ ] **Ready** — One short page for when a phone has no service.
-- [ ] **Ready** — Give the highway photo on What to do if a photographer name, or replace it. The credit now only says “Sea-to-Sky Highway and Howe Sound.”
 - [ ] **Later** — More pictures, quotes, and stories only when Liz has the real words and the photo has a name.
 - [ ] **Later** — Clean up the image files at the end. Not before the content work in this plan is done. Be aware and What to do if embed large photos as base64, which is why those files are big.
 
 ## 2. Website technical
 
-- [ ] **Ready** — Put the website QR on Home.
 - [ ] **Blocked** — Make the Instagram follow QR after the @ name exists, and put it beside the website QR.
-- [ ] **Ready** — Confirm how GitHub Pages is actually deployed. The README says “Deploy from a branch” (`main`, folder `/ (root)`). The repo also has `.github/workflows/pages.yml` (GitHub Actions).
 - [ ] **Ready** — Decide what to do with unlinked leftover files in `pdfs/`: `day-hike-checklist.html`, `winter-backcountry-checklist.html`, `if-lost.html`, `if-injured.html`, `emergency-numbers.html`, and `trip-plan.html` (plus `trip-plan.css`). Keep, archive, or remove. Do not put pack lists on the site.
 
 ## 3. Capstone deliverables / school
@@ -68,12 +66,12 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 ## 5. Presentation / physical
 
 - [ ] **Liz** — Build the cardboard from `pdfs/trifold.html`. The big title can change when the project name is chosen.
+- [ ] **Liz** — Print the website QR for the trifold poster and any flyer. Print file: `images/qr-website-print.svg` (scalable, points to https://lzl462.github.io/outdoorsafety/). Make a new one if the site address changes. The QR is not needed on the website itself.
 
 ## Next up
 
-1. **Ready** — Add the official-rescue line to the pages that do not have it. Do not publish until Liz asks.
-2. **Ready** — Put the website QR on Home. Do not publish until Liz asks.
-3. **Liz** — Write the Home quote, the two emergency stories, and/or choose the project name. These unblock most of the public-facing work.
+1. **Ready** — Make the hike, ride, and climb plans less alike, using lines already on the site. Do not publish until Liz asks.
+2. **Liz** — Write the Home quote, the two emergency stories, and/or choose the project name. These unblock most of the public-facing work.
 
 ## Open questions
 
@@ -83,5 +81,4 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - Thank-you notes: handwritten or email? Are there drafts?
 - Is Instagram still in scope?
 - Who should do the search-and-rescue review?
-- Which GitHub Pages method is actually live (branch deploy or Actions)?
 - Should the unlinked leftover files in `pdfs/` be removed from `main`?

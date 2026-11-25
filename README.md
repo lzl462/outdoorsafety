@@ -4,11 +4,7 @@ A simple public website with checklists, “what to do if…” guides, common m
 
 ## Turn the website on
 
-1. Open https://github.com/lzl462/outdoorsafety/settings/pages
-2. Under **Build and deployment**, set **Source** to **Deploy from a branch** (not GitHub Actions).
-3. Branch: **main**. Folder: **/ (root)**.
-4. Click **Save**.
-5. Wait about one minute, then open https://lzl462.github.io/outdoorsafety/
+The site is already on. GitHub Pages publishes it from the `main` branch, from the root folder, not from GitHub Actions. After a change is pushed to `main`, wait about a minute, then open https://lzl462.github.io/outdoorsafety/
 
 ## Local preview
 

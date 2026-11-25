@@ -46,4 +46,5 @@ th { background: var(--pine); color: #fff; }
   margin-right: 8px;
 }
 .foot { font-size: 12px; color: #5c5a52; margin-top: 1.5rem; }
+.site-disclaimer { font-size: 12px; color: #5c5a52; margin-top: 1rem; }
 @media print { .actions { display: none; } }
