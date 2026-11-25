@@ -1,0 +1,508 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#173c32" name="theme-color" />
+    <meta content="noindex" name="robots" />
+    <meta
+      content="Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz."
+      name="description"
+    />
+    <title>Presentation rehearsal — Outdoor Safety Sea-to-Sky</title>
+    <link href="images/mark.svg" rel="icon" type="image/svg+xml" />
+    <link
+      as="font"
+      crossorigin=""
+      href="fonts/barlow-condensed-700.ttf"
+      rel="preload"
+      type="font/ttf"
+    />
+    <link href="styles.css?v=presentation-1" rel="stylesheet" />
+    <link rel="stylesheet" href="presentation.css" />
+    <script defer="" src="script.js?v=redesign-1"></script>
+    <script type="module" src="presentation.mjs"></script>
+  </head>
+  <body data-page="presentation">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container">
+          <span class="region">Sea-to-Sky, British Columbia</span>
+          <div>
+            <a href="tel:911">In an emergency, call <strong>9-1-1</strong></a
+            ><span aria-hidden="true">/</span
+            ><a href="no-service.html#need-help">No signal?</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-inner container">
+        <a class="brand" href="index.html" title="Home"
+          ><svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g></svg
+          ><span>OUTDOOR SAFETY <small>SEA-TO-SKY</small></span></a
+        >
+        <nav aria-label="Primary navigation" class="primary-nav">
+          <a href="checklists.html">Prepare</a
+          ><a href="be-aware.html">Know the risks</a
+          ><a href="about.html">Our story</a>
+        </nav>
+        <div class="header-actions">
+          <a class="help-link" href="if.html#main-content"
+            ><span class="desktop-help">Help now</span
+            ><span class="mobile-help">Help</span
+            ><svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </div>
+      <details class="site-menu">
+        <summary>
+          Menu<span aria-hidden="true" class="menu-icon"></span>
+        </summary>
+        <nav aria-label="All pages" class="menu-panel">
+          <a class="menu-home" href="index.html"
+            >Home
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <div class="menu-columns">
+            <div class="menu-group">
+              <p>Prepare</p>
+              <a href="trip-plan.html">Trip Plan</a>
+              <a href="checklists.html">Before your trip</a
+              ><a href="pack-lists.html">Essentials &amp; activities</a
+              ><a href="be-aware.html">Be aware</a>
+            </div>
+            <div class="menu-group">
+              <p>Get help</p>
+              <a href="if.html">What to do if…</a
+              ><a href="no-service.html">No cell service</a
+              ><a href="emergency.html">Emergency numbers</a>
+            </div>
+            <div class="menu-group">
+              <p>Learn</p>
+              <a href="about.html">About this project</a
+              ><a href="mistakes.html">Common mistakes</a
+              ><a href="tips.html">Quick reminders</a>
+            </div>
+          </div>
+          <a
+            class="menu-rehearsal"
+            data-presentation-link=""
+            href="presentation.html"
+            >Presentation</a
+          >
+        </nav>
+      </details>
+    </header>
+    <main class="guide-main" id="main-content">
+      <header class="page-heading presentation-heading">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span aria-hidden="true">/</span
+          ><span aria-current="page">Presentation</span>
+        </nav>
+        <p class="eyebrow">For Liz's school presentation</p>
+        <h1>Practise your presentation</h1>
+        <p class="note">
+          A simple English outline. Choose the parts and demos that help you
+          explain your project. Change the words so they sound natural to you.
+        </p>
+        <p class="presentation-note">
+          Demo links open a new tab. Come back here to continue practising; no
+          pages open automatically.
+        </p>
+      </header>
+      <div class="rehearsal-body">
+        <div
+          class="practice-controls"
+          id="practice-controls"
+          role="group"
+          aria-label="Rehearsal controls"
+          hidden
+        >
+          <p
+            class="practice-progress"
+            id="practice-progress"
+            role="status"
+            hidden
+          ></p>
+          <div class="practice-actions">
+            <button type="button" id="practice-previous" hidden>
+              Previous
+            </button>
+            <button type="button" id="practice-next" hidden>Next</button>
+            <button type="button" id="practice-toggle">
+              Practise one part
+            </button>
+          </div>
+        </div>
+        <nav
+          class="presentation-parts"
+          id="presentation-parts"
+          aria-label="Presentation parts"
+        >
+          <p>Parts to practise</p>
+          <ol>
+            <li><a href="#the-project">The project</a></li>
+            <li><a href="#the-audience">The audience</a></li>
+            <li><a href="#the-sources">The sources</a></li>
+            <li><a href="#the-structure">The page structure</a></li>
+            <li><a href="#the-trip-plan">The Trip Plan</a></li>
+            <li><a href="#the-qr-idea">The QR idea</a></li>
+            <li>
+              <a href="#choices-and-next-steps">Choices and next steps</a>
+            </li>
+          </ol>
+        </nav>
+        <section
+          class="presentation-part"
+          id="the-project"
+          aria-labelledby="project-heading"
+        >
+          <p class="eyebrow">1 / The project</p>
+          <h2 id="project-heading" tabindex="-1">What is this project?</h2>
+          <ul class="speaking-points">
+            <li>
+              This is a school project about outdoor safety in British
+              Columbia's Sea-to-Sky area.
+            </li>
+            <li>
+              The aim is to help people prepare for a day trip and find a useful
+              next step if plans change.
+            </li>
+            <li>It is a learning resource, not an official rescue website.</li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the preparation links, Trip Plan in the
+              menu, and Help now.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="index.html" target="_blank" rel="noopener"
+              >Open Home <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="the-audience"
+          aria-labelledby="audience-heading"
+        >
+          <p class="eyebrow">2 / The audience</p>
+          <h2 id="audience-heading" tabindex="-1">Who is it for?</h2>
+          <ul class="speaking-points">
+            <li>
+              The main audience is beginners and visitors who may not know the
+              local terrain and conditions.
+            </li>
+            <li>
+              A short distance does not always mean an easy trip. The route
+              needs to fit the people.
+            </li>
+            <li>
+              The site uses English, short headings and direct links, with
+              layouts for small and large screens.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the planning questions and the conditions
+              links. The full guide headings stay descriptive, while the phone
+              contents labels are shorter.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="checklists.html" target="_blank" rel="noopener"
+              >Open Before your trip <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="the-sources"
+          aria-labelledby="sources-heading"
+        >
+          <p class="eyebrow">3 / The sources</p>
+          <h2 id="sources-heading" tabindex="-1">
+            Where did the advice come from?
+          </h2>
+          <ul class="speaking-points">
+            <li>
+              Christine Strub and Ms. Lejeune, both with Squamish Search and
+              Rescue, shared practical experience for this project.
+            </li>
+            <li>
+              Their advice highlights realistic planning, the group's
+              experience, turning around and preparing to wait for help.
+            </li>
+            <li>
+              The site also links to public safety guidance. The hiking case
+              uses news reports. The anonymous rider story comes from an
+              interview.
+            </li>
+          </ul>
+          <details class="presenter-note">
+            <summary>Optional source note</summary>
+            <p>
+              Contributing an interview is not an endorsement of every page by
+              the rescue organizations.
+            </p>
+          </details>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the interview introductions and source
+              list. Explain how interview accounts and reported news are kept
+              distinct.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="about.html#interviews" target="_blank" rel="noopener"
+              >Open About: local rescuers <span aria-hidden="true">↗</span></a
+            ><a href="about.html#sources" target="_blank" rel="noopener"
+              >Open the source list <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="the-structure"
+          aria-labelledby="structure-heading"
+        >
+          <p class="eyebrow">4 / The page structure</p>
+          <h2 id="structure-heading" tabindex="-1">Why these pages?</h2>
+          <ul class="speaking-points">
+            <li>
+              Before your trip covers the route, conditions and the person who
+              has your plan.
+            </li>
+            <li>
+              Essentials &amp; activities starts with shared basics, then adds
+              activity notes.
+            </li>
+            <li>
+              You can tick the packing list. The browser can remember your
+              ticks.
+            </li>
+            <li>
+              Be aware covers local risks and turning around. What to do if and
+              No cell service help when plans change.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the shared essentials and one activity
+              section. Point out a link to the turnaround advice.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="pack-lists.html#essentials" target="_blank" rel="noopener"
+              >Open Essentials &amp; activities
+              <span aria-hidden="true">↗</span></a
+            ><a href="be-aware.html#turn-around" target="_blank" rel="noopener"
+              >Open turnaround advice <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="the-trip-plan"
+          aria-labelledby="trip-heading"
+        >
+          <p class="eyebrow">5 / The Trip Plan</p>
+          <h2 id="trip-heading" tabindex="-1">Show the Trip Plan</h2>
+          <ul class="speaking-points">
+            <li>
+              A plan becomes useful when a reliable person has it and knows when
+              to act.
+            </li>
+            <li>
+              Expected return and the agreed calling deadline are separate
+              fields.
+            </li>
+            <li>
+              You review the plan, then copy it, open an email draft or print
+              it. You still need to send the message and confirm it arrived.
+            </li>
+            <li>
+              The site does not save your Trip Plan entries or send them to a
+              server. It does not monitor your return.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> use made-up details, review the text and
+              point out the copy and email-draft options. The blank one-page
+              plan is also available.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="trip-plan.html" target="_blank" rel="noopener"
+              >Open the online Trip Plan <span aria-hidden="true">↗</span></a
+            ><a href="pdfs/before-you-leave.html" target="_blank" rel="noopener"
+              >Open the blank plan <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="the-qr-idea"
+          aria-labelledby="qr-heading"
+        >
+          <p class="eyebrow">6 / The QR idea</p>
+          <h2 id="qr-heading" tabindex="-1">Show the QR idea</h2>
+          <ul class="speaking-points">
+            <li>
+              The sign uses a mountain, a walker, a return arrow and a few words
+              to invite people to prepare.
+            </li>
+            <li>
+              Its QR opens Quick reminders at the same address, so the page can
+              improve without changing the printed code.
+            </li>
+            <li>
+              The page gives a short preparation start and more detailed
+              reminders below. The website can be used at phone and desktop
+              widths.
+            </li>
+            <li>
+              This is a sign design; real trail placement is a separate idea.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the sign in Print &amp; share, then the
+              Quick reminders page. A narrower browser window can show the
+              responsive layout.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="resources.html" target="_blank" rel="noopener"
+              >Open Print &amp; share <span aria-hidden="true">↗</span></a
+            ><a href="tips.html" target="_blank" rel="noopener"
+              >Open Quick reminders <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="choices-and-next-steps"
+          aria-labelledby="choices-heading"
+        >
+          <p class="eyebrow">7 / Choices and next steps</p>
+          <h2 id="choices-heading" tabindex="-1">Choices and next steps</h2>
+          <ul class="speaking-points">
+            <li>
+              The site keeps preparation and immediate help easy to reach, using
+              simple pages and a small amount of JavaScript.
+            </li>
+            <li>
+              AI tools helped turn recordings into text, draft wording, build
+              pages and review changes. The safety advice is linked back to the
+              interviews and public sources.
+            </li>
+            <li>
+              French, German, Spanish and Italian are possible later additions.
+              Those translations are not available yet.
+            </li>
+          </ul>
+          <details class="presenter-note">
+            <summary>Optional testing note</summary>
+            <p>
+              Email and QR functions were checked and accepted for this
+              project's scope. Browser and PDF checks are recorded. Physical
+              printer tests are excluded.
+            </p>
+          </details>
+          <aside class="poster-cue">
+            <p>
+              <strong>If you are using a poster:</strong> point to its main
+              sections and QR code. You can use the same talking points without
+              a live website demo. A poster layout is available if you need a
+              reference.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="pdfs/trifold.html" target="_blank" rel="noopener"
+              >Open the poster layout <span aria-hidden="true">↗</span></a
+            ><a href="about.html#why-this-site" target="_blank" rel="noopener"
+              >Open About this project <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g>
+          </svg>
+          <p>More preparation.<br />More perspective.</p>
+          <span>A school capstone by Liz.<br />Made for the Sea-to-Sky.</span>
+        </div>
+        <div>
+          <p class="footer-label">Prepare</p>
+          <a href="trip-plan.html">Trip Plan</a>
+          <a href="checklists.html">Before your trip</a
+          ><a href="pack-lists.html">Essentials &amp; activities</a
+          ><a href="be-aware.html">Be aware</a>
+        </div>
+        <div>
+          <p class="footer-label">Get help</p>
+          <a href="if.html">What to do if…</a
+          ><a href="no-service.html">No cell service</a
+          ><a href="emergency.html">Emergency numbers</a>
+        </div>
+        <div>
+          <p class="footer-label">Learn</p>
+          <a href="about.html">About this project</a
+          ><a href="mistakes.html">Common mistakes</a
+          ><a href="tips.html">Quick reminders</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="site-disclaimer">
+          This is not an official rescue site. In an emergency, call 9-1-1.
+        </p>
+        <a href="resources.html">Print &amp; share</a>
+        <a href="about.html#photo-credits">Photo credits</a
+        ><a href="#main-content">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

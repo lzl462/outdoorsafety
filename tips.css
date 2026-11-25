@@ -1,0 +1,63 @@
+.tips-contents {
+  display: block;
+}
+.tips-checks {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: preparation-check;
+}
+.tips-checks li {
+  counter-increment: preparation-check;
+  border-top: 1px solid var(--line);
+}
+.tips-checks a {
+  position: relative;
+  display: block;
+  min-height: 44px;
+  padding: 12px 8px 12px 32px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-decoration: none;
+}
+.tips-checks a::before {
+  content: counter(preparation-check, decimal-leading-zero);
+  position: absolute;
+  left: 6px;
+  top: 15px;
+  color: var(--muted);
+  font-size: 10px;
+}
+.tips-checks a:hover {
+  text-decoration: underline;
+}
+.tips-checks a:focus-visible {
+  outline-offset: -3px;
+}
+.tips-contents .print-guide {
+  margin-top: 12px;
+}
+body[data-page="tips"] .page-heading .tips-plan-link {
+  margin-top: 0;
+}
+@media (max-width: 760px) {
+  body[data-page="tips"] .page-heading .breadcrumb,
+  body[data-page="tips"] .page-heading > .eyebrow {
+    display: none;
+  }
+  body[data-page="tips"] .page-heading h1 {
+    font-size: 44px;
+  }
+  body[data-page="tips"] .page-heading {
+    margin-bottom: 24px;
+  }
+  body[data-page="tips"] .page-heading .note {
+    margin-bottom: 16px;
+  }
+  .tips-contents .print-guide {
+    width: 100%;
+    margin-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+}

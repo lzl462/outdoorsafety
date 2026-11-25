@@ -12,7 +12,7 @@ DISCLAIMER = "This is not an official rescue site. In an emergency, call 9-1-1."
 CONTENT_PAGES = {
     "index.html", "checklists.html", "pack-lists.html", "be-aware.html",
     "if.html", "no-service.html", "emergency.html", "about.html",
-    "mistakes.html", "tips.html", "resources.html", "trip-plan.html",
+    "mistakes.html", "tips.html", "resources.html", "trip-plan.html", "presentation.html",
 }
 CONCEPT_PAGES = {"prototypes/trail-sign.html", "prototypes/trail-briefing.html"}
 MAIN_PAGES = CONTENT_PAGES | CONCEPT_PAGES | {"404.html", "pdfs/before-you-leave.html"}

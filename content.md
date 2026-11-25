@@ -32,6 +32,8 @@ Learn
 
 [About this project](about.html) [Common mistakes](mistakes.html) [Quick reminders](tips.html)
 
+[Presentation](presentation.html)
+
 More preparation.
 More perspective.
 
@@ -136,7 +138,7 @@ A good trip starts with a realistic plan, the skills to follow it, and equipment
 
 On this page
 
-[The three T’s](#three-ts) [Check the conditions for your actual route](#check-conditions) [Four checks before you go](#four-checks) [Give your contact a job, not just a destination](#your-contact)
+[The three T’s](#three-ts) [Route conditions](#check-conditions) [Four planning checks](#four-checks) [Your contact’s role](#your-contact)
 
 Print this guide
 
@@ -633,7 +635,7 @@ Hiking / The reported 2026 case
 
 #### A day hike became five nights lost
 
-In August 2026, Stanislav Volo took the Sea to Sky Gondola before a planned hike near Mount Habrich. His phone battery failed. A large search followed after he did not return, and he spent five nights in the mountains. He called 9-1-1 during that time and eventually reached a forest service road, where he met rescuers on 4 September.
+In August 2026, Stanislav Volo took the Sea to Sky Gondola before a planned hike near Mount Habrich. During the hike, he realized his phone battery would not last the way back. A large search followed after he did not return, and he spent five nights in the mountains. He called 9-1-1 on 1 September and eventually reached a forest service road, where he met rescuers on 4 September.
 
 In his [CityNews interview](https://vancouver.citynews.ca/2026/09/07/squamish-bc-missing-hiker-found-shares-story/), he described continuing to find his way home and hearing search aircraft that could not spot him. In a later account, he described dismissing warnings about fog. Search manager Tyler Duncan also highlighted something that helped: Volo had left a trip plan with his wife, who called for help when he was overdue.
 
@@ -801,11 +803,16 @@ Learn / Quick reminders
 
 ### Quick reminders
 
-Open a reminder for a little more detail and a practical next step.
+Four checks before you go.
 
-On this page
+[Make a trip plan](trip-plan.html)
 
-[Immediate actions](if.html#main-content) [Shared essentials](pack-lists.html#essentials) [Leave a plan](checklists.html#your-contact)
+Before you start
+
+1. [Does the route fit everyone?](be-aware.html#the-trip-has-to-match-the-people)
+2. [Have you checked conditions and set a turnaround time?](checklists.html#check-conditions)
+3. [Does someone have your plan and calling deadline?](checklists.html#your-contact)
+4. [Are you prepared for a delay and no signal?](pack-lists.html#essentials)
 
 Print this guide
 
@@ -1182,3 +1189,104 @@ Shared search description: Practical preparation and emergency guidance for Sea-
 404 search description: Page not found. Return to the Outdoor Safety Sea-to-Sky guides.
 
 Accessibility navigation names: Primary navigation; All pages; Get help by situation; Keep learning; On this page.
+
+## Presentation rehearsal
+
+Page: `presentation.html`. This is a flexible English practice outline, not an account of a completed school presentation or a prescribed rubric/timing.
+
+[Home](index.html) / Presentation
+
+For Liz's school presentation
+
+### Practise your presentation
+
+A simple English outline. Choose the parts and demos that help you explain your project. Change the words so they sound natural to you.
+
+Demo links open a new tab. Come back here to continue practising; no pages open automatically.
+
+Practise one part · Previous · Next · All parts · Part {number} of {total}: {title}
+
+Parts to practise: [The project](#the-project) · [The audience](#the-audience) · [The sources](#the-sources) · [The page structure](#the-structure) · [The Trip Plan](#the-trip-plan) · [The QR idea](#the-qr-idea) · [Choices and next steps](#choices-and-next-steps)
+
+#### 1. What is this project?
+
+- This is a school project about outdoor safety in British Columbia's Sea-to-Sky area.
+- The aim is to help people prepare for a day trip and find a useful next step if plans change.
+- It is a learning resource, not an official rescue website.
+
+Show: the preparation links, Trip Plan in the menu, and Help now.
+
+[Open Home](index.html)
+
+#### 2. Who is it for?
+
+- The main audience is beginners and visitors who may not know the local terrain and conditions.
+- A short distance does not always mean an easy trip. The route needs to fit the people.
+- The site uses English, short headings and direct links, with layouts for small and large screens.
+
+Show: the planning questions and the conditions links. The full guide headings stay descriptive, while the phone contents labels are shorter.
+
+[Open Before your trip](checklists.html)
+
+#### 3. Where did the advice come from?
+
+- Christine Strub and Ms. Lejeune, both with Squamish Search and Rescue, shared practical experience for this project.
+- Their advice highlights realistic planning, the group's experience, turning around and preparing to wait for help.
+- The site also links to public safety guidance. The hiking case uses news reports. The anonymous rider story comes from an interview.
+
+Optional source note: contributing an interview is not an endorsement of every page by the rescue organizations.
+
+Show: the interview introductions and source list. Explain how interview accounts and reported news are kept distinct.
+
+[Open About: local rescuers](about.html#interviews) · [Open the source list](about.html#sources)
+
+#### 4. Why these pages?
+
+- Before your trip covers the route, conditions and the person who has your plan.
+- Essentials & activities starts with shared basics, then adds activity notes.
+- You can tick the packing list. The browser can remember your ticks.
+- Be aware covers local risks and turning around. What to do if and No cell service help when plans change.
+
+Show: the shared essentials and one activity section. Point out a link to the turnaround advice.
+
+[Open Essentials & activities](pack-lists.html#essentials) · [Open turnaround advice](be-aware.html#turn-around)
+
+#### 5. Show the Trip Plan
+
+- A plan becomes useful when a reliable person has it and knows when to act.
+- Expected return and the agreed calling deadline are separate fields.
+- You review the plan, then copy it, open an email draft or print it. You still need to send the message and confirm it arrived.
+- The site does not save your Trip Plan entries or send them to a server. It does not monitor your return.
+
+Show: use made-up details, review the text and point out the copy and email-draft options. The blank one-page plan is also available.
+
+[Open the online Trip Plan](trip-plan.html) · [Open the blank plan](pdfs/before-you-leave.html)
+
+#### 6. Show the QR idea
+
+- The sign uses a mountain, a walker, a return arrow and a few words to invite people to prepare.
+- Its QR opens Quick reminders at the same address, so the page can improve without changing the printed code.
+- The page gives a short preparation start and more detailed reminders below. The website can be used at phone and desktop widths.
+- This is a sign design; real trail placement is a separate idea.
+
+Show: the sign in Print & share, then the Quick reminders page. A narrower browser window can show the responsive layout.
+
+[Open Print & share](resources.html) · [Open Quick reminders](tips.html)
+
+#### 7. Choices and next steps
+
+- The site keeps preparation and immediate help easy to reach, using simple pages and a small amount of JavaScript.
+- AI tools helped turn recordings into text, draft wording, build pages and review changes. The safety advice is linked back to the interviews and public sources.
+- French, German, Spanish and Italian are possible later additions. Those translations are not available yet.
+
+Optional testing note: email and QR functions were checked and accepted for this project's scope. Browser and PDF checks are recorded. Physical printer tests are excluded.
+
+If you are using a poster: point to its main sections and QR code. You can use the same talking points without a live website demo. A poster layout is available if you need a reference.
+
+[Open the poster layout](pdfs/trifold.html) · [Open About this project](about.html#why-this-site)
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+Presentation interface descriptions: Presentation parts; Rehearsal controls; Demo links; Speaking points; Show; If you are using a poster; Optional source note; Optional testing note.
+
+Poster-layout screen note: This is a draft layout for the poster. Use it as a guide when preparing your board.

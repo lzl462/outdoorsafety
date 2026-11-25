@@ -70,3 +70,16 @@ The mobile reviewer recommends this as a small, low-priority change; the source 
 ## Boundaries
 
 These are expert reviews and browser comparisons, not a visitor study or proof of increased engagement. Existing reader journeys work. A later implementation needs only source/canonical-copy consistency and the affected mobile journeys checked. Email/QR functional acceptance stays closed; physical printer tests remain excluded. No additional permission process, framework, major redesign or new safety procedure is proposed.
+
+## Implementation follow-up
+
+The user subsequently authorized all three recommendations and a parallel in-app presentation. Three agents implemented separate regions, recording public wording in `content.md` first; the coordinator integrated the shared navigation and checked the result.
+
+- **R05:** About now uses the reviewed declining-battery wording and dates the emergency call to 1 September. The remaining account, source links and safety lessons are retained.
+- **R06:** The guide contents now read “The three T’s”, “Route conditions”, “Four planning checks” and “Your contact’s role”. Full section headings and anchors are unchanged.
+- **Trail entry:** Existing `tips.html` now offers four visible preparation prompts and “Make a trip plan”. Its emergency block and seven detailed reminders remain intact. The compact mobile CTA is at y239–287 and the first preparation cue at y344–388 at both tested phone widths. The accepted QR address and code files are unchanged.
+- **Presentation:** `presentation.html` has seven simple-English parts, optional one-part Previous/Next mode and twelve deliberate new-tab demo links. Full-outline/no-JavaScript use remains available. The last subdued menu link is temporary and marked `data-presentation-link`. Future feature/navigation/advice changes must also review the notes and demo links, as recorded in AGENTS.md and PLAN.md.
+
+Independent cross-reviews found no blocking content/source or rehearsal-usability issue. The presentation accurately separates interview accounts from news, remembered packing ticks from unsaved Trip Plan entries, current features from future languages, and available poster layout from a completed physical board. AI assistance is described honestly. Detailed source/testing qualifications are optional presenter notes rather than core speaking points.
+
+Coordinator checks passed: 16 Chromium page/viewport layout checks across the four affected pages, selected accessibility rules in full-outline and practice states, all seven rehearsal steps/boundaries, full-outline restoration, a real demo popup preserving the practice part, and no-JavaScript fallback. A partial-script check caught a toolbar offset mismatch; its sticky position now follows the actual header mode, keeping headings visible with or without the shared script. WebKit passed nine layouts and the seven-part/recovery flow. The structural checker passes 20 HTML files and 720 local references; nine structural regression tests pass. No physical printer test or repeat acceptance test for email/QR was required.
