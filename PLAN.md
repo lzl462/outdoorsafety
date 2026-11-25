@@ -40,6 +40,7 @@ The name is still a stand-in. The current website includes the interview materia
 ## 1. Website content
 
 - [x] **Done** — Home uses Christine Strub’s genuine interview quote, with her name/role and a link to About. The old “What this website is for” text stays off the page.
+- [x] **Done** — Simplified Ms. Lejeune's public introduction on About to describe her interview contribution, omitting the recording format, count and date at Liz's request.
 - [x] **Done** — Removed the empty public hike/water story prompts from Emergency numbers (section 7, C8). The verified hiking case and anonymous rider account are on About. Any additional real story, including a water example, remains optional.
 - [x] **Done** — Shortened the two Before you leave destination links to “Printable trip plan” and “Essentials & activities” at Liz's request. The print/handwrite explanation remains beside the trip-plan link.
 - [x] **Done** — Reworked the printable trip plan into one page at Liz's request. All 13 trip/contact fields, the 9-1-1 deadline and eight equipment lines remain. Chrome-generated A4 and Canadian Letter PDFs each contain one page with all labels and the disclaimer present. The screen preview adapts to small phones.

@@ -655,7 +655,7 @@ The story shows why preparation matters even on a familiar ride. Leaving a route
 
 **Christine Strub**, Prevention Team Coordinator with Squamish Search and Rescue, answered written questions on 27 October 2026. Her answers emphasized realistic planning, training, and preparing to stay warm while waiting for help.
 
-**Ms. Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, sent three voice messages on 5 November 2026. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
+**Ms. Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, shared her experience in an interview for this project. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
 
 ##### Make the trip fit the people
 
