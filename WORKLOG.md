@@ -11,3 +11,5 @@ The Mac folder was an old September checkout. The website had moved on because s
 `AGENTS.md` now says the plan, the worklog, and this file stay in English. Reason: Liz will show the repository when she presents the project at school. Conversation with her can still be German or English.
 
 `PLAN.md` was rewritten into five workstreams (Website content, Website technical, Capstone deliverables/school, Outreach, and Presentation/physical), with status tags, a short Next up list, and open questions. Reason: the earlier list mixed Liz-only writing, joint website work, school deliverables, and outreach, so the next step was hard to pick.
+
+The capstone hand-in deadline, Monday 30 Nov 2026, was added near the top of `PLAN.md`, and the open question about the hand-in date was removed. Reason: the due date is now known.

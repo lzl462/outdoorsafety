@@ -4,6 +4,8 @@ Outdoor Safety — Sea-to-Sky. The live site is the current working copy:
 
 https://lzl462.github.io/outdoorsafety/
 
+Deadline: Monday 30 Nov 2026.
+
 The name is still a stand-in. One real quote, the interview notes, and the cardboard or Instagram move the project more than another design change.
 
 ## Rules
@@ -54,7 +56,7 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - [ ] **Liz** — Listen to Ms. Lejeune’s audios. Write three notes, in her own words, on an Interview page in the portfolio.
 - [ ] **Liz** — Do the interviews that are still part of the course.
 - [ ] **Liz** — Finish the portfolio. The portfolio files are not in this repository. `content.md` mentions Obsidian `Website-Inhalte` as one place for new wording.
-- The hand-in date and the official rubric are not in this repository. See Open questions.
+- The official rubric is not in this repository. See Open questions.
 
 ## 4. Outreach
 
@@ -75,7 +77,6 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 
 ## Open questions
 
-- What is the hand-in or presentation date?
 - Where is the official rubric or requirement checklist?
 - Where does the portfolio live (Obsidian, a school portal, or somewhere else), and should this repository link to it?
 - Are the remaining course interviews already scheduled?
