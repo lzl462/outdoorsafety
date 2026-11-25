@@ -9,3 +9,5 @@ The Mac folder was an old September checkout. The website had moved on because s
 `PLAN.md`, `WORKLOG.md`, and `AGENTS.md` were added. Reason: the repository had page text, but no list of open work and no place to record why a change was made.
 
 `AGENTS.md` now says the plan, the worklog, and this file stay in English. Reason: Liz will show the repository when she presents the project at school. Conversation with her can still be German or English.
+
+`PLAN.md` was rewritten into five workstreams (Website content, Website technical, Capstone deliverables/school, Outreach, and Presentation/physical), with status tags, a short Next up list, and open questions. Reason: the earlier list mixed Liz-only writing, joint website work, school deliverables, and outreach, so the next step was hard to pick.
