@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Emergency numbers — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=14">
+  <link rel="stylesheet" href="styles.css?v=15">
   <style>
     body.emergency-body { background: var(--green-soft); }
     main.emergency-page { max-width: 1040px; background: transparent; }
@@ -91,11 +91,12 @@
   </style>
 </head>
 <body class="emergency-body">
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="layout">
     <aside class="sidebar">
       <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
       <p class="sidebar-label">Pages</p>
-      <nav>
+      <nav aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="checklists.html">Before you leave</a>
         <a href="pack-lists.html">Pack lists</a>
@@ -105,10 +106,11 @@
         <a href="no-service.html">No cell service</a>
         <a href="emergency.html">Emergency numbers</a>
         <a href="mistakes.html">Common mistakes</a>
+        <a href="about.html">About this project</a>
       </nav>
     </aside>
-    <main class="emergency-page">
-      <p class="back"><a href="index.html">← Home</a></p>
+    <main id="main-content" class="emergency-page">
+<p class="back"><a href="index.html">← Home</a></p>
       <h1>Emergency numbers</h1>
       <table class="call-table">
         <thead>
@@ -136,6 +138,8 @@
           </tr>
         </tbody>
       </table>
+
+<p class="emergency-call">Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.</p><p>If you cannot connect, see <a href="no-service.html">No cell service</a>. For immediate actions, see <a href="if.html">What to do if…</a>.</p>
       <h2>Other numbers</h2>
       <table class="call-table">
         <thead>
@@ -192,7 +196,7 @@
         </div>
       </div>
       <p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-    </main>
+</main>
   </div>
   <script src="script.js"></script>
 </body>
