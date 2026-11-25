@@ -2,13 +2,13 @@
 
 Outdoor Safety — Sea-to-Sky · [Live website](https://lzl462.github.io/outdoorsafety/)
 
-Deadline: Monday 30 Nov 2026. Status reconciled on 25 Nov against repository revision ae4220f and Liz's feedback in this conversation.
+Deadline: Monday 30 Nov 2026. Status reconciled on 25 Nov against repository revision ae4220f, the follow-up reviews and Liz's subsequent implementation request.
 
 The website's content baseline, interview integration, redesign and first wording follow-up are complete. Most remaining work is personal school/presentation work or a decision by Liz. The detailed implementation history has moved to [the historical plan](docs/history/PLAN-2026-11-25.md).
 
 ## Current scope
 
-This pass is documentation and review only. Website files stay unchanged. Six agents reviewed the current state in two passes; their separate [small-improvement proposals](reviews/2026-11-25-follow-up.md) are for tomorrow's discussion, not an accepted implementation backlog. Liz can choose any, defer them or leave the current design as it is.
+After the documentation-only review, Liz authorized the clearly beneficial small corrections and their commit/push. R01–R04 and R07–R08 from the [follow-up review](reviews/2026-11-25-follow-up.md) are now implemented and checked: visible keyboard focus, an explicit agreed calling time, clear bear-spray/RAPP wording, stronger structural checks and local poster photos. R05 (story chronology) and R06 (mobile contents labels) remain optional proposals; the completed redesign is retained.
 
 ## Open work and decisions
 
@@ -16,7 +16,7 @@ This pass is documentation and review only. Website files stay unchanged. Six ag
 
 | Owner / status | Remaining item | Evidence and boundary |
 | --- | --- | --- |
-| Liz / tomorrow | Review the separate improvement proposals and decide what, if anything, to implement. | Initial positive design feedback and the requested interview-wording change have already been received and acted on. No further website changes are authorized by this review request. |
+| Liz / later decision | Consider the two deferred proposals, R05 and R06, if useful. | The other six follow-up proposals are implemented. No story rewrite or mobile contents-label experiment is needed to complete this small correction package. |
 | Liz / decision | Keep the current project name or choose the final one. | Outdoor Safety — Sea-to-Sky is still described as a working title. If it changes, update site branding/page titles and print materials; the old global sidebar no longer exists. |
 | Liz / unverified | Complete or confirm the portfolio and her own interview notes. | The source interviews and transcripts are ready. They do not prove that the three notes, Interview page or portfolio are finished. The portfolio's location is unknown; it is not in the tracked repository. |
 | Liz / unverified | Check the actual school rubric and whether any further course interviews are required. | Two contributors are documented. The rubric is absent, so the old “remaining interviews” line is an unanswered course-requirement question, not proof that interviews still need doing. |
@@ -37,10 +37,11 @@ This pass is documentation and review only. Website files stay unchanged. Six ag
 | Done | No-cell-service page and consistent shared disclaimer. | [No cell service](no-service.html), content pages and print artifacts. |
 | Done | One-page handwritten trip plan and browser Print / Save as PDF workflow. | [Trip plan](pdfs/before-you-leave.html), [dedicated stylesheet](pdfs/trip-plan-one-page.css); 15c8992. Guide/reminder printing included in the redesign. |
 | Done | Full responsive redesign, grouped navigation, direct emergency access and locally saved packing checks. | Ten content pages plus 404; 2c79f56. |
-| Done | Three licensed local website photographs, local fonts and source/credit information. | [Image notes](images/README.md), [About credits](about.html#photo-credits), fonts/ licences. This describes the redesigned website pages; the cardboard layout still uses external photo URLs. |
+| Done | Three licensed local website photographs, local fonts and source/credit information. | [Image notes](images/README.md), [About credits](about.html#photo-credits), fonts/ licences. The cardboard layout now reuses the local Harmony Lakes and Howe Sound photos with its existing credits. |
 | Done | Cardboard layout and website QR source assets. | [Layout](pdfs/trifold.html), [print QR](images/qr-website-print.svg). Physical completion remains unverified above. |
 | Done | Initial implementation reviews and targeted follow-up wording. | Three design reviewers, recorded browser/accessibility/PDF checks, then Liz's audio-detail simplification at ae4220f. |
-| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 15 public HTML files and 495 local references; coverage refinements are only proposals. |
+| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 15 public HTML files and 497 local references. Explicit expected-page/landmark/disclaimer contracts, the poster disclaimer and pdfs/ stylesheet assets are checked; nine regression tests pass. |
+| Done | Six bounded follow-up corrections after the independent review. | R01–R04 and R07–R08 in the [review record](reviews/2026-11-25-follow-up.md#implementation-follow-up). Targeted Chromium/WebKit focus/layout checks and Chromium accessibility, menu and poster/PDF checks passed. |
 | Done | GitHub Pages publication from main, repository root. | [README](README.md). Existing Git/SSH/credential configuration remains unchanged. |
 
 ## Superseded or deliberately dropped tasks
@@ -71,9 +72,9 @@ These are not required completion work and do not authorize implementation now:
 
 - The [historical plan](docs/history/PLAN-2026-11-25.md) preserves the detailed content/source mapping, review findings, implementation steps and original acceptance evidence. The chronological [worklog](WORKLOG.md) is retained rather than rewritten.
 - Recorded implementation checks cover Chromium/WebKit layouts and reader journeys, selected automated accessibility rules, no-JS/storage-failure behavior and actual Chromium PDF exports. The trip plan is one page on A4 and Canadian Letter in those exports.
-- Today's [follow-up review](reviews/2026-11-25-follow-up.md) is a bounded read-only review with fresh perspectives and counter-review. Its findings are proposals, not completed fixes or a new clinical/field audit.
+- Today's [follow-up review](reviews/2026-11-25-follow-up.md) records the original bounded read-only review and the subsequent six authorized corrections with targeted acceptance evidence. R05 and R06 remain proposals. Neither pass is a new clinical/field audit.
 - Native Apple devices, physical printers, real calls/SOS, the physical poster/QR and external school/outreach completion are not certified by repository files or browser emulation.
 
 ## Working rules
 
-Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks; the current request authorizes documentation commit/push, not website changes.
+Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks; her latest request authorizes implementation, commit and push of this small correction package.

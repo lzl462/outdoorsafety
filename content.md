@@ -186,7 +186,7 @@ Check again before leaving. These links lead to current information; this site d
 
 #### Give your contact a job, not just a destination
 
-Leave the plan with someone reliable, including on a short or familiar trip. Make sure they know the route and the return or check-in time you agreed on. If you miss that arrangement, they should call 9-1-1 and share your plan.
+Leave the plan with someone reliable, including on a short or familiar trip. Make sure they know your route and expected return or check-in time. Agree on a time for them to call 9-1-1 if you have not returned or checked in. They should share your trip plan when they call.
 
 Check in when you return. Think about [communication without cell service](no-service.html) before you leave.
 
@@ -358,7 +358,7 @@ Howe Sound, creeks, and alpine lakes stay cold even when the air feels warm. Wea
 
 #### You are in their home
 
-Bears and cougars use these trails. Talk while you walk, especially on a bend you cannot see around and beside a creek. Leave them space. Pack food and garbage away. Do not step closer for a photo. On a bike or a run, slow down where the view is blocked. Keep dogs leashed and close, and respect areas where pets are not allowed. Spray only helps if you already know how to use it. Read [BC Parks’ wildlife guidance](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) before the trip.
+Bears and cougars use these trails. Talk while you walk, especially on a bend you cannot see around and beside a creek. Leave them space. Pack food and garbage away. Do not step closer for a photo. On a bike or a run, slow down where the view is blocked. Keep dogs leashed and close, and respect areas where pets are not allowed. Bear spray only helps if you already know how to use it. Read [BC Parks’ wildlife guidance](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) before the trip.
 
 07
 
@@ -591,7 +591,7 @@ If you cannot connect, see [No cell service](no-service.html). For immediate act
 
 | Pemberton RCMP (non-emergency) | [604-894-6634](tel:16048946634) |
 
-| Conservation Officer Service (RAPP) | [1-877-952-7277](tel:18779527277) |
+| Conservation Officer Service (RAPP) — Report potentially dangerous wildlife interactions, or suspected poaching or pollution. | [1-877-952-7277](tel:18779527277) |
 
 | DriveBC (highway conditions) | [1-800-550-4997](tel:18005504997) |
 
@@ -901,6 +901,7 @@ Liz requested direct implementation and publication of the interview-based revis
 - Calling and waiting: Christine Q7–9; second recording 03:03–06:24; E-Comm calling guidance. Staying put/together is qualified by immediate safety and actual responder instructions. The previous generic ridge/reception/group-splitting instructions were removed. AdventureSmart's trip-plan and interactive guidance supports staying put after attempting contact. No routine fire-lighting instruction is added.
 - Existing specialist response cards were simplified and source-checked, not presented as a complete rescue course: Canadian Red Cross, `https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/cpr_learner_guide_en.pdf`; Avalanche Canada, `https://avysavvy.avalanche.ca/en-ca/when-to-call-for-help`; Government of Canada, `https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/avalanches/how-prepare.html`; Canadian Safe Boating Council, `https://csbc.ca/cold-water/`; Lifesaving Society, `https://sauvetage.qc.ca/en/services/developpment/ladder-approach`. Avalanche companion rescue must not be delayed for an outside call; the extra-person qualification comes from Avalanche Canada.
 - Emergency numbers retain the contacts checked on 24 Nov 2026. The table stays before the explanatory paragraph. Empty public story rows were removed; the hiking and biking examples are on About. The RAPP cellular shortcut was omitted because its TELUS-only qualification was missing; the full number remains.
+- The 25 Nov follow-up names bear spray, distinguishes the agreed calling deadline from an expected return/check-in time, and explains RAPP's reporting purpose. Rechecked AdventureSmart's trip-plan guidance, BC Parks' wildlife guidance and https://forms.gov.bc.ca/environment/rapp/; no universal waiting period or new response procedure is added.
 - Image files and embedded image data were not cleaned up. Existing photo credits stay with their images. The removed Be aware source footer remains off that page; public sources are on About.
 
 ## Trip plan and print sheets

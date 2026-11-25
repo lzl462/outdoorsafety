@@ -83,8 +83,17 @@ a:focus-visible,
 button:focus-visible,
 summary:focus-visible,
 input:focus-visible {
-  outline: 3px solid var(--alert);
+  outline: 3px solid var(--focus-color, var(--alert));
   outline-offset: 5px;
+}
+.utility-bar,
+.hero-copy,
+.help-feature,
+.guide-content #three-ts,
+.turnaround-panel,
+#hiker-story,
+.site-footer {
+  --focus-color: var(--lime);
 }
 p {
   margin: 0 0 1.15em;
@@ -750,7 +759,7 @@ svg {
   display: block;
   font-size: 13px;
   line-height: 1.5;
-  padding: 9px 8px 9px 0;
+  padding: 9px 8px;
   text-decoration: none;
   color: var(--muted);
 }
@@ -758,8 +767,11 @@ svg {
   color: var(--pine);
   text-decoration: underline;
 }
+.page-toc > a:focus-visible,
+.page-toc > button:focus-visible {
+  outline-offset: -3px;
+}
 .print-guide {
-  padding-right: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -767,7 +779,7 @@ svg {
   font-size: 12px;
   font-weight: 700;
   width: 100%;
-  padding: 16px 8px 0 0;
+  padding: 16px 8px 8px;
   margin-top: 18px;
   border: 0;
   border-top: 1px solid var(--line);
@@ -1070,6 +1082,13 @@ svg {
   padding: 22px 16px;
   border-bottom: 1px solid var(--line);
   vertical-align: middle;
+}
+.contact-purpose {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
 }
 .call-table td:last-child {
   width: 42%;

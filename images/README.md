@@ -8,4 +8,6 @@ These photographs provide regional context. They do not depict the reported hiki
 | `harmony-trail-{800,1600}.webp` | [Harmony Lakes Loop trail](https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg), Ruth Hartnup | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | `howe-sound-{800,1600}.webp` | [Howe Sound](https://commons.wikimedia.org/wiki/File:Howe_Sound_(54538272996).jpg), David Zhang | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/); the resized WebP versions remain under this licence |
 
+The cardboard layout in `pdfs/trifold.html` also uses the local 800-pixel Harmony Lakes and Howe Sound versions, retaining their creator/licence captions.
+
 Checked 25 Nov 2026 against Commons file metadata. `mark.svg` is the site's code-drawn mountain mark. Earlier unused image files are retained.

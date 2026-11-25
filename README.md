@@ -22,9 +22,10 @@ Run the dependency-free structural check before committing:
 
 ```bash
 python3 scripts/check_site.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
 ```
 
-The checker covers local assets/links, anchors, page structure, the shared disclaimer, the genuine Home quotation and the printable plan's field counts. Browser and print acceptance evidence is recorded in `PLAN.md`.
+The checker covers local assets/links (including print stylesheets), anchors, expected page structure, the shared disclaimer, the genuine Home quotation and the printable plan's field counts. The regression tests check missing/duplicate landmarks and the intentional redirect/poster layouts. Browser and print acceptance evidence is recorded in `PLAN.md`.
 
 ## Images, fonts and printing
 
