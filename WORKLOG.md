@@ -45,3 +45,9 @@ The About page item now states its main focus: why the site matters and Liz's mo
 A draft of the About page wording was added to `content.md` for Liz to review. Reason: Liz asked for the rest of the About content to be drafted from her note about why the page matters. The draft is not on the website yet.
 
 A new plan section, “Website revision based on the interviews,” was added after comparing Christine Strub’s written answers and Ms. Lejeune’s three 5 Nov transcripts with the live site and `content.md`. Reason: Liz asked for a full comparison and a plan of pages to add, pages to change, text to add, and errors to fix. Site pages and `content.md` were not changed.
+
+## 2026-11-25
+
+Added three independent, timestamped `interviews/*_codex.md` transcripts from the original audio, using local Whisper large-v3 with a second full decoding pass and targeted Whisper medium.en checks. Reason: the earlier transcripts contain many gaps. One short unresolved phrase is marked `[unclear]`; the files are working transcripts and have not been reviewed by the speaker. The audio and earlier transcripts were preserved.
+
+Pulled the latest interview-revision plan at Liz's request, then linked the new transcripts, recorded the recovered group-dynamics advice, and clarified which gear Ms. Lejeune called the minimum versus additional suggestions. Reason: future website drafting should use the more complete source wording. Website revisions remain open; no site text was changed or published.
