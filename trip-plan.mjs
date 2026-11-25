@@ -1,4 +1,4 @@
-// One text representation is used for preview, copying, email and print.
+// Shared field formatting feeds preview, copying, email and compact printing.
 export const MAX_MAILTO_LENGTH = 2000; // Conservative handoff policy, not a universal client limit.
 export const FIELDS = [
   ["tripDate", "Date of trip", true, "date"],
@@ -103,31 +103,58 @@ export function formatDate(value) {
   const date = `${Number(day)} ${months[Number(month) - 1]} ${year}`;
   return value.includes("T") ? `${date} at ${value.slice(11)}` : date;
 }
-export function planText(data) {
-  const lines = [
-    "TRIP PLAN",
-    "All dates and times are local to this trip.",
-    "",
-  ];
+const PLAN_TITLE = "TRIP PLAN";
+const PLAN_INTRO = "All dates and times are local to this trip.";
+const CONTACT_NOTE =
+  "Please keep this plan and agree the calling deadline with us. If we miss it, call 9-1-1 and share this plan.";
+const DISCLAIMER =
+  "This is not an official rescue site. In an emergency, call 9-1-1.";
+
+function planDetails(data) {
   // Keep the contact's calling trigger on the first printed page, even with long notes.
   const textFields = [
     FIELDS.find(([key]) => key === "callDeadline"),
     ...FIELDS.filter(([key]) => key !== "callDeadline"),
   ];
-  for (const [key, label, , type] of textFields) {
+  return textFields.map(([key, label, , type]) => {
     let value = clean(data[key]);
     if (key === "departureTime")
       value = value ? formatDate(data.tripDate + "T" + value) : "";
     else if (value && (type === "date" || type === "datetime"))
       value = formatDate(value);
-    lines.push(label + ":", value || "Not provided", "");
+    return [label, value || "Not provided"];
+  });
+}
+
+export function planText(data) {
+  const lines = [PLAN_TITLE, PLAN_INTRO, ""];
+  for (const [label, value] of planDetails(data)) {
+    lines.push(label + ":", value, "");
   }
-  lines.push(
-    "Please keep this plan and agree the calling deadline with us. If we miss it, call 9-1-1 and share this plan.",
-    "",
-    "This is not an official rescue site. In an emergency, call 9-1-1.",
-  );
+  lines.push(CONTACT_NOTE, "", DISCLAIMER);
   return lines.join("\n");
+}
+
+function renderPrintedPlan(printed, data) {
+  const title = document.createElement("h2");
+  title.textContent = PLAN_TITLE;
+  const intro = document.createElement("p");
+  intro.textContent = PLAN_INTRO;
+  const fields = document.createElement("dl");
+  for (const [label, value] of planDetails(data)) {
+    const field = document.createElement("div");
+    const term = document.createElement("dt");
+    term.textContent = label + ": ";
+    const detail = document.createElement("dd");
+    detail.textContent = value;
+    field.append(term, detail);
+    fields.append(field);
+  }
+  const contact = document.createElement("p");
+  contact.textContent = CONTACT_NOTE;
+  const disclaimer = document.createElement("p");
+  disclaimer.textContent = DISCLAIMER;
+  printed.replaceChildren(title, intro, fields, contact, disclaimer);
 }
 export function emailDraft(data, recipient = "") {
   recipient = clean(recipient);
@@ -194,7 +221,7 @@ function attachPlanner() {
     }
     reviewedData = data;
     output.value = planText(data);
-    printed.textContent = output.value;
+    renderPrintedPlan(printed, data);
     review.hidden = false;
     document.body.classList.add("plan-reviewed");
     if (report) {

@@ -996,7 +996,7 @@ Check the complete plan, then send it yourself. Make sure your contact received 
 - Copy plan text
 - Print / save as PDF
 
-If no email app opens, copy the plan into your email or a message instead. A long plan may need to be copied rather than opened as an email draft. Printed plans may use more than one page.
+If no email app opens, copy the plan into your email or a message instead. A long plan may need to be copied rather than opened as an email draft. Printed plans use a compact layout. Long notes may need extra pages.
 
 #### Form feedback and generated plan wording
 
@@ -1260,7 +1260,7 @@ Show: the shared essentials and one activity section. Point out a link to the tu
 - You review the plan, then copy it, open an email draft or print it. You still need to send the message and confirm it arrived.
 - The site does not save your Trip Plan entries or send them to a server. It does not monitor your return.
 
-Show: use made-up details, review the text and point out the copy and email-draft options. The blank one-page plan is also available.
+Show: use made-up details, review the text and point out the copy, email-draft and compact print options. The blank one-page plan is also available.
 
 [Open the online Trip Plan](trip-plan.html) · [Open the blank plan](pdfs/before-you-leave.html)
 
@@ -1300,7 +1300,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
 4. Structure — plan → pack → risks → help; saved packing ticks.
    Show: Essentials & activities / turnaround advice.
 5. Trip Plan — trusted contact; return ≠ calling deadline. No saved entries or return monitoring.
-   Show: Trip Plan — made-up details; review → copy/email.
+   Show: Trip Plan — made-up details; review → copy/email/print.
 6. QR — sign concept → Quick reminders; phone layout.
    Show: Print & share → Quick reminders.
 7. Choices — clear access; source checks; AI support; translations later.

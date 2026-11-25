@@ -29,3 +29,19 @@ The automated tests did not exercise external mail applications or end-to-end em
 The user reported testing the email and QR functions and confirmed that both are adequate for this school project's scope. Mark these practical functional checks complete; the device and test method were not specified. This does not add automated sending, receipt confirmation or return monitoring to the website.
 
 The user explicitly excluded physical printer tests because no printer is available. They are not an outstanding acceptance task. The completed browser-generated PDF checks remain recorded; no physical printer run is claimed or required.
+
+## Filled-plan print correction — 26 Nov 2026
+
+The user reported that a filled online plan unnecessarily occupied two pages. Reproduced this with a normal 1,167-character plan containing a two-line route, three phone numbers and eight equipment lines: both A4 and Letter used two pages. The earlier short-only acceptance fixture did not expose the excessive whitespace.
+
+Replaced the printed plain-text block with compact label/value rows. One shared formatter supplies all fifteen fields to both the unchanged preview/email text and the print layout. Print uses readable 11-point values, bold labels and a bordered calling deadline at the top. User line breaks remain; lengthy notes can continue onto further pages. The separate blank sheet is unchanged. Presentation Show prompts and the short cue sheet now include compact printing.
+
+| Chromium PDF fixture | Before: A4 / Letter | After: A4 / Letter |
+| --- | --- | --- |
+| Short filled plan, 925 characters | 1 / 1 pages | 1 / 1 pages |
+| Normal filled plan, 1,167 characters | 2 / 2 pages | 1 / 1 pages |
+| Long route notes, 10,172 characters | 3 / 3 pages | 3 / 3 pages |
+
+PDF text checks retain every reviewed paragraph and all long-note endings; the deadline remains on page one. The normal A4 rendering was visually inspected. These exports include a browser page-number footer. Preview/copy/email text is byte-for-byte unchanged across the three fixtures.
+
+Chromium and WebKit checks at 320, 390 and 1440 pixels covered all fifteen printed fields against the review, unchanged copying, the print button, browser-menu printing after edits, and clearing invalid/stale print content. Five form tests, nine structural tests and the site checker (20 HTML files, 721 local references) passed. Physical printer tests remain excluded.

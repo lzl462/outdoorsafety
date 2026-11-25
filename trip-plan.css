@@ -206,11 +206,40 @@
   .plan-print {
     display: block;
     margin: 0;
-    white-space: pre-wrap;
     overflow-wrap: anywhere;
     font:
-      10pt/1.35 Arial,
+      11pt/1.3 Arial,
       sans-serif;
+  }
+  .plan-print h2 {
+    margin: 0 0 4pt;
+    font:
+      700 16pt/1.2 Arial,
+      sans-serif;
+  }
+  .plan-print p {
+    margin: 0 0 8pt;
+    font-size: 10pt;
+  }
+  .plan-print dl {
+    margin: 0 0 12pt;
+  }
+  .plan-print dl > div {
+    margin-bottom: 6pt;
+  }
+  .plan-print dl > div:first-child {
+    margin-block: 10pt;
+    padding: 6pt;
+    border: 1pt solid #111;
+  }
+  .plan-print dt {
+    display: inline;
+    font-weight: 700;
+  }
+  .plan-print dd {
+    display: inline;
+    margin: 0;
+    white-space: pre-wrap;
   }
   body:not(.plan-reviewed) .print-needed {
     display: block;

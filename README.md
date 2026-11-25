@@ -37,7 +37,7 @@ node --test scripts/test_trip_plan.mjs
 
 `resources.html` gathers the online trip planner, blank print sheet, A6 sign preview/PDF and website QR. It is linked from the shared footer and About.
 
-`trip-plan.html` uses browser-only form processing. It does not submit entries to a server or save them in site storage. Users review the generated text, copy it, open a plain-text email draft or print it. The website cannot confirm sending/receipt or monitor returns. E-mail handoff uses a conservative 2,000-character encoded-URI ceiling; longer plans retain their complete text for copying/printing. This is an app policy, not a claim that all mail clients share a specific limit. No attachment is added. Without JavaScript, the existing blank sheet remains available.
+`trip-plan.html` uses browser-only form processing. It does not submit entries to a server or save them in site storage. Users review the generated text, copy it, open a plain-text email draft or print it. The print view uses compact labels and values from the same shared field formatting, rather than reproducing the plain text's blank lines. Short and normal filled examples fit one A4/Letter page; long notes continue without clipping. The website cannot confirm sending/receipt or monitor returns. E-mail handoff uses a conservative 2,000-character encoded-URI ceiling; longer plans retain their complete text for copying/printing. This is an app policy, not a claim that all mail clients share a specific limit. No attachment is added. Without JavaScript, the existing blank sheet remains available.
 
 ## Presentation practice
 

@@ -20,9 +20,9 @@
     />
     <link href="styles.css?v=presentation-1" rel="stylesheet" />
     <link rel="stylesheet" href="resources.css" />
-    <link rel="stylesheet" href="trip-plan.css" />
+    <link rel="stylesheet" href="trip-plan.css?v=compact-print-1" />
     <script defer="" src="script.js?v=redesign-1"></script>
-    <script type="module" src="trip-plan.mjs"></script>
+    <script type="module" src="trip-plan.mjs?v=compact-print-1"></script>
   </head>
   <body data-page="trip-plan">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -425,10 +425,11 @@
             <p class="share-note">
               If no email app opens, copy the plan into your email or a message
               instead. A long plan may need to be copied rather than opened as
-              an email draft. Printed plans may use more than one page.
+              an email draft. Printed plans use a compact layout. Long notes may
+              need extra pages.
             </p>
           </section>
-          <pre class="plan-print" id="plan-print"></pre>
+          <div class="plan-print" id="plan-print"></div>
           <p class="print-needed">
             Complete the required fields and review your plan before printing.
             You can also use the
