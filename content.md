@@ -1204,6 +1204,8 @@ A simple English outline. Choose the parts and demos that help you explain your 
 
 Demo links open a new tab. Come back here to continue practising; no pages open automatically.
 
+[Short cue sheet ↓](#cue-sheet)
+
 Practise one part · Previous · Next · All parts · Part {number} of {total}: {title}
 
 Parts to practise: [The project](#the-project) · [The audience](#the-audience) · [The sources](#the-sources) · [The page structure](#the-structure) · [The Trip Plan](#the-trip-plan) · [The QR idea](#the-qr-idea) · [Choices and next steps](#choices-and-next-steps)
@@ -1284,6 +1286,29 @@ Optional testing note: email and QR functions were checked and accepted for this
 If you are using a poster: point to its main sections and QR code. You can use the same talking points without a live website demo. A poster layout is available if you need a reference.
 
 [Open the poster layout](pdfs/trifold.html) · [Open About this project](about.html#why-this-site)
+
+#### Short cue sheet
+
+Practise with the full notes first. Then use these prompts in your own words, or copy them to your phone notes.
+
+1. Project — Sea-to-Sky day trips; prepare and respond.
+   Show: Home — preparation / Help now.
+2. Audience — beginners and visitors; route fits the group.
+   Show: Before your trip — planning / conditions.
+3. Sources — Squamish SAR interviews + public guidance.
+   Show: About — interviews / sources / real stories.
+4. Structure — plan → pack → risks → help; saved packing ticks.
+   Show: Essentials & activities / turnaround advice.
+5. Trip Plan — trusted contact; return ≠ calling deadline. No saved entries or return monitoring.
+   Show: Trip Plan — made-up details; review → copy/email.
+6. QR — sign concept → Quick reminders; phone layout.
+   Show: Print & share → Quick reminders.
+7. Choices — clear access; source checks; AI support; translations later.
+   Show: poster layout or About; invite questions.
+
+Copy cue sheet
+
+Cue-sheet copy feedback: Copied. Paste the cue sheet into your phone notes. / Copy is unavailable. The notes are selected; copy them manually.
 
 This is not an official rescue site. In an emergency, call 9-1-1.
 

@@ -137,11 +137,59 @@
   font-size: 13px;
   font-weight: 700;
 }
+.cue-sheet-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.cue-sheet {
+  margin-block: 40px 24px;
+  padding: 28px 32px;
+  background: var(--soft);
+  border-top: 4px solid var(--pine);
+  scroll-margin-top: calc(var(--header-height) + 24px);
+}
+.cue-sheet h2 {
+  margin-bottom: 16px;
+  font-size: 28px;
+}
+.cue-sheet > p {
+  font-size: 14px;
+}
+.cue-feedback:empty {
+  display: none;
+}
+.cue-feedback {
+  margin-top: 12px;
+}
+.cue-list {
+  margin: 24px 0 0;
+  padding-left: 24px;
+  font-size: 16px;
+}
+.cue-list li {
+  margin-bottom: 16px;
+  padding-left: 4px;
+}
+.cue-list li:last-child {
+  margin-bottom: 0;
+}
+.cue-list p {
+  margin: 0;
+}
+.cue-list .cue-show {
+  margin-top: 4px;
+  font-size: 14px;
+  color: var(--muted);
+}
 @media (max-width: 560px) {
   .presentation-parts ol {
     grid-template-columns: minmax(0, 1fr);
   }
-  .presentation-part {
+  .presentation-part,
+  .cue-sheet {
     padding: 24px 20px;
   }
   .presentation-part h2 {
@@ -153,7 +201,10 @@
 }
 @media print {
   .practice-controls,
-  .presentation-parts {
+  .presentation-parts,
+  .cue-sheet-link,
+  #copy-cues,
+  .cue-feedback {
     display: none !important;
   }
   .presentation-part[hidden] {

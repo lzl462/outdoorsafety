@@ -20,9 +20,9 @@
       type="font/ttf"
     />
     <link href="styles.css?v=presentation-1" rel="stylesheet" />
-    <link rel="stylesheet" href="presentation.css" />
+    <link rel="stylesheet" href="presentation.css?v=cue-sheet-1" />
     <script defer="" src="script.js?v=redesign-1"></script>
-    <script type="module" src="presentation.mjs"></script>
+    <script type="module" src="presentation.mjs?v=cue-sheet-1"></script>
   </head>
   <body data-page="presentation">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -136,6 +136,7 @@
           Demo links open a new tab. Come back here to continue practising; no
           pages open automatically.
         </p>
+        <a class="cue-sheet-link" href="#cue-sheet">Short cue sheet ↓</a>
       </header>
       <div class="rehearsal-body">
         <div
@@ -454,6 +455,83 @@
               >Open About this project <span aria-hidden="true">↗</span></a
             >
           </div>
+        </section>
+        <section class="cue-sheet" id="cue-sheet" aria-labelledby="cue-heading">
+          <h2 id="cue-heading">Short cue sheet</h2>
+          <p>
+            Practise with the full notes first. Then use these prompts in your
+            own words, or copy them to your phone notes.
+          </p>
+          <button
+            class="button button-dark"
+            type="button"
+            id="copy-cues"
+            hidden
+          >
+            Copy cue sheet
+          </button>
+          <p class="cue-feedback" id="cue-feedback" role="status"></p>
+          <ol class="cue-list" id="cue-list" tabindex="-1">
+            <li>
+              <p class="cue-topic">
+                <strong>Project</strong> — Sea-to-Sky day trips; prepare and
+                respond.
+              </p>
+              <p class="cue-show">Show: Home — preparation / Help now.</p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Audience</strong> — beginners and visitors; route fits
+                the group.
+              </p>
+              <p class="cue-show">
+                Show: Before your trip — planning / conditions.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Sources</strong> — Squamish SAR interviews + public
+                guidance.
+              </p>
+              <p class="cue-show">
+                Show: About — interviews / sources / real stories.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Structure</strong> — plan → pack → risks → help; saved
+                packing ticks.
+              </p>
+              <p class="cue-show">
+                Show: Essentials &amp; activities / turnaround advice.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Trip Plan</strong> — trusted contact; return ≠ calling
+                deadline. No saved entries or return monitoring.
+              </p>
+              <p class="cue-show">
+                Show: Trip Plan — made-up details; review → copy/email.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>QR</strong> — sign concept → Quick reminders; phone
+                layout.
+              </p>
+              <p class="cue-show">Show: Print &amp; share → Quick reminders.</p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Choices</strong> — clear access; source checks; AI
+                support; translations later.
+              </p>
+              <p class="cue-show">
+                Show: poster layout or About; invite questions.
+              </p>
+            </li>
+          </ol>
         </section>
       </div>
     </main>

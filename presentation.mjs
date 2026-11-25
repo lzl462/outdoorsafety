@@ -76,3 +76,41 @@ if (
   update(false);
   controls.hidden = false;
 }
+
+// Copy the visible prompts so there is only one cue-sheet text to maintain.
+const cueList = document.querySelector("#cue-list");
+const copyCues = document.querySelector("#copy-cues");
+const cueFeedback = document.querySelector("#cue-feedback");
+
+if (cueList && copyCues && cueFeedback) {
+  copyCues.addEventListener("click", async () => {
+    const notes = [...cueList.children]
+      .map((item, number) => {
+        const topic = item
+          .querySelector(".cue-topic")
+          .textContent.trim()
+          .replace(/\s+/g, " ");
+        const show = item
+          .querySelector(".cue-show")
+          .textContent.trim()
+          .replace(/\s+/g, " ");
+        return `${number + 1}. ${topic}\n${show}`;
+      })
+      .join("\n\n");
+    try {
+      await navigator.clipboard.writeText(notes);
+      cueFeedback.textContent =
+        "Copied. Paste the cue sheet into your phone notes.";
+    } catch {
+      cueList.focus({ preventScroll: true });
+      const range = document.createRange();
+      range.selectNodeContents(cueList);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      cueFeedback.textContent =
+        "Copy is unavailable. The notes are selected; copy them manually.";
+    }
+  });
+  copyCues.hidden = false;
+}
