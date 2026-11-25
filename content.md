@@ -227,3 +227,66 @@ Not created yet. Liz creates the account herself. Draft name: Outdoor Safety —
 1. Not doing your research. Can you really do that hike?
 2. Not being prepared for emergencies.
 3. Underestimating nature and overestimating yourself. Know your limits.
+
+---
+
+## About page (draft, for Liz to review)
+
+Draft wording only. Do not put this on the website until Liz has reviewed it. Do not quote Christine Strub here until she has reviewed the text.
+
+The school name is left blank on purpose. Add it if you want it on the page.
+
+### Why this site exists
+
+Hi, I’m Liz. I made this website as a school capstone project here in the Sea-to-Sky area of British Columbia.
+
+I started it because a page like this matters. In 2026, I kept hearing about people who went into the backcountry unprepared. Some of them were very lucky. The local rescue teams were busy.
+
+One weekend in June 2026, Sea to Sky RCMP and Squamish Search and Rescue were tasked to five calls in the Squamish area. Four of those calls came in seven hours. By early August 2026, Pemberton Search and Rescue had already reached its 50th call of the year, 40 percent more than at the same time the year before.
+
+I wanted a simple place, in plain words, that helps people get ready before they go, and know what to do if something goes wrong.
+
+### What you will find here
+
+- Before you leave: a trip plan to fill in and leave with someone you trust.
+- Pack lists: hiking, biking, climbing, and winter.
+- Be aware: things to watch for on a Sea-to-Sky trip.
+- Tips: short safety tips.
+- What to do if: if you are lost, if someone is hurt, if there is an avalanche, or if you are in the water.
+- No cell service: what to do when a phone has no signal.
+- Emergency numbers: who to call.
+- Common mistakes: what to avoid.
+
+### Where the information comes from
+
+The sentences on this site are ours. The facts were checked against public advice from Squamish Search and Rescue, Sea to Sky RCMP, AdventureSmart, and the Squamish-Lillooet Regional District.
+
+The pack lists come from lists already used in this project. The emergency numbers were checked against official sources.
+
+This is not an official page of those organizations.
+
+### Interview with Christine Strub
+
+*(Placeholder only. Christine Strub, Prevention Team Coordinator with Squamish Search and Rescue, answered written interview questions in October 2026. She said it is okay to quote her answers with her name and role, but she would like to review the text before it goes live. Do not add her quotes until that review is done.)*
+
+I asked Christine Strub of Squamish Search and Rescue some questions for this project. Her advice will be added here after she has reviewed it.
+
+### Disclaimer
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+### Notes and sources for this draft (not for the live page)
+
+2026 figures used in the draft:
+
+- Five SAR calls over the weekend of 20–21 June 2026 (four in seven hours on 20 June) in the Squamish area: Sea to Sky RCMP, 24 June 2026, https://rcmp.ca/en/bc/squamish/news/2026/06/4354387 and CBC News, 23 June 2026, https://www.cbc.ca/news/canada/british-columbia/squamish-search-and-rescue-fatality-backcountry-9.7245932
+- Pemberton SAR’s 50th call of 2026 by early August, and a 40 percent increase compared with the same time the year before: Pique Newsmagazine, 6 August 2026, https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133
+
+Not used in the draft, for Liz to decide:
+
+- One of the five June weekend calls was fatal (a 31-year-old man in a waterfall system east of Britannia Beach). The same RCMP and CBC sources as above. The draft does not mention this, because the “very lucky” wording should not be tied to a death.
+- CBC also reported that death as the seventh recorded in the Sea-to-Sky region since April 2026. Same CBC article.
+- The RCMP release does not say those five calls happened because people were unprepared. Do not add that claim.
+- A 2022–2023 trailhead study found preparedness gaps among Sea-to-Sky recreationists, but it is not 2026 data, so it was left out: https://doi.org/10.1177/10806032261495966
+
+The Be aware source line, taken off that page earlier, is reused in “Where the information comes from”: “The facts were checked against public advice from Squamish Search and Rescue, Sea to Sky RCMP, AdventureSmart, and the Squamish-Lillooet Regional District. The sentences are ours.”

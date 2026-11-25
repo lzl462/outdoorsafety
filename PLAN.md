@@ -48,7 +48,7 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - [ ] **Later** — More pictures, quotes, and stories only when Liz has the real words and the photo has a name.
 - [ ] **Later** — Clean up the image files at the end. Not before the content work in this plan is done. Be aware and What to do if embed large photos as base64, which is why those files are big.
 
-- [ ] **Liz** — About page: one new page about the website itself. Liz decides the content. Possible parts: who made it and why (capstone project), the sources the site is based on (the Be aware source line can return here), the interview with Christine Strub (only after she has reviewed it), and the note that this is not an official rescue site. Draft wording goes in `content.md` first.
+- [ ] **Liz** — About page: one new page about the website itself. Liz decides the content. Main focus (Liz, Nov 24): why a site like this matters and what made Liz start it: a school capstone project from the Sea-to-Sky area, because in 2026 there were many incidents where people went into the wilderness unprepared and were very lucky. Specific incidents only from real sources, none invented. Other possible parts: the sources the site is based on (the Be aware source line can return here), the interview with Christine Strub (only after she has reviewed it), and the note that this is not an official rescue site. Draft wording goes in `content.md` first.
 
 ## 2. Website technical
 

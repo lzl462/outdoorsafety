@@ -39,3 +39,7 @@ There is now one fill-in trip plan. Extra fields from the older leave-behind for
 ## 2026-11-24 (evening)
 
 An About page was added to the plan as a Liz item. Reason: Liz wants a page about the website. She decides its content.
+
+The About page item now states its main focus: why the site matters and Liz's motivation (Sea-to-Sky capstone project, many 2026 incidents with unprepared people who were lucky).
+
+A draft of the About page wording was added to `content.md` for Liz to review. Reason: Liz asked for the rest of the About content to be drafted from her note about why the page matters. The draft is not on the website yet.
