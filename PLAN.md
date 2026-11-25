@@ -48,6 +48,8 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - [ ] **Later** — More pictures, quotes, and stories only when Liz has the real words and the photo has a name.
 - [ ] **Later** — Clean up the image files at the end. Not before the content work in this plan is done. Be aware and What to do if embed large photos as base64, which is why those files are big.
 
+- [ ] **Liz** — About page: one new page about the website itself. Liz decides the content. Possible parts: who made it and why (capstone project), the sources the site is based on (the Be aware source line can return here), the interview with Christine Strub (only after she has reviewed it), and the note that this is not an official rescue site. Draft wording goes in `content.md` first.
+
 ## 2. Website technical
 
 - [ ] **Ready** — Responsive, mobile-first design. The site must work well and adapt automatically on iOS devices from iPhone to iPad, and in normal desktop browsers. A PWA is optional.

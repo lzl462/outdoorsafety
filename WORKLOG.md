@@ -35,3 +35,7 @@ There is now one fill-in trip plan. Extra fields from the older leave-behind for
 
 
 `interviews/` was added: Christine Strub's written interview answers (Squamish SAR, Oct 27 2026) as Markdown, and three audio recordings from Nov 5. Not linked from the site. Her phone number and postal address from the email signature were left out because the repository is public. Reason: keep the interview material with the project for the portfolio and later quotes.
+
+## 2026-11-24 (evening)
+
+An About page was added to the plan as a Liz item. Reason: Liz wants a page about the website. She decides its content.
