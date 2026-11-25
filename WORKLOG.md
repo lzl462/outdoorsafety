@@ -33,3 +33,5 @@ There is now one fill-in trip plan. Extra fields from the older leave-behind for
 
 `AGENTS.md` and `PLAN.md` now allow pack lists on the site when the items already exist in the repository or come from a verified source. The plan item to make the hike, ride, and climb plans less alike is marked obsolete. The no-service page and the leftover-files item are done. A Later item was added for a Print/PDF feature.
 
+
+`interviews/` was added: Christine Strub's written interview answers (Squamish SAR, Oct 27 2026) as Markdown, and three audio recordings from Nov 5. Not linked from the site. Her phone number and postal address from the email signature were left out because the repository is public. Reason: keep the interview material with the project for the portfolio and later quotes.
