@@ -1,250 +1,813 @@
 # Website texts
 
-Public wording for the static site. Edit the words here before updating the HTML. The website displays information; visitors do not edit it. Site text stays in English.
+Public wording for the static site. Edit the words here before updating the HTML. Site text stays in English. The redesign preserves the approved safety guidance and source distinctions.
 
-## Shared disclaimer
+## Shared interface copy
+
+[Skip to content](#main-content)
+
+Sea-to-Sky, British Columbia
+
+[In an emergency, call **9-1-1**](tel:911)/[No signal?](no-service.html#need-help)
+
+[OUTDOOR SAFETYSEA-TO-SKY](index.html)
+
+[Prepare](checklists.html) [Know the risks](be-aware.html) [Our story](about.html)
+
+[Help nowHelp](if.html#main-content)
+
+**Menu**
+
+[Home](index.html)
+
+Prepare
+
+[Before you leave](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
+
+Get help
+
+[What to do if…](if.html) [No cell service](no-service.html) [Emergency numbers](emergency.html)
+
+Learn
+
+[About this project](about.html) [Common mistakes](mistakes.html) [Quick reminders](tips.html)
+
+More preparation.
+More perspective.
+
+A school capstone by Liz.
+Made for the Sea-to-Sky.
+
+Prepare
+
+[Before you leave](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
+
+Get help
+
+[What to do if…](if.html) [No cell service](no-service.html) [Emergency numbers](emergency.html)
+
+Learn
+
+[About this project](about.html) [Common mistakes](mistakes.html) [Quick reminders](tips.html)
 
 This is not an official rescue site. In an emergency, call 9-1-1.
 
-Use this sentence on every public page and print sheet. Write 9-1-1 with hyphens.
+[Photo credits](about.html#photo-credits) [Back to top ↑](#main-content)
 
-## Shared navigation
+Print this guide; On this page; Keep going; The next step; If you cannot connect.
 
-Home; Before you leave; Essentials & activity notes; Be aware; What to do if…; No cell service; Emergency numbers; Common mistakes; Quick reminders; About this project.
+Packing interaction: “{checked} of {total} checked”; “Clear checks”; “Saved in this browser.”; “Checks stay in this tab.” Tick off the essentials as you pack. Match them to your activity and conditions. The count describes checked groups, not a guarantee of trip readiness.
 
 ---
 
 ## Home
 
-Page: `index.html`
+Page: index.html
 
-Plain-English preparation for beginners and visitors planning day trips in the Sea-to-Sky area of British Columbia, with short guidance for when something goes wrong.
+A little planning goes a long way
 
-### Need help now?
+### Big days.
+Better prepared.
+
+Plain-English preparation for beginners and visitors planning day trips in the Sea-to-Sky area of British Columbia.
+
+[Plan your trip](checklists.html) [Need help now?](if.html#main-content)
+
+[Hiking](pack-lists.html#hiking) [Biking](pack-lists.html#biking) [Climbing](pack-lists.html#climbing) [Winter](pack-lists.html#winter)
+
+Stawamus Chief · Squamish[Photo: James Abbott](about.html#photo-credits)
+
+Harmony Lakes Loop · Whistler
+
+01 / Before you go
+
+#### The good part starts
+with a plan.
+
+You choose the adventure. Start with these three things.
+
+[01**Make a plan**Choose a realistic route. Leave it with someone reliable.](checklists.html)
+[02**Take the essentials**Prepare for your activity, the conditions and an unexpected wait.](pack-lists.html)
+[03**Know when to turn around**Watch the weather, the time and the people you are with.](be-aware.html)
+
+02 / When plans change
+
+#### Pause. Get help.
+Have a next step.
 
 In an emergency, call [9-1-1](tel:911) and follow the call taker’s instructions.
 
-[Lost, hurt, avalanche or water](if.html#main-content) · [No cell service](no-service.html#need-help) · [Emergency numbers](emergency.html#main-content)
+[I’m lost](if.html#lost) [Someone is hurt](if.html#hurt) [Avalanche](if.html#avalanche) [Trouble in the water](if.html#water) [No cell service](no-service.html#need-help) [Emergency numbers](emergency.html)
 
-### Prepare a trip
-
-- [**Before you leave** Plan the route and leave a printable trip plan with someone reliable](checklists.html)
-- [**Shared essentials and activity notes** Emergency preparation, with considerations for hiking, biking, climbing and winter](pack-lists.html)
-- [**Be aware** Local risks, conditions and when to turn around](be-aware.html)
-
-### Learn from local experience
+From local rescuers
 
 Don't go beyond your means (be honest) and make/leave a solid trip plan.
 
-[Christine Strub](about.html#interviews), Prevention Team Coordinator, Squamish Search and Rescue
+[Christine Strub](about.html#interviews)Prevention Team Coordinator, Squamish Search and Rescue
 
-- [**A Squamish hike that became five nights lost** A reported 2026 case, plus a biking example and the project’s local interviews](about.html#hiker-story)
-- [**Common mistakes** Common assumptions and better choices](mistakes.html)
-- [**Quick reminders** Short summaries linked to the main advice](tips.html)
+Howe Sound, British Columbia · Regional landscape
 
-This is not an official rescue site. In an emergency, call 9-1-1.
+03 / Real local experience
+
+#### A day hike.
+Five nights lost.
+
+The 2026 Mount Habrich case, an experienced rider’s rescue, and the local voices behind this project.
+
+[Read the stories](about.html#hiker-story)
+
+[Common mistakes](mistakes.html) [Quick reminders](tips.html) [About this project](about.html)
 
 ---
 
 ## Before you leave
 
-Page: `checklists.html`
+Page: checklists.html
 
-[← Home](index.html)
+[Home](index.html)/Prepare
+
+Prepare / Before you leave
+
+### Before you leave
 
 A good trip starts with a realistic plan, the skills to follow it, and equipment you know how to use.
 
-### Make and leave your trip plan
+[Printable trip plan](pdfs/before-you-leave.html)
+
+On this page
+
+[The three T’s](#three-ts) [Check the conditions for your actual route](#check-conditions) [Four checks before you go](#four-checks) [Give your contact a job, not just a destination](#your-contact)
+
+Print this guide
+
+#### Make and leave your trip plan
 
 This is a one-page printable sheet to fill in by hand. Print it, write the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
 
 [Printable trip plan](pdfs/before-you-leave.html)
 
-### Pack for more than the planned trip
+#### Pack for more than the planned trip
 
 Bring the shared essentials as well as what your activity and the conditions need. Prepare to stay warm if you have to stop or wait for help.
 
 [Essentials & activities](pack-lists.html)
 
-### The three T’s
+#### The three T’s
 
 - **Trip Planning:** check the route, elevation gain, mountain weather, terrain, water, access, and the return journey.
+
 - **Training:** choose a trip that matches everyone’s fitness and experience. Know how to navigate, use your equipment, and respond if something goes wrong.
+
 - **Taking the Essentials:** bring the shared emergency basics, then add what your particular trip needs.
 
 AdventureSmart explains [the three T’s](https://www.adventuresmart.ca/the-three-ts/) and offers the [Survive Outside program](https://www.adventuresmart.ca/programs/survive-outside/).
 
-### Check the conditions for your actual route
+#### Check the conditions for your actual route
 
 - **Route and closures:** check the land manager or route operator’s current trail information. For provincial parks, start with [BC Parks’ park finder](https://bcparks.ca/find-a-park/) and [active advisories](https://bcparks.ca/active-advisories/).
+
 - **Weather:** check [Environment and Climate Change Canada](https://weather.gc.ca/) for your destination and warnings. Consider elevation and exposed terrain, not only the weather in town.
+
 - **Road access:** check [DriveBC](https://www.drivebc.ca/) for highway conditions and confirm the final access road with the route operator or land manager.
+
 - **Avalanche terrain:** check the current [Avalanche Canada forecast](https://avalanche.ca/) and choose terrain within your training.
 
 Check again before leaving. These links lead to current information; this site does not reproduce live forecasts or closure notices.
 
-### Four checks before you go
+#### Four checks before you go
 
 - Can everyone in your group manage the distance, elevation gain, terrain, and return journey?
+
 - When will you turn around, and what changes would make you turn around sooner?
+
 - Who has your plan, and when have you agreed they should call 9-1-1 if you have not returned or checked in?
+
 - What will keep you warm and help you call for help if the trip takes longer than expected?
 
-### Give your contact a job, not just a destination
+#### Give your contact a job, not just a destination
 
 Leave the plan with someone reliable, including on a short or familiar trip. Make sure they know the route and the return or check-in time you agreed on. If you miss that arrangement, they should call 9-1-1 and share your plan.
 
 Check in when you return. Think about [communication without cell service](no-service.html) before you leave.
 
-This is not an official rescue site. In an emergency, call 9-1-1.
+The next step
+
+[Essentials & activities](pack-lists.html)
 
 ---
 
-## Shared essentials and activity notes
+## Essentials & activities
 
-Page: `pack-lists.html`
+Page: pack-lists.html
 
-[← Home](index.html)
+[Home](index.html)/Prepare
+
+Prepare / Essentials & activities
+
+### Essentials & activities
 
 Shared emergency essentials come first, followed by activity considerations. The activity notes are not complete sport-equipment checklists. Match equipment and skills to your route and conditions.
 
+On this page
+
 [Shared essentials](#essentials) [Hiking](#hiking) [Biking](#biking) [Climbing](#climbing) [Winter](#winter)
 
-### Shared essentials
+Print this guide
+
+#### Shared essentials
 
 These ten groups come from AdventureSmart and the project’s existing lists. They apply to a ride or climb as well as a hike.
 
+Tick off the essentials as you pack. Match them to your activity and conditions.
+
+Clear checks
+
 - **Light:** a headlamp and spare batteries.
+
 - **Fire-making kit:** matches or a lighter and a fire starter. Learn to use them and check fire restrictions.
+
 - **Signalling:** a whistle or signalling mirror.
+
 - **Extra food and water:** plan enough for the route, conditions, and an unexpected delay.
+
 - **Extra clothing:** warm layers and a rain shell. Pack for being still, not only for moving.
+
 - **Navigation and communication:** a map, compass, and the skills to use them; download offline maps and plan a suitable way to call for help.
+
 - **First aid kit:** know how to use it.
+
 - **Emergency shelter:** an emergency blanket or shelter.
+
 - **Pocket knife or multi-tool.**
+
 - **Sun protection:** sunglasses, sunscreen, and a hat.
 
 If you rely on personal medication, bring it. Bring spare glasses or contacts if you cannot see well without them. Christine Strub highlighted these personal needs in her interview.
 
 See [AdventureSmart’s essentials](https://www.adventuresmart.ca/the-three-ts/#takingtheessentials) and [plan your communication backup](no-service.html).
 
-### Hiking
+#### Hiking
 
 - Wear trail shoes or boots with grip.
+
 - Check for snow or ice; bring suitable traction and know its limits. Turn back if the conditions exceed your equipment or skills.
+
 - Pack food and garbage away. If carrying bear spray, know how to use it and where it is permitted.
+
 - Leave time for the descent and set a turnaround time before you start.
 
-### Biking
+#### Biking
 
 Take the shared essentials even on a familiar ride. This is an emergency-preparation list, not a complete bike-equipment checklist.
 
 - Keep your food and garbage packed away.
+
 - Slow down where the view is blocked. Keep dogs leashed and close, and respect areas where pets are not allowed.
+
 - Leave your route and check-in time with someone, especially when riding alone.
 
 [Read the experienced rider’s story](about.html#rider-story).
 
-### Climbing
+#### Climbing
 
 Take the shared essentials. This is an emergency-preparation list, not a complete climbing-equipment checklist; it does not cover ropes, helmets, or the skills needed to use climbing equipment.
 
 - Check the approach, descent, weather, and how long the whole trip will take.
+
 - Match footwear and equipment to the conditions on the approach and return.
+
 - If the route crosses avalanche terrain, get the relevant training and equipment before going.
 
-### Winter
+#### Winter
 
 Take the shared essentials as well as what the winter conditions require.
 
-#### Check before you go
+##### Check before you go
 
 - Read the mountain weather forecast and the [Avalanche Canada forecast](https://avalanche.ca/).
+
 - Check [DriveBC](https://www.drivebc.ca/) for access conditions. A resort boundary is not a safety boundary.
+
 - Choose a route that matches the group’s winter skills and the conditions.
 
-#### If your trip enters avalanche terrain
+##### If your trip enters avalanche terrain
 
 - Everyone needs an avalanche transceiver, shovel, and probe, and practice using them. A transceiver sends a signal that other transceivers can search for; a probe helps pinpoint a buried person under the snow.
+
 - Wear the transceiver on your body and check it before the trip.
+
 - Travel with trained partners; do not go alone in avalanche terrain.
+
 - Take avalanche training suited to the trip. Read [Avalanche Canada’s learning material](https://avysavvy.avalanche.ca/).
 
-This is not an official rescue site. In an emergency, call 9-1-1.
+Keep going
+
+[Before you leave](checklists.html)
 
 ---
 
 ## Be aware
 
-Page: `be-aware.html`
+Page: be-aware.html
 
-[← Home](index.html)
+[Home](index.html)/Prepare
+
+Prepare / Be aware
+
+### Be aware
 
 What to watch for on a Sea-to-Sky trip. Written in our own words.
 
-### 1. The trip has to match the people
+On this page
+
+[The trip has to match the people](#the-trip-has-to-match-the-people) [Town weather can lie](#town-weather-can-lie) [Snow can linger up high](#snow-can-linger-up-high) [Some slopes can slide](#some-slopes-can-slide) [Cold water and rising creeks](#cold-water-and-rising-creeks) [You are in their home](#you-are-in-their-home) [Your phone is a weak plan](#your-phone-is-a-weak-plan) [The road out can fail](#the-road-out-can-fail) [Dark arrives on its own clock](#dark-arrives-on-its-own-clock) [When to turn around](#turn-around)
+
+Print this guide
+
+01
+
+#### The trip has to match the people
 
 A well-known trail can still be too far or too steep for your group. Check distance, elevation gain, terrain, and time for the return. A strong hiker may still be a beginner on a mountain bike. Start with an easier trip in a new sport or at the beginning of a season. Ask people who have done the route and check reliable route information.
 
-### 2. Town weather can lie
+02
+
+#### Town weather can lie
 
 The street can look sunny while the trail is already cold and wet. Read a forecast for the mountain, not only for town. Take a warm layer and a jacket that blocks rain. You can cool down quickly once you stop, especially in sweaty clothes. A very hot day is a problem too.
 
-Bridge photo: [Cloudraker Skybridge](https://commons.wikimedia.org/wiki/File:Cloudraker_Skybridge,_Whistler_Mountain_-_29547284798.jpg) on Whistler Mountain by [GoToVan](https://www.flickr.com/photos/gotovan/29547284798/), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Resized.
+03
 
-### 3. Snow can linger up high
+#### Snow can linger up high
 
 The valley can be green while the upper trail still has snow or ice. If your shoes, equipment, or skills do not match the conditions, head back down.
 
-### 4. Some slopes can slide
+04
+
+#### Some slopes can slide
 
 Avalanche terrain is not only for skiers. Some walking routes cross it. Check the Avalanche Canada forecast and get the relevant training before entering avalanche terrain. Rescue can take time; prepare to stay warm while waiting.
 
-### 5. Cold water and rising creeks
+05
+
+#### Cold water and rising creeks
 
 Howe Sound, creeks, and alpine lakes stay cold even when the air feels warm. Wear a lifejacket or personal flotation device (PFD) on the water. Rain and snowmelt can raise a creek after you have crossed it. Avoid fast or rising water; choose a safer route or wait in a safe place. See [Parks Canada’s stream-crossing advice](https://parks.canada.ca/pn-np/ab/jasper/activ/passez-stay/arrierepays-backcountry/securite-safety).
 
-### 6. You are in their home
+06
+
+#### You are in their home
 
 Bears and cougars use these trails. Talk while you walk, especially on a bend you cannot see around and beside a creek. Leave them space. Pack food and garbage away. Do not step closer for a photo. On a bike or a run, slow down where the view is blocked. Keep dogs leashed and close, and respect areas where pets are not allowed. Spray only helps if you already know how to use it. Read [BC Parks’ wildlife guidance](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) before the trip.
 
-Trail photo: [Harmony Lakes Loop trail](https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg) on Whistler Mountain by [Ruth Hartnup](https://www.flickr.com/people/95142644@N00), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Resized.
+07
 
-### 7. Your phone is a weak plan
+#### Your phone is a weak plan
 
 Reception at the car does not mean you will have signal on the trail. Download maps before leaving and save battery for emergency communication. A GPS position can help you navigate, but does not itself send a request for help. Plan a suitable backup and leave your trip plan with someone reliable. See [No cell service](no-service.html).
 
-### 8. The road out can fail
+08
+
+#### The road out can fail
 
 A forest road can be rough, blocked by a gate, or buried in snow. Check access and the journey home as part of your trip plan. Do not count on the car getting you out once it is dark.
 
-### 9. Dark arrives on its own clock
+09
+
+#### Dark arrives on its own clock
 
 Set a clock time to turn around and leave enough time for the return. Watch your progress as well as the clock. It gets darker sooner in the forest than in open ground. Carry a headlamp. If fog or cloud hides the route, stop in a safe place and reassess; if you are lost, [call for help early](if.html#lost).
 
-### When to turn around
+#### When to turn around
 
 - Turn around when you reach the agreed time or turnaround point, even if the destination looks close.
+
 - Turn around before the group is exhausted; going down also takes energy and concentration.
+
 - Reconsider the trip if the weather, terrain, or progress no longer matches your plan.
+
 - Take unease seriously. If people disagree or pressure each other, stop and reconsider together.
 
 Make this decision easier before the trip: [use the four planning checks](checklists.html#four-checks).
 
-This is not an official rescue site. In an emergency, call 9-1-1.
+Keep going
+
+[Before you leave](checklists.html)
+
+---
+
+## What to do if…
+
+Page: if.html
+
+[Home](index.html)/Get help
+
+Get help / What to do if…
+
+### What to do if…
+
+Immediate actions first. Stay calm and follow the call taker’s instructions.
+
+On this page
+
+[If you are lost](#lost) [If someone is hurt](#hurt) [If there is an avalanche](#avalanche) [If someone is in the water](#water) [While you wait for help](#waiting-for-help)
+
+Print this guide
+
+#### Lost or hurt? Call [9-1-1](tel:911)
+
+Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
+
+#### If you are lost
+
+- Stop. Do not keep walking to find the route.
+
+- Stay with your group in that spot unless it is unsafe.
+
+- Call [9-1-1](tel:911). Share your location and what has happened; follow the call taker’s instructions.
+
+- Give your GPS position if you can, the route, and where you started.
+
+- Put on warm layers. Use three whistle blasts to signal for help.
+
+- Do not guess a downhill route through unfamiliar terrain. Staying put when safe helps searchers narrow the area they need to search.
+
+#### If someone is hurt
+
+- Check that it is safe to help.
+
+- Check whether the person responds and is breathing normally. Tell the 9-1-1 call taker immediately if they are not.
+
+- Call [9-1-1](tel:911). Follow life-saving first-aid instructions, including CPR (cardiopulmonary resuscitation) if needed.
+
+- For life-threatening bleeding, apply firm, direct pressure immediately while help is called.
+
+- Avoid unnecessary movement. Protecting the airway and giving life-saving care take priority. Keep the person warm and monitor their condition.
+
+- Share your location, what happened, the injuries, how many people are with you, the weather, and your phone number.
+
+- If you cannot connect, use your first-aid training and see [No cell service](no-service.html#need-help).
+
+[Canadian Red Cross: Check, Call, Care](https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/cpr_learner_guide_en.pdf).
+
+#### If there is an avalanche
+
+##### If you are caught
+
+Shout “avalanche” to alert others. Try to escape to the side and stay near the surface, following your avalanche training.
+
+##### If a companion is buried
+
+Watch for further avalanche danger before entering. Companion rescue means your group searches for and digs out a buried person; it is urgent. Use your training and equipment immediately.
+
+- An extra person can call 9-1-1 or send an SOS without interrupting the rescue. Keep that caller at least 10 metres from transceiver searchers to reduce electronic interference.
+
+- If there is no extra rescuer, Avalanche Canada advises calling after the victims have been recovered.
+
+This is a reminder, not the full procedure. Learn and practise [Avalanche Canada’s companion-rescue procedure](https://avysavvy.avalanche.ca/en-ca/when-to-call-for-help) before the trip.
+
+#### If someone is in the water
+
+##### If you fall in
+
+- Keep your mouth and nose above water and control your breathing. A lifejacket or personal flotation device (PFD) helps keep you afloat.
+
+- Once your breathing is under control, look for a safe way out. Get out if you can do so safely; otherwise hold on to flotation, signal for help, and conserve energy.
+
+- Cold water can quickly affect your movement. Do not exhaust yourself trying to swim a long distance to shore.
+
+##### If someone else is in trouble
+
+- Call 9-1-1. Stay out of the water.
+
+- From a stable, safe place, talk to them, reach with an object, or throw something that floats. Avoid being pulled in yourself.
+
+Read [cold-water advice](https://csbc.ca/cold-water/) and the [Lifesaving Society’s rescue approach](https://sauvetage.qc.ca/en/services/developpment/ladder-approach).
+
+#### While you wait for help
+
+Help may take time to reach you. Put on extra layers before you get cold, especially if your clothes are wet from sweat. Keep the group together in a safe place, use your emergency blanket or shelter, and follow instructions from the call taker or rescue team.
+
+Volunteers have to gather, choose equipment, and travel to you. Teams may need to come on foot; weather or availability can prevent a helicopter response.
+
+Keep your phone available for a call back and conserve battery as instructed. Make yourself visible and use your whistle to signal for help. See [what to pack for an unexpected wait](pack-lists.html#essentials).
+
+If you cannot connect
+
+[No cell service](no-service.html#need-help)
+
+---
+
+## No cell service
+
+Page: no-service.html
+
+[Home](index.html)/Get help
+
+Get help / No cell service
+
+### If your phone has no service
+
+Reception can disappear soon after you leave the parking area. Plan another way to call for help.
+
+On this page
+
+[If you need help now](#need-help) [Before you leave](#before-no-signal)
+
+Print this guide
+
+#### If you need help now
+
+- Try calling [9-1-1](tel:911). If you connect, explain your location and what has happened, answer questions, and follow instructions.
+
+- If you cannot connect, use your satellite messenger or emergency beacon’s SOS function, if you have one, following its instructions.
+
+- Keep the group together in a safe place. If the spot is unsafe, move only as needed to get out of immediate danger.
+
+- Do not wander in search of reception. Stay warm, dry, and ready to signal for help.
+
+If someone needs immediate first aid, use the [hurt steps](if.html#hurt). Your trusted contact can call 9-1-1 and share your plan if you miss the return or check-in arrangement. See [the contact’s job](checklists.html#your-contact) and [waiting for help](if.html#waiting-for-help).
+
+#### Before you leave
+
+- Download a map that works offline and learn how to find your GPS position.
+
+- Save phone battery for emergency communication and carry a separate light.
+
+- Choose an emergency communication device suited to the route and learn how to use its SOS emergency-alert function before leaving.
+
+- Leave a trip plan and an agreed return or check-in time with someone reliable.
+
+An offline map helps with navigation. It does not send an SOS. A satellite messenger or emergency beacon has its own capabilities and limits; know yours.
+
+Keep going
+
+[While you wait for help](if.html#waiting-for-help)
+
+---
+
+## Emergency numbers
+
+Page: emergency.html
+
+[Home](index.html)/Get help
+
+Get help / Emergency numbers
+
+### Emergency numbers
+
+Keep the right number within reach.
+
+On this page
+
+[Priority numbers](#priority-numbers) [Other numbers](#other-numbers)
+
+Print this guide
+
+| What it is | Number |
+| --- | --- |
+
+| Emergency (police, fire, ambulance, search and rescue). | [9-1-1](tel:911) |
+
+| Poison Control | [1-800-567-8911](tel:18005678911) |
+
+| BC Wildfire Service (report a wildfire) | [1-800-663-5555](tel:18006635555)
+or ***5555** from a cell |
+
+| Marine / Howe Sound (Joint Rescue Coordination Centre). On the water, VHF Channel 16. | [1-800-567-5111](tel:18005675111) |
+
+Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
+
+If you cannot connect, see [No cell service](no-service.html). For immediate actions, see [What to do if…](if.html).
+
+#### Other numbers
+
+| What it is | Number |
+| --- | --- |
+
+| Squamish RCMP (non-emergency) | [604-892-6100](tel:16048926100) |
+
+| Whistler RCMP (non-emergency) | [604-932-3044](tel:16049323044) |
+
+| Pemberton RCMP (non-emergency) | [604-894-6634](tel:16048946634) |
+
+| Conservation Officer Service (RAPP) | [1-877-952-7277](tel:18779527277) |
+
+| DriveBC (highway conditions) | [1-800-550-4997](tel:18005504997) |
+
+| 9-8-8 Suicide Crisis Helpline (call or text) | [9-8-8](tel:988) |
+
+Keep going
+
+[While you wait for help](if.html#waiting-for-help)
+
+---
+
+## About this project
+
+Page: about.html
+
+[Home](index.html)/Learn
+
+Learn / About this project
+
+### About this project
+
+A school capstone project from the Sea-to-Sky area of British Columbia.
+
+On this page
+
+[Why I made this site](#why-this-site) [A day hike became five nights lost](#hiker-story) [An experienced rider still needed help](#rider-story) [What local rescuers shared](#interviews) [Sources and limits](#sources) [Photo credits](#photo-credits)
+
+Print this guide
+
+#### Why I made this site
+
+Hi, I’m Liz. I made this website as a school capstone project here in the Sea-to-Sky area. I wanted a simple place, in plain words, to help people get ready before going outdoors and know what to do if something goes wrong.
+
+The local hiking and biking examples below show why this project matters. A planned day outside can turn into a long wait for help. The interviews connect those examples to practical preparation, knowing when to stop, and calling for help early.
+
+Hiking / The reported 2026 case
+
+#### A day hike became five nights lost
+
+In August 2026, Stanislav Volo took the Sea to Sky Gondola before a planned hike near Mount Habrich. His phone battery failed. A large search followed after he did not return, and he spent five nights in the mountains. He called 9-1-1 during that time and eventually reached a forest service road, where he met rescuers on 4 September.
+
+In his [CityNews interview](https://vancouver.citynews.ca/2026/09/07/squamish-bc-missing-hiker-found-shares-story/), he described continuing to find his way home and hearing search aircraft that could not spot him. In a later account, he described dismissing warnings about fog. Search manager Tyler Duncan also highlighted something that helped: Volo had left a trip plan with his wife, who called for help when he was overdue.
+
+Fog can hide the route. If you lose your way, stop in a safe place, call 9-1-1 early, and follow instructions. Staying put when safe helps searchers narrow the area they need to search. Reaching the road was this case’s outcome, not advice to keep moving when lost.
+
+Read [CityNews’ report of the search ending (4 September 2026)](https://vancouver.citynews.ca/2026/09/04/squamish-hiker-found-alive/) and [Stacy Thomas’s follow-up for The Squamish Chief, reprinted by TheRegional](https://www.theregional.com/hiker-shares-about-his-six-days-lost-on-squamish-mountain/), or watch [BC Search and Rescue Association’s “Five Nights Lost” interview](https://www.youtube.com/watch?v=j_dN2ElyQYM).
+
+[Plan when to stop or turn around](be-aware.html#turn-around) · [What to do when lost](if.html#lost)
+
+Biking / An interview account
+
+#### An experienced rider still needed help
+
+In an interview for this project, Ms. Lejeune, a local search and rescue member, described an experienced mountain biker who fell while riding alone. He could not reach the phone in his pocket. Someone passing nearby heard him calling for help and called 9-1-1.
+
+The story shows why preparation matters even on a familiar ride. Leaving a route and an agreed return or check-in time with someone you trust gives them information to pass on if you do not come back.
+
+[Make and leave your trip plan](checklists.html)
+
+#### What local rescuers shared
+
+**Christine Strub**, Prevention Team Coordinator with Squamish Search and Rescue, answered written questions on 27 October 2026. Her answers emphasized realistic planning, training, and preparing to stay warm while waiting for help.
+
+**Ms. Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, sent three voice messages on 5 November 2026. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
+
+##### Make the trip fit the people
+
+Distance alone is not enough. Consider elevation, terrain, the season, and the experience of everyone going.
+
+[Before you leave](checklists.html#four-checks)
+
+##### Leave someone a plan
+
+A reliable person needs your route, expected return, and an agreed time to act if you do not check in.
+
+[The contact’s job](checklists.html#your-contact)
+
+##### Pack for being still
+
+Extra warmth matters when you stop, especially if you are wet from sweat. Rescue can take time.
+
+[Shared essentials](pack-lists.html#essentials)
+
+##### Be ready to turn around
+
+Save time and energy for the return, and take unease or pressure within the group seriously.
+
+[Turning around](be-aware.html#turn-around)
+
+#### Sources and limits
+
+The site combines the local interviews with public outdoor-safety guidance. The explanations are written in our own words except where a quotation is shown. The pack lists also use the project’s existing checklists.
+
+- [Squamish Search and Rescue](https://squamishsar.org/) and [E-Comm’s calling guidance](https://www.ecomm911.ca/911-dispatch/tips-and-info/).
+
+- [AdventureSmart: the three T’s and essentials](https://www.adventuresmart.ca/the-three-ts/), [trip-plan guidance](https://www.adventuresmart.ca/trip-plan/), and [emergency communication](https://www.adventuresmart.ca/interactive/).
+
+- [BC Parks: wildlife safety](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) and [Parks Canada: stream-crossing risks](https://parks.canada.ca/pn-np/ab/jasper/activ/passez-stay/arrierepays-backcountry/securite-safety).
+
+- [Avalanche Canada’s AvySavvy learning material](https://avysavvy.avalanche.ca/).
+
+- [Canadian Red Cross first-aid guidance](https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/cpr_learner_guide_en.pdf).
+
+- [Canadian Safe Boating Council: cold water](https://csbc.ca/cold-water/) and [Lifesaving Society: safer rescue from shore](https://sauvetage.qc.ca/en/services/developpment/ladder-approach).
+
+This school project does not replace first-aid or outdoor training. The interviews are contributions to the project, not an endorsement of every page by those organizations.
+
+#### Photo credits
+
+These are regional landscape photographs, not photographs of the incidents described above. Images are hosted locally, resized and converted to WebP; the Stawamus Chief image is also cropped.
+
+- [Stawamus Chief](https://commons.wikimedia.org/wiki/File:The_Chief,_Stawamus_Chief_Provincial_Park.jpg) by James Abbott · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+
+- [Harmony Lakes Loop trail](https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg) by Ruth Hartnup · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+
+- [Howe Sound](https://commons.wikimedia.org/wiki/File:Howe_Sound_(54538272996).jpg) by David Zhang · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). The resized WebP versions retain this licence.
+
+Keep going
+
+[Before you leave](checklists.html)
+
+---
+
+## Common mistakes
+
+Page: mistakes.html
+
+[Home](index.html)/Learn
+
+Learn / Common mistakes
+
+### Common mistakes
+
+Preparation cannot prevent every incident, but it can reduce how serious one becomes.
+
+On this page
+
+[A beautiful photo is enough research](#a-beautiful-photo-is-enough-research) [The distance looks short](#the-distance-looks-short) [We are nearly there, so we should keep going](#we-are-nearly-there-so-we-should-keep-going) [I am warm while moving, so I have enough layers](#i-am-warm-while-moving-so-i-have-enough-layers) [I know this trail; it will not happen to me](#i-know-this-trail-it-will-not-happen-to-me)
+
+Print this guide
+
+01
+
+#### A beautiful photo is enough research
+
+A photo or an “easy” comment does not show what the route asks of your group.
+
+**A better choice:** Check reliable route information and talk to people who have done the trip. Treat warnings about visibility as a reason to reconsider. [The Mount Habrich case](about.html#hiker-story) shows why that matters.
+
+[Plan the whole trip](checklists.html#three-ts)
+
+02
+
+#### The distance looks short
+
+Kilometres on a steep trail are different from the same distance on flat ground.
+
+**A better choice:** Read the elevation gain, terrain, and time for the return. Be honest about the group’s fitness and experience.
+
+[Check the local risks](be-aware.html)
+
+03
+
+#### We are nearly there, so we should keep going
+
+Being close to the destination can make it harder to turn around.
+
+**A better choice:** Stick to your turnaround time and keep enough daylight and energy for the descent. Reconsider if someone is uneasy or the group is pushing each other.
+
+[Know when to turn around](be-aware.html#turn-around)
+
+04
+
+#### I am warm while moving, so I have enough layers
+
+Stopping in sweaty clothes can make you cold, and help may take time to reach you.
+
+**A better choice:** Pack extra warmth and emergency shelter. Put layers on before you get cold while waiting.
+
+[Pack for a delay](pack-lists.html#essentials)
+
+05
+
+#### I know this trail; it will not happen to me
+
+Experience does not prevent every fall, injury, or change in conditions.
+
+**A better choice:** Leave a trip plan and an agreed check-in time with someone reliable, and plan how to call for help.
+
+[Read the rider’s example](about.html#rider-story)
+
+Keep going
+
+[Before you leave](checklists.html)
 
 ---
 
 ## Quick reminders
 
-Page: `tips.html`
+Page: tips.html
 
-[← Home](index.html)
+[Home](index.html)/Learn
+
+Learn / Quick reminders
+
+### Quick reminders
 
 Open a reminder for a little more detail and a practical next step.
 
-### Call 9-1-1 early if you are lost or someone is hurt
+On this page
+
+[Immediate actions](if.html#main-content) [Shared essentials](pack-lists.html#essentials) [Leave a plan](checklists.html#your-contact)
+
+Print this guide
+
+#### Call 9-1-1 early if you are lost or someone is hurt
 
 Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
 
@@ -278,283 +841,9 @@ Avoid fast or rising water; choose a safer route or wait in a safe place. Recons
 
 Download maps before leaving, save battery for emergency contact, and plan a suitable communication backup. Knowing your GPS position does not itself send an SOS. [Plan for a missing signal](no-service.html).
 
-This is not an official rescue site. In an emergency, call 9-1-1.
+Keep going
 
----
-
-## What to do if…
-
-Page: `if.html`
-
-[← Home](index.html)
-
-Immediate actions first. Stay calm and follow the call taker’s instructions.
-
-### Lost or hurt? Call [9-1-1](tel:911)
-
-Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
-
-[Lost](#lost) [Hurt](#hurt) [Avalanche](#avalanche) [Water](#water) [No signal](no-service.html#need-help) [Waiting for help](#waiting-for-help)
-
-### If you are lost
-
-- Stop. Do not keep walking to find the route.
-- Stay with your group in that spot unless it is unsafe.
-- Call [9-1-1](tel:911). Share your location and what has happened; follow the call taker’s instructions.
-- Give your GPS position if you can, the route, and where you started.
-- Put on warm layers. Use three whistle blasts to signal for help.
-- Do not guess a downhill route through unfamiliar terrain. Staying put when safe helps searchers narrow the area they need to search.
-
-### If someone is hurt
-
-- Check that it is safe to help.
-- Check whether the person responds and is breathing normally. Tell the 9-1-1 call taker immediately if they are not.
-- Call [9-1-1](tel:911). Follow life-saving first-aid instructions, including CPR (cardiopulmonary resuscitation) if needed.
-- For life-threatening bleeding, apply firm, direct pressure immediately while help is called.
-- Avoid unnecessary movement. Protecting the airway and giving life-saving care take priority. Keep the person warm and monitor their condition.
-- Share your location, what happened, the injuries, how many people are with you, the weather, and your phone number.
-- If you cannot connect, use your first-aid training and see [No cell service](no-service.html#need-help).
-
-[Canadian Red Cross: Check, Call, Care](https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/cpr_learner_guide_en.pdf).
-
-### If there is an avalanche
-
-#### If you are caught
-
-Shout “avalanche” to alert others. Try to escape to the side and stay near the surface, following your avalanche training.
-
-#### If a companion is buried
-
-Watch for further avalanche danger before entering. Companion rescue means your group searches for and digs out a buried person; it is urgent. Use your training and equipment immediately.
-
-- An extra person can call 9-1-1 or send an SOS without interrupting the rescue. Keep that caller at least 10 metres from transceiver searchers to reduce electronic interference.
-- If there is no extra rescuer, Avalanche Canada advises calling after the victims have been recovered.
-
-This is a reminder, not the full procedure. Learn and practise [Avalanche Canada’s companion-rescue procedure](https://avysavvy.avalanche.ca/en-ca/when-to-call-for-help) before the trip.
-
-### If someone is in the water
-
-#### If you fall in
-
-- Keep your mouth and nose above water and control your breathing. A lifejacket or personal flotation device (PFD) helps keep you afloat.
-- Once your breathing is under control, look for a safe way out. Get out if you can do so safely; otherwise hold on to flotation, signal for help, and conserve energy.
-- Cold water can quickly affect your movement. Do not exhaust yourself trying to swim a long distance to shore.
-
-#### If someone else is in trouble
-
-- Call 9-1-1. Stay out of the water.
-- From a stable, safe place, talk to them, reach with an object, or throw something that floats. Avoid being pulled in yourself.
-
-Read [cold-water advice](https://csbc.ca/cold-water/) and the [Lifesaving Society’s rescue approach](https://sauvetage.qc.ca/en/services/developpment/ladder-approach).
-
-### While you wait for help
-
-Help may take time to reach you. Put on extra layers before you get cold, especially if your clothes are wet from sweat. Keep the group together in a safe place, use your emergency blanket or shelter, and follow instructions from the call taker or rescue team.
-
-Volunteers have to gather, choose equipment, and travel to you. Teams may need to come on foot; weather or availability can prevent a helicopter response.
-
-Keep your phone available for a call back and conserve battery as instructed. Make yourself visible and use your whistle to signal for help. See [what to pack for an unexpected wait](pack-lists.html#essentials).
-
-Winter photo: [Blackcomb Powder](https://commons.wikimedia.org/wiki/File:Blackcomb_Powder_(20278899).jpeg) on Blackcomb Mountain by [Tucker Sherman](https://500px.com/TuckerSherman), [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). Resized.
-
-Sea-to-Sky Highway and Howe Sound.
-
-This is not an official rescue site. In an emergency, call 9-1-1.
-
----
-
-## If your phone has no service
-
-Page: `no-service.html`
-
-[← Home](index.html)
-
-Reception can disappear soon after you leave the parking area. Plan another way to call for help.
-
-### If you need help now
-
-- Try calling [9-1-1](tel:911). If you connect, explain your location and what has happened, answer questions, and follow instructions.
-- If you cannot connect, use your satellite messenger or emergency beacon’s SOS function, if you have one, following its instructions.
-- Keep the group together in a safe place. If the spot is unsafe, move only as needed to get out of immediate danger.
-- Do not wander in search of reception. Stay warm, dry, and ready to signal for help.
-
-If someone needs immediate first aid, use the [hurt steps](if.html#hurt). Your trusted contact can call 9-1-1 and share your plan if you miss the return or check-in arrangement. See [the contact’s job](checklists.html#your-contact) and [waiting for help](if.html#waiting-for-help).
-
-### Before you leave
-
-- Download a map that works offline and learn how to find your GPS position.
-- Save phone battery for emergency communication and carry a separate light.
-- Choose an emergency communication device suited to the route and learn how to use its SOS emergency-alert function before leaving.
-- Leave a trip plan and an agreed return or check-in time with someone reliable.
-
-An offline map helps with navigation. It does not send an SOS. A satellite messenger or emergency beacon has its own capabilities and limits; know yours.
-
-This is not an official rescue site. In an emergency, call 9-1-1.
-
----
-
-## Emergency numbers
-
-Page: `emergency.html`
-
-[← Home](index.html)
-
-| What it is | Number |
-| --- | --- |
-| Emergency (police, fire, ambulance, search and rescue). | [9-1-1](tel:911) |
-| Poison Control | [1-800-567-8911](tel:18005678911) |
-| BC Wildfire Service (report a wildfire) | [1-800-663-5555](tel:18006635555) / or***5555**from a cell |
-| Marine / Howe Sound (Joint Rescue Coordination Centre). On the water, VHF Channel 16. | [1-800-567-5111](tel:18005675111) |
-
-Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
-
-If you cannot connect, see [No cell service](no-service.html). For immediate actions, see [What to do if…](if.html).
-
-### Other numbers
-
-| What it is | Number |
-| --- | --- |
-| Squamish RCMP (non-emergency) | [604-892-6100](tel:16048926100) |
-| Whistler RCMP (non-emergency) | [604-932-3044](tel:16049323044) |
-| Pemberton RCMP (non-emergency) | [604-894-6634](tel:16048946634) |
-| Conservation Officer Service (RAPP) | [1-877-952-7277](tel:18779527277) |
-| DriveBC (highway conditions) | [1-800-550-4997](tel:18005504997) |
-| 9-8-8 Suicide Crisis Helpline (call or text) | [9-8-8](tel:988) |
-
-This is not an official rescue site. In an emergency, call 9-1-1.
-
----
-
-## Common mistakes
-
-Page: `mistakes.html`
-
-[← Home](index.html)
-
-Preparation cannot prevent every incident, but it can reduce how serious one becomes.
-
-### 1. A beautiful photo is enough research
-
-A photo or an “easy” comment does not show what the route asks of your group.
-
-**A better choice:** Check reliable route information and talk to people who have done the trip. Treat warnings about visibility as a reason to reconsider. [The Mount Habrich case](about.html#hiker-story) shows why that matters.
-
-[Plan the whole trip](checklists.html#three-ts)
-
-### 2. The distance looks short
-
-Kilometres on a steep trail are different from the same distance on flat ground.
-
-**A better choice:** Read the elevation gain, terrain, and time for the return. Be honest about the group’s fitness and experience.
-
-[Check the local risks](be-aware.html)
-
-### 3. We are nearly there, so we should keep going
-
-Being close to the destination can make it harder to turn around.
-
-**A better choice:** Stick to your turnaround time and keep enough daylight and energy for the descent. Reconsider if someone is uneasy or the group is pushing each other.
-
-[Know when to turn around](be-aware.html#turn-around)
-
-### 4. I am warm while moving, so I have enough layers
-
-Stopping in sweaty clothes can make you cold, and help may take time to reach you.
-
-**A better choice:** Pack extra warmth and emergency shelter. Put layers on before you get cold while waiting.
-
-[Pack for a delay](pack-lists.html#essentials)
-
-### 5. I know this trail; it will not happen to me
-
-Experience does not prevent every fall, injury, or change in conditions.
-
-**A better choice:** Leave a trip plan and an agreed check-in time with someone reliable, and plan how to call for help.
-
-[Read the rider’s example](about.html#rider-story)
-
-This is not an official rescue site. In an emergency, call 9-1-1.
-
----
-
-## About this project
-
-Page: `about.html`
-
-[← Home](index.html)
-
-A school capstone project from the Sea-to-Sky area of British Columbia.
-
-### Why I made this site
-
-Hi, I’m Liz. I made this website as a school capstone project here in the Sea-to-Sky area. I wanted a simple place, in plain words, to help people get ready before going outdoors and know what to do if something goes wrong.
-
-The local hiking and biking examples below show why this project matters. A planned day outside can turn into a long wait for help. The interviews connect those examples to practical preparation, knowing when to stop, and calling for help early.
-
-### A day hike became five nights lost
-
-In August 2026, Stanislav Volo took the Sea to Sky Gondola before a planned hike near Mount Habrich. His phone battery failed. A large search followed after he did not return, and he spent five nights in the mountains. He called 9-1-1 during that time and eventually reached a forest service road, where he met rescuers on 4 September.
-
-In his [CityNews interview](https://vancouver.citynews.ca/2026/09/07/squamish-bc-missing-hiker-found-shares-story/), he described continuing to find his way home and hearing search aircraft that could not spot him. In a later account, he described dismissing warnings about fog. Search manager Tyler Duncan also highlighted something that helped: Volo had left a trip plan with his wife, who called for help when he was overdue.
-
-Fog can hide the route. If you lose your way, stop in a safe place, call 9-1-1 early, and follow instructions. Staying put when safe helps searchers narrow the area they need to search. Reaching the road was this case’s outcome, not advice to keep moving when lost.
-
-Read [CityNews’ report of the search ending (4 September 2026)](https://vancouver.citynews.ca/2026/09/04/squamish-hiker-found-alive/) and [Stacy Thomas’s follow-up for The Squamish Chief, reprinted by TheRegional](https://www.theregional.com/hiker-shares-about-his-six-days-lost-on-squamish-mountain/), or watch [BC Search and Rescue Association’s “Five Nights Lost” interview](https://www.youtube.com/watch?v=j_dN2ElyQYM).
-
-[Plan when to stop or turn around](be-aware.html#turn-around) · [What to do when lost](if.html#lost)
-
-### An experienced rider still needed help
-
-In an interview for this project, Ms. Lejeune, a local search and rescue member, described an experienced mountain biker who fell while riding alone. He could not reach the phone in his pocket. Someone passing nearby heard him calling for help and called 9-1-1.
-
-The story shows why preparation matters even on a familiar ride. Leaving a route and an agreed return or check-in time with someone you trust gives them information to pass on if you do not come back.
-
-[Make and leave your trip plan](checklists.html)
-
-### What local rescuers shared
-
-**Christine Strub**, Prevention Team Coordinator with Squamish Search and Rescue, answered written questions on 27 October 2026. Her answers emphasized realistic planning, training, and preparing to stay warm while waiting for help.
-
-**Ms. Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, sent three voice messages on 5 November 2026. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
-
-#### Make the trip fit the people
-
-Distance alone is not enough. Consider elevation, terrain, the season, and the experience of everyone going.
-
-[Before you leave](checklists.html#four-checks)
-
-#### Leave someone a plan
-
-A reliable person needs your route, expected return, and an agreed time to act if you do not check in.
-
-[The contact’s job](checklists.html#your-contact)
-
-#### Pack for being still
-
-Extra warmth matters when you stop, especially if you are wet from sweat. Rescue can take time.
-
-[Shared essentials](pack-lists.html#essentials)
-
-#### Be ready to turn around
-
-Save time and energy for the return, and take unease or pressure within the group seriously.
-
-[Turning around](be-aware.html#turn-around)
-
-### Sources and limits
-
-The site combines the local interviews with public outdoor-safety guidance. The explanations are written in our own words except where a quotation is shown. The pack lists also use the project’s existing checklists.
-
-- [Squamish Search and Rescue](https://squamishsar.org/) and [E-Comm’s calling guidance](https://www.ecomm911.ca/911-dispatch/tips-and-info/).
-- [AdventureSmart: the three T’s and essentials](https://www.adventuresmart.ca/the-three-ts/), [trip-plan guidance](https://www.adventuresmart.ca/trip-plan/), and [emergency communication](https://www.adventuresmart.ca/interactive/).
-- [BC Parks: wildlife safety](https://bcparks.ca/plan-your-trip/visit-responsibly/wildlife-safety/) and [Parks Canada: stream-crossing risks](https://parks.canada.ca/pn-np/ab/jasper/activ/passez-stay/arrierepays-backcountry/securite-safety).
-- [Avalanche Canada’s AvySavvy learning material](https://avysavvy.avalanche.ca/).
-- [Canadian Red Cross first-aid guidance](https://cdn.redcross.ca/prodmedia/crc/azure/documents/first-aid-program-2025/cpr_learner_guide_en.pdf).
-- [Canadian Safe Boating Council: cold water](https://csbc.ca/cold-water/) and [Lifesaving Society: safer rescue from shore](https://sauvetage.qc.ca/en/services/developpment/ladder-approach).
-
-This school project does not replace first-aid or outdoor training. The interviews are contributions to the project, not an endorsement of every page by those organizations.
-
-This is not an official rescue site. In an emergency, call 9-1-1.
+[Before you leave](checklists.html)
 
 ---
 
@@ -652,3 +941,33 @@ Checked 25 Nov 2026. This is separate from the anonymous biker account in Ms. Le
 ## One-page trip-plan checks — 25 Nov 2026
 
 Liz requested a one-page sheet to make it easier to use. All existing 13 trip/contact field labels, the 9-1-1 deadline and eight equipment lines are retained. Chrome-generated A4 and Canadian Letter PDFs at 100% scale each contain one page, with all labels and the disclaimer present. Rendered output was inspected. The screen preview adapts to phone widths. No digital inputs or new equipment recommendations were added. Native Apple printing and physical printers were not tested.
+
+## Redesign notes — 25 Nov 2026
+
+The new interface groups preparation, help and learning. Existing URLs and section IDs are retained. All emergency actions remain visible without a disclosure. The optional packing checklist saves checks in this browser when storage is available and otherwise works in the current tab. There is no offline mode or rescue/contact guarantee. Print controls invoke the browser's print/save dialog; the separate one-page handwritten plan keeps its existing layout.
+
+Photographs are regional context, not evidence of the reported incidents. Creator/licence links appear on About and in images/README.md. Fonts are self-hosted under their included SIL Open Font Licences. No external font or photo request is needed when a page loads.
+
+## Refined navigation and error-page copy
+
+Short section labels: Group fit; Weather; Snow & ice; Avalanche terrain; Cold water; Wildlife; Phone coverage; Road access; Daylight; Turn around; Lost; Hurt; Avalanche; Water; Waiting for help; Why this project; Hiking story; Biking story; Local voices; Sources; Photo credits.
+
+Not found: Page not found. The trail ends here. This page may have moved. Head back to the start or use the guides below. Home. Before you leave. Help now.
+
+Printing: Save the useful guides before you go. This website has no offline mode. Use your browser’s Print or Save as PDF option.
+
+Image descriptions: Low cloud across the granite face of Stawamus Chief; A boardwalk on Harmony Lakes Loop, with forest and mountains beyond; Sunrise over the mountains and water of Howe Sound.
+
+Activity-section handoff: Start with the [shared essentials](#essentials). Each activity section links back to the common list.
+
+Brand link: the visible Outdoor Safety / Sea-to-Sky wordmark, with the Home tooltip.
+
+## Redesign acceptance — 25 Nov 2026
+
+Three independent agents reviewed the new design and the coordinator resolved their material findings. Chromium and WebKit covered phone/tablet/desktop layouts and key reader journeys. Selected automated accessibility rules passed; this is not complete accessibility certification. Actual print exports retain all tested instruction/contact text; the separate trip plan remains one page on A4 and Letter. Native Apple devices and physical printers were not tested. Detailed evidence and remaining tasks are in PLAN.md.
+
+Shared search description: Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz.
+
+404 search description: Page not found. Return to the Outdoor Safety Sea-to-Sky guides.
+
+Accessibility navigation names: Primary navigation; All pages; Get help by situation; Keep learning; On this page.

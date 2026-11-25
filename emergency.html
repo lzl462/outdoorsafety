@@ -1,184 +1,304 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Emergency numbers — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=15">
-  <style>
-    body.emergency-body { background: var(--green-soft); }
-    main.emergency-page { max-width: 1040px; background: transparent; }
-    main.emergency-page h2 {
-      color: var(--green-dark);
-      font-size: 1.2rem;
-      margin: 0 0 0.6rem;
-    }
-    main.emergency-page h1 {
-      color: #ff0000;
-      font-family: "Chalkboard SE", sans-serif;
-      text-align: center;
-    }
-    .call-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 0.4rem 0 1.6rem;
-      background: #fff;
-      border: 4px solid var(--green);
-    }
-    .call-table th,
-    .call-table td {
-      padding: 0.85rem 0.9rem;
-      vertical-align: middle;
-      border-bottom: 1px solid var(--green-line);
-    }
-    .call-table th {
-      text-align: left;
-      background: var(--green-soft);
-      color: var(--green-dark);
-      font-weight: 700;
-      border-bottom: 3px solid var(--green);
-    }
-    .call-table th.num,
-    .call-table td.num {
-      text-align: right;
-      width: 42%;
-    }
-    .call-table td { color: #111; background: #fff; }
-    .call-table td.num a,
-    .call-table td.num strong {
-      font-weight: 800;
-      font-size: 1.2rem;
-      color: var(--green-dark);
-      text-decoration: none;
-    }
-    .call-table .or { font-weight: 400; font-size: 1rem; color: #111; }
-    main.emergency-page .pair {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      column-gap: 1.6rem;
-      align-items: center;
-      margin: 0.2rem 0 1.5rem;
-    }
-    main.emergency-page .photo-spot { text-align: center; margin: 0; }
-    main.emergency-page .photo-spot img {
-      width: 280px;
-      height: 280px;
-      max-width: 100%;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid #fff;
-      box-shadow: 0 8px 18px rgba(12, 28, 20, 0.16);
-    }
-    main.emergency-page .trail { object-position: center; }
-    main.emergency-page .sound { object-position: center 40%; }
-    main.emergency-page .photo-credit { margin: 0.45rem 0 0; text-align: center; }
-    main.emergency-page .story {
-      background: rgba(255,255,255,0.96);
-      border: 4px solid var(--green);
-      padding: 0.75rem 0.9rem;
-      box-shadow: 0 8px 18px rgba(12, 28, 20, 0.16);
-      margin: 0;
-    }
-    main.emergency-page .story h2 {
-      margin: 0 0 0.3rem;
-      font-size: 18px;
-      color: var(--green);
-    }
-    main.emergency-page .story p { margin: 0; }
-    @media (max-width: 800px) {
-      main.emergency-page .pair { grid-template-columns: 1fr; row-gap: 0.8rem; }
-    }
-  </style>
-</head>
-<body class="emergency-body">
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="layout">
-    <aside class="sidebar">
-      <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
-      <p class="sidebar-label">Pages</p>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="checklists.html">Before you leave</a>
-        <a href="pack-lists.html">Essentials &amp; activity notes</a>
-        <a href="be-aware.html">Be aware</a>
-        <a href="if.html">What to do if…</a>
-        <a href="no-service.html">No cell service</a>
-        <a href="emergency.html">Emergency numbers</a>
-        <a href="mistakes.html">Common mistakes</a>
-        <a href="tips.html">Quick reminders</a>
-        <a href="about.html">About this project</a>
-      </nav>
-    </aside>
-    <main id="main-content" class="emergency-page">
-<p class="back"><a href="index.html">← Home</a></p>
-      <h1>Emergency numbers</h1>
-      <table class="call-table">
-        <thead>
-          <tr>
-            <th scope="col">What it is</th>
-            <th class="num" scope="col">Number</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Emergency (police, fire, ambulance, search and rescue).</td>
-            <td class="num"><a href="tel:911">9-1-1</a></td>
-          </tr>
-          <tr>
-            <td>Poison Control</td>
-            <td class="num"><a href="tel:18005678911">1-800-567-8911</a></td>
-          </tr>
-          <tr>
-            <td>BC Wildfire Service (report a wildfire)</td>
-            <td class="num"><a href="tel:18006635555">1-800-663-5555</a><br><span class="or">or</span> <strong>*5555</strong> <span class="or">from a cell</span></td>
-          </tr>
-          <tr>
-            <td>Marine / Howe Sound (Joint Rescue Coordination Centre). On the water, VHF Channel 16.</td>
-            <td class="num"><a href="tel:18005675111">1-800-567-5111</a></td>
-          </tr>
-        </tbody>
-      </table>
+<!doctype html>
 
-<p class="emergency-call">Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.</p>
-<p>If you cannot connect, see <a href="no-service.html">No cell service</a>. For immediate actions, see <a href="if.html">What to do if…</a>.</p>
-      <h2>Other numbers</h2>
-      <table class="call-table">
-        <thead>
-          <tr>
-            <th scope="col">What it is</th>
-            <th class="num" scope="col">Number</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Squamish RCMP (non-emergency)</td>
-            <td class="num"><a href="tel:16048926100">604-892-6100</a></td>
-          </tr>
-          <tr>
-            <td>Whistler RCMP (non-emergency)</td>
-            <td class="num"><a href="tel:16049323044">604-932-3044</a></td>
-          </tr>
-          <tr>
-            <td>Pemberton RCMP (non-emergency)</td>
-            <td class="num"><a href="tel:16048946634">604-894-6634</a></td>
-          </tr>
-          <tr>
-            <td>Conservation Officer Service (RAPP)</td>
-            <td class="num"><a href="tel:18779527277">1-877-952-7277</a></td>
-          </tr>
-          <tr>
-            <td>DriveBC (highway conditions)</td>
-            <td class="num"><a href="tel:18005504997">1-800-550-4997</a></td>
-          </tr>
-          <tr>
-            <td>9-8-8 Suicide Crisis Helpline (call or text)</td>
-            <td class="num"><a href="tel:988">9-8-8</a></td>
-          </tr>
-        </tbody>
-      </table>
-      <p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-</main>
-  </div>
-  <script src="script.js"></script>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#173c32" name="theme-color" />
+    <meta
+      content="Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz."
+      name="description"
+    />
+    <title>Emergency numbers — Outdoor Safety Sea-to-Sky</title>
+    <link href="images/mark.svg" rel="icon" type="image/svg+xml" />
+    <link
+      as="font"
+      crossorigin=""
+      href="fonts/barlow-condensed-700.ttf"
+      rel="preload"
+      type="font/ttf"
+    />
+    <link href="styles.css?v=redesign-1" rel="stylesheet" />
+    <script defer="" src="script.js?v=redesign-1"></script>
+  </head>
+  <body data-page="emergency">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container">
+          <span class="region">Sea-to-Sky, British Columbia</span>
+          <div>
+            <a href="tel:911">In an emergency, call <strong>9-1-1</strong></a
+            ><span aria-hidden="true">/</span
+            ><a href="no-service.html#need-help">No signal?</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-inner container">
+        <a class="brand" href="index.html" title="Home"
+          ><svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g></svg
+          ><span>OUTDOOR SAFETY <small>SEA-TO-SKY</small></span></a
+        >
+        <nav aria-label="Primary navigation" class="primary-nav">
+          <a href="checklists.html">Prepare</a
+          ><a href="be-aware.html">Know the risks</a
+          ><a href="about.html">Our story</a>
+        </nav>
+        <div class="header-actions">
+          <a class="help-link" href="if.html#main-content"
+            ><span class="desktop-help">Help now</span
+            ><span class="mobile-help">Help</span
+            ><svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </div>
+      <details class="site-menu">
+        <summary>
+          Menu<span aria-hidden="true" class="menu-icon"></span>
+        </summary>
+        <nav aria-label="All pages" class="menu-panel">
+          <a class="menu-home" href="index.html"
+            >Home
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <div class="menu-columns">
+            <div class="menu-group">
+              <p>Prepare</p>
+              <a href="checklists.html">Before you leave</a
+              ><a href="pack-lists.html">Essentials &amp; activities</a
+              ><a href="be-aware.html">Be aware</a>
+            </div>
+            <div class="menu-group">
+              <p>Get help</p>
+              <a href="if.html">What to do if…</a
+              ><a href="no-service.html">No cell service</a
+              ><a aria-current="page" href="emergency.html"
+                >Emergency numbers</a
+              >
+            </div>
+            <div class="menu-group">
+              <p>Learn</p>
+              <a href="about.html">About this project</a
+              ><a href="mistakes.html">Common mistakes</a
+              ><a href="tips.html">Quick reminders</a>
+            </div>
+          </div>
+        </nav>
+      </details>
+    </header>
+    <main class="guide-main" data-guide="emergency" id="main-content">
+      <header class="page-heading">
+        <p class="breadcrumb">
+          <a href="index.html">Home</a><span>/</span>Get help
+        </p>
+        <p class="eyebrow">Get help / Emergency numbers</p>
+        <h1>Emergency numbers</h1>
+        <p class="note">Keep the right number within reach.</p>
+      </header>
+      <div class="guide-layout">
+        <aside class="guide-sidebar">
+          <nav aria-label="On this page" class="page-toc">
+            <p class="eyebrow">On this page</p>
+            <a href="#priority-numbers">Priority numbers</a
+            ><a href="#other-numbers">Other numbers</a
+            ><button
+              class="print-guide"
+              data-print-guide=""
+              hidden=""
+              type="button"
+            >
+              Print this guide
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </button>
+          </nav>
+        </aside>
+        <div class="guide-content">
+          <table class="call-table" id="priority-numbers">
+            <thead>
+              <tr>
+                <th scope="col">What it is</th>
+                <th class="num" scope="col">Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emergency (police, fire, ambulance, search and rescue).</td>
+                <td class="num"><a href="tel:911">9-1-1</a></td>
+              </tr>
+              <tr>
+                <td>Poison Control</td>
+                <td class="num">
+                  <a href="tel:18005678911">1-800-567-8911</a>
+                </td>
+              </tr>
+              <tr>
+                <td>BC Wildfire Service (report a wildfire)</td>
+                <td class="num">
+                  <a href="tel:18006635555">1-800-663-5555</a><br /><span
+                    class="or"
+                    >or</span
+                  >
+                  <a href="tel:*5555"><strong>*5555</strong></a>
+                  <span class="or">from a cell</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Marine / Howe Sound (Joint Rescue Coordination Centre). On the
+                  water, VHF Channel 16.
+                </td>
+                <td class="num">
+                  <a href="tel:18005675111">1-800-567-5111</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="emergency-call">
+            Call 9-1-1. Tell the call taker where you are and what has happened.
+            Stay on the line, answer their questions, and follow their
+            instructions.
+          </p>
+          <p>
+            If you cannot connect, see
+            <a href="no-service.html">No cell service</a>. For immediate
+            actions, see <a href="if.html">What to do if…</a>.
+          </p>
+          <h2>Other numbers</h2>
+          <table class="call-table" id="other-numbers">
+            <thead>
+              <tr>
+                <th scope="col">What it is</th>
+                <th class="num" scope="col">Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Squamish RCMP (non-emergency)</td>
+                <td class="num"><a href="tel:16048926100">604-892-6100</a></td>
+              </tr>
+              <tr>
+                <td>Whistler RCMP (non-emergency)</td>
+                <td class="num"><a href="tel:16049323044">604-932-3044</a></td>
+              </tr>
+              <tr>
+                <td>Pemberton RCMP (non-emergency)</td>
+                <td class="num"><a href="tel:16048946634">604-894-6634</a></td>
+              </tr>
+              <tr>
+                <td>Conservation Officer Service (RAPP)</td>
+                <td class="num">
+                  <a href="tel:18779527277">1-877-952-7277</a>
+                </td>
+              </tr>
+              <tr>
+                <td>DriveBC (highway conditions)</td>
+                <td class="num">
+                  <a href="tel:18005504997">1-800-550-4997</a>
+                </td>
+              </tr>
+              <tr>
+                <td>9-8-8 Suicide Crisis Helpline (call or text)</td>
+                <td class="num"><a href="tel:988">9-8-8</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <aside class="next-guide">
+        <p class="eyebrow">Keep going</p>
+        <a href="if.html#waiting-for-help"
+          >While you wait for help
+          <svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+        ></a>
+      </aside>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g>
+          </svg>
+          <p>More preparation.<br />More perspective.</p>
+          <span>A school capstone by Liz.<br />Made for the Sea-to-Sky.</span>
+        </div>
+        <div>
+          <p class="footer-label">Prepare</p>
+          <a href="checklists.html">Before you leave</a
+          ><a href="pack-lists.html">Essentials &amp; activities</a
+          ><a href="be-aware.html">Be aware</a>
+        </div>
+        <div>
+          <p class="footer-label">Get help</p>
+          <a href="if.html">What to do if…</a
+          ><a href="no-service.html">No cell service</a
+          ><a href="emergency.html">Emergency numbers</a>
+        </div>
+        <div>
+          <p class="footer-label">Learn</p>
+          <a href="about.html">About this project</a
+          ><a href="mistakes.html">Common mistakes</a
+          ><a href="tips.html">Quick reminders</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="site-disclaimer">
+          This is not an official rescue site. In an emergency, call 9-1-1.
+        </p>
+        <a href="about.html#photo-credits">Photo credits</a
+        ><a href="#main-content">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>

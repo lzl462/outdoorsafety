@@ -1,82 +1,366 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Before you leave — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=15">
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="layout">
-    <aside class="sidebar">
-      <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
-      <p class="sidebar-label">Pages</p>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="checklists.html">Before you leave</a>
-        <a href="pack-lists.html">Essentials &amp; activity notes</a>
-        <a href="be-aware.html">Be aware</a>
-        <a href="if.html">What to do if…</a>
-        <a href="no-service.html">No cell service</a>
-        <a href="emergency.html">Emergency numbers</a>
-        <a href="mistakes.html">Common mistakes</a>
-        <a href="tips.html">Quick reminders</a>
-        <a href="about.html">About this project</a>
-      </nav>
-    </aside>
-    <main id="main-content">
-<p class="back"><a href="index.html">← Home</a></p>
-<h1>Before you leave</h1>
-<p class="note">A good trip starts with a realistic plan, the skills to follow it, and equipment you know how to use.</p>
-<div class="grid">
-<section class="box">
-<h2>Make and leave your trip plan</h2>
-<p>This is a one-page printable sheet to fill in by hand. Print it, write the route, people, turnaround and return times, then give a copy to someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.</p>
-<p><a class="action-link" href="pdfs/before-you-leave.html">Printable trip plan</a></p>
-</section>
-<section class="box">
-<h2>Pack for more than the planned trip</h2>
-<p>Bring the shared essentials as well as what your activity and the conditions need. Prepare to stay warm if you have to stop or wait for help.</p>
-<p><a class="action-link" href="pack-lists.html">Essentials &amp; activities</a></p>
-</section>
-</div>
-<section id="three-ts" class="box">
-<h2>The three T’s</h2>
-<ul>
-  <li><strong>Trip Planning:</strong> check the route, elevation gain, mountain weather, terrain, water, access, and the return journey.</li>
-  <li><strong>Training:</strong> choose a trip that matches everyone’s fitness and experience. Know how to navigate, use your equipment, and respond if something goes wrong.</li>
-  <li><strong>Taking the Essentials:</strong> bring the shared emergency basics, then add what your particular trip needs.</li>
-</ul>
-<p>AdventureSmart explains <a href="https://www.adventuresmart.ca/the-three-ts/">the three T’s</a> and offers the <a href="https://www.adventuresmart.ca/programs/survive-outside/">Survive Outside program</a>.</p>
-</section>
-<section id="check-conditions" class="box">
-<h2>Check the conditions for your actual route</h2>
-<ul>
-  <li><strong>Route and closures:</strong> check the land manager or route operator’s current trail information. For provincial parks, start with <a href="https://bcparks.ca/find-a-park/">BC Parks’ park finder</a> and <a href="https://bcparks.ca/active-advisories/">active advisories</a>.</li>
-  <li><strong>Weather:</strong> check <a href="https://weather.gc.ca/">Environment and Climate Change Canada</a> for your destination and warnings. Consider elevation and exposed terrain, not only the weather in town.</li>
-  <li><strong>Road access:</strong> check <a href="https://www.drivebc.ca/">DriveBC</a> for highway conditions and confirm the final access road with the route operator or land manager.</li>
-  <li><strong>Avalanche terrain:</strong> check the current <a href="https://avalanche.ca/">Avalanche Canada forecast</a> and choose terrain within your training.</li>
-</ul>
-<p>Check again before leaving. These links lead to current information; this site does not reproduce live forecasts or closure notices.</p>
-</section>
-<section id="four-checks" class="box">
-<h2>Four checks before you go</h2>
-<ol>
-  <li>Can everyone in your group manage the distance, elevation gain, terrain, and return journey?</li>
-  <li>When will you turn around, and what changes would make you turn around sooner?</li>
-  <li>Who has your plan, and when have you agreed they should call 9-1-1 if you have not returned or checked in?</li>
-  <li>What will keep you warm and help you call for help if the trip takes longer than expected?</li>
-</ol>
-</section>
-<section id="your-contact" class="box">
-<h2>Give your contact a job, not just a destination</h2>
-<p>Leave the plan with someone reliable, including on a short or familiar trip. Make sure they know the route and the return or check-in time you agreed on. If you miss that arrangement, they should call 9-1-1 and share your plan.</p>
-<p>Check in when you return. Think about <a href="no-service.html">communication without cell service</a> before you leave.</p>
-</section>
-<p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-</main>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#173c32" name="theme-color" />
+    <meta
+      content="Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz."
+      name="description"
+    />
+    <title>Before you leave — Outdoor Safety Sea-to-Sky</title>
+    <link href="images/mark.svg" rel="icon" type="image/svg+xml" />
+    <link
+      as="font"
+      crossorigin=""
+      href="fonts/barlow-condensed-700.ttf"
+      rel="preload"
+      type="font/ttf"
+    />
+    <link href="styles.css?v=redesign-1" rel="stylesheet" />
+    <script defer="" src="script.js?v=redesign-1"></script>
+  </head>
+  <body data-page="checklists">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container">
+          <span class="region">Sea-to-Sky, British Columbia</span>
+          <div>
+            <a href="tel:911">In an emergency, call <strong>9-1-1</strong></a
+            ><span aria-hidden="true">/</span
+            ><a href="no-service.html#need-help">No signal?</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-inner container">
+        <a class="brand" href="index.html" title="Home"
+          ><svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g></svg
+          ><span>OUTDOOR SAFETY <small>SEA-TO-SKY</small></span></a
+        >
+        <nav aria-label="Primary navigation" class="primary-nav">
+          <a href="checklists.html">Prepare</a
+          ><a href="be-aware.html">Know the risks</a
+          ><a href="about.html">Our story</a>
+        </nav>
+        <div class="header-actions">
+          <a class="help-link" href="if.html#main-content"
+            ><span class="desktop-help">Help now</span
+            ><span class="mobile-help">Help</span
+            ><svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </div>
+      <details class="site-menu">
+        <summary>
+          Menu<span aria-hidden="true" class="menu-icon"></span>
+        </summary>
+        <nav aria-label="All pages" class="menu-panel">
+          <a class="menu-home" href="index.html"
+            >Home
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <div class="menu-columns">
+            <div class="menu-group">
+              <p>Prepare</p>
+              <a aria-current="page" href="checklists.html">Before you leave</a
+              ><a href="pack-lists.html">Essentials &amp; activities</a
+              ><a href="be-aware.html">Be aware</a>
+            </div>
+            <div class="menu-group">
+              <p>Get help</p>
+              <a href="if.html">What to do if…</a
+              ><a href="no-service.html">No cell service</a
+              ><a href="emergency.html">Emergency numbers</a>
+            </div>
+            <div class="menu-group">
+              <p>Learn</p>
+              <a href="about.html">About this project</a
+              ><a href="mistakes.html">Common mistakes</a
+              ><a href="tips.html">Quick reminders</a>
+            </div>
+          </div>
+        </nav>
+      </details>
+    </header>
+    <main class="guide-main" data-guide="checklists" id="main-content">
+      <header class="page-heading">
+        <p class="breadcrumb">
+          <a href="index.html">Home</a><span>/</span>Prepare
+        </p>
+        <p class="eyebrow">Prepare / Before you leave</p>
+        <h1>Before you leave</h1>
+        <p class="note">
+          A good trip starts with a realistic plan, the skills to follow it, and
+          equipment you know how to use.
+        </p>
+        <a class="button button-dark" href="pdfs/before-you-leave.html"
+          >Printable trip plan
+          <svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+        ></a>
+      </header>
+      <div class="guide-layout">
+        <aside class="guide-sidebar">
+          <nav aria-label="On this page" class="page-toc">
+            <p class="eyebrow">On this page</p>
+            <a href="#three-ts">The three T’s</a
+            ><a href="#check-conditions"
+              >Check the conditions for your actual route</a
+            ><a href="#four-checks">Four checks before you go</a
+            ><a href="#your-contact"
+              >Give your contact a job, not just a destination</a
+            ><button
+              class="print-guide"
+              data-print-guide=""
+              hidden=""
+              type="button"
+            >
+              Print this guide
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </button>
+          </nav>
+        </aside>
+        <div class="guide-content">
+          <div class="grid">
+            <section class="box">
+              <h2>Make and leave your trip plan</h2>
+              <p>
+                This is a one-page printable sheet to fill in by hand. Print it,
+                write the route, people, turnaround and return times, then give
+                a copy to someone reliable. Agree when they should call 9-1-1 if
+                you have not returned or checked in.
+              </p>
+              <p>
+                <a class="action-link" href="pdfs/before-you-leave.html"
+                  >Printable trip plan</a
+                >
+              </p>
+            </section>
+            <section class="box">
+              <h2>Pack for more than the planned trip</h2>
+              <p>
+                Bring the shared essentials as well as what your activity and
+                the conditions need. Prepare to stay warm if you have to stop or
+                wait for help.
+              </p>
+              <p>
+                <a class="action-link" href="pack-lists.html"
+                  >Essentials &amp; activities</a
+                >
+              </p>
+            </section>
+          </div>
+          <section class="box" id="three-ts">
+            <h2>The three T’s</h2>
+            <ul>
+              <li>
+                <strong>Trip Planning:</strong> check the route, elevation gain,
+                mountain weather, terrain, water, access, and the return
+                journey.
+              </li>
+              <li>
+                <strong>Training:</strong> choose a trip that matches everyone’s
+                fitness and experience. Know how to navigate, use your
+                equipment, and respond if something goes wrong.
+              </li>
+              <li>
+                <strong>Taking the Essentials:</strong> bring the shared
+                emergency basics, then add what your particular trip needs.
+              </li>
+            </ul>
+            <p>
+              AdventureSmart explains
+              <a href="https://www.adventuresmart.ca/the-three-ts/"
+                >the three T’s</a
+              >
+              and offers the
+              <a href="https://www.adventuresmart.ca/programs/survive-outside/"
+                >Survive Outside program</a
+              >.
+            </p>
+          </section>
+          <section class="box" id="check-conditions">
+            <h2>Check the conditions for your actual route</h2>
+            <ul>
+              <li>
+                <strong>Route and closures:</strong> check the land manager or
+                route operator’s current trail information. For provincial
+                parks, start with
+                <a href="https://bcparks.ca/find-a-park/"
+                  >BC Parks’ park finder</a
+                >
+                and
+                <a href="https://bcparks.ca/active-advisories/"
+                  >active advisories</a
+                >.
+              </li>
+              <li>
+                <strong>Weather:</strong> check
+                <a href="https://weather.gc.ca/"
+                  >Environment and Climate Change Canada</a
+                >
+                for your destination and warnings. Consider elevation and
+                exposed terrain, not only the weather in town.
+              </li>
+              <li>
+                <strong>Road access:</strong> check
+                <a href="https://www.drivebc.ca/">DriveBC</a> for highway
+                conditions and confirm the final access road with the route
+                operator or land manager.
+              </li>
+              <li>
+                <strong>Avalanche terrain:</strong> check the current
+                <a href="https://avalanche.ca/">Avalanche Canada forecast</a>
+                and choose terrain within your training.
+              </li>
+            </ul>
+            <p>
+              Check again before leaving. These links lead to current
+              information; this site does not reproduce live forecasts or
+              closure notices.
+            </p>
+          </section>
+          <section class="box" id="four-checks">
+            <h2>Four checks before you go</h2>
+            <ol>
+              <li>
+                Can everyone in your group manage the distance, elevation gain,
+                terrain, and return journey?
+              </li>
+              <li>
+                When will you turn around, and what changes would make you turn
+                around sooner?
+              </li>
+              <li>
+                Who has your plan, and when have you agreed they should call
+                9-1-1 if you have not returned or checked in?
+              </li>
+              <li>
+                What will keep you warm and help you call for help if the trip
+                takes longer than expected?
+              </li>
+            </ol>
+          </section>
+          <section class="box" id="your-contact">
+            <h2>Give your contact a job, not just a destination</h2>
+            <p>
+              Leave the plan with someone reliable, including on a short or
+              familiar trip. Make sure they know the route and the return or
+              check-in time you agreed on. If you miss that arrangement, they
+              should call 9-1-1 and share your plan.
+            </p>
+            <p>
+              Check in when you return. Think about
+              <a href="no-service.html">communication without cell service</a>
+              before you leave.
+            </p>
+          </section>
+        </div>
+      </div>
+      <aside class="next-guide">
+        <p class="eyebrow">The next step</p>
+        <a href="pack-lists.html"
+          >Essentials &amp; activities
+          <svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+        ></a>
+      </aside>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g>
+          </svg>
+          <p>More preparation.<br />More perspective.</p>
+          <span>A school capstone by Liz.<br />Made for the Sea-to-Sky.</span>
+        </div>
+        <div>
+          <p class="footer-label">Prepare</p>
+          <a href="checklists.html">Before you leave</a
+          ><a href="pack-lists.html">Essentials &amp; activities</a
+          ><a href="be-aware.html">Be aware</a>
+        </div>
+        <div>
+          <p class="footer-label">Get help</p>
+          <a href="if.html">What to do if…</a
+          ><a href="no-service.html">No cell service</a
+          ><a href="emergency.html">Emergency numbers</a>
+        </div>
+        <div>
+          <p class="footer-label">Learn</p>
+          <a href="about.html">About this project</a
+          ><a href="mistakes.html">Common mistakes</a
+          ><a href="tips.html">Quick reminders</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="site-disclaimer">
+          This is not an official rescue site. In an emergency, call 9-1-1.
+        </p>
+        <a href="about.html#photo-credits">Photo credits</a
+        ><a href="#main-content">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -71,3 +71,8 @@ Shortened the two Before you leave links to “Printable trip plan” and “Ess
 
 
 Combined the printable plan and its eight equipment lines into one page on 25 Nov 2026 at Liz's request, retaining all 13 trip/contact fields and the 9-1-1 deadline. Added a responsive preview and a dedicated stylesheet so archived forms keep their existing styling. Reason: make the sheet easier to print, complete and hand to a trusted contact. Updated canonical copy and the plan. Chrome-generated A4 and Canadian Letter PDFs at 100% each have one page; label/disclaimer extraction and visual inspection found no missing content or clipping. Native Apple printing and physical printers were not tested.
+
+
+Rebuilt the ten-page website and 404 page on 25 Nov 2026 at Liz's request, with a new visual system, local regional imagery/fonts, compact grouped navigation, readable guides, immediate emergency links, saved packing checks and guide printing. Kept the source-backed safety copy, stories, routes, QR destinations and one-page trip plan. Reason: replace the old layout with a clear, functional design across devices. Updated canonical copy first and added a static-site checker.
+
+Three independent agents reviewed the implementation before commit; their clipping, menu, TOC and deep-link findings were resolved and rechecked. Chromium/WebKit layout and journey checks passed, as did automated accessibility checks and actual PDF text/pagination checks. Fixed a brand-label mismatch and closed reminders missing from PDF export. Native Apple devices and physical printers remain untested. Runtime dependencies, hosting method and Git/SSH/credential configuration were not changed.

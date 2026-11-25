@@ -6,7 +6,7 @@ https://lzl462.github.io/outdoorsafety/
 
 Deadline: Monday 30 Nov 2026.
 
-The name is still a stand-in. The current website includes the interview material. The content and structure baseline in section 7 is complete. Next: carry out a complete redesign. School and presentation deliverables continue alongside that work.
+The name is still a stand-in. The current website includes the interview material. The content/structure baseline and complete redesign are finished (sections 7–8). Next: review the published design with Liz and finish the school deliverables. School and presentation deliverables continue alongside that work.
 
 ## Rules
 
@@ -25,11 +25,11 @@ The name is still a stand-in. The current website includes the interview materia
 ## Done
 
 - The website is on GitHub Pages.
-- Pages: Home, Before you leave, Shared essentials and activity notes, Be aware, Quick reminders, What to do if, No cell service, Emergency numbers, Common mistakes, About this project. `activities.html` and `pdfs.html` redirect to the Before you leave page (`checklists.html`).
+- Pages: Home, Before you leave, Essentials & activities, Be aware, Quick reminders, What to do if, No cell service, Emergency numbers, Common mistakes, About this project. `activities.html` and `pdfs.html` redirect to the Before you leave page (`checklists.html`).
 - There is one single-page printable, handwritten trip plan, `pdfs/before-you-leave.html`, linked from the Before you leave page. It includes the useful fields from the older leave-behind form. The hiking, biking, and climbing trip-plan variants were archived.
 - Shared emergency essentials and hiking, biking, climbing and winter considerations are on `pack-lists.html`, built from existing lists in the repo, the 24 Nov 2026 backup zip and AdventureSmart. These are not complete technical sport-equipment checklists.
 - A short No cell service page is on `no-service.html`.
-- Be aware has two photo circles. The source line at the bottom is off the page. Liz asked to leave it off. Do not put it back unless she asks for an About page.
+- Be aware is a numbered, readable risk guide. Regional photographs and their credits are on Home and About; the old Be aware source footer remains removed.
 - Emergency numbers has the main table at the top, then other verified numbers. Empty story/photo rows were removed during the content baseline; the real hiking and biking examples belong on About.
 - The cardboard plan is `pdfs/trifold.html`. The website QR is `images/qr-website.svg`.
 - Every public page and print sheet has the shared disclaimer: “This is not an official rescue site. In an emergency, call 9-1-1.” The number is written 9-1-1, with hyphens, to match E-Comm 9-1-1.
@@ -46,16 +46,17 @@ The name is still a stand-in. The current website includes the interview materia
 - [ ] **Liz** — Choose the real project name. Update Home, the sidebar, and the trifold title when it is chosen.
 - [x] **Done** — One short page for when a phone has no service (`no-service.html`).
 - [x] **Obsolete** — Make the hike, ride, and climb plans less alike. Replaced by one shared trip plan plus the Pack lists page.
-- [ ] **Later** — Print/PDF feature (download key pages as PDF). The `pdfs/` folder was not renamed. Printing is postponed.
+- [x] **Done** — Guide pages offer the browser’s Print / Save as PDF workflow, including all reminder bodies. The separate trip plan remains one page. A dedicated offline/download bundle is optional future work.
 - [ ] **Later** — More pictures, quotes, and stories only when Liz has the real words and the photo has a name.
-- [ ] **Later** — Clean up the image files at the end. Not before the content work in this plan is done. Be aware and What to do if embed large photos as base64, which is why those files are big.
+- [x] **Done** — After content completion, replaced embedded/hotlinked decorative photos with local responsive WebP photographs and About credits. Existing unused image files and printed QR assets are retained.
 
 - [x] **Done** — About this project (`about.html`) explains the capstone motivation, includes a sourced 2026 hiking case, the anonymous rider story and the contributions from both interviews, links to practical advice, and lists sources. Liz requested direct use on 25 Nov; the additional approval steps were removed. No claim of speaker review or organization endorsement is made.
 
 ## 2. Website technical
 
-- [ ] **Ready** — Complete redesign following the completed content/structure baseline in section 7. Rework navigation, layouts and usability across phone, tablet and desktop, including the trip-plan destination. Native iOS/iPadOS acceptance remains open. A PWA is optional.
-- [ ] **Later** — Independent review of the complete redesign, using the reader-task and device acceptance criteria in section 7. A no-overflow result alone does not establish usable navigation or task completion.
+- [x] **Done** — Complete redesign across the ten content pages and the 404 page, with compact grouped navigation, responsive guides, immediate help access, locally saved packing checks and print treatments. See section 8. Native Apple-device acceptance remains separate.
+- [x] **Done** — Three independent agents reviewed the implemented design before commit; material findings were resolved and rechecked. The coordinator added layout, accessibility, functional and PDF checks.
+- [ ] **Later** — Hands-on Safari/iPhone/iPad and physical-printer checks when those devices are available; current validation uses Chromium and automated WebKit, not native Apple devices.
 - [ ] **Blocked** — Make the Instagram follow QR after the @ name exists, and put it beside the website QR.
 - [x] **Done** — Leftover print sheets were archived to `archive/pdfs/`. The legacy `trip-plan.css` stays in `pdfs/` for the archived variants; the current plan uses `trip-plan-one-page.css`. `scripts/build_pdfs.py` was retired to `archive/scripts/`.
 
@@ -124,11 +125,11 @@ The interview-integration slice was published at `37eaea8` and the live files we
 
 ## 7. Content and structure first, complete redesign second
 
-Agreed and implemented on 25 Nov 2026 at Liz's request, including commit and push. Step 1 is complete. The full visual redesign is the next separate implementation slice.
+Agreed and implemented on 25 Nov 2026 at Liz's request, including commit and push. Step 1 is complete. The full visual redesign is implemented and reviewed in section 8.
 
 - [x] **Done** — Three independent agents reviewed safety/primary sources, information architecture/reader journeys, and editorial/interview evidence at `37eaea8`. The coordinator reconciled their findings against the repository, primary sources and selected live journeys. The initial review changed planning documents only; the approved implementation below then changed public copy and pages.
 - [x] **Done — Step 1: content and structure baseline.** Public copy was written in `content.md` first, then applied to the ten pages. The audience, page jobs, safety qualifications, practical research links and printable-plan mode are settled. Two reviewers subsequently checked the revised safety and editorial passages and found no material remaining issue within their bounded checks.
-- [ ] **Ready — Step 2: complete redesign.** Rework navigation, layouts, typography, visual hierarchy and shared components around the content and reader tasks below. Use the acceptance requirements before publishing the next slice.
+- [x] **Done — Step 2: complete redesign.** Implemented the shared navigation, page templates, typography, local imagery and responsive behavior described in section 8, with independent pre-publication review.
 
 ### Settled audience and page jobs
 
@@ -181,20 +182,47 @@ Completed on 25 Nov at Liz's request. The plan now combines the existing trip/co
 
 The dedicated stylesheet keeps the archived forms' styles intact. The preview reflows at phone widths, while printing uses the selected portrait paper size with 12 mm margins. Chrome PDF generation at 100% scale produced one page on both A4 and Canadian Letter; all 13 field labels, the deadline, equipment heading and disclaimer were present. Rendered output was inspected for legibility and clipping. Phone/tablet/desktop preview and print-button checks passed. Native Apple printing and physical printer output remain untested.
 
-### Step 2 redesign brief and acceptance
+### Step 2 redesign acceptance
 
-- [ ] **Ready** — Create one coherent design around the reader tasks: navigation hierarchy, typography, spacing, page templates, contact/action components and responsive behaviour. Keep the school project's voice and real local material. Do not select a new framework or hosting service merely for appearance.
-- [ ] **Ready** — Make urgent entry/actions visible and reachable on a small phone without scrolling past the full menu. At the pre-baseline review snapshot `37eaea8`, the 320 × 568 menu was about 382 pixels tall and the call box began about 618 pixels down; at 390 × 844 the call box began about 574 pixels down. A situation index is now present, but the shared visual layout still needs replacement.
-- [ ] **Ready** — Integrate the new responsive, one-page trip plan into the complete redesign. Preserve the tested A4/Canadian Letter output and repeat print checks if its layout changes. Retain a clear print/handwrite option. Evaluate [AdventureSmart's existing web plan](https://plan.adventuresmart.ca/) before proposing any additional phone-fillable/shareable local tool. Define what is saved/shared and what the trusted contact receives; this slice introduced no custom form/backend.
-- [ ] **Ready** — Decide a practical save/print/offline strategy for emergency information. Do not promise the current online site works without a connection. A PWA is optional.
-- [ ] **Ready** — Validate complete reader tasks on phone, tablet and desktop: keyboard access, focus/heading structure, contrast, readable text at zoom, slow loading, missing images, JavaScript unavailable and direct section links. Include actual Safari/iOS/iPadOS when available; distinguish it from emulation.
-- [ ] **Ready** — Independently review the completed design and resolve material findings. Preserve old routes, anchors, contact links and printed QR destinations. Image-file cleanup can follow completed content work, but was deliberately not bundled into this slice.
+- [x] **Done** — One coherent visual system covers navigation, typography, spacing, page templates and action components. The site remains static HTML/CSS/JavaScript, without a new runtime framework or hosting service.
+- [x] **Done** — Direct help and 9-1-1 controls are visible outside the closed menu at 320 × 568, with 44-pixel touch heights. Mobile help pages suppress repeated context labels to bring actions forward.
+- [x] **Done** — The printable-plan journey retains the responsive, handwritten sheet, all 13 fields and eight equipment lines. Fresh Chromium exports remain one page on A4 and Letter. No custom trip-data form/backend was added. An additional digital plan remains optional; evaluate AdventureSmart's existing web tool before building one.
+- [x] **Done** — The save/print strategy uses the browser's own print/PDF workflow. This site has no offline mode or PWA; No cell service states that clearly. Reminder bodies are included in print and their screen state is restored afterwards.
+- [x] **Done** — Verified reader tasks, menu/focus behavior, source/anchor continuity, contrast checks, narrow reflow, a 200% desktop-zoom-equivalent viewport, and missing script/font/photo behavior. Chromium and WebKit were used; native Apple testing remains a separate Later item.
+- [x] **Done** — Three agents independently reviewed safety/accessibility, navigation/journeys, and editorial/visual quality before commit. Findings were fixed and rechecked. Printed QR destinations and legacy routes remain unchanged.
+
+## 8. Complete redesign — 25 Nov 2026
+
+Liz requested a fresh design, permitted multiple agents and image research, and authorized commit/push after review. New public wording was saved in `content.md` before updating HTML. The approved safety guidance, genuine quote, anonymous rider account and sourced hiking case remain the foundation.
+
+### Implemented
+
+- Pine, warm-paper and lime visual system; locally hosted DM Sans and Barlow Condensed, with included font licences. Real regional photographs have responsive WebP variants and creator/licence links on About. No external fonts or photographs are requested on page load.
+- Magazine-style Home with distinct preparation, help and local-experience routes. The long sidebar is replaced by a compact header and grouped Prepare / Get help / Learn menu. Native disclosures provide a usable in-flow menu without scripts; JavaScript adds the sticky header/flyout, Escape, outside-click and focus-leave behavior.
+- Calm numbered risk and mistake guides, short local section indexes, distinct urgent-action styling, tap-to-call contacts and clear story/source presentation. Existing page URLs and established anchors are retained, including the printable-plan destination and redirects.
+- Ten optional packing checks, a count and Clear checks. Checks stay in this browser when storage works, or in the current tab otherwise. The count never labels the trip safe or the kit complete. Activity shortcuts link back to the common essentials.
+- Guide printing hides navigation, preserves all advice and reveals closed reminder bodies. The separate one-page plan keeps its dedicated stylesheet. A matching 404 page supports nested missing routes on the GitHub Pages project path.
+- Added `scripts/check_site.py` for local links/assets, headings, IDs, disclaimers, established anchors, the genuine quote and printable-plan fields.
+
+### Review findings resolved
+
+The agents found real 320-pixel hero clipping despite a normal document width, a small desktop TOC scrollbar caused by a rotated arrow, an obscuring menu without JavaScript, a missing activity-to-essentials handoff and a missing visual gap before the emergency number. All were corrected and independently rechecked. Automated accessibility testing additionally caught a redundant brand-label mismatch; the link now derives its name from the visible wordmark. Actual PDF extraction caught closed reminder bodies being omitted; print handling now includes them and restores the reader's choices, including repeated print events.
+
+### Acceptance evidence and limits
+
+- Static validation: 15 public HTML files and 495 local references pass. All old routes and core scenario/story anchors remain. The existing trip-plan/trifold/QR files are unchanged by the redesign.
+- Chromium: all ten content pages checked at 320, 390, 768, 1024 and 1440 pixels, including visible text against clipping ancestors. Automated axe checks for selected WCAG 2/2.1 A/AA rules found zero violations on all ten pages at 320 and 1440. This is not a claim of complete WCAG certification.
+- WebKit: all ten pages passed 320/390/768/1440 layout checks, plus mobile navigation, packing persistence, printable-plan handoff and no-script focus. The matrix used uncached requests after local-preview conditional-load hangs; actual Safari/iOS/iPadOS has not been tested.
+- Functional checks: full preparation/help/print-plan journeys, keyboard Escape/focus, no-JS navigation, storage blocked, saved-state reload/reset, missing images/fonts/scripts and 720-pixel CSS reflow equivalent to a 1440-pixel desktop at 200% zoom. No real phone/SOS or field/clinical tests were performed.
+- Actual Chromium PDFs: emergency scenarios 3 A4 pages, no-signal guide 1, contacts 2 and full reminders 2; all instruction/contact text and disclaimers are present. Reminder bodies also print with scripts disabled. The trip plan remains 1 page on both A4 and Letter. Rendered print output was inspected; native Apple printing and physical printers remain untested.
+- No Git, SSH, credential configuration, extension or deployment-method change was made. Publication uses the existing Windows Git credential manager and GitHub Pages from main.
 
 ## Next up
 
-1. **Ready** — Review the completed content/structure baseline with Liz, then implement the complete redesign using section 7's reader tasks and functional/device acceptance requirements.
-2. **Liz** — Continue the project name, portfolio, interviews and presentation tasks. Check the actual school rubric when it becomes available.
-3. **Later** — General Print/PDF feature and image-file cleanup. The trip plan's responsive preview and A4/Letter checks are complete in Chrome; preserve them during the redesign.
+1. **Ready** — Review the published redesign with Liz and make focused refinements from her feedback.
+2. **Liz** — Finish the project name, portfolio, remaining interviews and presentation. Check the actual school rubric when available.
+3. **Later** — Hands-on Apple-device and physical-printer acceptance; optionally consider a downloadable/offline bundle if useful.
+4. **Later** — Consider whether generated illustrations would improve the final project. Current regional photographs already have documented licences; no synthetic incident photograph is needed.
 
 ## Open questions
 

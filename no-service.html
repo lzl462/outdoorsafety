@@ -1,57 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>No cell service — Outdoor Safety Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=15">
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="layout">
-    <aside class="sidebar">
-      <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
-      <p class="sidebar-label">Pages</p>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="checklists.html">Before you leave</a>
-        <a href="pack-lists.html">Essentials &amp; activity notes</a>
-        <a href="be-aware.html">Be aware</a>
-        <a href="if.html">What to do if…</a>
-        <a href="no-service.html">No cell service</a>
-        <a href="emergency.html">Emergency numbers</a>
-        <a href="mistakes.html">Common mistakes</a>
-        <a href="tips.html">Quick reminders</a>
-        <a href="about.html">About this project</a>
-      </nav>
-    </aside>
-    <main id="main-content">
-<p class="back"><a href="index.html">← Home</a></p>
-<h1>If your phone has no service</h1>
-<p class="note">Reception can disappear soon after you leave the parking area. Plan another way to call for help.</p>
-<section id="need-help" class="box">
-<h2>If you need help now</h2>
-<ol>
-  <li>Try calling <a href="tel:911">9-1-1</a>. If you connect, explain your location and what has happened, answer questions, and follow instructions.</li>
-  <li>If you cannot connect, use your satellite messenger or emergency beacon’s SOS function, if you have one, following its instructions.</li>
-  <li>Keep the group together in a safe place. If the spot is unsafe, move only as needed to get out of immediate danger.</li>
-  <li>Do not wander in search of reception. Stay warm, dry, and ready to signal for help.</li>
-</ol>
-<p>If someone needs immediate first aid, use the <a href="if.html#hurt">hurt steps</a>. Your trusted contact can call 9-1-1 and share your plan if you miss the return or check-in arrangement. See <a href="checklists.html#your-contact">the contact’s job</a> and <a href="if.html#waiting-for-help">waiting for help</a>.</p>
-</section>
-<section id="before-no-signal" class="box">
-<h2>Before you leave</h2>
-<ul>
-  <li>Download a map that works offline and learn how to find your GPS position.</li>
-  <li>Save phone battery for emergency communication and carry a separate light.</li>
-  <li>Choose an emergency communication device suited to the route and learn how to use its SOS emergency-alert function before leaving.</li>
-  <li>Leave a trip plan and an agreed return or check-in time with someone reliable.</li>
-</ul>
-<p>An offline map helps with navigation. It does not send an SOS. A satellite messenger or emergency beacon has its own capabilities and limits; know yours.</p>
-</section>
-<p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-</main>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#173c32" name="theme-color" />
+    <meta
+      content="Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz."
+      name="description"
+    />
+    <title>No cell service — Outdoor Safety Sea-to-Sky</title>
+    <link href="images/mark.svg" rel="icon" type="image/svg+xml" />
+    <link
+      as="font"
+      crossorigin=""
+      href="fonts/barlow-condensed-700.ttf"
+      rel="preload"
+      type="font/ttf"
+    />
+    <link href="styles.css?v=redesign-1" rel="stylesheet" />
+    <script defer="" src="script.js?v=redesign-1"></script>
+  </head>
+  <body data-page="no-service">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container">
+          <span class="region">Sea-to-Sky, British Columbia</span>
+          <div>
+            <a href="tel:911">In an emergency, call <strong>9-1-1</strong></a
+            ><span aria-hidden="true">/</span
+            ><a href="no-service.html#need-help">No signal?</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-inner container">
+        <a class="brand" href="index.html" title="Home"
+          ><svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g></svg
+          ><span>OUTDOOR SAFETY <small>SEA-TO-SKY</small></span></a
+        >
+        <nav aria-label="Primary navigation" class="primary-nav">
+          <a href="checklists.html">Prepare</a
+          ><a href="be-aware.html">Know the risks</a
+          ><a href="about.html">Our story</a>
+        </nav>
+        <div class="header-actions">
+          <a class="help-link" href="if.html#main-content"
+            ><span class="desktop-help">Help now</span
+            ><span class="mobile-help">Help</span
+            ><svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </div>
+      <details class="site-menu">
+        <summary>
+          Menu<span aria-hidden="true" class="menu-icon"></span>
+        </summary>
+        <nav aria-label="All pages" class="menu-panel">
+          <a class="menu-home" href="index.html"
+            >Home
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <div class="menu-columns">
+            <div class="menu-group">
+              <p>Prepare</p>
+              <a href="checklists.html">Before you leave</a
+              ><a href="pack-lists.html">Essentials &amp; activities</a
+              ><a href="be-aware.html">Be aware</a>
+            </div>
+            <div class="menu-group">
+              <p>Get help</p>
+              <a href="if.html">What to do if…</a
+              ><a aria-current="page" href="no-service.html">No cell service</a
+              ><a href="emergency.html">Emergency numbers</a>
+            </div>
+            <div class="menu-group">
+              <p>Learn</p>
+              <a href="about.html">About this project</a
+              ><a href="mistakes.html">Common mistakes</a
+              ><a href="tips.html">Quick reminders</a>
+            </div>
+          </div>
+        </nav>
+      </details>
+    </header>
+    <main class="guide-main" data-guide="no-service" id="main-content">
+      <header class="page-heading">
+        <p class="breadcrumb">
+          <a href="index.html">Home</a><span>/</span>Get help
+        </p>
+        <p class="eyebrow">Get help / No cell service</p>
+        <h1>If your phone has no service</h1>
+        <p class="note">
+          Reception can disappear soon after you leave the parking area. Plan
+          another way to call for help.
+        </p>
+      </header>
+      <div class="guide-layout">
+        <aside class="guide-sidebar">
+          <nav aria-label="On this page" class="page-toc">
+            <p class="eyebrow">On this page</p>
+            <a href="#need-help">If you need help now</a
+            ><a href="#before-no-signal">Before you leave</a
+            ><button
+              class="print-guide"
+              data-print-guide=""
+              hidden=""
+              type="button"
+            >
+              Print this guide
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path>
+              </svg>
+            </button>
+          </nav>
+        </aside>
+        <div class="guide-content">
+          <section class="urgent-panel" id="need-help">
+            <h2>If you need help now</h2>
+            <ol>
+              <li>
+                Try calling <a href="tel:911">9-1-1</a>. If you connect, explain
+                your location and what has happened, answer questions, and
+                follow instructions.
+              </li>
+              <li>
+                If you cannot connect, use your satellite messenger or emergency
+                beacon’s SOS function, if you have one, following its
+                instructions.
+              </li>
+              <li>
+                Keep the group together in a safe place. If the spot is unsafe,
+                move only as needed to get out of immediate danger.
+              </li>
+              <li>
+                Do not wander in search of reception. Stay warm, dry, and ready
+                to signal for help.
+              </li>
+            </ol>
+            <p>
+              If someone needs immediate first aid, use the
+              <a href="if.html#hurt">hurt steps</a>. Your trusted contact can
+              call 9-1-1 and share your plan if you miss the return or check-in
+              arrangement. See
+              <a href="checklists.html#your-contact">the contact’s job</a> and
+              <a href="if.html#waiting-for-help">waiting for help</a>.
+            </p>
+          </section>
+          <section class="box" id="before-no-signal">
+            <h2>Before you leave</h2>
+            <ul>
+              <li>
+                Download a map that works offline and learn how to find your GPS
+                position.
+              </li>
+              <li>
+                Save phone battery for emergency communication and carry a
+                separate light.
+              </li>
+              <li>
+                Choose an emergency communication device suited to the route and
+                learn how to use its SOS emergency-alert function before
+                leaving.
+              </li>
+              <li>
+                Leave a trip plan and an agreed return or check-in time with
+                someone reliable.
+              </li>
+            </ul>
+            <p>
+              An offline map helps with navigation. It does not send an SOS. A
+              satellite messenger or emergency beacon has its own capabilities
+              and limits; know yours.
+            </p>
+            <p class="save-note">
+              Save the useful guides before you go. This website has no offline
+              mode. Use your browser’s Print or Save as PDF option.
+            </p>
+          </section>
+        </div>
+      </div>
+      <aside class="next-guide">
+        <p class="eyebrow">Keep going</p>
+        <a href="if.html#waiting-for-help"
+          >While you wait for help
+          <svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+        ></a>
+      </aside>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g>
+          </svg>
+          <p>More preparation.<br />More perspective.</p>
+          <span>A school capstone by Liz.<br />Made for the Sea-to-Sky.</span>
+        </div>
+        <div>
+          <p class="footer-label">Prepare</p>
+          <a href="checklists.html">Before you leave</a
+          ><a href="pack-lists.html">Essentials &amp; activities</a
+          ><a href="be-aware.html">Be aware</a>
+        </div>
+        <div>
+          <p class="footer-label">Get help</p>
+          <a href="if.html">What to do if…</a
+          ><a href="no-service.html">No cell service</a
+          ><a href="emergency.html">Emergency numbers</a>
+        </div>
+        <div>
+          <p class="footer-label">Learn</p>
+          <a href="about.html">About this project</a
+          ><a href="mistakes.html">Common mistakes</a
+          ><a href="tips.html">Quick reminders</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="site-disclaimer">
+          This is not an official rescue site. In an emergency, call 9-1-1.
+        </p>
+        <a href="about.html#photo-credits">Photo credits</a
+        ><a href="#main-content">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,55 +1,479 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Outdoor Safety — Sea-to-Sky</title>
-  <link rel="stylesheet" href="styles.css?v=15">
-</head>
-<body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
-  <div class="layout">
-    <aside class="sidebar">
-      <p class="brand">Outdoor Safety<br>Sea-to-Sky</p>
-      <p class="sidebar-label">Pages</p>
-      <nav aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="checklists.html">Before you leave</a>
-        <a href="pack-lists.html">Essentials &amp; activity notes</a>
-        <a href="be-aware.html">Be aware</a>
-        <a href="if.html">What to do if…</a>
-        <a href="no-service.html">No cell service</a>
-        <a href="emergency.html">Emergency numbers</a>
-        <a href="mistakes.html">Common mistakes</a>
-        <a href="tips.html">Quick reminders</a>
-        <a href="about.html">About this project</a>
-      </nav>
-    </aside>
-    <main id="main-content">
-<h1 class="name">Outdoor Safety — Sea-to-Sky</h1>
-<p class="note">Plain-English preparation for beginners and visitors planning day trips in the Sea-to-Sky area of British Columbia, with short guidance for when something goes wrong.</p>
-<section id="help-now" class="emergency-call">
-<h2>Need help now?</h2>
-<p>In an emergency, call <a href="tel:911">9-1-1</a> and follow the call taker’s instructions.</p>
-<p><a href="if.html#main-content">Lost, hurt, avalanche or water</a> · <a href="no-service.html#need-help">No cell service</a> · <a href="emergency.html#main-content">Emergency numbers</a></p>
-</section>
-<h2>Prepare a trip</h2>
-<div class="topics">
-<a href="checklists.html"><strong>Before you leave</strong><span>Plan the route and leave a printable trip plan with someone reliable</span></a>
-<a href="pack-lists.html"><strong>Shared essentials and activity notes</strong><span>Emergency preparation, with considerations for hiking, biking, climbing and winter</span></a>
-<a href="be-aware.html"><strong>Be aware</strong><span>Local risks, conditions and when to turn around</span></a>
-</div>
-<h2>Learn from local experience</h2>
-<figure class="purpose"><blockquote><p>Don&#x27;t go beyond your means (be honest) and make/leave a solid trip plan.</p>
-</blockquote><figcaption><a href="about.html#interviews">Christine Strub</a>, Prevention Team Coordinator, Squamish Search and Rescue</figcaption></figure>
-<div class="topics">
-<a href="about.html#hiker-story"><strong>A Squamish hike that became five nights lost</strong><span>A reported 2026 case, plus a biking example and the project’s local interviews</span></a>
-<a href="mistakes.html"><strong>Common mistakes</strong><span>Common assumptions and better choices</span></a>
-<a href="tips.html"><strong>Quick reminders</strong><span>Short summaries linked to the main advice</span></a>
-</div>
-<p class="site-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>
-</main>
-  </div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="#173c32" name="theme-color" />
+    <meta
+      content="Practical preparation and emergency guidance for Sea-to-Sky day trips. A school capstone project by Liz."
+      name="description"
+    />
+    <title>Outdoor Safety — Sea-to-Sky</title>
+    <link href="images/mark.svg" rel="icon" type="image/svg+xml" />
+    <link
+      as="font"
+      crossorigin=""
+      href="fonts/barlow-condensed-700.ttf"
+      rel="preload"
+      type="font/ttf"
+    />
+    <link href="styles.css?v=redesign-1" rel="stylesheet" />
+    <script defer="" src="script.js?v=redesign-1"></script>
+  </head>
+  <body data-page="index">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="utility-bar">
+        <div class="container">
+          <span class="region">Sea-to-Sky, British Columbia</span>
+          <div>
+            <a href="tel:911">In an emergency, call <strong>9-1-1</strong></a
+            ><span aria-hidden="true">/</span
+            ><a href="no-service.html#need-help">No signal?</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-inner container">
+        <a class="brand" href="index.html" title="Home"
+          ><svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g></svg
+          ><span>OUTDOOR SAFETY <small>SEA-TO-SKY</small></span></a
+        >
+        <nav aria-label="Primary navigation" class="primary-nav">
+          <a href="checklists.html">Prepare</a
+          ><a href="be-aware.html">Know the risks</a
+          ><a href="about.html">Our story</a>
+        </nav>
+        <div class="header-actions">
+          <a class="help-link" href="if.html#main-content"
+            ><span class="desktop-help">Help now</span
+            ><span class="mobile-help">Help</span
+            ><svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </div>
+      <details class="site-menu">
+        <summary>
+          Menu<span aria-hidden="true" class="menu-icon"></span>
+        </summary>
+        <nav aria-label="All pages" class="menu-panel">
+          <a aria-current="page" class="menu-home" href="index.html"
+            >Home
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+          <div class="menu-columns">
+            <div class="menu-group">
+              <p>Prepare</p>
+              <a href="checklists.html">Before you leave</a
+              ><a href="pack-lists.html">Essentials &amp; activities</a
+              ><a href="be-aware.html">Be aware</a>
+            </div>
+            <div class="menu-group">
+              <p>Get help</p>
+              <a href="if.html">What to do if…</a
+              ><a href="no-service.html">No cell service</a
+              ><a href="emergency.html">Emergency numbers</a>
+            </div>
+            <div class="menu-group">
+              <p>Learn</p>
+              <a href="about.html">About this project</a
+              ><a href="mistakes.html">Common mistakes</a
+              ><a href="tips.html">Quick reminders</a>
+            </div>
+          </div>
+        </nav>
+      </details>
+    </header>
+    <main class="home-main" id="main-content">
+      <section class="home-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">A little planning goes a long way</p>
+          <h1>Big days.<br /><span>Better prepared.</span></h1>
+          <p class="hero-intro">
+            Plain-English preparation for beginners and visitors planning day
+            trips in the Sea-to-Sky area of British Columbia.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="checklists.html"
+              >Plan your trip
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a class="text-link" href="if.html#main-content"
+              >Need help now?
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+            ></a>
+          </div>
+          <div class="activity-links">
+            <a href="pack-lists.html#hiking">Hiking</a
+            ><a href="pack-lists.html#biking">Biking</a
+            ><a href="pack-lists.html#climbing">Climbing</a
+            ><a href="pack-lists.html#winter">Winter</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img
+            alt="Low cloud across the granite face of Stawamus Chief"
+            class=""
+            decoding="async"
+            fetchpriority="high"
+            height="750"
+            sizes="120vw"
+            src="images/stawamus-chief-800.webp"
+            srcset="
+              images/stawamus-chief-800.webp   800w,
+              images/stawamus-chief-1600.webp 1600w
+            "
+            width="1600"
+          />
+          <figcaption>
+            <span>Stawamus Chief · Squamish</span
+            ><a href="about.html#photo-credits">Photo: James Abbott</a>
+          </figcaption>
+        </figure>
+      </section>
+      <section
+        aria-labelledby="prepare-heading"
+        class="prepare-feature container"
+      >
+        <div class="prepare-picture">
+          <img
+            alt="A boardwalk on Harmony Lakes Loop, with forest and mountains beyond"
+            class=""
+            decoding="async"
+            height="1200"
+            loading="lazy"
+            sizes="(max-width: 760px) 100vw, 55vw"
+            src="images/harmony-trail-800.webp"
+            srcset="
+              images/harmony-trail-800.webp   800w,
+              images/harmony-trail-1600.webp 1600w
+            "
+            width="1600"
+          /><span class="image-label">Harmony Lakes Loop · Whistler</span>
+        </div>
+        <div class="prepare-copy">
+          <p class="eyebrow">01 / Before you go</p>
+          <h2 id="prepare-heading">The good part starts<br />with a plan.</h2>
+          <p>You choose the adventure. Start with these three things.</p>
+          <div class="feature-links">
+            <a href="checklists.html"
+              ><span class="link-number">01</span
+              ><span
+                ><strong>Make a plan</strong
+                ><small
+                  >Choose a realistic route. Leave it with someone
+                  reliable.</small
+                ></span
+              ><svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+            ></a>
+            <a href="pack-lists.html"
+              ><span class="link-number">02</span
+              ><span
+                ><strong>Take the essentials</strong
+                ><small
+                  >Prepare for your activity, the conditions and an unexpected
+                  wait.</small
+                ></span
+              ><svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+            ></a>
+            <a href="be-aware.html"
+              ><span class="link-number">03</span
+              ><span
+                ><strong>Know when to turn around</strong
+                ><small
+                  >Watch the weather, the time and the people you are
+                  with.</small
+                ></span
+              ><svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="help-feature" id="help-now">
+        <div class="container">
+          <div>
+            <p class="eyebrow">02 / When plans change</p>
+            <h2>Pause. Get help.<br />Have a next step.</h2>
+            <p>
+              In an emergency, call <a href="tel:911">9-1-1</a> and follow the
+              call taker’s instructions.
+            </p>
+          </div>
+          <nav aria-label="Get help by situation">
+            <a href="if.html#lost"
+              >I’m lost
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a href="if.html#hurt"
+              >Someone is hurt
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a href="if.html#avalanche"
+              >Avalanche
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a href="if.html#water"
+              >Trouble in the water
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a href="no-service.html#need-help"
+              >No cell service
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+            ><a href="emergency.html"
+              >Emergency numbers
+              <svg
+                aria-hidden="true"
+                class="arrow"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                viewbox="0 0 24 24"
+              >
+                <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+            ></a>
+          </nav>
+        </div>
+      </section>
+      <section class="quote-feature container">
+        <p class="eyebrow">From local rescuers</p>
+        <figure>
+          <blockquote>
+            <p>
+              Don't go beyond your means (be honest) and make/leave a solid trip
+              plan.
+            </p>
+          </blockquote>
+          <figcaption>
+            <a href="about.html#interviews">Christine Strub</a
+            ><span
+              >Prevention Team Coordinator, Squamish Search and Rescue</span
+            >
+          </figcaption>
+        </figure>
+      </section>
+      <section class="story-feature container">
+        <figure>
+          <img
+            alt="Sunrise over the mountains and water of Howe Sound"
+            class=""
+            decoding="async"
+            height="1039"
+            loading="lazy"
+            sizes="(max-width: 760px) 100vw, 55vw"
+            src="images/howe-sound-800.webp"
+            srcset="
+              images/howe-sound-800.webp   800w,
+              images/howe-sound-1600.webp 1600w
+            "
+            width="1600"
+          />
+          <figcaption>
+            Howe Sound, British Columbia · Regional landscape
+          </figcaption>
+        </figure>
+        <div>
+          <p class="eyebrow">03 / Real local experience</p>
+          <h2>A day hike.<br />Five nights lost.</h2>
+          <p>
+            The 2026 Mount Habrich case, an experienced rider’s rescue, and the
+            local voices behind this project.
+          </p>
+          <a class="button button-dark" href="about.html#hiker-story"
+            >Read the stories
+            <svg
+              aria-hidden="true"
+              class="arrow"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              viewbox="0 0 24 24"
+            >
+              <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+          ></a>
+        </div>
+      </section>
+      <section aria-label="Keep learning" class="learn-links container">
+        <a href="mistakes.html"
+          ><span>Common mistakes</span
+          ><svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+        ><a href="tips.html"
+          ><span>Quick reminders</span
+          ><svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg></a
+        ><a href="about.html"
+          ><span>About this project</span
+          ><svg
+            aria-hidden="true"
+            class="arrow"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            viewbox="0 0 24 24"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6"></path></svg
+        ></a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <svg aria-hidden="true" class="brand-mark" viewbox="0 0 40 40">
+            <rect fill="currentColor" height="40" rx="5" width="40"></rect>
+            <g
+              fill="none"
+              stroke="#173c32"
+              stroke-linejoin="round"
+              stroke-width="2.4"
+            >
+              <path d="M5 29 16 10l8 13 5-8 7 14H5Z"></path>
+              <path d="m12 17 4 3 3-4M6 34h28"></path>
+            </g>
+          </svg>
+          <p>More preparation.<br />More perspective.</p>
+          <span>A school capstone by Liz.<br />Made for the Sea-to-Sky.</span>
+        </div>
+        <div>
+          <p class="footer-label">Prepare</p>
+          <a href="checklists.html">Before you leave</a
+          ><a href="pack-lists.html">Essentials &amp; activities</a
+          ><a href="be-aware.html">Be aware</a>
+        </div>
+        <div>
+          <p class="footer-label">Get help</p>
+          <a href="if.html">What to do if…</a
+          ><a href="no-service.html">No cell service</a
+          ><a href="emergency.html">Emergency numbers</a>
+        </div>
+        <div>
+          <p class="footer-label">Learn</p>
+          <a href="about.html">About this project</a
+          ><a href="mistakes.html">Common mistakes</a
+          ><a href="tips.html">Quick reminders</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="site-disclaimer">
+          This is not an official rescue site. In an emergency, call 9-1-1.
+        </p>
+        <a href="about.html#photo-credits">Photo credits</a
+        ><a href="#main-content">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
 </html>
