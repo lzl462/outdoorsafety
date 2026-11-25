@@ -43,3 +43,5 @@ An About page was added to the plan as a Liz item. Reason: Liz wants a page abou
 The About page item now states its main focus: why the site matters and Liz's motivation (Sea-to-Sky capstone project, many 2026 incidents with unprepared people who were lucky).
 
 A draft of the About page wording was added to `content.md` for Liz to review. Reason: Liz asked for the rest of the About content to be drafted from her note about why the page matters. The draft is not on the website yet.
+
+A new plan section, “Website revision based on the interviews,” was added after comparing Christine Strub’s written answers and Ms. Lejeune’s three 5 Nov transcripts with the live site and `content.md`. Reason: Liz asked for a full comparison and a plan of pages to add, pages to change, text to add, and errors to fix. Site pages and `content.md` were not changed.
