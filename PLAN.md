@@ -16,6 +16,8 @@ The [trail-sign concept](prototypes/trail-sign.html) is now available as a label
 
 The navigation follow-up makes Trip Plan the first direct destination under Prepare in every shared menu and footer. The preparation guide is now labelled “Before your trip”; existing URLs and anchors are retained. The sticker uses only “Outdoor Safety · Sea-to-Sky” as its small project label; personal/school attribution remains in the website context rather than on the artwork. Its PDF and PNG preview have been regenerated.
 
+The user confirmed that the email and QR functions have been tested and are adequate for this school project's scope. Those functional checks are complete. Physical printer tests are explicitly out of scope because no printer is available; they are not outstanding completion work. The recorded browser/PDF checks remain valid evidence.
+
 ## Open work and decisions
 
 “Unverified” means completion is not evidenced in this repository; it does not mean Liz has not done it elsewhere.
@@ -23,15 +25,14 @@ The navigation follow-up makes Trip Plan the first direct destination under Prep
 | Owner / status | Remaining item | Evidence and boundary |
 | --- | --- | --- |
 | Liz / later decision | Consider the two deferred proposals, R05 and R06, if useful. | The other six follow-up proposals are implemented. No story rewrite or mobile contents-label experiment is needed to complete this small correction package. |
-| Later / optional next slice | Review the shorter trail-start briefing before adopting it on Quick reminders. | The sign preview/PDF is available through Print & share. Its QR opens the existing `tips.html`; the shorter briefing is a labelled concept preview. Physical printing, visitor/icon recognition and field scans remain unverified. |
+| Later / optional next slice | Review the shorter trail-start briefing before adopting it on Quick reminders. | The sign preview/PDF is available through Print & share. Its QR opens the existing `tips.html`; the shorter briefing is a labelled concept preview. Functional QR testing is accepted; visitor/icon recognition and real trail placement remain separate optional work. |
 | Liz / decision | Keep the current project name or choose the final one. | Outdoor Safety — Sea-to-Sky is still described as a working title. If it changes, update site branding/page titles and print materials; the old global sidebar no longer exists. |
 | Liz / unverified | Complete or confirm the portfolio and her own interview notes. | The source interviews and transcripts are ready. They do not prove that the three notes, Interview page or portfolio are finished. The portfolio's location is unknown; it is not in the tracked repository. |
 | Liz / unverified | Check the actual school rubric and whether any further course interviews are required. | Two contributors are documented. The rubric is absent, so the old “remaining interviews” line is an unanswered course-requirement question, not proof that interviews still need doing. |
 | Liz / unverified | Build or confirm the physical cardboard/poster using the existing layout. | [The cardboard layout](pdfs/trifold.html) is ready; a file does not prove that the board has been made. |
-| Liz / unverified | Print the website QR for the poster/flyer and test scanning from the finished material. | [Print QR](images/qr-website-print.svg) and [the QR used by the layout](images/qr-website.svg) exist. Physical printing/scanning is not evidenced. |
 | Liz / unverified | Complete or confirm thank-you notes to Christine Strub and Ms. Lejeune. | No sent-note or completed physical-note evidence is tracked here. This plan is not an instruction to send messages. |
 | Liz / optional decision | Decide whether Instagram is still in scope. | Only a draft name/bio exists. If wanted, Liz creates the account and supplies the handle; posts and a follow QR then become possible. These are not missing website prerequisites. |
-| Later / device access | Hands-on Safari/iPhone/iPad and physical-printer checks. | Chromium and automated WebKit checks are recorded; those are not native Apple-device or physical-printer tests. |
+| Later / optional device access | Additional hands-on Safari/iPhone/iPad checks, if useful. | Chromium and automated WebKit checks are recorded. These additional device checks are not required to reopen the accepted email/QR work. Physical printer tests are excluded. |
 
 ## Completed deliverables
 
@@ -50,7 +51,8 @@ The navigation follow-up makes Trip Plan the first direct destination under Prep
 | Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 19 public HTML files and 646 local references, including the two concept pages. Explicit page/landmark/disclaimer contracts and root/print/concept stylesheet assets are checked; nine structural regression tests pass. |
 | Done | Six bounded follow-up corrections after the independent review. | R01–R04 and R07–R08 in the [review record](reviews/2026-11-25-follow-up.md#implementation-follow-up). Targeted Chromium/WebKit focus/layout checks and Chromium accessibility, menu and poster/PDF checks passed. |
 | Done / design preview | A6 trail-start QR sign and concise mobile-briefing prototype. | [Prototype notes](prototypes/README.md), editable HTML/CSS/SVG, PNG preview and one-page PDF. The code was decoded from the actual PNG/PDF and opens `tips.html`. Resources exposes the design; no physical installation is claimed. |
-| Done | Print & share page and online trip planner. | [Acceptance record](reviews/2026-11-25-planning-acceptance.md). Five logic tests plus browser validation/export/fallback checks; Chromium/WebKit layouts and Unicode email handoff checked. Short filled-plan A4 output is one page; longer content flows to further pages without truncation. Actual external email-app delivery is not certified. |
+| Done | Print & share page and online trip planner. | [Acceptance record](reviews/2026-11-25-planning-acceptance.md). Five logic tests plus browser validation/export/fallback checks; Chromium/WebKit layouts and Unicode email handoff checked. Short filled-plan A4 output is one page; longer content flows to further pages without truncation. The user's practical email/QR acceptance is recorded below. |
+| Done / user confirmed | Practical email and QR functional checks. | On 25 Nov, the user confirmed testing both functions and accepted them as adequate for the project's scope. No further email/QR acceptance test is outstanding. |
 | Done | Direct Trip Plan navigation, unambiguous preparation label and neutral sticker attribution. | Thirteen shared menus/footers now link directly to the form; guide labels say “Before your trip”. Thirty Chromium menu checks covered phone/desktop/short-height layouts, direct form navigation and no-JS fallback. Regenerated A6 PDF is one page; its QR and the PNG decode to the unchanged Quick reminders URL. |
 | Done | GitHub Pages publication from main, repository root. | [README](README.md). Existing Git/SSH/credential configuration remains unchanged. |
 
@@ -67,6 +69,7 @@ The navigation follow-up makes Trip Plan the first direct destination under Prep
 | General printing postponed | Basic printing/save-as-PDF is implemented. A dedicated download/offline bundle would be a separate optional expansion. |
 | Further redesign/navigation work described as future | Completed at 2c79f56. Old descriptions in the historical plan refer to earlier snapshots. |
 | Mandatory external SAR/speaker approval | Removed at Liz's request. Optional feedback is welcome if she wants it; no organization endorsement is claimed. |
+| Physical printer tests | Explicitly excluded by the user on 25 Nov because no printer is available. Keep the completed browser/PDF evidence; do not reopen physical print testing as a completion requirement. |
 
 ## Optional later ideas
 
@@ -84,7 +87,7 @@ These are not required completion work and do not authorize implementation now:
 - The [historical plan](docs/history/PLAN-2026-11-25.md) preserves the detailed content/source mapping, review findings, implementation steps and original acceptance evidence. The chronological [worklog](WORKLOG.md) is retained rather than rewritten.
 - Recorded implementation checks cover Chromium/WebKit layouts and reader journeys, selected automated accessibility rules, no-JS/storage-failure behavior and actual Chromium PDF exports. The trip plan is one page on A4 and Canadian Letter in those exports.
 - Today's [follow-up review](reviews/2026-11-25-follow-up.md) records the original bounded read-only review and the subsequent six authorized corrections with targeted acceptance evidence. R05 and R06 remain proposals. Neither pass is a new clinical/field audit.
-- Native Apple devices, physical printers, real calls/SOS, the physical poster/QR and external school/outreach completion are not certified by repository files or browser emulation.
+- The user's reported email/QR tests are accepted for this project's scope; the test device and method are not recorded. Additional native Apple-device checks are optional. Physical printer tests are explicitly excluded. The physical poster, real calls/SOS and external school/outreach completion are separate from browser evidence and functional email/QR acceptance.
 
 ## Working rules
 

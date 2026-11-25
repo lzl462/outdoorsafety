@@ -22,4 +22,10 @@ Implemented after Liz accepted the bounded proposal. This record covers the coor
 
 ## Limits
 
-Actual external mail applications and end-to-end email delivery were not exercised. Browser tests intercepted the handoff and checked the complete URI contents; the UI always provides copying and explains that the user must send and confirm receipt. Physical printing/phone scans, visitor symbol recognition and native iPhone/iPad testing remain unverified. The site has no offline support. Existing personal/school completion work and multilingual ideas remain separate.
+The automated tests did not exercise external mail applications or end-to-end email delivery. Browser tests intercepted the handoff and checked the complete URI contents; the UI always provides copying and explains that the user must send and confirm receipt. These statements describe the automated checks, not the subsequent user acceptance below. The site has no offline support. Visitor symbol recognition, optional native iPhone/iPad checks, existing personal/school completion work and multilingual ideas remain separate.
+
+## Subsequent user acceptance — 25 Nov 2026
+
+The user reported testing the email and QR functions and confirmed that both are adequate for this school project's scope. Mark these practical functional checks complete; the device and test method were not specified. This does not add automated sending, receipt confirmation or return monitoring to the website.
+
+The user explicitly excluded physical printer tests because no printer is available. They are not an outstanding acceptance task. The completed browser-generated PDF checks remain recorded; no physical printer run is claimed or required.
