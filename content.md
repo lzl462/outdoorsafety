@@ -290,3 +290,56 @@ Not used in the draft, for Liz to decide:
 - A 2022–2023 trailhead study found preparedness gaps among Sea-to-Sky recreationists, but it is not 2026 data, so it was left out: https://doi.org/10.1177/10806032261495966
 
 The Be aware source line, taken off that page earlier, is reused in “Where the information comes from”: “The facts were checked against public advice from Squamish Search and Rescue, Sea to Sky RCMP, AdventureSmart, and the Squamish-Lillooet Regional District. The sentences are ours.”
+
+---
+
+## Interview-based revision drafts — 25 Nov 2026
+
+Working copy for the revised plan, section 6. These passages are not on the website. The placement and wording below are proposals, except for Liz's agreed direction to use one simple 9-1-1 instruction without choosing an emergency agency for the reader. Review the final safety wording before implementation. Interview quotations, attribution, and the story need the permissions and speaker review recorded in `PLAN.md`.
+
+### Shared emergency instruction
+
+Proposed for the lost and hurt sections of What to do if, with shorter references from Tips and Emergency numbers. This does not replace the site's existing shared disclaimer.
+
+Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
+
+Source notes: Ms. Lejeune, `interviews/Nov 5 at 10-10 AM_codex.md`, 03:03–05:06; [E-Comm's calling guidance](https://www.ecomm911.ca/911-dispatch/tips-and-info/), checked 25 Nov 2026. The operator may ask which service is needed; the site should not give the reader a police-versus-ambulance decision tree.
+
+### Before you leave: four checks
+
+Proposed beside the existing trip-plan and pack-list links, as a short introduction rather than another form.
+
+- Can everyone in your group manage the distance, elevation gain, terrain, and return journey?
+- When will you turn around, and what changes would make you turn around sooner?
+- Who has your plan, and when have you agreed they should call 9-1-1 if you have not returned or checked in?
+- What will keep you warm and help you call for help if the trip takes longer than expected?
+
+Source notes: Christine Strub, questions 5–6 and 9; Ms. Lejeune, first recording 03:00 and 06:03, second recording 00:03–03:03 and 05:06, third recording 00:18–02:14. These questions are planning prompts, not a safety score or a complete checklist. Explain the AdventureSmart 3 T's alongside them, using [the official source](https://www.adventuresmart.ca/the-three-ts/).
+
+### Be aware: turning around
+
+Proposed beside the existing time-to-turn-around advice.
+
+Plan enough time and energy for the return journey. Watch your progress as well as the clock; the forest can become dark sooner than open ground. Turn around before you are exhausted. If someone is uneasy or the group starts pushing each other, stop and reconsider the plan. Being close to the destination is not a reason to ignore the time you set.
+
+Source notes: Christine Strub, question 6; Ms. Lejeune, second recording 01:18–03:03. This uses the clear gut-feeling and group-dynamics passages, not the unresolved phrase. An attributed version needs speaker review.
+
+### What to do if: waiting for help
+
+Proposed after the immediate lost/hurt steps, with a link from No cell service.
+
+Help may take time to reach you. Put on extra layers before you get cold, keep the group together, and follow instructions from the call taker or rescue team. Rescue teams may need to travel on foot, and a helicopter is not always available.
+
+Source notes: Christine Strub, questions 2 and 7–9; Ms. Lejeune, first recording 06:03–07:09 and second recording 04:24–06:24. Keep the existing safe-location qualification when integrating this passage. This draft does not add instructions to light a fire or send someone away for reception; those proposals need separate qualified review.
+
+### About: an experienced rider still needed help
+
+Liz suggested the About page as the home for this example on 25 Nov. Story draft only; Ms. Lejeune's permission and review are pending. Do not present it as Liz's own experience, an independently investigated incident, or a direct quotation.
+
+In an interview for this project, a local search and rescue member described an experienced mountain biker who fell while riding alone. He could not reach the phone in his pocket. Someone passing nearby heard him calling for help and called 9-1-1.
+
+The story shows why preparation matters even on a familiar ride. Leaving a route and an agreed return or check-in time with someone you trust gives them information to pass on if you do not come back.
+
+Suggested next link: the trip plan on Before you leave. Use a short text block beside the project motivation; a new accident photograph is not needed.
+
+Source notes: `interviews/Nov 5 at 10-01 AM_codex.md`, 01:43–04:25; trip-plan lesson also in `interviews/Nov 5 at 10-18 AM_codex.md`, 01:20–02:14. The rider is unnamed. Leave out recovery percentages, medical details, exact location, and other identifying details. Do not claim that a trip plan would have prevented the fall or guaranteed a particular outcome.
