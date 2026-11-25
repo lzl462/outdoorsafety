@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Build printable Sea-to-Sky outdoor safety PDFs."""
+"""RETIRED. Kept in archive only. Build printable Sea-to-Sky outdoor safety PDFs.
+
+This script is no longer used. Print/PDF is a later feature. Do not run it as part of the live site.
+"""
 
 from pathlib import Path
 
@@ -336,8 +339,7 @@ def if_injured(sty):
     story = [
         Paragraph("If someone is hurt", sty["title"]),
         Paragraph("Call 9-1-1 early. Rescues in this corridor can take hours.", sty["sub"]),
-        banner("You will not be billed for Search and Rescue in British Columbia.", sty),
-        Spacer(1, 10),
+                Spacer(1, 10),
         numbered(
             [
                 "Make the scene safe. Do not become the second patient.",

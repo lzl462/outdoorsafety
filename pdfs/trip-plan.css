@@ -160,3 +160,10 @@ h2 {
   }
   .page:last-child { break-after: auto; }
 }
+
+.sheet.compact .sub { margin-bottom: 0.45rem; }
+.sheet.compact .lines .blank,
+.sheet.compact .call .blank { min-height: 1.15em; }
+.sheet.compact .fill { justify-content: flex-start; gap: 0.55rem; }
+.sheet.compact .lines li,
+.sheet.compact .call { margin: 0; }

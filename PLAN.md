@@ -10,9 +10,9 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 
 ## Rules
 
-- Do not invent quotes, stories, or a gear list.
+- Do not invent quotes or stories.
 - Do not write that rescue in B.C. is free.
-- Pack lists stay off the site. The older pack lists (`pdfs/pack-hiking.html`, `pdfs/pack-biking.html`, `pdfs/pack-climbing.html`) are only in the 24 Nov 2026 backup zip, not in this working copy. Do not restore them to the site.
+- Pack lists are allowed on the site. Build them only from lists already in the repository or from verified sources. Do not invent items.
 - Do not publish until Liz asks.
 
 ## Status tags
@@ -25,29 +25,33 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 ## Done
 
 - The website is on GitHub Pages.
-- Pages: Home, Before you leave, Be aware, Tips, What to do if, Emergency numbers, Common mistakes. `activities.html` and `pdfs.html` redirect to the Before you leave page (`checklists.html`).
-- Trip plans are online. The old “PDF later” placeholders are gone. The Before you leave page links four HTML print sheets: the general trip plan (`pdfs/before-you-leave.html`), hiking, biking, and climbing. Each has blank “For this trip, I need” lines. These are not full gear lists.
+- Pages: Home, Before you leave, Pack lists, Be aware, Tips, What to do if, No cell service, Emergency numbers, Common mistakes. `activities.html` and `pdfs.html` redirect to the Before you leave page (`checklists.html`).
+- There is one fill-in trip plan, `pdfs/before-you-leave.html`, linked from the Before you leave page. It includes the useful fields from the older leave-behind form. The hiking, biking, and climbing trip-plan variants were archived.
+- Pack lists are on `pack-lists.html`: hiking, biking, climbing, and winter, built from existing lists in the repo and from the 24 Nov 2026 backup zip.
+- A short No cell service page is on `no-service.html`.
 - Be aware has two photo circles. The source line at the bottom is off the page. Liz asked to leave it off. Do not put it back unless she asks for an About page.
-- Emergency numbers has the table at the top, then two photo circles with an “Add a story” box beside each one. The boxes are still empty.
+- Emergency numbers has the main table at the top, then other verified numbers, then two photo circles with an “Add a story” box beside each one. The boxes are still empty.
 - The cardboard plan is `pdfs/trifold.html`. The website QR is `images/qr-website.svg`.
 - Every public page and print sheet has the shared disclaimer: “This is not an official rescue site. In an emergency, call 9-1-1.” The number is written 9-1-1, with hyphens, to match E-Comm 9-1-1.
-- Local branch `main` tracks `origin/main`.
+- Local branch `main` is ahead of `origin/main`. Do not push until Liz asks.
 - GitHub Pages is published from the `main` branch, folder `/` (root), not from GitHub Actions. The README now says this.
+- Leftover print sheets and `scripts/build_pdfs.py` are in `archive/`. The billing sentence “You will not be billed for Search and Rescue in British Columbia” was removed before those files were moved.
 
 ## 1. Website content
 
 - [ ] **Liz** — Home quote. The box on Home still says “add quote”. Liz writes the real quote. Do not invent one. The old “What this website is for” text is off the page.
 - [ ] **Liz** — Two emergency stories. The boxes still say “Add a story.” One is a real hike, the other something real on the water. No names. Do not invent them.
 - [ ] **Liz** — Choose the real project name. Update Home, the sidebar, and the trifold title when it is chosen.
-- [ ] **Ready** — Make the hike, ride, and climb plans less alike, using lines already on the site.
-- [ ] **Ready** — One short page for when a phone has no service.
+- [x] **Done** — One short page for when a phone has no service (`no-service.html`).
+- [x] **Obsolete** — Make the hike, ride, and climb plans less alike. Replaced by one shared trip plan plus the Pack lists page.
+- [ ] **Later** — Print/PDF feature (download key pages as PDF). The `pdfs/` folder was not renamed. Printing is postponed.
 - [ ] **Later** — More pictures, quotes, and stories only when Liz has the real words and the photo has a name.
 - [ ] **Later** — Clean up the image files at the end. Not before the content work in this plan is done. Be aware and What to do if embed large photos as base64, which is why those files are big.
 
 ## 2. Website technical
 
 - [ ] **Blocked** — Make the Instagram follow QR after the @ name exists, and put it beside the website QR.
-- [ ] **Ready** — Decide what to do with unlinked leftover files in `pdfs/`: `day-hike-checklist.html`, `winter-backcountry-checklist.html`, `if-lost.html`, `if-injured.html`, `emergency-numbers.html`, and `trip-plan.html` (plus `trip-plan.css`). Keep, archive, or remove. Do not put pack lists on the site.
+- [x] **Done** — Leftover print sheets were archived to `archive/pdfs/`. `trip-plan.css` stays in `pdfs/` because the live trip plan uses it. `scripts/build_pdfs.py` was retired to `archive/scripts/`.
 
 ## 3. Capstone deliverables / school
 
@@ -70,8 +74,8 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 
 ## Next up
 
-1. **Ready** — Make the hike, ride, and climb plans less alike, using lines already on the site. Do not publish until Liz asks.
-2. **Liz** — Write the Home quote, the two emergency stories, and/or choose the project name. These unblock most of the public-facing work.
+1. **Liz** — Write the Home quote, the two emergency stories, and/or choose the project name. These unblock most of the public-facing work.
+2. **Later** — Print/PDF feature (download key pages as PDF), after the remaining Liz writing is in.
 
 ## Open questions
 
@@ -81,4 +85,3 @@ The name is still a stand-in. One real quote, the interview notes, and the cardb
 - Thank-you notes: handwritten or email? Are there drafts?
 - Is Instagram still in scope?
 - Who should do the search-and-rescue review?
-- Should the unlinked leftover files in `pdfs/` be removed from `main`?

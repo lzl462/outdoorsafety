@@ -29,7 +29,7 @@ add quote
 
 ## Activities
 
-Activities are not a separate page. Checklist PDFs are sorted on the Checklists page: hiking, biking, climbing.
+Activities are not a separate page. The trip plan is on the Before you leave page. Gear is on the Pack lists page: hiking, biking, climbing, and winter.
 
 ---
 
@@ -37,19 +37,9 @@ Activities are not a separate page. Checklist PDFs are sorted on the Checklists 
 
 ### Before every trip
 Download: pdfs/before-you-leave.html
-Fill-in lines. The second page says “For this trip, I need” and has checkboxes with blank lines. It does not list a layer, a rain jacket, extra clothes, food, water, a headlamp, a whistle, or packing food and garbage away. This is not a full gear list.
+One fill-in trip plan for any trip. Leave it with someone you trust. The lines are: date of the trip, who is going, number of people / dogs, time of departure, starting point (trailhead, parking, or GPS), destination, planned route, turnaround time, anticipated return time, contact numbers, vehicle make, colour, and plate, satellite messenger, medical notes, and “Call 9-1-1 if we are not back by.” The second page says “For this trip, I need” and has checkboxes with blank lines. Pack lists for hiking, biking, climbing, and winter are on the Pack lists page.
 
-### Hiking
-Download: pdfs/trip-hiking.html
-Same lines as the general trip plan. The bend check and the creek check are off. Call 9-1-1 sits above “Things you might need”: a layer you can put on, a jacket that blocks rain, extra warm clothes, extra food, extra water, a headlamp, a whistle, pack food and garbage away. The second page says “For this hike, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-hiking.html is not on the site.
-
-### Biking
-Download: pdfs/trip-biking.html
-Same lines as the general trip plan. The ride check, the checklist ideas, and the extra-equipment line are off this sheet. The second page says “For this ride, I need” and has checkboxes with blank lines. This is not a full gear list. The older pack list in pdfs/pack-biking.html is not on the site.
-
-### Climbing
-Download: pdfs/trip-climbing.html
-Same lines as the general trip plan. The slope line is off this sheet. The second page says “For this climb, I need” and has checkboxes with blank lines. This sheet does not list ropes or a helmet. The older pack list in pdfs/pack-climbing.html is not on the site.
+The older hiking, biking, and climbing trip-plan sheets, and the older leave-behind form, are in archive/pdfs/.
 
 ---
 
@@ -100,8 +90,24 @@ Click a box to open the explanation. Words taken from the other pages.
 
 ---
 
-## Checklists (PDFs live here, not as a separate website page)
-See Before you leave / In the pack above.
+## Pack lists
+
+Pack lists are allowed on the site. Build them only from lists already in the repository or from verified sources. Do not invent items.
+
+The Pack lists page is pack-lists.html.
+
+### Hiking
+From pdfs/day-hike-checklist.html (now in archive/pdfs/): the 10 essentials, and the Sea-to-Sky extras (shoes with grip, microspikes if snow or ice is possible, bear spray where legal and knowledge of how to use it, do not start long alpine trips after late morning).
+Also from the hiking trip plan “Things you might need” and from the 24 Nov 2026 backup pack-hiking.html, where the line is not already in those lists: pack food and garbage away; a map that works with no service; phone battery saved for a real call; far from cell towers, a satellite messenger.
+
+### Biking
+From the 24 Nov 2026 backup pack-biking.html: a layer you can put on; a jacket that blocks rain; extra warm clothes; extra food; extra water; food and garbage packed away; a headlamp; a whistle; a map that works with no service; phone battery saved for a real call; slow down where the view is blocked; keep a dog beside you.
+
+### Climbing
+From the 24 Nov 2026 backup pack-climbing.html. The page notes that the list does not include ropes or a helmet. The lines are: a layer you can put on; a jacket that blocks rain; extra warm clothes; extra food; extra water; food and garbage packed away; a headlamp; a whistle; shoes that match snow or ice, or you head back down; a map that works with no service; phone battery saved for a real call; on a slope that can slide, go only if the group has practiced and has the tools.
+
+### Winter
+From pdfs/winter-backcountry-checklist.html (now in archive/pdfs/): check before you go (Avalanche Canada bulletin, mountain weather, DriveBC for Highway 99, stay off unmaintained forest service roads, resort boundary is not a safety boundary). Every person in the group: transceiver worn on the body and tested that morning, shovel and probe, a partner who can search, do not travel alone in avalanche terrain, AST 1 (or equivalent) training at minimum.
 
 ---
 
@@ -117,16 +123,19 @@ Photos, published 2026-11-18 in commit a8dbb30. The four boxes are the same heig
 - Stop. Do not keep walking.
 - Stay with your group.
 - Stay in that spot unless it is unsafe.
-- Call 9-1-1.
+- Call 9-1-1. Ask for police. Say you need Search and Rescue.
+- Give your location from the Compass or Maps app on your phone.
 - Put on warm clothes before dark.
 - Blow a whistle 3 times.
+- Do not walk downhill through the bush. Many Sea-to-Sky slopes end at cliffs.
 
 ### If someone is hurt
 - Make sure you are safe first.
-- Call 9-1-1 right away.
-- Say where you are and what happened.
-- Keep the person warm and dry.
-- Stay with them. Help can take a long time.
+- Call 9-1-1 right away. Ask for police. They activate Search and Rescue.
+- Tell the operator: where you are (GPS if you have it), how many people, what happened, the injuries, the weather, and your phone number.
+- Stop life-threatening bleeding. Keep the person warm and dry.
+- Stay with them. Help can take a long time. Be ready to wait, and have a way to signal a helicopter, such as a bright tarp.
+- Send someone to a place with cell service only if 9-1-1 cannot connect.
 
 ### If there is an avalanche
 - Shout "avalanche."
@@ -154,7 +163,38 @@ Photos, published 2026-11-18 in commit a8dbb30. The four boxes are the same heig
 - 9-1-1 — Emergency (police, fire, ambulance, search and rescue).
 - 1-800-567-8911 — Poison Control
 - 1-800-663-5555 or *5555 — BC Wildfire Service (report a wildfire)
-- 1-800-567-5111 — Marine / Howe Sound (Joint Rescue Coordination Centre)
+- 1-800-567-5111 — Marine / Howe Sound (Joint Rescue Coordination Centre). On the water, VHF Channel 16.
+
+Other numbers, checked against official sources on 24 Nov 2026:
+- 604-892-6100 — Squamish RCMP (non-emergency). Source: rcmp.ca/en/bc/squamish/contact
+- 604-932-3044 — Whistler RCMP (non-emergency). Source: rcmp.ca/en/bc/whistler/contact
+- 604-894-6634 — Pemberton RCMP (non-emergency). Source: rcmp.ca/en/bc/pemberton/contact
+- 1-877-952-7277 or #7277 from a cell — Conservation Officer Service (RAPP). Source: gov.bc.ca RAPP page
+- 1-800-550-4997 — DriveBC (highway conditions). Source: drivebc.ca and gov.bc.ca
+- 9-8-8 — Suicide Crisis Helpline (call or text). Source: 988.ca
+
+Clinic and hospital addresses from the old print sheet were not added.
+
+---
+
+## If your phone has no service
+
+The page is no-service.html. Words taken from Be aware, Tips, and the old if-lost and if-injured print sheets.
+
+Plenty of valleys and ridges have no signal. This corridor does not have its own rescue line.
+
+Before you leave:
+- Download a map that works with no service before you leave.
+- Save the battery for a real call, and bring a separate light.
+- Far from cell towers, a satellite messenger is what can still reach someone.
+
+If you need help and there is no signal:
+- Try 9-1-1 anyway. Emergency calls can use any available tower.
+- If a call goes through, it is 9-1-1.
+- Use a satellite messenger SOS.
+- Move only to a nearby ridge, clearing, or known trail if you are sure.
+- Keep one person with the injured or tired. Do not split the group far apart.
+- Send someone to a place with cell service only if 9-1-1 cannot connect.
 
 Light green page. The table stays at the top. Under it, two rows. First row: trail photo on the left, a short story on the right. Second row: a short story on the left, Howe Sound photo on the right. Story boxes say “Add a story.” Liz writes the real stories. No names. Do not invent them.
 
