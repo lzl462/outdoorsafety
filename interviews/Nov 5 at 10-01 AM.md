@@ -1,0 +1,24 @@
+# Nov 5 at 10-01 AM.m4a
+
+Detected language: English (en, 98% confidence)  
+Duration: 7:11
+
+**[00:01]**
+Hi Liz, it's Miss Lejeune. I have two young kids at home so it's really hard for me to type down some of my answers. So if you don't mind, I'll just answer and leave you this voice message. It's so cool that you're doing a capstone about search and rescue and awareness in the mountains. And yeah, if you need anything else than me answering those questions, I'm happy to meet with you. Okay so, what is my role in Search and Rescue? So I am a regular member of Search and Rescue. I go in the field, but I'm also specialized in rope rescue and winter rescue. And I'm also the coordinator of the mountain [inaudible] team. So I coordinate the training, the budget, the gear for the winter team and for the winter rescues.
+
+**[01:04]**
+I decided to join Squamish Search and Rescue for different reasons. One is because I wanted to contribute to the community and help people because I was doing a lot of outdoor activities like climbing and biking and skiing and I felt I wanted to be more involved in that community. And the second is because I broke my leg in the backcountry in a stormy day. It was a really [inaudible] hard rescue and I was so thankful for Whistler Search and Rescue to [inaudible] and rescue me.
+
+A rescue that I can remember that I learned a lot from is one day we had a call for a mountain biker, turns out he was a really really good mountain biker and he [inaudible] on his own [inaudible] and he fell and when he fell he couldn't move his body, he couldn't reach his phone that was in his pocket so he was head down on [inaudible] in the rain and one evening and all he had was his voice to call help. He was extremely lucky that somebody [inaudible] by or run by one of the trail nearby and [inaudible] him and they called 911. And we got the call and we went to rescue him. And turns out, I think he recovered maybe 90% of his leg and arms. But I think what I learned a lot from [inaudible] is anybody who goes along should always have somebody, a friend, a partner, a roommate who knows where they are and what they're doing because
+
+**[03:01]**
+that person, this guy, could have spent the entire night out without anybody knowing where he was and extremely injured in his back and it could have been really hard with hypothermia and more injuries. And so I think I knew a lot of people who are going along biking or running or hiking and I think it's great to be outside alone for mental health reasons or for different reasons. But I do think we always need to let people know what we're doing, at least one person. This guy was a really really good mountain biker. For him this trail was like you or me going [inaudible] or grocery store. What I mean is for him he was totally fine hiking. And I think what happened, now I remember too, his glasses got foggy because of [inaudible] or the cold and that's how he couldn't see very [inaudible], but he was almost at the end
+
+**[04:01]**
+[inaudible] on the trail, so he kept going and then he took a really bad fall. So that was very lucky of him, that [inaudible] him to walk by and find him. The common mistake in the Sea to Sky area, I would say mostly being unprepared. So getting lost, not having a good app or not having done enough research before going on a hike or a mountain bike ride and being too tired or being too far and then things can add up like somebody gets injured or they [inaudible] out of water or snacks or daylight and then it's dark and these are the common mistakes I think yeah
+
+**[05:03]**
+just not being prepared enough when they leave the car. Okay so I'm not gonna answer all the questions because I'm sure Christine did a really good job at answering most of the questions but maybe to get prepared I think we should always [inaudible] with snack, water, warm layer, headlamp, this is the [inaudible] minimum and a first aid kit is even better, a lighter or maybe some, the blankets, the emergency blankets, that could help as well.
+
+**[06:03]**
+But I think what [inaudible] often underestimate is how cold it gets when you stop moving. And often people are outside exercising, often they get sweaty because [inaudible] lost or because somebody in their group is injured then they're a little bit wet from the sweat and then that gets them really cold. And so I would say that being always, having always warm layers, extra layer or a change of layers because rescue takes a very long time, we are volunteer people, we are doing our normal [inaudible] when we get the [inaudible] so it takes [inaudible] time for us to meet at the base, understand what's happening, where is the person, what are the injuries, take the right gear from the trucks, drive to the trailhead, hike or bike or take your helicopter, it [inaudible] a lot of time and people end up waiting quite a long time, so I would always have enough layers.
