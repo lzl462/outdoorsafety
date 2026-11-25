@@ -14,6 +14,8 @@ Liz subsequently approved Print & share and a small online trip planner. [Print 
 
 The [trail-sign concept](prototypes/trail-sign.html) is now available as a labelled design preview. Its real QR opens the existing Quick reminders page. The separate briefing remains a preview of a possible shorter version of that entry point; the actual Quick reminders page is retained. Real placement and multilingual work remain separate from this slice.
 
+The navigation follow-up makes Trip Plan the first direct destination under Prepare in every shared menu and footer. The preparation guide is now labelled “Before your trip”; existing URLs and anchors are retained. The sticker uses only “Outdoor Safety · Sea-to-Sky” as its small project label; personal/school attribution remains in the website context rather than on the artwork. Its PDF and PNG preview have been regenerated.
+
 ## Open work and decisions
 
 “Unverified” means completion is not evidenced in this repository; it does not mean Liz has not done it elsewhere.
@@ -38,17 +40,18 @@ The [trail-sign concept](prototypes/trail-sign.html) is now available as a label
 | Done | Genuine attributed Home quotation and completed public project introduction. | [Home](index.html), [About](about.html); latest public introduction simplified at ae4220f. |
 | Done | Useful hiking and biking examples with practical links and source distinctions. | [About: hiking](about.html#hiker-story), [About: rider](about.html#rider-story). Empty Emergency-page prompts are removed. |
 | Done | Interview source collection, independent transcription and website integration. | [Interview sources](interviews/), three timestamped Codex transcripts; f5654fd and 37eaea8. Liz's own portfolio work remains separate. |
-| Done | Preparation, shared essentials/activity notes, turnaround advice and clear emergency orientation. | [Before you leave](checklists.html), [Essentials & activities](pack-lists.html), [Be aware](be-aware.html), [What to do if](if.html). Content findings closed at 08bfc4d. |
+| Done | Preparation, shared essentials/activity notes, turnaround advice and clear emergency orientation. | [Before your trip](checklists.html), [Essentials & activities](pack-lists.html), [Be aware](be-aware.html), [What to do if](if.html). Content findings closed at 08bfc4d. |
 | Done | No-cell-service page and consistent shared disclaimer. | [No cell service](no-service.html), content pages and print artifacts. |
 | Done | One-page handwritten trip plan and browser Print / Save as PDF workflow. | [Trip plan](pdfs/before-you-leave.html), [dedicated stylesheet](pdfs/trip-plan-one-page.css); 15c8992. Guide/reminder printing included in the redesign. |
 | Done | Full responsive redesign, grouped navigation, direct emergency access and locally saved packing checks. | Ten content pages plus 404; 2c79f56. |
 | Done | Three licensed local website photographs, local fonts and source/credit information. | [Image notes](images/README.md), [About credits](about.html#photo-credits), fonts/ licences. The cardboard layout now reuses the local Harmony Lakes and Howe Sound photos with its existing credits. |
 | Done | Cardboard layout and website QR source assets. | [Layout](pdfs/trifold.html), [print QR](images/qr-website-print.svg). Physical completion remains unverified above. |
 | Done | Initial implementation reviews and targeted follow-up wording. | Three design reviewers, recorded browser/accessibility/PDF checks, then Liz's audio-detail simplification at ae4220f. |
-| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 19 public HTML files and 620 local references, including the two concept pages. Explicit page/landmark/disclaimer contracts and root/print/concept stylesheet assets are checked; nine structural regression tests pass. |
+| Done | Archival of duplicate print sheets/build script and a structural validation command. | archive/; [checker](scripts/check_site.py). Current run passes 19 public HTML files and 646 local references, including the two concept pages. Explicit page/landmark/disclaimer contracts and root/print/concept stylesheet assets are checked; nine structural regression tests pass. |
 | Done | Six bounded follow-up corrections after the independent review. | R01–R04 and R07–R08 in the [review record](reviews/2026-11-25-follow-up.md#implementation-follow-up). Targeted Chromium/WebKit focus/layout checks and Chromium accessibility, menu and poster/PDF checks passed. |
 | Done / design preview | A6 trail-start QR sign and concise mobile-briefing prototype. | [Prototype notes](prototypes/README.md), editable HTML/CSS/SVG, PNG preview and one-page PDF. The code was decoded from the actual PNG/PDF and opens `tips.html`. Resources exposes the design; no physical installation is claimed. |
 | Done | Print & share page and online trip planner. | [Acceptance record](reviews/2026-11-25-planning-acceptance.md). Five logic tests plus browser validation/export/fallback checks; Chromium/WebKit layouts and Unicode email handoff checked. Short filled-plan A4 output is one page; longer content flows to further pages without truncation. Actual external email-app delivery is not certified. |
+| Done | Direct Trip Plan navigation, unambiguous preparation label and neutral sticker attribution. | Thirteen shared menus/footers now link directly to the form; guide labels say “Before your trip”. Thirty Chromium menu checks covered phone/desktop/short-height layouts, direct form navigation and no-JS fallback. Regenerated A6 PDF is one page; its QR and the PNG decode to the unchanged Quick reminders URL. |
 | Done | GitHub Pages publication from main, repository root. | [README](README.md). Existing Git/SSH/credential configuration remains unchanged. |
 
 ## Superseded or deliberately dropped tasks
@@ -85,4 +88,4 @@ These are not required completion work and do not authorize implementation now:
 
 ## Working rules
 
-Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks. Her “Okay, let's go” approves the proposed Print & share/online-plan slice following the earlier commit/push instructions; retain the labelled design previews and keep larger planner/multilingual features deferred.
+Keep PLAN.md, WORKLOG.md and AGENTS.md in English. Start new public wording in content.md before editing HTML. Do not invent quotations, stories or equipment items, and do not state that rescue in B.C. is free. Use the existing repository/verified sources for pack lists. Publish only when Liz asks. She approved the Print & share/online-plan slice and the subsequent navigation/sticker follow-up, continuing the earlier commit/push instructions. Retain the labelled design previews and keep larger planner/multilingual features deferred.

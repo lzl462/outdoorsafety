@@ -11,7 +11,7 @@ From the repository root, run `python3 -m http.server 8080`, then visit `http://
 
 ## Intent and destination
 
-The mountain, walker and return arrow suggest an outing and getting back. “BIG VIEWS. SAFE RETURN.” is an invitation to prepare, not a claim that a scan guarantees safety. Symbol recognition and willingness to scan have not been tested with visitors. The sign identifies Liz's school project and does not claim official trail-management or rescue-service status.
+The mountain, walker and return arrow suggest an outing and getting back. “BIG VIEWS. SAFE RETURN.” is an invitation to prepare, not a claim that a scan guarantees safety. Symbol recognition and willingness to scan have not been tested with visitors. The sign uses the neutral project/region label “Outdoor Safety · Sea-to-Sky”; the preview and About explain the school project. No official trail-management or rescue-service status is claimed.
 
 The real QR encodes **https://lzl462.github.io/outdoorsafety/tips.html**. Scanning opens the existing Quick reminders page rather than the briefing concept preview. If the shorter briefing is adopted, refine `tips.html` at the same address rather than changing the printed code's destination.
 

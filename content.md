@@ -22,7 +22,7 @@ Sea-to-Sky, British Columbia
 
 Prepare
 
-[Before you leave](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
+[Trip Plan](trip-plan.html) [Before your trip](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
 
 Get help
 
@@ -40,7 +40,7 @@ Made for the Sea-to-Sky.
 
 Prepare
 
-[Before you leave](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
+[Trip Plan](trip-plan.html) [Before your trip](checklists.html) [Essentials & activities](pack-lists.html) [Be aware](be-aware.html)
 
 Get help
 
@@ -120,15 +120,15 @@ The 2026 Mount Habrich case, an experienced rider’s rescue, and the local voic
 
 ---
 
-## Before you leave
+## Before your trip
 
 Page: checklists.html
 
 [Home](index.html)/Prepare
 
-Prepare / Before you leave
+Prepare / Before your trip
 
-### Before you leave
+### Before your trip
 
 A good trip starts with a realistic plan, the skills to follow it, and equipment you know how to use.
 
@@ -302,7 +302,7 @@ Take the shared essentials as well as what the winter conditions require.
 
 Keep going
 
-[Before you leave](checklists.html)
+[Before your trip](checklists.html)
 
 ---
 
@@ -392,7 +392,7 @@ Make this decision easier before the trip: [use the four planning checks](checkl
 
 Keep going
 
-[Before you leave](checklists.html)
+[Before your trip](checklists.html)
 
 ---
 
@@ -512,7 +512,7 @@ Reception can disappear soon after you leave the parking area. Plan another way 
 
 On this page
 
-[If you need help now](#need-help) [Before you leave](#before-no-signal)
+[If you need help now](#need-help) [Before your trip](#before-no-signal)
 
 Print this guide
 
@@ -528,7 +528,7 @@ Print this guide
 
 If someone needs immediate first aid, use the [hurt steps](if.html#hurt). Your trusted contact can call 9-1-1 and share your plan if you miss the return or check-in arrangement. See [the contact’s job](checklists.html#your-contact) and [waiting for help](if.html#waiting-for-help).
 
-#### Before you leave
+#### Before your trip
 
 - Download a map that works offline and learn how to find your GPS position.
 
@@ -663,7 +663,7 @@ The story shows why preparation matters even on a familiar ride. Leaving a route
 
 Distance alone is not enough. Consider elevation, terrain, the season, and the experience of everyone going.
 
-[Before you leave](checklists.html#four-checks)
+[Before your trip](checklists.html#four-checks)
 
 ##### Leave someone a plan
 
@@ -713,7 +713,7 @@ These are regional landscape photographs, not photographs of the incidents descr
 
 Keep going
 
-[Before you leave](checklists.html)
+[Before your trip](checklists.html)
 
 ---
 
@@ -787,7 +787,7 @@ Experience does not prevent every fall, injury, or change in conditions.
 
 Keep going
 
-[Before you leave](checklists.html)
+[Before your trip](checklists.html)
 
 ---
 
@@ -845,7 +845,7 @@ Download maps before leaving, save battery for emergency contact, and plan a sui
 
 Keep going
 
-[Before you leave](checklists.html)
+[Before your trip](checklists.html)
 
 ---
 
@@ -853,7 +853,7 @@ Keep going
 
 Page: `pdfs/before-you-leave.html`
 
-Actions: Print / save as PDF · [Fill out online](../trip-plan.html) · [Before you leave](../checklists.html) · [Essentials & activities](../pack-lists.html)
+Actions: Print / save as PDF · [Fill out online](../trip-plan.html) · [Before your trip](../checklists.html) · [Essentials & activities](../pack-lists.html)
 
 Outdoor Safety · Sea-to-Sky
 
@@ -1026,7 +1026,7 @@ SAFE RETURN.
 
 SCAN BEFORE YOU GO
 
-Outdoor Safety · Liz's school project
+Outdoor Safety · Sea-to-Sky
 
 Symbol description: A walker, mountains and a returning arrow.
 
@@ -1163,7 +1163,7 @@ Photographs are regional context, not evidence of the reported incidents. Creato
 
 Short section labels: Group fit; Weather; Snow & ice; Avalanche terrain; Cold water; Wildlife; Phone coverage; Road access; Daylight; Turn around; Lost; Hurt; Avalanche; Water; Waiting for help; Why this project; Hiking story; Biking story; Local voices; Sources; Photo credits.
 
-Not found: Page not found. The trail ends here. This page may have moved. Head back to the start or use the guides below. Home. Before you leave. Help now.
+Not found: Page not found. The trail ends here. This page may have moved. Head back to the start or use the guides below. Home. Before your trip. Help now.
 
 Printing: Save the useful guides before you go. This website has no offline mode. Use your browser’s Print or Save as PDF option.
 
