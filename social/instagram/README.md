@@ -1,6 +1,6 @@
 # Instagram drafts and publication record
 
-The user confirmed on 26 Nov 2026 that the project account exists. Its actual handle is awaiting confirmation; `outdoorsafety48` in the first kit was a suggestion. Publication dates and URLs have not been supplied. Keep those states separate from the existence of prepared images.
+The user confirmed on 26 Nov 2026 that the project account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), matching the first kit's suggestion. Publication dates and post URLs have not been supplied. Keep those states separate from the existence of prepared images.
 
 ## Files to maintain
 

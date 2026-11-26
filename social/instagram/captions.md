@@ -1,12 +1,11 @@
 # Instagram starter kit: Outdoor Safety — Sea-to-Sky
 
-The user confirmed on 26 Nov 2026 that the account has been created. The actual handle and publication history have not yet been recorded. These files are prepared drafts; their presence does not confirm that they have been posted. Track confirmed post dates and URLs in [README.md](README.md).
+The user confirmed on 26 Nov 2026 that the account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Publication history has not yet been recorded. These files are prepared drafts; their presence does not confirm that they have been posted. Track confirmed post dates and URLs in [README.md](README.md).
 Post wording is adapted from the website (content.md, baseline commit ea276d9), with additional campaign headings and calls to action. There are no interview quotes, invented stats, or claims about rescue costs. Check both the image wording and caption against the current website when updating a draft.
 
 ## Profile
 
-- **Account handle:** awaiting the user's confirmation. The earlier suggestion was `outdoorsafety48` (48 = SD48 Sea to Sky); it is not evidence of the registered name.
-- **Earlier alternatives:** `outdoorsafety.seatosky`, `seatosky.outdoorsafety`, `outdoorsafety_48`
+- **Account handle:** [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), confirmed by the user on 26 Nov 2026 (48 = SD48 Sea to Sky).
 - **Display name:** `Outdoor Safety — Sea-to-Sky` (27 characters)
 - **Bio (137 characters):**
   > Plain-English trip prep for the Sea-to-Sky. A school capstone by Liz. Not an official rescue site. In an emergency, call 9-1-1. Website ↓

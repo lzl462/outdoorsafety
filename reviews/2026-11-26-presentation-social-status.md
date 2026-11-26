@@ -20,14 +20,14 @@ The school package/email were supplied in the other Grok conversation. Their ori
 | Process and overcoming problems | Parts 4 and 9: milestones, interviews, AI assistance and October reflection. | Liz's own contribution, how she continued while waiting, one genuine before/after example. |
 | Product and visual aids | Parts 6–8: website, Trip Plan, QR concept and poster layout. | Choose demos and confirm the physical board; the safety-poster layout alone does not show the whole personal capstone story. |
 | Core competencies | Part 10 uses the supplied SD48 sheet, with concrete examples. | Select examples she can explain naturally. The full school document has not been independently compared with the imported competency mapping. |
-| Next steps | Part 11: potential translations/sign placement, Instagram, medicine/sport studies and possible SAR volunteering. | Optional link between project skills and studies; actual Instagram handle/publication record. |
+| Next steps | Part 11: potential translations/sign placement, Instagram, medicine/sport studies and possible SAR volunteering. | Optional link between project skills and studies; Instagram publication record. The handle is now confirmed as @outdoorsafety48. |
 | Answering questions | Part 13: evidence, official status, privacy, AI, testing. | Liz's own answer to what she would change. |
 | Portfolio and final reflection | Listed separately in PLAN.md from the imported package summary. | Their completion cannot be inferred from the website or transcripts. The 80+ hour figure remains a labelled estimate, not a counted log. |
 
 ## Status corrections made
 
 - PLAN.md now reflects the thirteen-part draft, the Instagram kit/account and the current 20-page / 735-reference website check. Removed duplicate “decide whether Instagram is in scope” and “account not created” tasks.
-- Updated canonical source notes, detailed presentation, short cue sheet and caption metadata from “social account planned” to the user's confirmed created-account status. The handle is not inferred from the earlier suggestion, and exports do not establish which posts are live.
+- Updated canonical source notes, detailed presentation, short cue sheet and caption metadata from “social account planned” to the user's confirmed created-account status. The user subsequently confirmed @outdoorsafety48 as the actual handle; exports do not establish which posts are live.
 - Added an Instagram README mapping each of the seven post topics to website sources, with a publication-date/URL column and a simple maintenance workflow. AGENTS.md now includes keeping captions, artwork source and exports aligned with changed website advice.
 - The worklog's “Not committed” statements describe draft moments. Both pulled changes are now committed as b9b910b and 021b916; the reconciliation entry closes that status without rewriting the earlier chronology.
 - Earlier source notes that still described supplied personal facts as placeholders now point to the subsequent competency/personal-detail sections. The October check-in's recorded hours stay distinct from the later estimated total.
@@ -44,7 +44,7 @@ One concrete maintenance defect remains: `src/build.py` hardcodes `/workspace/in
 
 The [RCMP June release](https://rcmp.ca/en/bc/squamish/news/2026/06/4354387) supports the imported account of four calls in seven hours and a fifth the next day, including callers who had communication devices. Keep the existing qualification that these numbers describe demand rather than prove lack of preparation. The [Pique article](https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133) returned HTTP 403 during this pass; its earlier recorded check was not independently repeated. The main pitch can use the hiking example without reciting every figure.
 
-The user's report establishes account creation. The actual handle and publication history have not been supplied. Accepted email/QR testing remains closed, and physical printer tests remain excluded.
+The user's report establishes account creation and the handle [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Publication history has not been supplied. Accepted email/QR testing remains closed, and physical printer tests remain excluded.
 
 ## Validation
 

@@ -47,7 +47,7 @@ The final subdued Presentation menu item is a temporary aid, marked `data-presen
 
 ## Instagram drafts
 
-The account has been created, as confirmed by the user on 26 Nov. [social/instagram/README.md](social/instagram/README.md) maps the seven post topics to website sources and records publication status separately from prepared exports. Captions, artwork source, nine post images and profile options are tracked together. The actual handle and which posts are live are awaiting confirmation. The renderer's original sandbox path is a known maintenance follow-up.
+The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), as confirmed by the user on 26 Nov. [social/instagram/README.md](social/instagram/README.md) maps the seven post topics to website sources and records publication status separately from prepared exports. Captions, artwork source, nine post images and profile options are tracked together. Which posts are live is awaiting confirmation. The renderer's original sandbox path is a known maintenance follow-up.
 
 ## Images, fonts and printing
 

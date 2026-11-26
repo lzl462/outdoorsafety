@@ -1125,11 +1125,11 @@ Liz requested direct implementation and publication of the interview-based revis
 
 The shared trip plan is `pdfs/before-you-leave.html`. Its fields remain: trip date, people and number of people/dogs, departure time, starting point, destination, route, turnaround time, expected return, contact numbers, vehicle details, satellite messenger, medical notes, and when the contact should call 9-1-1. The same page now has eight blank equipment lines in two columns when printed. The live plan uses `pdfs/trip-plan-one-page.css`; the legacy stylesheet remains for archived variants. Older variants remain in `archive/pdfs/`.
 
-The cardboard is `pdfs/trifold.html`. Its title and QR remain the same. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. An Instagram QR waits for the account name.
+The cardboard is `pdfs/trifold.html`. Its title and QR remain the same. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. The Instagram handle is confirmed as `@outdoorsafety48`; a separate follow QR is optional and has not been created.
 
 ## Remaining personal writing
 
-The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. On 26 Nov the user confirmed that the project's Instagram account has been created. The actual handle and which posts have been published are not yet recorded. The starter kit is tracked in `social/instagram/`: six single-image drafts, one three-image carousel, profile options and captions. Account creation and prepared exports do not establish which posts are live. The latest bio drafts are in `social/instagram/captions.md`; the website link remains https://lzl462.github.io/outdoorsafety/.
+The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. On 26 Nov the user confirmed that the project's Instagram account has been created and that its handle is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Which posts have been published is not yet recorded. The starter kit is tracked in `social/instagram/`: six single-image drafts, one three-image carousel, profile options and captions. Account creation and prepared exports do not establish which posts are live. The latest bio drafts are in `social/instagram/captions.md`; the website link remains https://lzl462.github.io/outdoorsafety/.
 
 The old About draft's 2026 incident figures are not used on the public page. The interviews do not establish wider incident rates or the causes of those incidents.
 
@@ -1224,7 +1224,7 @@ Supplied by Liz on 25 Nov 2026 for the presentation only; not added to About.
 - Capstone teacher and mentor: Ms. Elyse Cochrane (Ms C).
 - Time: she did not count hours exactly. She had 90 minutes, 5 times a week, for the project, plus some weekend time, from mid-September to 30 November. Presentation wording: “about 5 × 90 minutes a week from mid-September to the end of November, plus some weekends”. Rough estimate only, not a counted total: about 11 weeks × 7.5 h ≈ 80+ hours, which is above the Project strand's 40-hour minimum. The 23 Oct check-in recorded 7–8 hours for the two weeks before it, so the estimate must stay labelled as an estimate.
 - Next steps: after school she would like to study medicine or something in sport, or combine medicine and sport. She could also imagine volunteering long-term with a search and rescue team, where the knowledge and experience from this project would help. No university or place is named.
-- Social media account: not created as of the details supplied on 25 Nov. Superseded on 26 Nov by the user's confirmation that the account now exists; the presentation and cue sheet use that current status. The actual handle and publication history still need confirmation.
+- Social media account: not created as of the details supplied on 25 Nov. Superseded on 26 Nov by the user's confirmation that the account now exists as `@outdoorsafety48`; the presentation and cue sheet use that current status. Publication history still needs confirmation.
 - Still open (optional): what the Sea-to-Sky outdoors means to her.
 
 ## Presentation rehearsal
@@ -1382,7 +1382,7 @@ Show: What to do if, Before your trip and Essentials & activities for the exampl
 
 - French, German, Spanish and Italian are possible later additions. Those translations are not available yet.
 - Real trail placement of the sign is a separate idea.
-- The project now has an Instagram account, with starter posts prepared alongside the website.
+- The project now has an Instagram account, [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), with starter posts prepared alongside the website.
 - After school I would like to study medicine or something in sport, or combine medicine and sport.
 - I could also imagine volunteering long-term with a search and rescue team. The knowledge and experience from this project would help me there.
 - [Liz: optional, which skills from this project will help you in your studies, for example research, interviewing or writing for an audience.]
@@ -1439,7 +1439,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
    Show: [Liz: example].
 10. Competencies — Learn: emails, one thing at a time · Create & Innovate: What to do if · Think Critically: fixing features · Contribute: pack list + Trip Plan · Collaborate: SAR interviews.
    Show: What to do if / Before your trip / Essentials.
-11. Next steps — translations later; sign placement; Instagram account + starter posts; study medicine and/or sport; maybe long-term SAR volunteer.
+11. Next steps — translations later; sign placement; Instagram @outdoorsafety48 + starter posts; study medicine and/or sport; maybe long-term SAR volunteer.
    Show: About or poster.
 12. Thanks — Christine Strub, Laure Lejeune, Ms. Elyse Cochrane; invite questions.
    Show: poster QR; invite questions.
