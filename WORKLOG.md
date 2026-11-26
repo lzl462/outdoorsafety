@@ -139,3 +139,7 @@ Added a repository maintenance/publication record for the seven Instagram topics
 Chromium/WebKit checks passed all thirteen practice steps, cue-copy parity with content.md, clipboard fallback, no-JavaScript access and 320/390/1440-pixel layouts; selected Chromium accessibility rules passed. Nine structural tests and the 20-page/735-reference site check passed. All eleven generated artwork HTML files match build.py; post dimensions and the overview/final carousel rendering were checked. No social posts were sent. Git/SSH/credential configuration and the accepted email/QR and printer-test boundaries were unchanged.
 
 On 26 Nov 2026, recorded the user's confirmation that the existing Instagram account is @outdoorsafety48, matching the original suggestion. Closed the missing-handle task and updated canonical copy, the presentation/account link, cue sheet, plan, social documentation and review; actual post publication remains unreported. Reason: keep the confirmed account name consistent throughout the project. All thirteen speaking-point lists and cue topics match content.md, and the site check passes 20 HTML files and 735 local references.
+
+## 2026-11-25 (late evening)
+
+Liz's trifold poster sketch was added as `poster/trifold-sketch-2026-11-25.png` with a short `poster/README.md`. Idea only; no poster built yet.
