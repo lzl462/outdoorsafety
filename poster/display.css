@@ -133,6 +133,14 @@ summary:focus-visible,
   margin-top: 20px;
   max-width: 850px;
 }
+.print-alternative {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.print-alternative .preview-actions {
+  margin-top: 10px;
+}
 .production-details summary {
   cursor: pointer;
   min-height: 44px;

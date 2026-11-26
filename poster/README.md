@@ -1,6 +1,6 @@
 # Trifold display — Legal print kit
 
-The display is ready as a [measured preview](display.html), a [twelve-page Legal print set](trifold-legal.pdf) and a [one-page assembly guide](trifold-assembly.pdf). It remains reachable through Print & share. The unlisted presentation also has a deliberate demo link; public pages do not link to that rehearsal page.
+The display has a [measured preview](display.html), twelve-page Legal print sets in [colour](trifold-legal.pdf) or [black & white](trifold-legal-bw.pdf), and matching assembly guides ([colour](trifold-assembly.pdf), [black & white](trifold-assembly-bw.pdf)). It remains reachable through Print & share. The unlisted presentation also has a deliberate demo link; public pages do not link to that rehearsal page.
 
 ## Working measurements
 
@@ -35,11 +35,17 @@ The layout uses the white cardboard between the separate cards. The cards clear 
 
 1. Confirm that the loaded paper is **Legal, 8.5 × 14 in (215.9 × 355.6 mm)**. Letter is 8.5 × 11 in and is shorter. The dimensions are documented by [HP](https://support.hp.com/us-en/document/ish_2761798-2817316-16); this does not establish which school printer/tray is available.
 2. Download **trifold-legal.pdf**, rather than printing the web preview or the A3 review PDF.
-3. Print pages 1–12 in colour, **portrait**, **single-sided**, **Actual size / 100%**, **one page per sheet**. Do not use Fit, Poster, Booklet or multiple pages per sheet: the PDF already contains the individual cards. Page size is 612 × 1008 PDF points on all twelve pages.
+3. Choose the colour or black & white set, then print pages 1–12 **portrait**, **single-sided**, **Actual size / 100%**, **one page per sheet**. Do not use Fit, Poster, Booklet or multiple pages per sheet: the PDF already contains the individual cards. Page size is 612 × 1008 PDF points on all twelve pages.
 4. Keep the sheet labels until sorting is complete. Write each card's number on its back, then trim on the crop marks. The 100 mm scale line is outside the artwork. Turn the eight landscape cards after cutting. Leave every QR code's white border intact.
 5. Place the cards on the open, flat board using the assembly guide, then mount and fold. The guide lists each card's panel, position and final orientation.
 
 The PDF artwork has conservative half-inch margins to the trim rectangle; no borderless printer is required. Actual printer scaling, paper availability, printing and mounting are physical production steps still to be completed. The earlier exclusion of separate physical-printer tests remains; no physical print run is claimed.
+
+## Black & white alternative
+
+The dedicated black & white version uses white card backgrounds, black type, outline mountain symbols and greyscale photographs/website imagery. Frames and headings preserve hierarchy without relying on colour. The photo credit notes the greyscale modification. QR codes remain black on white.
+
+Card numbers, paper size, cut dimensions, crop marks, ruler lengths and mounting positions match the colour version. Either set uses the same assembly procedure. The black & white set has its own [assembly guide](trifold-assembly-bw.pdf), [PNG preview](display-preview-bw.png), [A3 review PDF](display-preview-bw.pdf) and [full-size master](trifold-full-size-bw.pdf).
 
 ## Files
 
@@ -67,6 +73,6 @@ For an existing development browser/environment:
 node poster/render-preview.mjs --cdp http://localhost:9026 --playwright-module /path/to/playwright/index.mjs --python /path/to/python-with-pymupdf
 ```
 
-`--layout-only` regenerates the measured CSS/manifest without a browser. Normal rendering captures the website heading, validates the twelve card exports for loaded fonts/images and text clipping/overlap, then calls `make-print-kit.py` to build all PDF/PNG outputs from the same vector artwork. Temporary artwork and check manifests live in ignored `.render/`. Only the helper's isolated context closes when connecting to an existing browser.
+`--layout-only` regenerates the measured CSS/manifest without a browser. `--monochrome` rebuilds only the black & white outputs. The default rebuilds both colour and black & white together. Normal rendering captures the website heading, validates the twelve card exports for loaded fonts/images and text clipping/overlap, then calls `make-print-kit.py` to build all PDF/PNG outputs from the same card source. The export-only monochrome.css theme changes ink/backgrounds without changing geometry; text stays vector. The shared builder applies the same placement/crop/ruler calculations to both variants. Temporary artwork and check manifests live in ignored `.render/`. Only the helper's isolated context closes when connecting to an existing browser.
 
 Start wording changes in content.md. Regenerate the print set, master, guide and previews together; inspect representative sheets and decode the actual exported QR codes. Keep presentation part 8 and its cue-sheet prompt current. Physical production remains separate from these digital checks.

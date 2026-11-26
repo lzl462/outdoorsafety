@@ -1,0 +1,46 @@
+/* Export-only theme: preserve physical geometry and vector text. */
+body.monochrome {
+  --paper: #fff;
+  --pine: #000;
+  --ink: #000;
+  --lime: #000;
+  --muted: #333;
+  --line: #aaa;
+  --soft: #fff;
+  color: #000;
+  background: #fff;
+}
+.monochrome .art-card,
+.monochrome .art-card.dark,
+.monochrome .art-card.soft,
+.monochrome .art-card.lime {
+  color: #000;
+  background: #fff;
+  border-color: #000;
+  outline: calc(0.4 * var(--u)) solid #000;
+  outline-offset: calc(-0.4 * var(--u));
+}
+.monochrome .title-card {
+  border-top: calc(1.8 * var(--u)) solid #000;
+}
+.monochrome .title-card .card-label,
+.monochrome .title-card h1 span,
+.monochrome .title-card .byline,
+.monochrome .art-card.dark h2 {
+  color: #000;
+}
+.monochrome .skills-line {
+  border-color: #999;
+}
+.monochrome .terrain-mark {
+  opacity: 1;
+}
+.monochrome .photo-card > img,
+.monochrome .browser-window img {
+  filter: grayscale(1);
+}
+.monochrome .photo-card figcaption {
+  color: #000;
+  background: #fff;
+  border-top: calc(0.3 * var(--u)) solid #000;
+}

@@ -25,3 +25,9 @@ The print instructions specify Legal, Actual size / 100%, portrait, single-sided
 ## Remaining production boundary
 
 Confirm the right wing and loaded Legal paper, then print, trim, position and mount the cards. The files do not establish a physical print run or assembled board. Separate mandatory physical-printer tests remain excluded as requested earlier. The unlisted rehearsal page is not reintroduced into public navigation.
+
+## Black & white follow-up
+
+The user subsequently requested an alternative because colour printing may be unavailable. The [black & white print set](../poster/trifold-legal-bw.pdf) and [matching guide](../poster/trifold-assembly-bw.pdf) use the same Legal pages, card numbers, crop geometry, 100 mm rulers and board positions. The export-only theme substitutes white backgrounds, black headings/type/frames and outline mountain symbols. Photographs and the website screenshot use greyscale; the photograph credit identifies that change. Text stays vector rather than turning each card into a raster picture.
+
+Both colour and black & white builds pass the original all-card text, geometry, page-count and QR checks. All twelve monochrome sheets, the master, guide and review outputs also pass rendered-pixel checks: RGB channels differ by no more than one level, and the eleven text cards have white padding/background samples. Both QR targets decode from actual sheets and all overview formats. The current site check covers 21 HTML pages and 756 local references; nine structural tests pass. Physical-printing boundaries and the unlisted rehearsal route remain as above.

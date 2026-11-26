@@ -1483,9 +1483,9 @@ The Instagram QR opens https://www.instagram.com/outdoorsafety48/ directly. It i
 
 Resource card heading: Project display draft
 
-A measured trifold layout with twelve printable cards. Download the Legal-paper print set and assembly guide; printing and mounting are the next steps.
+A measured trifold layout with twelve printable cards. Choose a colour or black & white Legal-paper print set; printing and mounting are the next steps.
 
-Links: View project display draft · Legal print set · Assembly guide · PNG preview · PDF preview.
+Links: View project display draft · Colour print set · Colour assembly guide · Black & white print set · Black & white assembly guide · PNG preview · PDF preview.
 
 The new professional draft replaces the rough hand sketch once reviewed. It is a project presentation board, so it includes Liz's work and learning; the public Instagram launch remains a separate professional website promotion.
 
@@ -1555,11 +1555,19 @@ Display preview interface: Project display draft · Twelve printable cards for t
 
 Working measurements transcribed from the supplied annotated photo on 26 Nov: height 129.54 cm; left panel 24.13 cm; centre panel 80.52 cm; right panel provisionally 24.13 cm to match the left. Open-board width 128.78 cm. The photo itself is not published. The right-panel width and the paper available at school still need confirmation.
 
-Print planning interface: Board measurements · Printing and assembly · Twelve cards · Print 1–12 in colour, single-sided, on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm). · Select Actual size / 100%, one page per sheet, in portrait orientation. · All twelve PDF pages use the same paper orientation; turn the eight landscape cards after trimming. · The PDFs already contain individual pages: use normal printing. · Trim on the crop marks and place the cards using their numbers and the assembly guide. · Keep every QR code's white border. · Confirm that the loaded paper is Legal, rather than Letter (8.5 × 11 in). · The 100 mm line on each sheet shows the intended scale. · Printing and mounting have not been completed.
+Print planning interface: Board measurements · Printing and assembly · Twelve cards · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm). · Select Actual size / 100%, one page per sheet, in portrait orientation. · All twelve PDF pages use the same paper orientation; turn the eight landscape cards after trimming. · The PDFs already contain individual pages: use normal printing. · Trim on the crop marks and place the cards using their numbers and the assembly guide. · Keep every QR code's white border. · Confirm that the loaded paper is Legal, rather than Letter (8.5 × 11 in). · The 100 mm line on each sheet shows the intended scale. · Printing and mounting have not been completed.
 
 Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Local photograph · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Trail-start QR idea · Website QR · Instagram QR · My work and learning · Skills and next steps · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
 
 Print-set margin labels: Turn this card after trimming · Portrait · Landscape · 100 mm · Legal 8.5 × 14 in · Trim all cards to 19.05 × 33.02 cm, then orient them as shown in the assembly guide.
+
+Black & white printing interface: Black & white printing · Black & white print set · Black & white assembly guide · Black & white preview · White backgrounds, black text and greyscale photographs. Card sizes, numbers and placement are the same as the colour version. · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm).
+
+Black & white photo credit: Photo: James Abbott · CC BY 2.0 · Greyscale.
+
+Black & white print labels: Black & white · Outdoor Safety — Sea-to-Sky · Black & white · Twelve Legal sheets.
+
+Print download labels: Colour print set · Colour print set · 12 pages · Colour assembly guide · Black & white print set · Black & white assembly guide · Black & white preview.
 
 Assembly instruction: Write each card's number on its back before trimming.
 
@@ -1697,9 +1705,9 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 Extra notes — Using a poster
 
-Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project display has a measured twelve-card layout and a Legal-paper print set. Printing and mounting are the next steps.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project display has a measured twelve-card layout and Legal-paper print sets in colour or black & white. Printing and mounting are the next steps.
 
-Show: The sign and Quick reminders, or the twelve-card display and its print set.
+Show: The sign and Quick reminders, or the twelve-card display and its print sets.
 
 [Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the project display draft](poster/display.html)
 
