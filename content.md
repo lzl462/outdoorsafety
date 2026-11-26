@@ -1125,11 +1125,11 @@ Liz requested direct implementation and publication of the interview-based revis
 
 The shared trip plan is `pdfs/before-you-leave.html`. Its fields remain: trip date, people and number of people/dogs, departure time, starting point, destination, route, turnaround time, expected return, contact numbers, vehicle details, satellite messenger, medical notes, and when the contact should call 9-1-1. The same page now has eight blank equipment lines in two columns when printed. The live plan uses `pdfs/trip-plan-one-page.css`; the legacy stylesheet remains for archived variants. Older variants remain in `archive/pdfs/`.
 
-The existing safety-poster reference is `pdfs/trifold.html`; its title and website QR remain the same. The separate large project display is planned in `poster/README.md` from Liz's hand sketch. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. The separate Instagram QR is available as `images/qr-instagram.svg`, `images/qr-instagram.png` and `images/qr-instagram-print.pdf`, opening `@outdoorsafety48`. Label the two display destinations Website and Instagram.
+The existing safety-poster reference is `pdfs/trifold.html`; its title and website QR remain the same. The separate large project-display draft is `poster/display.html`, with production notes in `poster/README.md`. It replaces the rough hand sketch; actual board dimensions, printing and assembly remain undecided. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. The separate Instagram QR is available as `images/qr-instagram.svg`, `images/qr-instagram.png` and `images/qr-instagram-print.pdf`, opening `@outdoorsafety48`. Label the two display destinations Website and Instagram.
 
 ## Remaining personal writing
 
-The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. On 26 Nov the user confirmed that the project's Instagram account has been created and that its handle is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Which posts have been published is not yet recorded. The starter kit is tracked in `social/instagram/`: six single-image drafts, one three-image carousel, profile options and captions. Account creation and prepared exports do not establish which posts are live. The latest bio drafts are in `social/instagram/captions.md`; the website link remains https://lzl462.github.io/outdoorsafety/.
+The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. On 26 Nov the user confirmed that the project's Instagram account has been created and that its handle is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Which posts have been published is not yet recorded. The kit in `social/instagram/` has three ready launch posts, four further draft topics, profile options and captions. Account creation and prepared exports do not establish which posts are live. The latest bio drafts are in `social/instagram/captions.md`; the website link remains https://lzl462.github.io/outdoorsafety/.
 
 The old About draft's 2026 incident figures are not used on the public page. The interviews do not establish wider incident rates or the causes of those incidents.
 
@@ -1477,6 +1477,82 @@ Size note: Scalable SVG and a 100 mm PDF are available for the display; keep the
 
 The Instagram QR opens https://www.instagram.com/outdoorsafety48/ directly. It is distinct from the website QR and trail-start QR. The display should label each code by its destination.
 
+### Large project display preview interface
+
+Resource card heading: Project display draft
+
+An early design for the large trifold project display. Panel sizes, printing and assembly are still to be finalized.
+
+Links: View project display draft · PNG preview · PDF preview.
+
+The new professional draft replaces the rough hand sketch once reviewed. It is a project presentation board, so it includes Liz's work and learning; the public Instagram launch remains a separate professional website promotion.
+
+### Professional trifold display draft: board wording
+
+Title: OUTDOOR SAFETY — SEA-TO-SKY
+
+Subtitle: Prepare. Recognize the risks. Know your next step.
+
+Byline: Liz · Grade 12 · Howe Sound Secondary School
+
+#### WHY I CHOSE THIS
+
+I’m interested in outdoor sports, health and safety. A local hiker spent five nights in the mountains; a trip plan helped his family raise the alarm. I wanted clear preparation advice for people exploring the Sea-to-Sky.
+
+#### LEARNING FROM LOCAL RESCUERS
+
+Christine Strub and Laure Lejeune, both with Squamish Search and Rescue, shared their experience. Their lessons: match the route to the group, leave a plan, prepare for a delay and be ready to turn around.
+
+#### THE PROJECT
+
+How can I make outdoor safety advice clear and easy to access? A website, checklists, QR codes and social media help people prepare, recognize risks and respond when plans change.
+
+#### A TRIP PLAN SOMEONE CAN USE
+
+Leave your route and return time with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in. Copy, email or print your plan; send it yourself. No return monitoring.
+
+#### THE TRAIL-START QR IDEA
+
+The sign’s QR opens Quick reminders and links to the full guides. It is a design concept; real trail placement is a future idea.
+
+#### EXPLORE THE WEBSITE
+
+Clear guides for Sea-to-Sky day trips. Prepare, pack and know your next step.
+
+#### MY WORK. MY LEARNING.
+
+I conducted the interviews, worked for many hours on the pages and manage Instagram. AI helped with transcription, wording and code; GitHub tracks changes. I learned to check drafts and improve responsive layouts for different devices.
+
+#### SKILLS AND NEXT STEPS
+
+Learn · Create & Innovate · Think Critically · Contribute · Collaborate. Research, communication and digital design are skills I can take into further study. I’m interested in medicine and sport, and possibly volunteering with SAR. Translations are a later project idea.
+
+Website qr label: WEBSITE
+
+Website url: lzl462.github.io/outdoorsafety
+
+Instagram qr label: INSTAGRAM
+
+Instagram handle: @outdoorsafety48
+
+Instagram url: instagram.com/outdoorsafety48
+
+Sources line: Sources: interviews and linked public guidance. See About → Sources on the website.
+
+Endorsement line: Interview participation is not an organizational endorsement.
+
+Disclaimer: This is not an official rescue site. In an emergency, call 9-1-1.
+
+Photo credit if chief used: Photo: James Abbott · CC BY 2.0.
+
+Layout note: Eight content boxes follow Liz’s sketch: two left, one large centre, two smaller centre, one bottom-centre QR-description box, and two right. Keep both labelled QR codes in the centre-bottom row. Dimensions and printing route are undecided; this is a display draft, not a final print-size claim.
+
+Conditional credit if a Harmony Lakes website screenshot is used: Photo: Ruth Hartnup · CC BY 2.0.
+
+Display preview interface: Project display draft · A concept preview with three panels. Final board dimensions and printing will be decided later. · View at full size · Fit to screen · PNG preview · PDF preview · Back to Print & share.
+
+The preview uses a 2400 × 1800 design canvas with side/centre/side panels in 1:2:1 proportions. The PDF is a design preview; actual board measurements and the printing route remain to be decided.
+
 ## Presentation rehearsal
 
 Page: `presentation.html`. This is a flexible English practice outline, not an account of a completed school presentation or a prescribed timing. Since 25 Nov 2026 its order follows the Capstone package and the teacher's five questions: who Liz is, why she chose the project, what she made, which core competencies she practised, and her next steps. The shorter speaking version uses the personal contribution and project approval confirmed on 26 Nov, with optional background notes for follow-up.
@@ -1607,11 +1683,11 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 Extra notes — Using a poster
 
-Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The poster layout is a reference; adapt the board to show your project story too.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project-display draft shows this story; its final size and printing are still to be decided.
 
 Show: The sign and Quick reminders, or point to them on your poster.
 
-[Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the poster layout](pdfs/trifold.html)
+[Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the project display draft](poster/display.html)
 
 #### 9. What was hard, and how did I solve it?
 

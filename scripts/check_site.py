@@ -14,7 +14,10 @@ CONTENT_PAGES = {
     "if.html", "no-service.html", "emergency.html", "about.html",
     "mistakes.html", "tips.html", "resources.html", "trip-plan.html", "presentation.html",
 }
-CONCEPT_PAGES = {"prototypes/trail-sign.html", "prototypes/trail-briefing.html"}
+CONCEPT_PAGES = {
+    "prototypes/trail-sign.html", "prototypes/trail-briefing.html",
+    "poster/display.html",
+}
 MAIN_PAGES = CONTENT_PAGES | CONCEPT_PAGES | {"404.html", "pdfs/before-you-leave.html"}
 REDIRECT_PAGES = {"activities.html", "pdfs.html"}
 POSTER_PAGE = "pdfs/trifold.html"
@@ -87,7 +90,7 @@ def resolve(source, reference):
 
 def main():
     errors, checked = [], 0
-    public_dirs = [ROOT, ROOT / "pdfs", ROOT / "prototypes"]
+    public_dirs = [ROOT, ROOT / "pdfs", ROOT / "prototypes", ROOT / "poster"]
     public = [path for directory in public_dirs for path in directory.glob("*.html")]
     for label in sorted(EXPECTED_PAGES - {p.relative_to(ROOT).as_posix() for p in public}):
         errors.append(f"{label}: missing expected public page")

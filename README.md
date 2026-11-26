@@ -35,7 +35,7 @@ node --test scripts/test_trip_plan.mjs
 
 ## Print and share a plan
 
-`resources.html` gathers the online trip planner, blank print sheet, A6 sign preview/PDF and website QR. It is linked from the shared footer and About.
+`resources.html` gathers the online trip planner, blank print sheet, A6 sign preview/PDF, website/Instagram QR assets and project-display draft. It is linked from the shared footer and About.
 
 `trip-plan.html` uses browser-only form processing. It does not submit entries to a server or save them in site storage. Users review the generated text, copy it, open a plain-text email draft or print it. The print view uses compact labels and values from the same shared field formatting, rather than reproducing the plain text's blank lines. Short and normal filled examples fit one A4/Letter page; long notes continue without clipping. The website cannot confirm sending/receipt or monitor returns. E-mail handoff uses a conservative 2,000-character encoded-URI ceiling; longer plans retain their complete text for copying/printing. This is an app policy, not a claim that all mail clients share a specific limit. No attachment is added. Without JavaScript, the existing blank sheet remains available.
 
@@ -47,7 +47,9 @@ The final subdued Presentation menu item is a temporary aid, marked `data-presen
 
 ## Instagram drafts
 
-The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). [social/instagram/README.md](social/instagram/README.md) provides three finished launch packages (website introduction, preparation and getting lost), plus four further draft topics. PNGs, captions, alt text and artwork source are tracked together; confirmed post URLs/dates are recorded separately from exports. The renderer is repository-relative and regenerates the overview/profile previews. The website footer, About and Print & share link to Instagram; scalable SVG/PNG/PDF QR assets are available for the display. [poster/README.md](poster/README.md) records the separate large-board design/printing/assembly work.
+The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). [social/instagram/README.md](social/instagram/README.md) provides three finished launch packages (website introduction, preparation and getting lost), plus four further draft topics. PNGs, captions, alt text and artwork source are tracked together; confirmed post URLs/dates are recorded separately from exports. The renderer is repository-relative and regenerates the overview/profile previews. The website footer, About and Print & share link to Instagram; scalable SVG/PNG/PDF QR assets are available for the display.
+
+The [professional project-display draft](poster/display.html) is accessible from Print & share and presentation part 8, with PNG/PDF previews. It replaces the rough hand sketch and presents the project story, research, features and learning. Its canvas proportions are conceptual; [production notes](poster/README.md) record the remaining board measurements, printing method, correctly scaled exports and physical assembly.
 
 ## Images, fonts and printing
 

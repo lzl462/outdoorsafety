@@ -32,3 +32,16 @@ The artwork generator is now repository-relative. It supports selected PNG expor
 - The site check passes twenty public HTML files and 740 local references; nine structural regression tests pass. QR checks decode the actual SVG, PNG and PDF to the same exact URL.
 
 No Instagram post was sent. Existing Git/SSH/credential settings remain unchanged.
+
+## Large project-display follow-up
+
+The user asked for a professional design before deciding how to print/mount it on the existing cardboard, and permitted removal of the rough sketch once superseded. The [new draft](../poster/display.html) follows the eight content roles with a 1:2:1 panel composition, licensed local photograph, actual website preview, clear personal/research/learning sections and labelled website/Instagram codes. [PNG](../poster/display-preview.png) and [PDF](../poster/display-preview.pdf) are review previews. The 2400 × 1800-unit canvas and A3 PDF are not actual cardboard dimensions or a final printing decision. The old sketch remains in Git history; the older safety-poster reference is retained separately.
+
+The designer, editorial reviewer and coordinator reviewed the composition and confirmed canonical wording. It attributes the two SAR contributors without claiming organizational endorsement, preserves manual sending/no monitoring for Trip Plan, and keeps trail placement/translations as future ideas. New wording was registered in content.md before implementation. Print & share and presentation part 8 link to the preview; presentation notes, maintenance instructions, README and plan reflect its draft status.
+
+- Final PNG is exactly 4800 × 3600 pixels. The PDF is one A3 landscape page with the concept note outside the board. Its text is retained; exports from both mobile default/full-size states also use the complete board composition.
+- Both actual exported QR codes decode to the exact website root and Instagram account URLs. Borders and destination labels remain visible.
+- Independent Chromium and WebKit checks at 320/390/768/1440 pixels pass assets, landmarks, ancestor clipping, header text fit, full-size control state and contained scrolling. Resources/draft/return and presentation-popup journeys pass, as does the mobile no-JavaScript layout. Selected Chromium accessibility rules pass at 320 and 1440 pixels.
+- The expanded site check passes 21 public HTML files and 755 local references; nine structural regression tests pass, including the new explicit concept-page contract.
+
+Remaining production work is to measure the board/folds, choose smaller sheets versus panel/large-format printing, adapt/export the final scale, then print and assemble. This does not reopen the excluded physical-printer tests.

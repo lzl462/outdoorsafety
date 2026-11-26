@@ -8,6 +8,7 @@ This is a small static site. The live site is built from GitHub `main`.
 - New public wording goes in `content.md` first. Site text stays in English.
 - When features, navigation or source-based advice change, review `presentation.html` and its `content.md` copy. Keep the detailed speaking notes, demo links and short cue sheet in sync, including the cue sheet's Show prompts. Copied text must come from the visible cue sheet rather than a separate maintained version.
 - Instagram drafts live in `social/instagram/`. Keep affected captions, artwork source and exports aligned with `content.md` and the website advice. Follow that folder's README and record confirmed publication dates/URLs there; prepared files alone do not establish that a post is live.
+- Keep the project-display draft in `poster/display.html` and its PNG/PDF previews aligned with the presentation and confirmed project facts. Its preview canvas is a design proportion; actual board dimensions and the printing route are decided separately.
 - The final subdued `Presentation` menu link is a temporary rehearsal aid, marked with `data-presentation-link` for easy removal after practice.
 - Do not invent quotes, stories, or the sentence “rescue is free”.
 - Pack lists are allowed on the site. Build them only from lists already in the repository or from verified sources. Do not invent items.
