@@ -1129,7 +1129,7 @@ The cardboard is `pdfs/trifold.html`. Its title and QR remain the same. For lost
 
 ## Remaining personal writing
 
-The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. The Instagram account is not created here; Liz creates it. Working bio: Simple tips, in our own words. Not an official rescue site. Link: https://lzl462.github.io/outdoorsafety/
+The project name is still Outdoor Safety — Sea-to-Sky. The reported hiking case and the interview’s biking account are on About. A separate water story remains optional and has not been invented. On 26 Nov the user confirmed that the project's Instagram account has been created. The actual handle and which posts have been published are not yet recorded. The starter kit is tracked in `social/instagram/`: six single-image drafts, one three-image carousel, profile options and captions. Account creation and prepared exports do not establish which posts are live. The latest bio drafts are in `social/instagram/captions.md`; the website link remains https://lzl462.github.io/outdoorsafety/.
 
 The old About draft's 2026 incident figures are not used on the public page. The interviews do not establish wider incident rates or the causes of those incidents.
 
@@ -1192,15 +1192,15 @@ Accessibility navigation names: Primary navigation; All pages; Get help by situa
 
 ## Portfolio check-in — 23 Oct 2026 (source for the presentation)
 
-Liz supplied her portfolio check-in on 25 Nov 2026. Only these facts are used in `presentation.html`; the check-in's core-competency and personal-reason parts were not supplied, so those slides keep [Liz: …] placeholders.
+Liz supplied her portfolio check-in on 25 Nov 2026. These are the facts supplied from that check-in; the competency sheet and later personal details below provide additional evidence used in `presentation.html`. Remaining [Liz: …] placeholders are listed in PLAN.md.
 
 - Student: Liz. Mentor: Ms C (Ms. Elyse Cochrane, her capstone teacher). Early project title: “Outdoor awearness – Be awear”.
-- Status on 23 Oct: Active Execution / Product Creation. Self-assessment: 3, On Track. Hours: 7–8 in the two weeks before 23 Oct. Total hours are not recorded; do not extrapolate.
+- Status on 23 Oct: Active Execution / Product Creation. Self-assessment: 3, On Track. Hours: 7–8 in the two weeks before 23 Oct. This check-in does not record a total. The later weekly-time description and its explicitly labelled estimate are recorded below; do not present them as a counted total.
 - Milestones: website creation started; most information included by 15 Oct 2026; interview questions started 20 Oct 2026 and sent to a Search and Rescue member; poster board (cardboard) design started as a rough idea.
 - Plan at that time: complete the website by 30 Oct (needed the interview answers); start a social media account by 30 Oct (post ideas); create and finish the cardboard by 10 Nov (coloured paper, printer, writing material); add pack lists to the website before 30 Oct.
 - Roadblock: missing information while waiting for the interview answers. Question to the mentor: is anything important missing besides the cardboard and the project?
 - Reflection, Liz's words with light typo fixes: “I think I use most of my time effectively. I always work on my website to add information and to create a design. I also started to plan my design for the cardboard as well as my social media posts. Though I need to start working one thing at a time instead of doing everything all the time, to focus on one thing and finish it.”
-- Whether the social media account was started is unverified. The check-in linked `be-aware.html`; the presentation uses the root URL https://lzl462.github.io/outdoorsafety/.
+- The check-in did not establish whether the social media account was started. Account creation was subsequently confirmed by the user on 26 Nov, as recorded in Project status above. The check-in linked `be-aware.html`; the presentation uses the root URL https://lzl462.github.io/outdoorsafety/.
 
 The 2026 rescue-call figures in the presentation's “Why” part come from [Sea to Sky RCMP, 24 June 2026](https://rcmp.ca/en/bc/squamish/news/2026/06/4354387) and [Pique Newsmagazine, 6 August 2026](https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133), both checked 25 Nov 2026. They stay off About, as decided earlier, and are framed as how busy rescue teams were, not as proof that callers were unprepared.
 
@@ -1214,7 +1214,7 @@ Liz supplied this already-submitted sheet on 25 Nov 2026 as background. Theme: �
 - Contribute: the project's goal is to help people in the Sea-to-Sky area, such as tourists and students, prevent emergencies; I need to connect with people, raise their interest and help them be aware outdoors. Example: someone who wants to go hiking but doesn't know what to pack can use the pack list and even take it with them, and they can plan their trip with the planner.
 - Collaborate: building relationships with people experienced in outdoor safety and search and rescue through interviewing and writing with them. Example: I interviewed people involved in Sea-to-Sky search and rescue about common mistakes and emergency preparation for mountain activities, and learned more about why being prepared in nature matters.
 
-The 23 Oct check-in's self-regulation reflection is used under Learn (personal responsibility, self-regulation). The sheet does not cover Liz's grade/school, post-secondary plans, inquiry question or total hours; those stay as placeholders.
+The 23 Oct check-in's self-regulation reflection is used under Learn (personal responsibility, self-regulation). The sheet does not cover Liz's grade/school, post-secondary plans, inquiry question or total hours. The next source section supplies the later personal details and weekly-time description; the inquiry question still needs Liz's answer.
 
 ## Liz's presentation details — 25 Nov 2026 (source for the presentation)
 
@@ -1224,7 +1224,7 @@ Supplied by Liz on 25 Nov 2026 for the presentation only; not added to About.
 - Capstone teacher and mentor: Ms. Elyse Cochrane (Ms C).
 - Time: she did not count hours exactly. She had 90 minutes, 5 times a week, for the project, plus some weekend time, from mid-September to 30 November. Presentation wording: “about 5 × 90 minutes a week from mid-September to the end of November, plus some weekends”. Rough estimate only, not a counted total: about 11 weeks × 7.5 h ≈ 80+ hours, which is above the Project strand's 40-hour minimum. The 23 Oct check-in recorded 7–8 hours for the two weeks before it, so the estimate must stay labelled as an estimate.
 - Next steps: after school she would like to study medicine or something in sport, or combine medicine and sport. She could also imagine volunteering long-term with a search and rescue team, where the knowledge and experience from this project would help. No university or place is named.
-- Social media account: not created yet; planned for later. Liz will report back. The presentation says it is planned and must not claim it exists.
+- Social media account: not created as of the details supplied on 25 Nov. Superseded on 26 Nov by the user's confirmation that the account now exists; the presentation and cue sheet use that current status. The actual handle and publication history still need confirmation.
 - Still open (optional): what the Sea-to-Sky outdoors means to her.
 
 ## Presentation rehearsal
@@ -1382,7 +1382,7 @@ Show: What to do if, Before your trip and Essentials & activities for the exampl
 
 - French, German, Spanish and Italian are possible later additions. Those translations are not available yet.
 - Real trail placement of the sign is a separate idea.
-- A social media account for the project is planned for later.
+- The project now has an Instagram account, with starter posts prepared alongside the website.
 - After school I would like to study medicine or something in sport, or combine medicine and sport.
 - I could also imagine volunteering long-term with a search and rescue team. The knowledge and experience from this project would help me there.
 - [Liz: optional, which skills from this project will help you in your studies, for example research, interviewing or writing for an audience.]
@@ -1439,7 +1439,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
    Show: [Liz: example].
 10. Competencies — Learn: emails, one thing at a time · Create & Innovate: What to do if · Think Critically: fixing features · Contribute: pack list + Trip Plan · Collaborate: SAR interviews.
    Show: What to do if / Before your trip / Essentials.
-11. Next steps — translations later; sign placement; social media planned; study medicine and/or sport; maybe long-term SAR volunteer.
+11. Next steps — translations later; sign placement; Instagram account + starter posts; study medicine and/or sport; maybe long-term SAR volunteer.
    Show: About or poster.
 12. Thanks — Christine Strub, Laure Lejeune, Ms. Elyse Cochrane; invite questions.
    Show: poster QR; invite questions.

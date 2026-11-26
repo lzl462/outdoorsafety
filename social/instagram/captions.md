@@ -1,12 +1,12 @@
 # Instagram starter kit: Outdoor Safety — Sea-to-Sky
 
-Nothing has been posted and no account has been created. Liz creates the account and posts.
-All post text comes from the website (content.md, commit ea276d9). There are no interview quotes, invented stats, or claims about rescue costs.
+The user confirmed on 26 Nov 2026 that the account has been created. The actual handle and publication history have not yet been recorded. These files are prepared drafts; their presence does not confirm that they have been posted. Track confirmed post dates and URLs in [README.md](README.md).
+Post wording is adapted from the website (content.md, baseline commit ea276d9), with additional campaign headings and calls to action. There are no interview quotes, invented stats, or claims about rescue costs. Check both the image wording and caption against the current website when updating a draft.
 
 ## Profile
 
-- **Username:** `outdoorsafety48` (48 = SD48 Sea to Sky). The format is valid for Instagram: 15 characters, only lowercase letters and digits. The limit is 30 characters, using letters, numbers, `.` and `_`. **I could not check whether it's free. Liz has to try it in the app.**
-- **Backups:** `outdoorsafety.seatosky`, `seatosky.outdoorsafety`, `outdoorsafety_48`
+- **Account handle:** awaiting the user's confirmation. The earlier suggestion was `outdoorsafety48` (48 = SD48 Sea to Sky); it is not evidence of the registered name.
+- **Earlier alternatives:** `outdoorsafety.seatosky`, `seatosky.outdoorsafety`, `outdoorsafety_48`
 - **Display name:** `Outdoor Safety — Sea-to-Sky` (27 characters)
 - **Bio (137 characters):**
   > Plain-English trip prep for the Sea-to-Sky. A school capstone by Liz. Not an official rescue site. In an emergency, call 9-1-1. Website ↓
@@ -17,7 +17,7 @@ All post text comes from the website (content.md, commit ea276d9). There are no 
 
 ## Suggested order
 
-Post 01 first. Instagram shows newest first, so to start a 3-across grid, post 01, 02 and 03 together, then the rest.
+Suggested reading order: 01 introduces the project, 02–03 cover preparation, 04–06 cover help and communication, and 07 is a three-slide carousel. Upload the carousel slides together in the listed order. Choose the actual posting order in the account and record confirmed publications in README.md.
 
 ---
 

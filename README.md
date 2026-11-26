@@ -45,6 +45,10 @@ node --test scripts/test_trip_plan.mjs
 
 The final subdued Presentation menu item is a temporary aid, marked `data-presentation-link` in every shared menu. It can be removed later without deleting the page or changing the visitor routes. Review the presentation and its canonical `content.md` section whenever features, navigation or advice change; keep detailed speaking points, demo links and the short cue sheet/Show prompts in sync. A cross-page overlay tour is not part of the current implementation.
 
+## Instagram drafts
+
+The account has been created, as confirmed by the user on 26 Nov. [social/instagram/README.md](social/instagram/README.md) maps the seven post topics to website sources and records publication status separately from prepared exports. Captions, artwork source, nine post images and profile options are tracked together. The actual handle and which posts are live are awaiting confirmation. The renderer's original sandbox path is a known maintenance follow-up.
+
 ## Images, fonts and printing
 
 Photographs and fonts are hosted locally. Photo credits and licences are in `images/README.md` and on About; the font licences are in `fonts/`. Photos are regional context, not images of the reported incidents.

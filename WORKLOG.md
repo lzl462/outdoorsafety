@@ -129,3 +129,11 @@ Then filled more presentation placeholders from details Liz gave on 25 Nov, reco
 
 
 - Instagram starter kit added in `social/instagram/` (not linked from the site): profile pictures, 6 posts plus a 3-slide carousel, captions.md, overview.png, a copy of the website QR (qr-website.svg) and the render source in src/. Username idea: outdoorsafety48. All wording from content.md.
+
+## 2026-11-26 — Pulled presentation and Instagram reconciliation
+
+Reviewed the imported presentation and kit against current files after pulling b9b910b and 021b916. Earlier “Not committed” entries describe draft moments; both changes are now committed. Reconciled the plan's old check count, duplicated Instagram decisions and stale personal-placeholder notes. Recorded the user's confirmation that the Instagram account exists, updating canonical copy, detailed presentation, cue sheet and caption metadata together. The handle and actual publication history remain unconfirmed; exports alone do not establish posted content.
+
+Added a repository maintenance/publication record for the seven Instagram topics and recorded the renderer's hardcoded sandbox path as a follow-up. Clarified that social wording adapts website advice rather than copying every heading verbatim. The review recommends keeping the thirteen-part rehearsal bank but choosing a short core and a small number of demos. Original school documents are absent here, so the review maps the imported requirements summary without claiming a full original-rubric audit. Reason: keep the project's status and next actions accurate after the parallel Grok work.
+
+Chromium/WebKit checks passed all thirteen practice steps, cue-copy parity with content.md, clipboard fallback, no-JavaScript access and 320/390/1440-pixel layouts; selected Chromium accessibility rules passed. Nine structural tests and the 20-page/735-reference site check passed. All eleven generated artwork HTML files match build.py; post dimensions and the overview/final carousel rendering were checked. No social posts were sent. Git/SSH/credential configuration and the accepted email/QR and printer-test boundaries were unchanged.

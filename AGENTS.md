@@ -7,6 +7,7 @@ This is a small static site. The live site is built from GitHub `main`.
 - Keep `PLAN.md`, `WORKLOG.md`, and `AGENTS.md` in English. Liz may show this repository to her teachers in Squamish. Talk with Liz can be German, English, or both.
 - New public wording goes in `content.md` first. Site text stays in English.
 - When features, navigation or source-based advice change, review `presentation.html` and its `content.md` copy. Keep the detailed speaking notes, demo links and short cue sheet in sync, including the cue sheet's Show prompts. Copied text must come from the visible cue sheet rather than a separate maintained version.
+- Instagram drafts live in `social/instagram/`. Keep affected captions, artwork source and exports aligned with `content.md` and the website advice. Follow that folder's README and record confirmed publication dates/URLs there; prepared files alone do not establish that a post is live.
 - The final subdued `Presentation` menu link is a temporary rehearsal aid, marked with `data-presentation-link` for easy removal after practice.
 - Do not invent quotes, stories, or the sentence “rescue is free”.
 - Pack lists are allowed on the site. Build them only from lists already in the repository or from verified sources. Do not invent items.
