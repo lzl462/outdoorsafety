@@ -10,13 +10,13 @@ The original speaking points contained roughly 1,600 words, before Show prompts 
 
 ## Requirements recorded in the imported notes
 
-The school package/email were supplied in the other Grok conversation. Their original files are absent from this checkout. This table maps the imported summary to current evidence; it does not certify the complete original rubric.
+The school package/email were supplied in the other Grok conversation; those original files remain absent from this checkout. The approved proposal was subsequently supplied and is now checked directly in [docs/school](../docs/school/README.md). This table maps the recorded requirements to current evidence; it does not certify the complete final rubric.
 
 | Recorded requirement / question | Current presentation evidence | Remaining personal work |
 | --- | --- | --- |
 | Who is presenting? | Part 1: Liz, school and international background; mentor thanked in Part 12. | Practise in her own voice. |
 | Why this project? | Part 2: purpose, audience, hiking case and local context. | Optional personal motivation; use the strongest short example. |
-| Inquiry and proposal-to-product link | Part 3 now expresses the purpose of the overall project that the user confirmed was approved by the teacher. | Compare the original proposal wording/deliverables with the finished work when the promised file is supplied; the presentation subject is already defined. |
+| Inquiry and proposal-to-product link | Part 3 expresses the awareness campaign's purpose from the supplied proposal. The comparison is recorded in docs/school/README.md. | Comparison complete for this proposal; multilingual and undocumented outreach plans are distinguished from delivered outputs. |
 | Process and overcoming problems | Parts 4 and 9: Liz's confirmed interview/page/Instagram work and a concrete AI/GitHub/responsive-design example, with the dated timeline in optional notes. | Practise the example and the distinction between her work and AI support. |
 | Product and visual aids | Parts 6–8: website, Trip Plan, QR concept and poster layout. | Choose demos and confirm the physical board; the safety-poster layout alone does not show the whole personal capstone story. |
 | Core competencies | Part 10 uses the supplied SD48 sheet, with concrete examples. | Select examples she can explain naturally. The full school document has not been independently compared with the imported competency mapping. |
@@ -54,14 +54,22 @@ Chromium and WebKit passed 320/390/1440-pixel layouts, thirteen-step Previous/Ne
 
 The user confirmed that Liz conducted the interviews, spent many hours on the individual pages and now manages Instagram. The revised main speech states those contributions directly. AI-assisted wording/code and GitHub remain part of the process description. The learning example follows challenge → action → example → lesson: learning new tools, iterating with AI/GitHub, shortening contents links for phone use and checking the result. The specific label change is recorded in repository history; the new guide demo opens the unchanged full heading.
 
-The user also clarified that the question is the purpose behind the overall teacher-approved project. Part 3 now expresses that purpose as a guiding question. The approved file will be supplied later for a plan-to-product comparison and formal wording check. That follow-up does not leave the presentation topic unresolved. All personal placeholders have been removed from the current speaking page.
+The user also clarified that the question is the purpose behind the overall teacher-approved project and then supplied the original proposal. Part 3 expresses that campaign's purpose as a guiding question. The proposal-to-product comparison is complete and linked from the extra notes. All personal placeholders have been removed from the current speaking page.
 
 | Text measured the same way in the HTML | Before | After |
 | --- | ---: | ---: |
-| Speaking points, including Q&A reserve | 1,621 words | 793 words |
+| Speaking points, including Q&A reserve | 1,621 words | 807 words |
 | Competency speaking points | 295 words | 103 words |
 | Phone cue sheet | 330 words | 137 words |
 
 All thirteen stations and twenty-one demo options remain. Detailed timeline, estimated hours, source qualifications and portfolio context are kept in optional notes. The main instruction recommends one or two demos, with questions as reserve. The original portfolio/source sections stay in content.md; speech paraphrases and the guiding-question formulation are not presented as verbatim quotations from an interview or proposal.
 
 The revised page passed Chromium/WebKit checks at 320/390/1440 pixels, all thirteen practice steps, the new learning-demo popup/return, cue copying/manual fallback and no-JavaScript access. Selected Chromium accessibility checks passed at 320/1440. All speaking-point lists and cue rows match content.md; the learning example and cue sheet were visually inspected on the phone layout. The site check still passes 20 HTML files and 735 local references.
+
+## Original proposal received during the revision
+
+The user supplied the five-page proposal dated 17 September as the approved project. It is preserved byte-for-byte in [docs/school/capstone-proposal-2026-09-17.pdf](../docs/school/capstone-proposal-2026-09-17.pdf), with a [source-to-product comparison](../docs/school/README.md). The speech now uses its personal motivation (outdoor sports, health and safety) and describes the product as a campaign combining website, QR materials and social media.
+
+The proposal contains project-planning questions rather than a separately labelled research question or strand, and specifies no interview count. Its central campaign outputs are present. Multilingual content remains deferred; local-business collaboration and doctor/outdoor-professional interviews are not documented. Printable/downloadable resources support saved offline use; the whole website has no offline mode. These distinctions are available in the extra notes and comparison, rather than introducing new work into this presentation revision.
+
+The concurrent remote poster-sketch commit 5ec694e was merged with both worklog entries preserved. The plan now links the hand sketch and keeps the physical board marked as unverified. The proposal PDF link adds one local reference, bringing the current site check to 20 HTML files and 736 references.

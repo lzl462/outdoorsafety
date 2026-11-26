@@ -1214,7 +1214,7 @@ Liz supplied this already-submitted sheet on 25 Nov 2026 as background. Theme: �
 - Contribute: the project's goal is to help people in the Sea-to-Sky area, such as tourists and students, prevent emergencies; I need to connect with people, raise their interest and help them be aware outdoors. Example: someone who wants to go hiking but doesn't know what to pack can use the pack list and even take it with them, and they can plan their trip with the planner.
 - Collaborate: building relationships with people experienced in outdoor safety and search and rescue through interviewing and writing with them. Example: I interviewed people involved in Sea-to-Sky search and rescue about common mistakes and emergency preparation for mountain activities, and learned more about why being prepared in nature matters.
 
-The 23 Oct check-in's self-regulation reflection is used under Learn (personal responsibility, self-regulation). The sheet does not cover Liz's grade/school, post-secondary plans, inquiry question or total hours. The next source section supplies the later personal details and weekly-time description. On 26 Nov the user confirmed that the whole project idea had been approved by the teacher; the presentation now expresses that purpose as a guiding question. The original proposal wording can be compared when the promised file is supplied.
+The 23 Oct check-in's self-regulation reflection is used under Learn (personal responsibility, self-regulation). The sheet does not cover Liz's grade/school, post-secondary plans, inquiry question or total hours. The next source section supplies the later personal details and weekly-time description. On 26 Nov the user confirmed that the whole project idea had been approved by the teacher and supplied the original proposal, recorded below. The presentation expresses its purpose as a guiding question.
 
 ## Liz's presentation details — 25 Nov 2026 (source for the presentation)
 
@@ -1227,13 +1227,21 @@ Supplied by Liz on 25 Nov 2026 for the presentation only; not added to About.
 - Social media account: not created as of the details supplied on 25 Nov. Superseded on 26 Nov by the user's confirmation that the account now exists as `@outdoorsafety48`; the presentation and cue sheet use that current status. Publication history still needs confirmation.
 - Still open (optional): what the Sea-to-Sky outdoors means to her.
 
+## Approved Capstone proposal — 17 Sep 2026 (received 26 Nov)
+
+The user supplied [Liz's original proposal](docs/school/capstone-proposal-2026-09-17.pdf) as the teacher-approved project. It is dated 17 September 2026 and describes an outdoor safety awareness campaign combining a website, QR codes and social media, based on research and local expert interviews. Its aims are preparation, recognizing risks and responding to dangerous or unexpected situations. The intended audience includes tourists, locals, students and outdoor athletes.
+
+Liz's stated personal interests are outdoor sports, health and safety; she wanted to learn from Search and Rescue professionals. Planned outputs included checklists, downloadable PDFs for offline use, multilingual content and possible collaboration with local businesses. The anticipated difficulty was finding experts with time for interviews; email or online interviews were proposed as a workaround.
+
+The current project has the website, checklists, print/PDF resources, QR artwork, two SAR contributors and an Instagram account with prepared posts. The website is English; translations remain deferred. Local-business collaboration and doctor/outdoor-professional interviews are not documented. Saved PDF materials can be used offline; the website itself has no offline mode. The [proposal comparison](docs/school/README.md) records these distinctions. The guiding question in the speech expresses the proposal's goals in question form; the original document does not supply a separate labelled research question or strand.
+
 ## Liz's contribution and learning — 26 Nov 2026 (source for the presentation)
 
 The user confirmed that Liz conducted the interviews, spent many hours working on individual website pages herself and now manages the Instagram account. The user asked for a learning example based on AI tools, GitHub and making the site work across devices. These are drafted speaking notes, not verbatim interview quotations.
 
 The example uses a recorded website change: the guide's contents link “Give your contact a job, not just a destination” was shortened to “Your contact’s role”, while the full heading and target stayed the same (07554c7 → 5ad7745). Layouts were reviewed at phone, tablet and desktop widths. The narrative describes shared iteration with AI support rather than attributing every technical change or test to Liz alone. Responsive design means the layout adapts to different screen sizes; the term does not add a new site feature.
 
-The user then clarified that the whole project idea was approved by the teacher and that the guiding question is the purpose behind that project. The presentation wording below expresses the known project purpose; it is not represented as a verbatim quotation from the approved proposal. The approved file will be supplied later for comparing the original plan with the finished work and checking any formal wording or strand label. This is a later document comparison, not an unresolved topic for the spoken presentation. Earlier portfolio/source facts above are retained; the spoken version is shorter and keeps the detailed timeline as optional notes.
+The user clarified that the whole project idea was approved by the teacher and then supplied the proposal above. The guiding question expresses that campaign's purpose in presentation wording. The original-plan comparison is now recorded in docs/school/README.md. Earlier portfolio/source facts above are retained; the spoken version is shorter and keeps the detailed timeline as optional notes.
 
 ## Presentation rehearsal
 
@@ -1267,7 +1275,7 @@ Show: About — why I made this site.
 #### 2. Why did I choose this project?
 
 - A hiker near Mount Habrich spent five nights in the mountains. He had left a trip plan with his wife, who called for help when he was overdue.
-- I wanted a clear place where beginners and visitors could find practical preparation advice from local rescuers and public safety sources.
+- I'm interested in outdoor sports, health and safety. I wanted practical advice that helps people prepare, understand local risks and respond when plans change.
 
 Extra notes — More local context and sources
 
@@ -1281,15 +1289,17 @@ Show: The hiking case on About. Connect it to leaving a trip plan.
 
 #### 3. What was my question?
 
-- My guiding question is: how can I create a clear, practical outdoor safety resource for beginners and visitors in the Sea-to-Sky?
-- My teacher approved this project idea.
-- The website is my answer: planning advice, activity checklists and a tool for leaving a trip plan.
+- My guiding question is: how can I make outdoor safety advice clear and easy to access, so people can prepare, understand risks and respond when plans change?
+- My teacher approved an outdoor safety awareness campaign based on research and interviews.
+- The website, checklists, QR materials and Instagram account are the main parts of that campaign.
 
 Extra notes — Project approval and proposal
 
-This question expresses the purpose of my teacher-approved project. The original proposal file will be added later for a comparison of the planned and finished work.
+The [17 September proposal](docs/school/capstone-proposal-2026-09-17.pdf) planned a website, checklists, QR codes and social media based on research and expert interviews. Those are the main parts of the finished campaign. The documented interviews are with two Squamish Search and Rescue members.
 
-Show: About — why I made this site. Use the approved proposal for comparison when it is available.
+The original plan also included multilingual content and local-business collaboration. The website is currently in English; translations remain a later step, and business collaboration is not documented. PDF materials can be saved for offline use; the website itself needs a connection.
+
+Show: About — why I made this site. The original proposal is available in the extra notes for comparison.
 
 #### 4. How did I do it?
 
