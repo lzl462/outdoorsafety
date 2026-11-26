@@ -2,11 +2,11 @@
 
 Reviewed the pulled commits b9b910b (expanded presentation) and 021b916 (Instagram kit), current files and the user's confirmation that the Instagram account exists. This is a repository-based editorial/status review, not a new review by multiple agents.
 
-## Assessment
+## Initial assessment, before the speaking revision
 
-The expansion is a useful improvement for a school presentation. It explains Liz's motivation, inquiry, process, learning and next steps alongside the product. The submitted competency examples, highlighted personal placeholders, explicit AI assistance and distinction between interview evidence and news are good foundations. Keep the thirteen sections as a rehearsal bank.
+The expansion was a useful improvement for a school presentation. It explained Liz's motivation, inquiry, process, learning and next steps alongside the product. The submitted competency examples, explicit AI assistance and distinction between interview evidence and news were good foundations. Personal placeholders and the length needed a follow-up; that implementation is recorded below.
 
-The speaking points alone contain roughly 1,700 words, before Show prompts and source notes. For the reported open-house format, choose a short core around who / why / product / learning / next steps, with one or two deliberate demos. Keep the detailed timeline, rescue-call figures, additional links and Q&A available for follow-up. The thirteen sections and twenty-one links do not all need to be spoken or opened in every conversation. No new speaking-time requirement is assumed.
+The original speaking points contained roughly 1,600 words, before Show prompts and source notes. The recommendation was a short core around who / why / product / learning / next steps, with one or two deliberate demos. The detailed timeline, rescue-call figures, additional links and Q&A could stay available for follow-up. No new speaking-time requirement was assumed.
 
 ## Requirements recorded in the imported notes
 
@@ -14,14 +14,14 @@ The school package/email were supplied in the other Grok conversation. Their ori
 
 | Recorded requirement / question | Current presentation evidence | Remaining personal work |
 | --- | --- | --- |
-| Who is presenting? | Part 1: Liz, school, international background, mentor. | Optional outdoor interests in Liz's words. |
+| Who is presenting? | Part 1: Liz, school and international background; mentor thanked in Part 12. | Practise in her own voice. |
 | Why this project? | Part 2: purpose, audience, hiking case and local context. | Optional personal motivation; use the strongest short example. |
-| Inquiry and proposal-to-product link | Part 3: product answer and theme. | Exact approved inquiry question, strand and what changed from the proposal. |
-| Process and overcoming problems | Parts 4 and 9: milestones, interviews, AI assistance and October reflection. | Liz's own contribution, how she continued while waiting, one genuine before/after example. |
+| Inquiry and proposal-to-product link | Part 3 now expresses the purpose of the overall project that the user confirmed was approved by the teacher. | Compare the original proposal wording/deliverables with the finished work when the promised file is supplied; the presentation subject is already defined. |
+| Process and overcoming problems | Parts 4 and 9: Liz's confirmed interview/page/Instagram work and a concrete AI/GitHub/responsive-design example, with the dated timeline in optional notes. | Practise the example and the distinction between her work and AI support. |
 | Product and visual aids | Parts 6–8: website, Trip Plan, QR concept and poster layout. | Choose demos and confirm the physical board; the safety-poster layout alone does not show the whole personal capstone story. |
 | Core competencies | Part 10 uses the supplied SD48 sheet, with concrete examples. | Select examples she can explain naturally. The full school document has not been independently compared with the imported competency mapping. |
-| Next steps | Part 11: potential translations/sign placement, Instagram, medicine/sport studies and possible SAR volunteering. | Optional link between project skills and studies; Instagram publication record. The handle is now confirmed as @outdoorsafety48. |
-| Answering questions | Part 13: evidence, official status, privacy, AI, testing. | Liz's own answer to what she would change. |
+| Next steps | Part 11 connects research/communication/digital skills with further study, alongside future language/sign ideas and @outdoorsafety48. | Instagram publication record remains separate. |
+| Answering questions | Part 13: evidence, official status, privacy, own work/AI, testing and a proposed next improvement. | Use this as reserve and adapt the words during practice. |
 | Portfolio and final reflection | Listed separately in PLAN.md from the imported package summary. | Their completion cannot be inferred from the website or transcripts. The 80+ hour figure remains a labelled estimate, not a counted log. |
 
 ## Status corrections made
@@ -49,3 +49,19 @@ The user's report establishes account creation and the handle [@outdoorsafety48]
 ## Validation
 
 Chromium and WebKit passed 320/390/1440-pixel layouts, thirteen-step Previous/Next navigation and boundaries, twenty-one demo links, copied cue-sheet parity with content.md, manual-selection fallback and no-JavaScript access. Selected Chromium accessibility rules passed at 320/1440. Nine structural tests and the website check (20 HTML files, 735 local references) passed. No Instagram message or post was sent during this work.
+
+## Implemented speaking revision — later on 26 Nov
+
+The user confirmed that Liz conducted the interviews, spent many hours on the individual pages and now manages Instagram. The revised main speech states those contributions directly. AI-assisted wording/code and GitHub remain part of the process description. The learning example follows challenge → action → example → lesson: learning new tools, iterating with AI/GitHub, shortening contents links for phone use and checking the result. The specific label change is recorded in repository history; the new guide demo opens the unchanged full heading.
+
+The user also clarified that the question is the purpose behind the overall teacher-approved project. Part 3 now expresses that purpose as a guiding question. The approved file will be supplied later for a plan-to-product comparison and formal wording check. That follow-up does not leave the presentation topic unresolved. All personal placeholders have been removed from the current speaking page.
+
+| Text measured the same way in the HTML | Before | After |
+| --- | ---: | ---: |
+| Speaking points, including Q&A reserve | 1,621 words | 793 words |
+| Competency speaking points | 295 words | 103 words |
+| Phone cue sheet | 330 words | 137 words |
+
+All thirteen stations and twenty-one demo options remain. Detailed timeline, estimated hours, source qualifications and portfolio context are kept in optional notes. The main instruction recommends one or two demos, with questions as reserve. The original portfolio/source sections stay in content.md; speech paraphrases and the guiding-question formulation are not presented as verbatim quotations from an interview or proposal.
+
+The revised page passed Chromium/WebKit checks at 320/390/1440 pixels, all thirteen practice steps, the new learning-demo popup/return, cue copying/manual fallback and no-JavaScript access. Selected Chromium accessibility checks passed at 320/1440. All speaking-point lists and cue rows match content.md; the learning example and cue sheet were visually inspected on the phone layout. The site check still passes 20 HTML files and 735 local references.

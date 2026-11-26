@@ -221,11 +221,3 @@
     background: white;
   }
 }
-
-/* Text Liz still has to write herself. */
-.placeholder {
-  background: #fff4c2;
-  border-bottom: 2px dashed #a06a00;
-  color: #4a3500;
-  padding: 0 0.15em;
-}
