@@ -38,7 +38,7 @@ Keeping this small kit in the repository is practical: captions, editable source
 
 All nine post PNGs are 1080 × 1350. Both profile options are 1080 × 1080. The overview and final carousel slide were visually inspected. All eleven generated artwork HTML files match the generator's current strings. The artwork advice follows the existing website; campaign headings and calls to action are adaptations, so the previous “all wording from content.md” description was too absolute.
 
-One concrete maintenance defect remains: `src/build.py` hardcodes `/workspace/instagram-kit` and invokes `google-chrome`, rather than deriving this checkout's paths. It also does not regenerate the overview/crop comparison. Make the renderer repo-relative before the next artwork regeneration. The prepared PNGs are already available for manual posting; no publishing integration is needed for the proposed workflow.
+At this review, `src/build.py` still hardcoded `/workspace/instagram-kit` and invoked `google-chrome`, and did not regenerate the overview/crop comparison. This was resolved in the later [Instagram launch revision](2026-11-26-instagram-launch.md): paths are repository-relative and the renderer refreshes both previews. The user will upload manually.
 
 ## Source spot-check and limits
 
@@ -56,7 +56,7 @@ The user confirmed that Liz conducted the interviews, spent many hours on the in
 
 The user also clarified that the question is the purpose behind the overall teacher-approved project and then supplied the original proposal. Part 3 expresses that campaign's purpose as a guiding question. The proposal-to-product comparison is complete and linked from the extra notes. All personal placeholders have been removed from the current speaking page.
 
-| Text measured the same way in the HTML | Before | After |
+| Text measured the same way in the HTML | Before | After speaking revision |
 | --- | ---: | ---: |
 | Speaking points, including Q&A reserve | 1,621 words | 807 words |
 | Competency speaking points | 295 words | 103 words |
@@ -73,3 +73,5 @@ The user supplied the five-page proposal dated 17 September as the approved proj
 The proposal contains project-planning questions rather than a separately labelled research question or strand, and specifies no interview count. Its central campaign outputs are present. Multilingual content remains deferred; local-business collaboration and doctor/outdoor-professional interviews are not documented. Printable/downloadable resources support saved offline use; the whole website has no offline mode. These distinctions are available in the extra notes and comparison, rather than introducing new work into this presentation revision.
 
 The concurrent remote poster-sketch commit 5ec694e was merged with both worklog entries preserved. The plan now links the hand sketch and keeps the physical board marked as unverified. The proposal PDF link adds one local reference, bringing the current site check to 20 HTML files and 736 references.
+
+The subsequent [Instagram launch revision](2026-11-26-instagram-launch.md) adds website/account QR access and updates the presentation's display-code notes. Its current speaking/cue counts are 821/137 words; the website check now covers 740 local references. The three ready post packages and physical display production steps are tracked in the updated plan.

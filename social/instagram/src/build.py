@@ -1,5 +1,17 @@
-import subprocess, pathlib
-K = pathlib.Path('/workspace/instagram-kit'); S = K/'src'
+"""Build repository-owned Instagram artwork and its preview sheets.
+
+Run from any working directory. Browser rendering uses the adjacent Playwright
+helper; use --html-only when only editable previews are needed.
+"""
+import argparse
+import json
+import os
+import pathlib
+import shutil
+import subprocess
+
+K = pathlib.Path(__file__).resolve().parents[1]
+S = K / 'src'
 MARK = '''<svg viewBox="0 0 40 40" class="{cls}"><rect width="40" height="40" rx="5" fill="{bg}"/><g fill="none" stroke="{fg}" stroke-width="2.4" stroke-linejoin="round"><path d="M5 29 16 10l8 13 5-8 7 14H5Z"/><path d="m12 17 4 3 3-4M6 34h28"/></g></svg>'''
 def mark(cls='mk', bg='#d7ec8b', fg='#173c32'): return MARK.format(cls=cls, bg=bg, fg=fg)
 CSS = '''
@@ -42,6 +54,54 @@ h2{font:700 40px/1.2 DM;letter-spacing:-.02em;margin-bottom:10px}
 .chips{display:flex;gap:28px;font:700 20px DM;letter-spacing:.13em;color:#c9d4c6;text-transform:uppercase}
 .slide{position:absolute;top:84px;right:84px;font:700 22px DM;letter-spacing:.1em;color:var(--muted)}
 .dark .slide{color:var(--lime)}
+.launch{padding:0;background:var(--pine);color:var(--paper)}
+.launch-photo{position:absolute;inset:0 0 auto;height:850px;background:url(stawamus-chief-1600.webp) center 38%/cover}
+.launch-shade{position:absolute;inset:0;background:linear-gradient(180deg,#102b2490 0%,#102b2410 24%,#173c32a8 49%,#173c32 62%)}
+.launch-brand{position:absolute;left:76px;right:76px;top:64px;display:flex;align-items:center;gap:20px;font:700 30px/1.15 DM;letter-spacing:.04em}
+.launch-brand .mk{width:76px;height:76px}
+.launch-brand small{display:block;margin-top:10px;font-size:20px;letter-spacing:.18em;color:var(--lime)}
+.launch h1{position:absolute;left:76px;right:76px;top:422px;margin:0;font-size:166px;line-height:.96;letter-spacing:-.01em}
+.launch h1 span{color:var(--lime)}
+.launch-value{position:absolute;left:80px;right:76px;top:945px;font-size:36px;line-height:1.35;color:#e3e9df}
+.launch-credit{position:absolute;left:80px;right:76px;top:350px;font-size:20px;line-height:1.5;color:#dce5d7;text-align:right;text-shadow:0 1px 4px #102b24}
+.launch-cta{position:absolute;left:76px;right:76px;bottom:90px;padding:26px 30px;background:var(--lime);color:var(--pine)}
+.launch-cta strong{display:flex;align-items:center;justify-content:space-between;font:700 28px/1.2 DM;letter-spacing:.1em;text-transform:uppercase}
+.launch-cta .launch-arrow{font-size:42px;line-height:1}
+.launch-address{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-top:14px}
+.launch-address b{font-size:32px;letter-spacing:-.02em;white-space:nowrap}
+.launch-address span{font-size:28px;white-space:nowrap}
+.launch-disclaimer{position:absolute;left:76px;right:76px;bottom:30px;font-size:22px;line-height:1.4;color:#c9d4c6}
+.campaign{padding:0;background:var(--paper);color:var(--pine)}
+.campaign-dark{background:var(--pine);color:var(--paper)}
+.campaign-brand{position:absolute;left:76px;right:76px;top:64px;display:flex;align-items:center;gap:20px;font:700 30px/1.15 DM;letter-spacing:.04em}
+.campaign-brand .mk{width:76px;height:76px}
+.campaign-brand small{display:block;margin-top:10px;font-size:20px;letter-spacing:.18em;color:var(--muted)}
+.campaign-dark .campaign-brand small{color:var(--lime)}
+.campaign h1{position:absolute;left:76px;right:76px;top:188px;margin:0;font-size:145px;line-height:.96}
+.planning-steps{position:absolute;left:76px;right:76px;top:514px}
+.planning-step{display:grid;grid-template-columns:56px 1fr;gap:26px;min-height:126px;padding:20px 0;border-top:2px solid var(--line)}
+.planning-number{display:grid;place-items:center;align-self:start;width:54px;height:54px;margin-top:2px;background:var(--lime);color:var(--pine);font:700 25px/1 DM;border-radius:50%}
+.planning-step h2{font-size:40px;line-height:1.16;text-transform:uppercase;margin:0 0 10px}
+.planning-step p{font-size:30px;line-height:1.3;color:var(--muted)}
+.planning-contact{position:absolute;left:76px;right:76px;top:936px;padding:26px 30px;background:var(--soft);border-left:6px solid var(--pine)}
+.planning-contact strong{display:block;margin-bottom:10px;font-size:28px;line-height:1.2;letter-spacing:.04em}
+.planning-contact p{font-size:31px;line-height:1.35}
+.campaign-cta{position:absolute;left:76px;right:76px;bottom:90px}
+.campaign-cta strong{display:flex;align-items:center;justify-content:space-between;font:700 28px/1.2 DM;letter-spacing:.08em}
+.campaign-cta .launch-arrow{font-size:38px;line-height:1}
+.campaign-cta .launch-address{margin-top:12px}
+.campaign-disclaimer{position:absolute;left:76px;right:76px;bottom:30px;font-size:22px;line-height:1.4;color:var(--muted)}
+.campaign-dark .campaign-cta strong{color:var(--lime)}
+.campaign-dark .campaign-disclaimer{color:#c9d4c6}
+.lost-campaign h1{font-size:175px}
+.lost-stay{position:absolute;left:80px;right:76px;top:548px;font-size:36px;line-height:1.35}
+.lost-call{position:absolute;left:76px;right:76px;top:650px;padding:30px 36px;background:var(--alert-soft);border-top:6px solid var(--alert);color:var(--ink)}
+.lost-call h2{margin:0 0 16px;color:var(--alert);font:700 74px/1.05 BC}
+.lost-call p{font-size:36px;line-height:1.35}
+.lost-warm{position:absolute;left:80px;right:76px;top:960px}
+.lost-warm strong{display:block;margin-bottom:8px;color:var(--lime);font-size:42px;line-height:1.2}
+.lost-warm p{font-size:36px;line-height:1.35}
+.lost-signal{position:absolute;left:80px;right:76px;top:1095px;font-size:28px;line-height:1.35;color:#c9d4c6}
 '''
 def page(body, cls=''):
     return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="post {cls}">{body}</div></body></html>'
@@ -51,31 +111,32 @@ def foot(dark=False):
 <div class="url"><b>lzl462.github.io/outdoorsafety</b><br>Not an official rescue site. In an emergency, call 9-1-1.</div></div>'''
 
 posts = {}
-# 1 intro (dark hero + photo)
+# 1 website launch: public-facing campaign promotion, without personal framing.
 posts['01-intro'] = page(f'''
-<div style="margin:-84px -84px 0;height:560px;background:url(stawamus-chief-1600.webp) center/cover;position:relative">
-<div style="position:absolute;left:0;right:0;bottom:0;padding:16px 84px;font-size:19px;color:#f6f5ee;background:linear-gradient(transparent,#0008);display:flex;justify-content:space-between"><span>Stawamus Chief · Squamish</span><span>Photo: James Abbott · CC BY 2.0</span></div></div>
-<div style="padding-top:64px"><p class="eyebrow">A little planning goes a long way</p>
-<h1 style="font-size:124px">Big days.<br><span>Better prepared.</span></h1>
-<p class="lead">Plain-English preparation for beginners and visitors planning day trips in the Sea-to-Sky area of British Columbia.</p>
-<p class="lead" style="margin-top:22px;font-size:30px">A school capstone by Liz. Made for the Sea-to-Sky.</p></div>
-<div class="grow"></div>{foot(True)}''', 'dark')
+<div class="launch-photo"></div><div class="launch-shade"></div>
+<div class="launch-brand">{mark()}<div>OUTDOOR SAFETY<small>SEA-TO-SKY</small></div></div>
+<p class="launch-credit">Stawamus Chief · Squamish<br>Photo: James Abbott · CC BY 2.0</p>
+<h1>Big days.<br><span>Better<br>prepared.</span></h1>
+<p class="launch-value">Trip planning. Packing lists.<br>Clear next steps.</p>
+<div class="launch-cta"><strong>Explore the website <span class="launch-arrow" aria-hidden="true">↗</span></strong>
+<div class="launch-address"><b>lzl462.github.io/outdoorsafety</b><span>Link in bio</span></div></div>
+<p class="launch-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>''', 'launch')
 
-# 2 trip plan
+# 2 preparation campaign: three priorities and a separate contact deadline.
 posts['02-before-you-go'] = page(f'''
-<p class="eyebrow">01 / Before you go</p>
-<h1 style="font-size:116px;margin-bottom:28px">The good part starts with a plan.</h1>
-<p class="lead" style="margin-bottom:34px">You choose the adventure. Start with these three things.</p>
-<div class="rows">
-<div class="row"><span class="num">01</span><div><h2>Make a plan</h2><p>Choose a realistic route. Leave it with someone reliable.</p></div></div>
-<div class="row"><span class="num">02</span><div><h2>Take the essentials</h2><p>Prepare for your activity, the conditions and an unexpected wait.</p></div></div>
-<div class="row"><span class="num">03</span><div><h2>Know when to turn around</h2><p>Watch the weather, the time and the people you are with.</p></div></div>
+<div class="campaign-brand">{mark()}<div>OUTDOOR SAFETY<small>SEA-TO-SKY</small></div></div>
+<h1>BEFORE<br>YOUR TRIP.</h1>
+<div class="planning-steps">
+<div class="planning-step"><span class="planning-number">01</span><div><h2>PLAN THE ROUTE.</h2><p>Fits the group. Check conditions.</p></div></div>
+<div class="planning-step"><span class="planning-number">02</span><div><h2>PACK FOR A DELAY.</h2><p>Take the shared essentials.</p></div></div>
+<div class="planning-step"><span class="planning-number">03</span><div><h2>SET A TURNAROUND TIME.</h2><p>Leave time and energy to return.</p></div></div>
 </div>
-<p style="margin-top:40px;font-size:30px;line-height:1.42"><b>Give your contact a job:</b> agree on a time for them to call 9-1-1 if you have not returned or checked in.</p>
-<div class="grow"></div>{foot()}''', 'light')
+<div class="planning-contact"><strong>LEAVE YOUR PLAN.</strong><p>Agree when your contact should call 9-1-1 if you have not returned or checked in.</p></div>
+<div class="campaign-cta"><strong>GET THE CHECKLIST <span class="launch-arrow" aria-hidden="true">↗</span></strong><div class="launch-address"><b>lzl462.github.io/outdoorsafety</b><span>Link in bio</span></div></div>
+<p class="campaign-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>''', 'campaign')
 
 # 3 pack list
-items = [('Light','a headlamp and spare batteries'),('Fire-making kit','matches or a lighter and a fire starter'),('Signalling','a whistle or signalling mirror'),('Extra food and water','enough for an unexpected delay'),('Extra clothing','warm layers and a rain shell'),('Navigation','map, compass, offline maps, a way to call for help'),('First aid kit','and know how to use it'),('Emergency shelter','an emergency blanket or shelter'),('Pocket knife','or multi-tool'),('Sun protection','sunglasses, sunscreen and a hat')]
+items = [('Light','a headlamp and spare batteries'),('Fire-making kit','matches or a lighter and a fire starter'),('Signalling','a whistle or signalling mirror'),('Extra food and water','enough for an unexpected delay'),('Extra clothing','warm layers and a rain shell'),('Navigation & communication','map, compass, offline maps, a way to call for help'),('First aid kit','and know how to use it'),('Emergency shelter','an emergency blanket or shelter'),('Pocket knife','or multi-tool'),('Sun protection','sunglasses, sunscreen and a hat')]
 grid = ''.join(f'<div style="display:flex;gap:22px;padding:15px 0;border-bottom:2px solid var(--line)"><span style="flex:none;width:40px;height:40px;border:3px solid var(--pine);border-radius:4px;margin-top:4px"></span><div><b style="font-size:30px">{a}</b><br><span style="color:var(--muted);font-size:25px;line-height:1.35;display:block">{b}</span></div></div>' for a,b in items)
 posts['03-pack-list'] = page(f'''
 <p class="eyebrow">Prepare / Essentials</p>
@@ -84,30 +145,27 @@ posts['03-pack-list'] = page(f'''
 <p style="margin-top:26px;font-size:26px;color:var(--muted);line-height:1.4">The ten shared essentials, from AdventureSmart. Bring personal medication and spare glasses if you need them.</p>
 <div class="grow"></div>{foot()}''', 'light')
 
-# 4 if lost
+# 4 if lost: immediate priorities, with the unsafe-place exception explicit.
 posts['04-if-lost'] = page(f'''
-<p class="eyebrow">Get help / What to do if…</p>
-<h1 style="margin-bottom:34px">If you are lost.</h1>
-<div class="call"><h2>Lost or hurt? Call <em>9-1-1</em></h2><p>Tell the call taker where you are and what has happened. Stay on the line and follow their instructions.</p></div>
-<ul class="steps">
-<li data-n="1"><b>Stop.</b> Do not keep walking to find the route.</li>
-<li data-n="2"><b>Stay</b> with your group in that spot unless it is unsafe.</li>
-<li data-n="3"><b>Call 9-1-1.</b> Give your GPS position if you can, the route, and where you started.</li>
-<li data-n="4"><b>Stay warm.</b> Put on warm layers. Use three whistle blasts to signal for help.</li>
-</ul>
-<p style="margin-top:14px;font-size:30px;line-height:1.42;color:var(--muted);border-top:2px solid var(--line);padding-top:30px">Do not guess a downhill route through unfamiliar terrain. Staying put when safe helps searchers narrow the area they need to search.</p>
-<div class="grow"></div>{foot()}''', 'light')
+<div class="campaign-brand">{mark()}<div>OUTDOOR SAFETY<small>SEA-TO-SKY</small></div></div>
+<h1>LOST?<br>STOP.</h1>
+<p class="lost-stay">Stay together. Stay put unless it is unsafe.</p>
+<div class="lost-call"><h2>CALL 9-1-1 EARLY.</h2><p>Share your location and what happened. Follow instructions.</p></div>
+<div class="lost-warm"><strong>Keep warm.</strong><p>Signal for help.</p></div>
+<p class="lost-signal">Plan for no signal: read No cell service.</p>
+<div class="campaign-cta"><strong>WHAT TO DO NEXT <span class="launch-arrow" aria-hidden="true">↗</span></strong><div class="launch-address"><b>lzl462.github.io/outdoorsafety</b><span>Link in bio</span></div></div>
+<p class="campaign-disclaimer">This is not an official rescue site. In an emergency, call 9-1-1.</p>''', 'campaign campaign-dark lost-campaign')
 
 # 5 no service
 posts['05-no-service'] = page(f'''
 <p class="eyebrow">Get help / No cell service</p>
-<h1 style="font-size:120px">Your phone is <span>a weak plan.</span></h1>
+<h1 style="font-size:120px">No signal.<br><span>Have a plan.</span></h1>
 <p class="lead" style="margin-bottom:40px;color:#e3e9df">Reception can disappear soon after you leave the parking area. Plan another way to call for help.</p>
 <ul class="steps" style="color:var(--paper)">
 <li data-n="1">Download a map that works offline and learn how to find your GPS position.</li>
 <li data-n="2">Save phone battery for emergency communication and carry a separate light.</li>
 <li data-n="3">Choose an emergency communication device suited to the route and learn how to use its SOS function before leaving.</li>
-<li data-n="4">Leave a trip plan and an agreed check-in time with someone reliable.</li>
+<li data-n="4">Leave a plan. Agree when your contact should call 9-1-1 if you miss your return/check-in.</li>
 </ul>
 <p style="font-size:28px;color:var(--lime);margin-top:6px">An offline map helps with navigation. It does not send an SOS.</p>
 <div class="grow"></div>{foot(True)}''', 'dark')
@@ -133,7 +191,7 @@ M=[('01','“A beautiful photo is enough research.”','Check reliable route inf
 ('02','“The distance looks short.”','Read the elevation gain, terrain, and time for the return.'),
 ('03','“We are nearly there, so we should keep going.”','Stick to your turnaround time and keep enough daylight and energy for the descent.'),
 ('04','“I am warm while moving, so I have enough layers.”','Pack extra warmth and emergency shelter. Put layers on before you get cold.'),
-('05','“I know this trail; it will not happen to me.”','Leave a trip plan and an agreed check-in time, and plan how to call for help.')]
+('05','“I know this trail; it will not happen to me.”','Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.')]
 def mrows(ms): return '<div class="rows">'+''.join(f'<div class="row"><span class="num">{n}</span><div><h2>{t}</h2><p><b style="color:var(--pine)">A better choice:</b> {b}</p></div></div>' for n,t,b in ms)+'</div>'
 posts['07-mistakes-2'] = page(f'<span class="slide">2 / 3</span><p class="eyebrow">Common mistakes / 01–03</p><h1 style="font-size:104px">Check the route <span>behind the photo.</span></h1>{mrows(M[:3])}<div class="grow"></div>{foot()}', 'light')
 posts['07-mistakes-3'] = page(f'<span class="slide">3 / 3</span><p class="eyebrow">Common mistakes / 04–05</p><h1 style="font-size:104px">Pack for the wait. <span>Leave a plan.</span></h1>{mrows(M[3:])}<p style="margin-top:36px;font-size:30px">Read all five on the website: <b>Learn / Common mistakes</b>.</p><div class="grow"></div>{foot()}', 'light')
@@ -145,9 +203,80 @@ prof = {
  'profile-a-mark': ppage(f'<div style="width:1080px;height:1080px;background:#d7ec8b;display:grid;place-items:center"><svg viewBox="0 0 40 40" width="700" height="700"><g fill="none" stroke="#173c32" stroke-width="2.9" stroke-linejoin="round" stroke-linecap="round"><path d="M5 29 16 10l8 13 5-8 7 14H5Z"/><path d="m12 17 4 3 3-4M6 34h28"/></g></svg></div>'),
  'profile-b-monogram': ppage(f'<div style="width:1080px;height:1080px;background:#173c32;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px"><svg viewBox="0 0 40 30" width="470" height="352"><g fill="none" stroke="#d7ec8b" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"><path d="M5 26 16 7l8 13 5-8 7 14H5Z"/><path d="m12 14 4 3 3-4"/></g></svg><div style="font:700 290px/0.9 BC;color:#f6f5ee;letter-spacing:.01em">OS<span style="color:#d7ec8b">48</span></div></div>'),
 }
-def render(name, html, w, h, outdir):
-    f = S/f'{name}.html'; f.write_text(html)
-    out = outdir/f'{name}.png'
-    subprocess.run(['google-chrome','--headless=new','--no-sandbox','--disable-gpu','--hide-scrollbars','--force-device-scale-factor=1',f'--window-size={w},{h}','--virtual-time-budget=3000',f'--screenshot={out}',f'file://{f}'],check=True,capture_output=True)
-for n,h in posts.items(): render(n,h,1080,1350,K/'posts')
-for n,h in prof.items(): render(n,h,1080,1080,K/'profile')
+def preview_sheets():
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        raise SystemExit('Preview sheets need Pillow. Run this command in a development Python environment with Pillow installed.')
+
+    font = ImageFont.truetype(str(S / 'dm-sans-700.ttf'), 24)
+    files = [K / 'posts' / f'{name}.png' for name in posts]
+    files += [K / 'profile' / f'{name}.png' for name in prof]
+    columns, tile_width, tile_height, gap = 4, 324, 405, 28
+    rows = (len(files) + columns - 1) // columns
+    sheet = Image.new('RGB', (gap + columns * (tile_width + gap), gap + rows * (tile_height + 58 + gap)), '#e9eee3')
+    draw = ImageDraw.Draw(sheet)
+    for index, path in enumerate(files):
+        if not path.exists():
+            raise SystemExit(f'Missing export: {path}. Build all artwork before refreshing the overview.')
+        artwork = Image.open(path).convert('RGB')
+        artwork.thumbnail((tile_width, tile_height), Image.Resampling.LANCZOS)
+        x = gap + index % columns * (tile_width + gap)
+        y = gap + index // columns * (tile_height + 58 + gap)
+        sheet.paste(artwork, (x + (tile_width - artwork.width) // 2, y))
+        caption_font = font
+        caption_size = 24
+        while draw.textbbox((0, 0), path.name, font=caption_font)[2] > tile_width:
+            caption_size -= 1
+            caption_font = ImageFont.truetype(str(S / 'dm-sans-700.ttf'), caption_size)
+        draw.text((x, y + tile_height + 12), path.name, fill='#192e27', font=caption_font)
+    sheet.save(K / 'overview.png', optimize=True)
+
+    crop_sheet = Image.new('RGB', (800, 430), '#e9eee3')
+    draw = ImageDraw.Draw(crop_sheet)
+    for index, name in enumerate(prof):
+        artwork = Image.open(K / 'profile' / f'{name}.png').convert('RGB').resize((280, 280), Image.Resampling.LANCZOS)
+        mask = Image.new('L', (280, 280))
+        ImageDraw.Draw(mask).ellipse((0, 0, 279, 279), fill=255)
+        x = 60 + index * 400
+        crop_sheet.paste(artwork, (x, 36), mask)
+        draw.text((x, 342), name, fill='#192e27', font=font)
+    crop_sheet.save(K / 'profile' / 'circle-crop-preview.png', optimize=True)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--html-only', action='store_true', help='Write all HTML previews without rendering PNGs.')
+    parser.add_argument('--only', nargs='+', choices=[*posts, *prof], help='Render only these artwork names; all previews are still synchronized.')
+    parser.add_argument('--cdp', help='Connect to an existing Chromium debugging endpoint, using an isolated context.')
+    parser.add_argument('--browser', help='Chromium executable when launching a browser instead of connecting over CDP.')
+    parser.add_argument('--playwright-module', default=os.environ.get('PLAYWRIGHT_MODULE'), help='Optional path to an installed Playwright index.mjs.')
+    parser.add_argument('--previews-only', action='store_true', help='Rebuild overview/circle previews from existing PNGs.')
+    args = parser.parse_args()
+    for folder in [S, K / 'posts', K / 'profile']:
+        folder.mkdir(parents=True, exist_ok=True)
+    if args.previews_only:
+        preview_sheets()
+        return
+    targets = []
+    for group, size, folder in [(posts, (1080, 1350), 'posts'), (prof, (1080, 1080), 'profile')]:
+        for name, markup in group.items():
+            (S / f'{name}.html').write_text(markup, encoding='utf-8')
+            if not args.only or name in args.only:
+                targets.append({'name': name, 'width': size[0], 'height': size[1], 'output': str(K / folder / f'{name}.png')})
+    if args.html_only:
+        print(f'Wrote {len(posts) + len(prof)} HTML previews under {S}')
+        return
+    config = dict(source=str(S), targets=targets, cdp=args.cdp, browser=args.browser, playwrightModule=args.playwright_module)
+    node = shutil.which('node')
+    if not node:
+        raise SystemExit('PNG rendering needs Node.js and Playwright. Install the development tools, or use --html-only.')
+    try:
+        subprocess.run([node, str(S / 'render.mjs')], input=json.dumps(config), text=True, check=True)
+    except subprocess.CalledProcessError as error:
+        raise SystemExit(error.returncode)
+    preview_sheets()
+
+
+if __name__ == '__main__':
+    main()

@@ -1,41 +1,66 @@
 # Instagram drafts and publication record
 
-The user confirmed on 26 Nov 2026 that the project account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), matching the first kit's suggestion. Publication dates and post URLs have not been supplied. Keep those states separate from the existence of prepared images.
+The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), confirmed by the user on 26 Nov 2026. Three posts are fully designed for launch: the website introduction (01), Before your trip (02) and If lost (04). Their image, caption and accessibility text are ready for manual upload. The other four topics retain reviewed copy and draft artwork for later. Publication dates and post URLs have not been supplied; prepared files do not establish that a post is live.
+
+## Three finished posts: upload packages
+
+| Post | Image | Caption ready to copy | Accessibility text |
+| --- | --- | --- | --- |
+| 01 · Website introduction | [PNG](posts/01-intro.png) | [Caption](launch-caption.txt) | [Alt text](launch-alt-text.txt) |
+| 02 · Before your trip | [PNG](posts/02-before-you-go.png) | [Caption](before-your-trip-caption.txt) | [Alt text](before-your-trip-alt-text.txt) |
+| 04 · If lost | [PNG](posts/04-if-lost.png) | [Caption](if-lost-caption.txt) | [Alt text](if-lost-alt-text.txt) |
+
+The finished set uses the website's pine/lime visual identity. Post 01 promotes the guides; Post 02 gives preparation checks and the trusted contact's agreed calling deadline; Post 04 gives clear lost-person actions. Personal/school framing is retained in the website's About and presentation context. Upload the selected image and caption manually, add the alt text in the account's accessibility field, then record the resulting post URL/date below. The link-in-bio prompt assumes https://lzl462.github.io/outdoorsafety/ is set in the profile's link field; the full address is also included in the launch caption.
 
 ## Files to maintain
 
 | File or folder | Purpose |
 | --- | --- |
-| [captions.md](captions.md) | Profile/bio drafts and the caption for each numbered post. |
+| [captions.md](captions.md) | Reviewed profile/bio draft, seven captions and separate alt text for each topic. |
+| `launch-*.txt`, `before-your-trip-*.txt`, `if-lost-*.txt` | Separate caption and accessibility-text handoff files for the three finished posts. |
 | `posts/` | Nine 1080 × 1350 PNG exports: six single-image posts and one three-slide carousel. |
 | `profile/` | Two 1080 × 1080 profile options and a circle-crop comparison. The selected account image is not recorded yet. |
 | [overview.png](overview.png) | Contact sheet for reviewing the kit; this is not a post to upload. |
 | [src/build.py](src/build.py) | Generator holding the artwork wording, shared layout and rendering commands. |
 | `src/*.html` | Generated artwork previews, with local fonts and two photographs. |
 | [qr-website.svg](qr-website.svg) | A copy of the website QR. It opens the website, not the Instagram account. |
+| [Instagram QR SVG](../../images/qr-instagram.svg), [PNG](../../images/qr-instagram.png), [print PDF](../../images/qr-instagram-print.pdf) | The separate account QR opens `https://www.instagram.com/outdoorsafety48/`. The SVG scales for the trifold board; the PNG is 1480 × 1480 and the PDF is a 100 mm square. |
 
-Source advice stays in [content.md](../../content.md), with references on [About](../../about.html#sources). Campaign headings and captions are adaptations. Existing photo and font credit/licence records remain in [images/README.md](../../images/README.md) and [fonts/](../../fonts/).
+Source advice stays in [content.md](../../content.md), with references on [About](../../about.html#sources). Campaign headings and captions are adaptations; they do not need to repeat the website sentence for sentence. The revised copy keeps the agreed 9-1-1 calling deadline explicit in the contact reminders, preserves the ten shared essentials and retains specialist contact numbers checked against primary sources. Existing photo and font credit/licence records remain in [images/README.md](../../images/README.md) and [fonts/](../../fonts/).
 
 ## Publication record
 
 Each row is one post. Post 07 uses all three images in order in one carousel. Add a date and live URL only after a publication is confirmed; a committed PNG does not establish publication.
 
-| ID | Prepared image(s) | Website source | Publication date / URL |
-| --- | --- | --- | --- |
-| 01 | [Intro](posts/01-intro.png) | [Home](../../index.html), [About](../../about.html#why-this-site) | Not reported |
-| 02 | [Before you go](posts/02-before-you-go.png) | [Before your trip](../../checklists.html) | Not reported |
-| 03 | [Pack list](posts/03-pack-list.png) | [Shared essentials](../../pack-lists.html#essentials) | Not reported |
-| 04 | [If lost](posts/04-if-lost.png) | [What to do if](../../if.html#lost) | Not reported |
-| 05 | [No service](posts/05-no-service.png) | [No cell service](../../no-service.html) | Not reported |
-| 06 | [Emergency numbers](posts/06-emergency-numbers.png) | [Emergency numbers](../../emergency.html) | Not reported |
-| 07 | [Slide 1](posts/07-mistakes-1.png), [slide 2](posts/07-mistakes-2.png), [slide 3](posts/07-mistakes-3.png) | [Common mistakes](../../mistakes.html) | Not reported |
+| ID | Prepared image(s) | Website source | Draft state | Publication date / URL |
+| --- | --- | --- | --- | --- |
+| 01 | [Website introduction](posts/01-intro.png) | [Home](../../index.html), [About](../../about.html#why-this-site) | Full visual design + reviewed copy, ready for manual upload | Not reported |
+| 02 | [Before your trip](posts/02-before-you-go.png) | [Before your trip](../../checklists.html) | Full visual design + reviewed copy, ready for manual upload | Not reported |
+| 03 | [Shared essentials](posts/03-pack-list.png) | [Shared essentials](../../pack-lists.html#essentials) | Reviewed copy; artwork draft | Not reported |
+| 04 | [If lost](posts/04-if-lost.png) | [What to do if](../../if.html#lost) | Full visual design + reviewed copy, ready for manual upload | Not reported |
+| 05 | [No service](posts/05-no-service.png) | [No cell service](../../no-service.html) | Reviewed copy; artwork draft | Not reported |
+| 06 | [Emergency numbers](posts/06-emergency-numbers.png) | [Emergency numbers](../../emergency.html) | Reviewed copy/number check; artwork draft | Not reported |
+| 07 | [Slide 1](posts/07-mistakes-1.png), [slide 2](posts/07-mistakes-2.png), [slide 3](posts/07-mistakes-3.png) | [Common mistakes](../../mistakes.html) | Reviewed copy; artwork draft | Not reported |
 
 ## Updating a post
 
 1. Start advice/wording changes in `content.md` and keep the corresponding website page accurate.
-2. Update the affected caption and the artwork text in `src/build.py` together. `src/*.html` are generated; editing only one of them would be overwritten by the generator.
-3. Regenerate and inspect the affected HTML/PNG, including its footer, small-screen readability and the complete three-slide sequence. Refresh `overview.png` when artwork changes; it is a separate preview, not an output currently produced by `build.py`.
+2. Update the affected caption, alt text and artwork text in `src/build.py` together. `src/*.html` are generated; editing only one of them would be overwritten by the generator. When one of the three finished posts changes, refresh its separate plain-text caption/alt files from the reviewed copy.
+3. Regenerate and inspect the affected HTML/PNG, including its footer, small-screen readability and the complete three-slide sequence. The renderer refreshes `overview.png` and the profile crop comparison after rendering, so the review previews stay aligned with the exports.
 4. Commit the related wording, source, exports and caption together. Upload the selected PNG(s) and caption manually; update the publication row with the confirmed date and URL. If a published post is edited later, record that change too.
 5. When project status or features change, keep the presentation's detailed notes and cue sheet current as required by [AGENTS.md](../../AGENTS.md).
 
-The current renderer still assumes `/workspace/instagram-kit` and `google-chrome`. Making its paths work from this checkout is a recommended follow-up before the next regeneration. Existing exports can be reviewed and uploaded now. No account credentials belong in these files.
+## Building the artwork
+
+The renderer derives its paths from the repository. Full rendering uses Python with Pillow and Node with Playwright/Chromium available. These are development tools for image exports; the website still has no runtime framework or build dependency.
+
+```sh
+python3 social/instagram/src/build.py
+python3 social/instagram/src/build.py --html-only
+python3 social/instagram/src/build.py --only 01-intro
+python3 social/instagram/src/build.py --previews-only
+```
+
+The default writes eleven HTML previews and renders nine post images plus two profile options, then refreshes the overview and circle-crop comparison. `--html-only` updates the artwork previews; `--only` limits PNG rendering to the named artwork; `--previews-only` rebuilds the review previews from the existing PNGs.
+
+Optional configuration: `--cdp URL` renders in an isolated context of an existing Chromium browser; `--browser PATH` selects a browser executable for a new instance; `--playwright-module PATH` (or `PLAYWRIGHT_MODULE`) locates a separately installed Playwright module. No account credentials belong in these files.

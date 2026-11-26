@@ -1125,7 +1125,7 @@ Liz requested direct implementation and publication of the interview-based revis
 
 The shared trip plan is `pdfs/before-you-leave.html`. Its fields remain: trip date, people and number of people/dogs, departure time, starting point, destination, route, turnaround time, expected return, contact numbers, vehicle details, satellite messenger, medical notes, and when the contact should call 9-1-1. The same page now has eight blank equipment lines in two columns when printed. The live plan uses `pdfs/trip-plan-one-page.css`; the legacy stylesheet remains for archived variants. Older variants remain in `archive/pdfs/`.
 
-The cardboard is `pdfs/trifold.html`. Its title and QR remain the same. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. The Instagram handle is confirmed as `@outdoorsafety48`; a separate follow QR is optional and has not been created.
+The existing safety-poster reference is `pdfs/trifold.html`; its title and website QR remain the same. The separate large project display is planned in `poster/README.md` from Liz's hand sketch. For lost or hurt situations, call 9-1-1, tell the call taker where you are and what happened, and follow instructions. Website QR: `images/qr-website.svg`; print QR: `images/qr-website-print.svg`. The separate Instagram QR is available as `images/qr-instagram.svg`, `images/qr-instagram.png` and `images/qr-instagram-print.pdf`, opening `@outdoorsafety48`. Label the two display destinations Website and Instagram.
 
 ## Remaining personal writing
 
@@ -1242,6 +1242,240 @@ The user confirmed that Liz conducted the interviews, spent many hours working o
 The example uses a recorded website change: the guide's contents link “Give your contact a job, not just a destination” was shortened to “Your contact’s role”, while the full heading and target stayed the same (07554c7 → 5ad7745). Layouts were reviewed at phone, tablet and desktop widths. The narrative describes shared iteration with AI support rather than attributing every technical change or test to Liz alone. Responsive design means the layout adapts to different screen sizes; the term does not add a new site feature.
 
 The user clarified that the whole project idea was approved by the teacher and then supplied the proposal above. The guiding question expresses that campaign's purpose in presentation wording. The original-plan comparison is now recorded in docs/school/README.md. Earlier portfolio/source facts above are retained; the spoken version is shorter and keeps the detailed timeline as optional notes.
+
+## Instagram campaign refresh — 26 Nov 2026
+
+The public campaign introduces the website's practical value in a professional voice. The launch image/caption omit Liz's name and the school/Capstone framing; the project background remains on About and in the presentation. Campaign wording can be adapted for the medium while retaining the meaning of the source advice.
+
+### Launch artwork
+
+OUTDOOR SAFETY · SEA-TO-SKY
+
+BIG DAYS.
+BETTER PREPARED.
+
+Trip planning. Packing lists. Clear next steps.
+
+EXPLORE THE WEBSITE
+
+Link in bio
+
+lzl462.github.io/outdoorsafety
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+Photograph label if used: Stawamus Chief · Squamish. Photo: James Abbott · CC BY 2.0.
+
+### Reviewed Instagram captions and image updates
+
+Profile bio: Sea-to-Sky trip prep. Planning guides, packing lists & practical next steps. Not an official rescue site. Emergency? Call 9-1-1. Website ↓
+
+#### Instagram 01 — Website introduction
+
+Big days. Better prepared.
+
+Planning a Sea-to-Sky day trip? Find practical trip-planning guides, packing lists and clear next steps if plans change.
+
+Explore the guides and make a Trip Plan to leave with someone you trust.
+
+lzl462.github.io/outdoorsafety/
+Link in bio.
+
+Not an official rescue site. In an emergency, call 9-1-1.
+
+Photo: Stawamus Chief, Squamish, by James Abbott (CC BY 2.0).
+
+#SeaToSky #Squamish #Whistler #OutdoorSafety #BePrepared
+
+Image description: A Sea-to-Sky mountain photograph with the headline Big days. Better prepared. The graphic promotes trip-planning guides, packing lists and clear next steps, with the Outdoor Safety website address and a link-in-bio prompt.
+
+#### Instagram 02 — Before your trip
+
+The good part starts with a plan.
+
+Before you head out:
+• Choose a route that fits the whole group. Check conditions and set a turnaround time.
+• Pack for your activity, the conditions and an unexpected wait.
+• Leave your route with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
+
+The website has an online Trip Plan and a one-page blank sheet. Review your plan, send it yourself and confirm your contact received it.
+
+Find Before your trip at the link in bio.
+
+#SeaToSky #Squamish #TripPlan #OutdoorSafety #BePrepared
+
+Image description: Before your trip: plan a route that fits the group and check conditions, pack the shared essentials for a delay, and set a turnaround time. Leave a trip plan and agree when your trusted contact should call 9-1-1 if you have not returned or checked in. The graphic points to the website checklist.
+
+#### Instagram 03 — Shared essentials
+
+Pack for the wait, not only for the walk.
+
+Start with the ten shared essentials:
+Light · fire-making kit · signalling · extra food and water · extra clothing · navigation and communication · first aid kit · emergency shelter · pocket knife or multi-tool · sun protection.
+
+Match your kit to the activity and conditions. Know how to use it and check fire restrictions. Bring personal medication and spare glasses or contacts if you need them.
+
+The shared list is a starting point. Find the activity notes and tickable packing list at the link in bio.
+
+#SeaToSky #Squamish #TenEssentials #OutdoorSafety #BePrepared
+
+Image description: A ten-item shared essentials checklist covering light, fire-making, signalling, food and water, clothing, navigation and communication, first aid, shelter, a knife or multi-tool, and sun protection.
+
+#### Instagram 04 — If you are lost
+
+Lost? Stop, stay and call.
+
+1. Stop. Do not keep walking to find the route.
+2. Stay together. Stay put unless the spot is unsafe.
+3. Call 9-1-1 early. Explain where you are and what happened. Give your GPS position if you can, then follow the call taker’s instructions.
+4. Put on warm layers. Use three whistle blasts to signal for help.
+
+Do not guess a downhill route through unfamiliar terrain. Staying put when safe helps searchers narrow the area.
+
+Find What to do if… at the link in bio.
+
+Not an official rescue site. In an emergency, call 9-1-1.
+
+#SeaToSky #Squamish #HikeSafe #OutdoorSafety #BePrepared
+
+Image description: Lost? Stop. Stay together and stay put unless the location is unsafe. Call 9-1-1 early, share your location and what happened, and follow instructions. Keep warm and signal for help. A link-in-bio prompt points to the website’s next steps.
+
+#### Instagram 05 — No cell service
+
+No signal. Have a plan.
+
+Reception at the car does not mean you will have signal on the trail. Before your trip:
+• Download offline maps and learn how to find your GPS position.
+• Save phone battery for emergency communication and carry a separate light.
+• Choose a communication backup suited to the route and learn how to use it.
+• Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.
+
+An offline map helps you navigate. It does not send an SOS.
+
+Read No cell service at the link in bio.
+
+#SeaToSky #Squamish #Backcountry #NoSignal #OutdoorSafety
+
+Image description: No signal. Have a plan. Four preparation steps cover offline maps, saving phone battery, a suitable emergency communication device and a trusted contact with a trip plan and agreed 9-1-1 calling deadline.
+
+#### Instagram 06 — Emergency numbers
+
+Keep the right number within reach.
+
+Emergency: 9-1-1
+Poison Control: 1-800-567-8911
+Report a wildfire: 1-800-663-5555 or *5555 from a cell
+Marine / Howe Sound — Joint Rescue Coordination Centre: 1-800-567-5111. On the water, VHF Channel 16.
+
+When calling 9-1-1, explain where you are and what happened. Stay on the line, answer questions and follow instructions.
+
+The full number list and No cell service guidance are on the website. Link in bio.
+
+#SeaToSky #Squamish #HoweSound #EmergencyNumbers #OutdoorSafety
+
+Image description: Priority contacts: emergency 9-1-1; Poison Control 1-800-567-8911; wildfire reporting 1-800-663-5555 or star 5555 from a cell; marine rescue coordination 1-800-567-5111 and VHF Channel 16.
+
+#### Instagram 07 — Common mistakes carousel
+
+Five common mistakes. Five better choices.
+
+Swipe through, then use these checks for your next trip:
+1. A photo is a starting point. Research the route and talk to people who have done it.
+2. Read the elevation gain, terrain and return time as well as the distance.
+3. Stick to your turnaround time, even when the destination looks close.
+4. Pack extra warmth and emergency shelter for a stop or delay.
+5. Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.
+
+Preparation cannot prevent every incident, but it can reduce how serious one becomes.
+
+Find Common mistakes at the link in bio.
+
+#SeaToSky #Squamish #HikeSafe #OutdoorSafety #BePrepared
+
+Image description: Three-slide carousel about five common mistakes. It recommends researching beyond a photo, checking terrain and return time, keeping a turnaround time, packing for a delay, and leaving a trip plan with an agreed emergency calling deadline.
+
+#### Initial source-alignment fixes before the three-post design pass
+
+- 02-before-you-go: Prepare / Before your trip
+- 03-pack-list: Navigation & communication
+- 05-no-service: No signal. Have a plan.
+- 05-no-service: Leave a plan. Agree when your contact should call 9-1-1 if you miss your return/check-in.
+- 07-mistakes-3: Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.
+
+Number sources rechecked on 26 Nov 2026:
+- [Poison Control number](https://www.dpic.org/contact)
+- [Wildfire reporting numbers](https://blog.gov.bc.ca/bcwildfire/what-happens-when-you-report-a-wildfire-to-1-800-663-5555/)
+- [JRCC Victoria and VHF Channel 16](https://www.canada.ca/en/canadian-coast-guard/corporate/publications/radio-aids-marine-navigation/general.html)
+
+### Three-post launch set: final artwork for preparation and getting lost
+
+Post 02 artwork:
+
+OUTDOOR SAFETY · SEA-TO-SKY
+
+BEFORE YOUR TRIP.
+
+01 · PLAN THE ROUTE.
+Fits the group. Check conditions.
+
+02 · PACK FOR A DELAY.
+Take the shared essentials.
+
+03 · SET A TURNAROUND TIME.
+Leave time and energy to return.
+
+LEAVE YOUR PLAN.
+Agree when your contact should call 9-1-1 if you have not returned or checked in.
+
+GET THE CHECKLIST
+Link in bio
+lzl462.github.io/outdoorsafety
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+Post 02 final image description: Before your trip: plan a route that fits the group and check conditions, pack the shared essentials for a delay, and set a turnaround time. Leave a trip plan and agree when your trusted contact should call 9-1-1 if you have not returned or checked in. The graphic points to the website checklist.
+
+Post 04 artwork:
+
+OUTDOOR SAFETY · SEA-TO-SKY
+
+LOST? STOP.
+
+Stay together. Stay put unless it is unsafe.
+
+CALL 9-1-1 EARLY.
+
+Share your location and what happened. Follow instructions.
+
+Keep warm. Signal for help.
+
+Plan for no signal: read No cell service.
+
+WHAT TO DO NEXT
+Link in bio
+lzl462.github.io/outdoorsafety
+
+This is not an official rescue site. In an emergency, call 9-1-1.
+
+Post 04 final image description: Lost? Stop. Stay together and stay put unless the location is unsafe. Call 9-1-1 early, share your location and what happened, and follow instructions. Keep warm and signal for help. A link-in-bio prompt points to the website’s next steps.
+
+### Instagram on the website and display resources
+
+Shared footer link: [Instagram @outdoorsafety48](https://www.instagram.com/outdoorsafety48/).
+
+About handoff: Follow [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/) for short outdoor-safety reminders and links to these guides.
+
+Print & share card heading: Instagram QR
+
+Follow @outdoorsafety48 for short outdoor-safety reminders. Use this QR on the project display or other printed materials.
+
+Links: Open Instagram · Download Instagram QR (SVG) · Download Instagram QR (PNG) · Download Instagram QR (PDF).
+
+Image description: QR code linking to Instagram @outdoorsafety48.
+
+Size note: Scalable SVG and a 100 mm PDF are available for the display; keep the white border when placing the code.
+
+The Instagram QR opens https://www.instagram.com/outdoorsafety48/ directly. It is distinct from the website QR and trail-start QR. The display should label each code by its destination.
 
 ## Presentation rehearsal
 
@@ -1368,11 +1602,12 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 - The QR sign invites visitors to check the advice before starting a trip.
 - It opens Quick reminders, with links to the guides and Trip Plan.
+- For our project display, there are separate QR codes for the website and Instagram.
 - The sign is a design concept. Placing it at a real trailhead is a future idea.
 
 Extra notes — Using a poster
 
-Point to the main sections and QR code. The same talking points work without a live website demo. The poster layout is a reference; adapt the board to show your project story too.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The poster layout is a reference; adapt the board to show your project story too.
 
 Show: The sign and Quick reminders, or point to them on your poster.
 
@@ -1471,7 +1706,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
    Show: Home / guide.
 7. Trip Plan — deadline; review → copy/email/print; send yourself.
    Show: Trip Plan.
-8. QR — sign → Quick reminders; placement later.
+8. QR — trail tips; display: website + Instagram.
    Show: Sign / poster.
 9. Learning — AI + GitHub; shorter labels; check results.
    Show: Guide on phone.

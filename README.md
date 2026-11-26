@@ -47,7 +47,7 @@ The final subdued Presentation menu item is a temporary aid, marked `data-presen
 
 ## Instagram drafts
 
-The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), as confirmed by the user on 26 Nov. [social/instagram/README.md](social/instagram/README.md) maps the seven post topics to website sources and records publication status separately from prepared exports. Captions, artwork source, nine post images and profile options are tracked together. Which posts are live is awaiting confirmation. The renderer's original sandbox path is a known maintenance follow-up.
+The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). [social/instagram/README.md](social/instagram/README.md) provides three finished launch packages (website introduction, preparation and getting lost), plus four further draft topics. PNGs, captions, alt text and artwork source are tracked together; confirmed post URLs/dates are recorded separately from exports. The renderer is repository-relative and regenerates the overview/profile previews. The website footer, About and Print & share link to Instagram; scalable SVG/PNG/PDF QR assets are available for the display. [poster/README.md](poster/README.md) records the separate large-board design/printing/assembly work.
 
 ## Images, fonts and printing
 

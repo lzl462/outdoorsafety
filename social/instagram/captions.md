@@ -1,124 +1,195 @@
-# Instagram starter kit: Outdoor Safety — Sea-to-Sky
+# Instagram captions: Outdoor Safety — Sea-to-Sky
 
-The user confirmed on 26 Nov 2026 that the account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). Publication history has not yet been recorded. These files are prepared drafts; their presence does not confirm that they have been posted. Track confirmed post dates and URLs in [README.md](README.md).
-Post wording is adapted from the website (content.md, baseline commit ea276d9), with additional campaign headings and calls to action. There are no interview quotes, invented stats, or claims about rescue costs. Check both the image wording and caption against the current website when updating a draft.
+Account: [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), confirmed by the user on 26 Nov 2026. The copy below was reviewed on the same date and recorded in content.md before updating these drafts. Publication is tracked separately in [README.md](README.md).
 
-## Profile
+The public voice focuses on useful trip preparation and the website. The school/project background remains on About and in the presentation. Advice is adapted from the existing site; image wording and captions must stay aligned when either changes.
 
-- **Account handle:** [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/), confirmed by the user on 26 Nov 2026 (48 = SD48 Sea to Sky).
-- **Display name:** `Outdoor Safety — Sea-to-Sky` (27 characters)
-- **Bio (137 characters):**
-  > Plain-English trip prep for the Sea-to-Sky. A school capstone by Liz. Not an official rescue site. In an emergency, call 9-1-1. Website ↓
-- **Alternative bio (136 characters):**
-  > Big days. Better prepared. Sea-to-Sky trip prep, a school capstone by Liz. Not an official rescue site. Emergency? Call 9-1-1. ↓ Website
-- **Link field:** https://lzl462.github.io/outdoorsafety/
-- **Profile picture:** `profile/profile-a-mark.png` (the site's mountain mark on lime) or `profile/profile-b-monogram.png` (mark + "OS48" on pine). `profile/circle-crop-preview.png` shows both as small circles.
+## Profile draft
 
-## Suggested order
+- **Display name:** Outdoor Safety — Sea-to-Sky
+- **Bio (138 characters):**
 
-Suggested reading order: 01 introduces the project, 02–03 cover preparation, 04–06 cover help and communication, and 07 is a three-slide carousel. Upload the carousel slides together in the listed order. Choose the actual posting order in the account and record confirmed publications in README.md.
+> Sea-to-Sky trip prep. Planning guides, packing lists & practical next steps. Not an official rescue site. Emergency? Call 9-1-1. Website ↓
 
----
+- **Website link field:** https://lzl462.github.io/outdoorsafety/
+- **Profile picture options:** `profile/profile-a-mark.png` and `profile/profile-b-monogram.png`. `profile/circle-crop-preview.png` compares the circular crops; no selected account image is inferred.
 
-## 01 · Intro (`posts/01-intro.png`)
+## Posting notes
 
-Big days. Better prepared. 🏔️
+Post 01 introduces the website. The following topics cover preparation, essentials, getting lost, missing signal, emergency contacts and common mistakes. Upload all three Post 07 images together in the listed order as one carousel. Each section keeps caption and alt text separate.
 
-Hi, I'm Liz. I made a website as a school capstone project here in the Sea-to-Sky area. It's a simple place, in plain words, to help people get ready before going outdoors and know what to do if something goes wrong.
+The three finished posts (01, 02 and 04) each have separate caption and alt-text files linked in [README.md](README.md). These files are ready for manual upload; publication has not been reported.
 
-It's made for beginners and visitors planning day trips in the Sea-to-Sky area of British Columbia: hiking, biking, climbing and winter.
+## 01 · Website introduction
 
-🔗 Link in bio
-This is not an official rescue site. In an emergency, call 9-1-1.
+Image(s): `posts/01-intro.png`
 
-Photo: Stawamus Chief, Squamish, by James Abbott (CC BY 2.0)
+### Caption
 
-#SeaToSky #Squamish #Whistler #Pemberton #HikeSafe #AdventureSmart #OutdoorSafety #BePrepared #CapstoneProject
+Big days. Better prepared.
 
-## 02 · Before you go (`posts/02-before-you-go.png`)
+Planning a Sea-to-Sky day trip? Find practical trip-planning guides, packing lists and clear next steps if plans change.
 
-The good part starts with a plan. You choose the adventure. Start with these three things:
+Explore the guides and make a Trip Plan to leave with someone you trust.
 
-01 Make a plan: choose a realistic route and leave it with someone reliable.
-02 Take the essentials: prepare for your activity, the conditions and an unexpected wait.
-03 Know when to turn around: watch the weather, the time and the people you are with.
-
-Give your contact a job, not just a destination. Agree on a time for them to call 9-1-1 if you have not returned or checked in. Do this for short or familiar trips too.
-
-📝 The website has an online trip plan and a printable one-page sheet. Link in bio.
-
-#SeaToSky #Squamish #Whistler #TripPlan #HikeSafe #AdventureSmart #ThreeTs #BePrepared
-
-## 03 · Pack list (`posts/03-pack-list.png`)
-
-Pack for the wait, not only for the walk. 🎒
-
-These ten shared essentials apply to a ride or climb as well as a hike: light, fire-making kit, signalling, extra food and water, extra clothing, navigation and communication, first aid kit, emergency shelter, pocket knife or multi-tool, and sun protection.
-
-If you rely on personal medication, bring it. Bring spare glasses or contacts if you can't see well without them.
-
-Hiking extras: shoes or boots with grip, a check for snow or ice, and enough time for the descent. Set a turnaround time before you start.
-
-Save this post for your next trip. The full lists are at the link in bio.
-
-#SeaToSky #Squamish #Whistler #TenEssentials #AdventureSmart #HikeSafe #PackList #BePrepared
-
-## 04 · If you are lost (`posts/04-if-lost.png`)
-
-Lost? Stop, stay and call. 🧭
-
-1. Stop. Don't keep walking to find the route.
-2. Stay with your group in that spot unless it's unsafe.
-3. Call 9-1-1. Share your location and what has happened, and follow the call taker's instructions. Give your GPS position if you can, the route, and where you started.
-4. Put on warm layers. Use three whistle blasts to signal for help.
-
-Don't guess a downhill route through unfamiliar terrain. Staying put when it's safe helps searchers narrow the area they need to search.
+lzl462.github.io/outdoorsafety/
+Link in bio.
 
 Not an official rescue site. In an emergency, call 9-1-1.
 
-#SeaToSky #Squamish #Whistler #HikeSafe #AdventureSmart #SearchAndRescue #OutdoorSafety
+Photo: Stawamus Chief, Squamish, by James Abbott (CC BY 2.0).
 
-## 05 · No cell service (`posts/05-no-service.png`)
+#SeaToSky #Squamish #Whistler #OutdoorSafety #BePrepared
 
-Your phone is a weak plan. 📵
+### Alt text
 
-Reception can disappear soon after you leave the parking area. Before your trip:
-• Download a map that works offline and learn how to find your GPS position.
+A Sea-to-Sky mountain photograph with the headline Big days. Better prepared. The graphic promotes trip-planning guides, packing lists and clear next steps, with the Outdoor Safety website address and a link-in-bio prompt.
+
+## 02 · Before your trip
+
+Image(s): `posts/02-before-you-go.png`
+
+### Caption
+
+The good part starts with a plan.
+
+Before you head out:
+• Choose a route that fits the whole group. Check conditions and set a turnaround time.
+• Pack for your activity, the conditions and an unexpected wait.
+• Leave your route with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in.
+
+The website has an online Trip Plan and a one-page blank sheet. Review your plan, send it yourself and confirm your contact received it.
+
+Find Before your trip at the link in bio.
+
+#SeaToSky #Squamish #TripPlan #OutdoorSafety #BePrepared
+
+### Alt text
+
+Before your trip: plan a route that fits the group and check conditions, pack the shared essentials for a delay, and set a turnaround time. Leave a trip plan and agree when your trusted contact should call 9-1-1 if you have not returned or checked in. The graphic points to the website checklist.
+
+## 03 · Shared essentials
+
+Image(s): `posts/03-pack-list.png`
+
+### Caption
+
+Pack for the wait, not only for the walk.
+
+Start with the ten shared essentials:
+Light · fire-making kit · signalling · extra food and water · extra clothing · navigation and communication · first aid kit · emergency shelter · pocket knife or multi-tool · sun protection.
+
+Match your kit to the activity and conditions. Know how to use it and check fire restrictions. Bring personal medication and spare glasses or contacts if you need them.
+
+The shared list is a starting point. Find the activity notes and tickable packing list at the link in bio.
+
+#SeaToSky #Squamish #TenEssentials #OutdoorSafety #BePrepared
+
+### Alt text
+
+A ten-item shared essentials checklist covering light, fire-making, signalling, food and water, clothing, navigation and communication, first aid, shelter, a knife or multi-tool, and sun protection.
+
+## 04 · If you are lost
+
+Image(s): `posts/04-if-lost.png`
+
+### Caption
+
+Lost? Stop, stay and call.
+
+1. Stop. Do not keep walking to find the route.
+2. Stay together. Stay put unless the spot is unsafe.
+3. Call 9-1-1 early. Explain where you are and what happened. Give your GPS position if you can, then follow the call taker’s instructions.
+4. Put on warm layers. Use three whistle blasts to signal for help.
+
+Do not guess a downhill route through unfamiliar terrain. Staying put when safe helps searchers narrow the area.
+
+Find What to do if… at the link in bio.
+
+Not an official rescue site. In an emergency, call 9-1-1.
+
+#SeaToSky #Squamish #HikeSafe #OutdoorSafety #BePrepared
+
+### Alt text
+
+Lost? Stop. Stay together and stay put unless the location is unsafe. Call 9-1-1 early, share your location and what happened, and follow instructions. Keep warm and signal for help. A link-in-bio prompt points to the website’s next steps.
+
+## 05 · No cell service
+
+Image(s): `posts/05-no-service.png`
+
+### Caption
+
+No signal. Have a plan.
+
+Reception at the car does not mean you will have signal on the trail. Before your trip:
+• Download offline maps and learn how to find your GPS position.
 • Save phone battery for emergency communication and carry a separate light.
-• Choose an emergency communication device suited to the route, and learn how to use its SOS function before leaving.
-• Leave a trip plan and an agreed check-in time with someone reliable.
+• Choose a communication backup suited to the route and learn how to use it.
+• Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.
 
-An offline map helps with navigation. It does not send an SOS.
+An offline map helps you navigate. It does not send an SOS.
 
-#SeaToSky #Squamish #Whistler #Pemberton #HikeSafe #AdventureSmart #Backcountry #NoSignal
+Read No cell service at the link in bio.
 
-## 06 · Emergency numbers (`posts/06-emergency-numbers.png`)
+#SeaToSky #Squamish #Backcountry #NoSignal #OutdoorSafety
 
-Keep the right number within reach. ☎️
+### Alt text
 
-🚨 Emergency (police, fire, ambulance, search and rescue): 9-1-1
+No signal. Have a plan. Four preparation steps cover offline maps, saving phone battery, a suitable emergency communication device and a trusted contact with a trip plan and agreed 9-1-1 calling deadline.
+
+## 06 · Emergency numbers
+
+Image(s): `posts/06-emergency-numbers.png`
+
+### Caption
+
+Keep the right number within reach.
+
+Emergency: 9-1-1
 Poison Control: 1-800-567-8911
-BC Wildfire Service (report a wildfire): 1-800-663-5555, or *5555 from a cell
-Marine / Howe Sound (Joint Rescue Coordination Centre): 1-800-567-5111. On the water, VHF Channel 16.
+Report a wildfire: 1-800-663-5555 or *5555 from a cell
+Marine / Howe Sound — Joint Rescue Coordination Centre: 1-800-567-5111. On the water, VHF Channel 16.
 
-Call 9-1-1. Tell the call taker where you are and what has happened. Stay on the line, answer their questions, and follow their instructions.
+When calling 9-1-1, explain where you are and what happened. Stay on the line, answer questions and follow instructions.
 
-The non-emergency RCMP numbers for Squamish, Whistler and Pemberton are on the website. Link in bio.
+The full number list and No cell service guidance are on the website. Link in bio.
 
-#SeaToSky #Squamish #Whistler #Pemberton #HoweSound #EmergencyNumbers #HikeSafe #AdventureSmart
+#SeaToSky #Squamish #HoweSound #EmergencyNumbers #OutdoorSafety
 
-## 07 · Carousel: common mistakes (`posts/07-mistakes-1.png`, `-2.png`, `-3.png`)
+### Alt text
 
-Five common mistakes, and a better choice for each. Swipe ➡️
+Priority contacts: emergency 9-1-1; Poison Control 1-800-567-8911; wildfire reporting 1-800-663-5555 or star 5555 from a cell; marine rescue coordination 1-800-567-5111 and VHF Channel 16.
+
+## 07 · Common mistakes carousel
+
+Image(s): `posts/07-mistakes-1.png, posts/07-mistakes-2.png, posts/07-mistakes-3.png`
+
+### Caption
+
+Five common mistakes. Five better choices.
+
+Swipe through, then use these checks for your next trip:
+1. A photo is a starting point. Research the route and talk to people who have done it.
+2. Read the elevation gain, terrain and return time as well as the distance.
+3. Stick to your turnaround time, even when the destination looks close.
+4. Pack extra warmth and emergency shelter for a stop or delay.
+5. Leave a trip plan. Agree when your contact should call 9-1-1 if you have not returned or checked in.
 
 Preparation cannot prevent every incident, but it can reduce how serious one becomes.
 
-01 "A beautiful photo is enough research." Check reliable route information and talk to people who have done the trip.
-02 "The distance looks short." Kilometres on a steep trail are different. Read the elevation gain, terrain, and time for the return.
-03 "We are nearly there, so we should keep going." Stick to your turnaround time.
-04 "I am warm while moving, so I have enough layers." Pack extra warmth and emergency shelter.
-05 "I know this trail; it will not happen to me." Leave a trip plan and an agreed check-in time.
+Find Common mistakes at the link in bio.
 
-Which one have you caught yourself thinking? 👇
+#SeaToSky #Squamish #HikeSafe #OutdoorSafety #BePrepared
 
-#SeaToSky #Squamish #Whistler #HikeSafe #AdventureSmart #CommonMistakes #TrailTips #BePrepared
+### Alt text
+
+Three-slide carousel about five common mistakes. It recommends researching beyond a photo, checking terrain and return time, keeping a turnaround time, packing for a delay, and leaving a trip plan with an agreed emergency calling deadline.
+
+## Source check — 26 Nov 2026
+
+Trip planning, equipment, lost-person and communication wording follows the corresponding source-backed website pages. The calling deadline is explicit in the contact reminders. The retained specialist numbers were checked against these primary sources:
+
+- [Poison Control number](https://www.dpic.org/contact)
+- [Wildfire reporting numbers](https://blog.gov.bc.ca/bcwildfire/what-happens-when-you-report-a-wildfire-to-1-800-663-5555/)
+- [JRCC Victoria and VHF Channel 16](https://www.canada.ca/en/canadian-coast-guard/corporate/publications/radio-aids-marine-navigation/general.html)
