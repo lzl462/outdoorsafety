@@ -1483,9 +1483,9 @@ The Instagram QR opens https://www.instagram.com/outdoorsafety48/ directly. It i
 
 Resource card heading: Project display draft
 
-An early design for the large trifold project display. Panel sizes, printing and assembly are still to be finalized.
+A measured trifold layout with twelve printable cards. Download the Legal-paper print set and assembly guide; printing and mounting are the next steps.
 
-Links: View project display draft · PNG preview · PDF preview.
+Links: View project display draft · Legal print set · Assembly guide · PNG preview · PDF preview.
 
 The new professional draft replaces the rough hand sketch once reviewed. It is a project presentation board, so it includes Liz's work and learning; the public Instagram launch remains a separate professional website promotion.
 
@@ -1547,13 +1547,25 @@ Disclaimer: This is not an official rescue site. In an emergency, call 9-1-1.
 
 Photo credit if chief used: Photo: James Abbott · CC BY 2.0.
 
-Layout note: Eight content boxes follow Liz’s sketch: two left, one large centre, two smaller centre, one bottom-centre QR-description box, and two right. Keep both labelled QR codes in the centre-bottom row. Dimensions and printing route are undecided; this is a display draft, not a final print-size claim.
+Layout note: The twelve-card version retains the eight content roles from Liz’s sketch. The two narrow side panels each hold two portrait cards. The centre holds four pairs of landscape cards: title/photo, project/website preview, Trip Plan/trail-sign idea, and website/Instagram QR destinations. Each card fits on one Legal sheet without dividing text or QR codes across sheets.
 
 Conditional credit if a Harmony Lakes website screenshot is used: Photo: Ruth Hartnup · CC BY 2.0.
 
-Display preview interface: Project display draft · A concept preview with three panels. Final board dimensions and printing will be decided later. · View at full size · Fit to screen · PNG preview · PDF preview · Back to Print & share.
+Display preview interface: Project display draft · Twelve printable cards for the trifold board. Use the Legal print set for school printing and the assembly guide for placement. · View at full size · Fit to screen · Legal print set · Assembly guide · PNG preview · PDF preview · Full-size master · Back to Print & share.
 
-The preview uses a 2400 × 1800 design canvas with side/centre/side panels in 1:2:1 proportions. The PDF is a design preview; actual board measurements and the printing route remain to be decided.
+Working measurements transcribed from the supplied annotated photo on 26 Nov: height 129.54 cm; left panel 24.13 cm; centre panel 80.52 cm; right panel provisionally 24.13 cm to match the left. Open-board width 128.78 cm. The photo itself is not published. The right-panel width and the paper available at school still need confirmation.
+
+Print planning interface: Board measurements · Printing and assembly · Twelve cards · Print 1–12 in colour, single-sided, on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm). · Select Actual size / 100%, one page per sheet, in portrait orientation. · All twelve PDF pages use the same paper orientation; turn the eight landscape cards after trimming. · The PDFs already contain individual pages: use normal printing. · Trim on the crop marks and place the cards using their numbers and the assembly guide. · Keep every QR code's white border. · Confirm that the loaded paper is Legal, rather than Letter (8.5 × 11 in). · The 100 mm line on each sheet shows the intended scale. · Printing and mounting have not been completed.
+
+Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Local photograph · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Trail-start QR idea · Website QR · Instagram QR · My work and learning · Skills and next steps · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
+
+Print-set margin labels: Turn this card after trimming · Portrait · Landscape · 100 mm · Legal 8.5 × 14 in · Trim all cards to 19.05 × 33.02 cm, then orient them as shown in the assembly guide.
+
+Assembly instruction: Write each card's number on its back before trimming.
+
+Guide table headings: Card · Content · Panel · Left · Top · Trim size.
+
+Additional artwork wording: Before your trip · Online Trip Plan · Printable trip plan · Follow @outdoorsafety48 for short outdoor-safety reminders. · OUTDOOR · SAFETY · SEA-TO-SKY. Other board wording remains as recorded above.
 
 ## Presentation rehearsal
 
@@ -1685,9 +1697,9 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 Extra notes — Using a poster
 
-Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project-display draft shows this story; its final size and printing are still to be decided.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project display has a measured twelve-card layout and a Legal-paper print set. Printing and mounting are the next steps.
 
-Show: The sign and Quick reminders, or point to them on your poster.
+Show: The sign and Quick reminders, or the twelve-card display and its print set.
 
 [Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the project display draft](poster/display.html)
 
@@ -1785,7 +1797,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
 7. Trip Plan — deadline; review → copy/email/print; send yourself.
    Show: Trip Plan.
 8. QR — trail tips; display: website + Instagram.
-   Show: Sign / poster.
+   Show: Sign / Legal print set.
 9. Learning — AI + GitHub; shorter labels; check results.
    Show: Guide on phone.
 10. Competencies — learn; create; question; contribute; collaborate.

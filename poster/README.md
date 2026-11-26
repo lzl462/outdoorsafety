@@ -1,53 +1,72 @@
-# Large trifold project display — design and production
+# Trifold display — Legal print kit
 
-The professional draft is ready: [interactive preview](display.html), [PNG preview](display-preview.png) and [PDF preview](display-preview.pdf). Visitors can reach it from Print & share and presentation part 8. On phones it stacks the panels for readable text; “View at full size” shows the board arrangement in a scrollable area.
+The display is ready as a [measured preview](display.html), a [twelve-page Legal print set](trifold-legal.pdf) and a [one-page assembly guide](trifold-assembly.pdf). It remains reachable through Print & share. The unlisted presentation also has a deliberate demo link; public pages do not link to that rehearsal page.
 
-It replaces Liz's rough hand sketch, which remains in Git history. The eight content areas retain that sketch's structure while explaining the whole project: purpose, interviews, website features, Liz's work and learning. Public wording is recorded in content.md and follows the [presentation](../presentation.html) and [approved-proposal comparison](../docs/school/README.md). The older [website safety-poster layout](../pdfs/trifold.html) remains a separate reference.
+## Working measurements
 
-## Design, not final board dimensions
+Measurements were transcribed from the user's annotated photo supplied on 26 November. The personal photo is not published.
 
-The design canvas is 2400 × 1800 units, with left/centre/right panel proportions of 1:2:1. The PNG is a high-resolution design preview; the single-page A3 landscape PDF is for reviewing the composition, with a concept note outside the board. These are not a measured print master or a chosen printing method. Actual cardboard dimensions and fold margins are still unknown.
-
-The layout uses the website's local fonts, pine/lime colours and licensed Stawamus Chief photograph. It includes an actual “Before your trip” website preview and two separately labelled QR destinations. Photo credit stays on the board; source details remain on About. The display does not claim an organizational endorsement or completed trail installation.
-
-## Content areas
-
-| Area | Role |
+| Part | Size |
 | --- | --- |
-| Left two boxes | Why the project matters; research and the two local rescue contributors. |
-| Centre headline and large box | Project name and purpose; a website screenshot. |
-| Centre two smaller boxes | Practical examples: Trip Plan and the trail-start QR concept. |
-| Centre bottom row | Clearly labelled website QR, a brief website description and Instagram QR. |
-| Right two boxes | Liz's interviews/page work and AI/GitHub/design learning; competencies and next steps. |
+| Board height | 129.54 cm |
+| Left panel | 24.13 cm wide |
+| Centre panel | 80.52 cm wide |
+| Right panel | 24.13 cm wide, assumed equal to the left until confirmed |
+| Open board | 128.78 cm wide × 129.54 cm high |
 
-Keep the display wording and previews aligned with the canonical content and presentation when the project changes. The source HTML/CSS stays editable; JavaScript only controls the optional full-size view.
+These are the supplied centimetre values; the right panel has no separate measurement in the photo. The assumed symmetry is visible in the preview and guide. Legal is the user's proposed school-printing route; the actual paper/tray has not been confirmed.
 
-## Regenerate the previews
+## Twelve complete cards
 
-The development-only helper needs Node.js and Playwright with Chromium installed. If Playwright is available to Node's module resolver:
+Each card is 19.05 × 33.02 cm after trimming. Four are mounted vertically on the wings; eight are mounted horizontally in the centre. Every print page is portrait Legal, with the horizontal cards turned on their sheets. This keeps the whole set printable in one batch using one paper orientation. Text and QR codes stay on individual sheets.
+
+| Printed page | Content | Mounting position |
+| --- | --- | --- |
+| 01 / 02 | Title / licensed local photograph | Centre, first row |
+| 03 / 04 | Why I chose this / local rescuers | Left, upper / lower |
+| 05 / 06 | The project / website preview | Centre, second row |
+| 07 / 08 | Trip Plan / trail-start QR idea | Centre, third row |
+| 09 / 10 | Website QR / Instagram QR | Centre, fourth row |
+| 11 / 12 | My work and learning / skills and next steps | Right, upper / lower |
+
+The layout uses the white cardboard between the separate cards. The cards clear both folds; placement coordinates in the guide are measured from the upper-left corner with the board open and flat. All card art keeps the confirmed project wording, first-name-only student credit and photo/source attribution. The two QR destinations remain distinct.
+
+## Printing at school
+
+1. Confirm that the loaded paper is **Legal, 8.5 × 14 in (215.9 × 355.6 mm)**. Letter is 8.5 × 11 in and is shorter. The dimensions are documented by [HP](https://support.hp.com/us-en/document/ish_2761798-2817316-16); this does not establish which school printer/tray is available.
+2. Download **trifold-legal.pdf**, rather than printing the web preview or the A3 review PDF.
+3. Print pages 1–12 in colour, **portrait**, **single-sided**, **Actual size / 100%**, **one page per sheet**. Do not use Fit, Poster, Booklet or multiple pages per sheet: the PDF already contains the individual cards. Page size is 612 × 1008 PDF points on all twelve pages.
+4. Keep the sheet labels until sorting is complete. Write each card's number on its back, then trim on the crop marks. The 100 mm scale line is outside the artwork. Turn the eight landscape cards after cutting. Leave every QR code's white border intact.
+5. Place the cards on the open, flat board using the assembly guide, then mount and fold. The guide lists each card's panel, position and final orientation.
+
+The PDF artwork has conservative half-inch margins to the trim rectangle; no borderless printer is required. Actual printer scaling, paper availability, printing and mounting are physical production steps still to be completed. The earlier exclusion of separate physical-printer tests remains; no physical print run is claimed.
+
+## Files
+
+- [trifold-legal.pdf](trifold-legal.pdf): twelve actual-size Legal sheets, with card numbers, crop marks and scale lines outside the finished artwork.
+- [trifold-assembly.pdf](trifold-assembly.pdf): one Legal page with board dimensions, folds, card map, placement coordinates and print settings.
+- [trifold-full-size.pdf](trifold-full-size.pdf): one page at the complete board's physical dimensions, for reference or a separately chosen large-format route.
+- [display-preview.png](display-preview.png): high-resolution composition preview, not a paper-size template.
+- [display-preview.pdf](display-preview.pdf): one A3 scaled review page, explicitly labelled as a preview.
+- `display.html` / `display.css`: editable card wording and visual design. The mobile view reflows for reading; the full-size view preserves the board arrangement.
+- `layout.json`: board values, assumptions, paper size and card roles. `layout.css` is generated from it.
+
+The old [safety-poster reference](../pdfs/trifold.html) remains separate from this project display. The rough hand sketch stays only in Git history.
+
+## Regenerate together
+
+Development dependencies are Node.js, Playwright with Chromium, and Python with PyMuPDF. The public site has no build dependency.
 
 ```bash
 node poster/render-preview.mjs
 ```
 
-Alternatively, point it at an existing development installation and, optionally, an already running Chromium debugging endpoint:
+For an existing development browser/environment:
 
 ```bash
-node poster/render-preview.mjs --playwright-module /path/to/playwright/index.mjs --cdp http://localhost:9026
+node poster/render-preview.mjs --cdp http://localhost:9026 --playwright-module /path/to/playwright/index.mjs --python /path/to/python-with-pymupdf
 ```
 
-The helper resolves repository paths from its own location, captures the full preparation-page heading, then exports the 4800 × 3600 board PNG and one-page A3 landscape review PDF. `--help` lists its options. A connected browser keeps its existing tabs; the helper closes only its own context. Review text/layout and decode both exported QR codes after design changes. No build step or Playwright installation is needed to view the public page.
+`--layout-only` regenerates the measured CSS/manifest without a browser. Normal rendering captures the website heading, validates the twelve card exports for loaded fonts/images and text clipping/overlap, then calls `make-print-kit.py` to build all PDF/PNG outputs from the same vector artwork. Temporary artwork and check manifests live in ignored `.render/`. Only the helper's isolated context closes when connecting to an existing browser.
 
-## Ready QR assets
-
-- Website: [scalable print SVG](../images/qr-website-print.svg), opening the website home page.
-- Instagram: [scalable SVG](../images/qr-instagram.svg), [PNG](../images/qr-instagram.png) and [100 mm PDF](../images/qr-instagram-print.pdf), opening `https://www.instagram.com/outdoorsafety48/`.
-- Keep each code's white border and label its destination. Use the SVGs when placing them in the final display artwork; avoid stretching or cropping the codes.
-
-## Remaining production work
-
-1. Confirm the actual board's overall dimensions, each panel width and the fold/gutter margins. No final measurements have been supplied.
-2. Review the draft against that board and decide the printing method: smaller sheets mounted on the cardboard, separate panel prints or a large-format print. No route is selected yet.
-3. Adapt the design to the measured dimensions and any final content edits. Export a print master or the separate panels/sheets at the correct scale; retain readable type, fold clearances and QR white borders.
-4. Arrange printing through the available school, print shop or other chosen route, then trim, mount and assemble the board. Printing/assembly are remaining deliverables, not completed work inferred from the preview.
-5. Confirm the finished board is ready for the presentation. The earlier exclusion of separate physical-printer tests remains; this production task does not reopen that test requirement.
+Start wording changes in content.md. Regenerate the print set, master, guide and previews together; inspect representative sheets and decode the actual exported QR codes. Keep presentation part 8 and its cue-sheet prompt current. Physical production remains separate from these digital checks.

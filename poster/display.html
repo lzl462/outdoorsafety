@@ -11,7 +11,8 @@
     />
     <title>Project display draft — Outdoor Safety Sea-to-Sky</title>
     <link rel="icon" href="../images/mark.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="display.css" />
+    <link rel="stylesheet" href="display.css?v=legal-1" />
+    <link rel="stylesheet" href="layout.css?v=legal-1" />
     <script type="module" src="display.mjs"></script>
   </head>
   <body>
@@ -20,16 +21,21 @@
       <a class="preview-brand" href="../index.html"
         ><img src="../images/mark.svg" alt="" width="42" height="42" />Outdoor
         Safety · Sea-to-Sky</a
-      ><a href="../resources.html">Back to Print &amp; share</a>
+      >
+      <a href="../resources.html">Back to Print &amp; share</a>
     </header>
     <main id="main-content">
       <div class="preview-intro">
         <p class="kicker">Project display draft</p>
         <p>
-          A concept preview with three panels. Final board dimensions and
-          printing will be decided later.
+          Twelve printable cards for the trifold board. Use the Legal print set
+          for school printing and the assembly guide for placement.
         </p>
         <div class="preview-actions">
+          <a class="primary-action" href="trifold-legal.pdf" download
+            >Legal print set · 12 pages</a
+          >
+          <a href="trifold-assembly.pdf" download>Assembly guide</a>
           <button
             id="display-zoom"
             type="button"
@@ -37,196 +43,281 @@
             aria-pressed="false"
             hidden
           >
-            View at full size</button
-          ><a href="display-preview.png">PNG preview</a
-          ><a href="display-preview.pdf">PDF preview</a>
+            View at full size
+          </button>
         </div>
+        <details class="production-details">
+          <summary>Board measurements</summary>
+          <p>
+            Height: 129.54 cm. Panels: 24.13 / 80.52 / 24.13 cm. Open-board
+            width: 128.78 cm.
+          </p>
+          <p>
+            Working layout: right panel assumed equal to left. Confirm that the
+            loaded paper is Legal, rather than Letter (8.5 × 11 in).
+          </p>
+          <p>
+            <a href="display-preview.png">PNG preview</a> ·
+            <a href="display-preview.pdf">PDF preview</a> ·
+            <a href="trifold-full-size.pdf">Full-size master</a>
+          </p>
+        </details>
       </div>
       <div class="board-viewport" id="board-viewport" tabindex="0">
         <div class="display-board" id="display-board">
-          <aside class="side-panel left-panel">
-            <section class="side-card why-card">
-              <h2>WHY I CHOSE THIS</h2>
+          <article
+            class="art-card title-card dark"
+            id="card-title"
+            aria-label="1 · Title"
+          >
+            <p class="card-label">SEA-TO-SKY</p>
+            <h1>OUTDOOR <span>SAFETY</span></h1>
+            <p class="subtitle">
+              Prepare. Recognize the risks.<br />Know your next step.
+            </p>
+            <p class="byline">
+              Liz · Grade 12<br />Howe Sound Secondary School
+            </p>
+          </article>
+          <figure
+            class="art-card photo-card"
+            id="card-photo"
+            aria-label="2 · Local photograph"
+          >
+            <img
+              src="../images/stawamus-chief-1600.webp"
+              width="1600"
+              height="800"
+              alt="Stawamus Chief · Squamish"
+            />
+            <figcaption>Photo: James Abbott · CC BY 2.0.</figcaption>
+          </figure>
+          <article
+            class="art-card portrait dark why-card"
+            id="card-why"
+            aria-label="3 · Why I chose this"
+          >
+            <h2>WHY I<br />CHOSE THIS</h2>
+            <p>
+              I’m interested in outdoor sports, health and safety. A local hiker
+              spent five nights in the mountains; a trip plan helped his family
+              raise the alarm. I wanted clear preparation advice for people
+              exploring the Sea-to-Sky.
+            </p>
+            <img
+              class="terrain-mark"
+              src="../images/mark.svg"
+              width="120"
+              height="120"
+              alt=""
+            />
+          </article>
+          <article
+            class="art-card portrait"
+            id="card-rescuers"
+            aria-label="4 · Local rescuers"
+          >
+            <h2>LEARNING<br />FROM LOCAL<br />RESCUERS</h2>
+            <p>
+              Christine Strub and Laure Lejeune, both with Squamish Search and
+              Rescue, shared their experience. Their lessons: match the route to
+              the group, leave a plan, prepare for a delay and be ready to turn
+              around.
+            </p>
+            <div class="source-notes">
               <p>
-                I’m interested in outdoor sports, health and safety. A local
-                hiker spent five nights in the mountains; a trip plan helped his
-                family raise the alarm. I wanted clear preparation advice for
-                people exploring the Sea-to-Sky.
-              </p>
-              <svg class="terrain-mark" viewBox="0 0 120 80" aria-hidden="true">
-                <g
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M5 65 42 10l25 38 19-25 29 42H5Z" />
-                  <path d="m28 31 14 10 10-16M10 76h99" />
-                </g>
-              </svg>
-            </section>
-            <section class="side-card">
-              <h2>LEARNING FROM LOCAL RESCUERS</h2>
-              <p>
-                Christine Strub and Laure Lejeune, both with Squamish Search and
-                Rescue, shared their experience. Their lessons: match the route
-                to the group, leave a plan, prepare for a delay and be ready to
-                turn around.
-              </p>
-              <p class="small-note">
                 Sources: interviews and linked public guidance. See About →
                 Sources on the website.
               </p>
-              <p class="small-note">
+              <p>
                 Interview participation is not an organizational endorsement.
               </p>
-            </section>
-          </aside>
-          <div class="centre-panel">
-            <header class="centre-hero">
-              <p class="byline">
-                Liz · Grade 12 · Howe Sound Secondary School
-              </p>
-              <h1>OUTDOOR SAFETY<span>— SEA-TO-SKY</span></h1>
-              <p class="subtitle">
-                Prepare. Recognize the risks. Know your next step.
-              </p>
-            </header>
-            <div class="centre-body">
-              <section class="project-card">
-                <h2>THE PROJECT</h2>
-                <p>
-                  How can I make outdoor safety advice clear and easy to access?
-                  A website, checklists, QR codes and social media help people
-                  prepare, recognize risks and respond when plans change.
-                </p>
-                <div class="browser-window">
-                  <div class="browser-bar" aria-hidden="true">
-                    <i></i><i></i><i></i>
-                  </div>
-                  <img
-                    src="website-preview.png"
-                    alt="Before your trip"
-                    width="1112"
-                    height="360"
-                  />
-                </div>
-              </section>
-              <div class="tool-grid">
-                <section class="tool-card">
-                  <h2>A TRIP PLAN SOMEONE CAN USE</h2>
-                  <p>
-                    Leave your route and return time with someone reliable.
-                    Agree when they should call 9-1-1 if you have not returned
-                    or checked in. Copy, email or print your plan; send it
-                    yourself. No return monitoring.
-                  </p>
-                </section>
-                <section class="tool-card">
-                  <h2>THE TRAIL-START QR IDEA</h2>
-                  <p>
-                    The sign’s QR opens Quick reminders and links to the full
-                    guides. It is a design concept; real trail placement is a
-                    future idea.
-                  </p>
-                  <svg
-                    class="terrain-mark"
-                    viewBox="0 0 120 80"
-                    aria-hidden="true"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <path d="M5 65 42 10l25 38 19-25 29 42H5Z" />
-                      <path d="m28 31 14 10 10-16M10 76h99" />
-                    </g>
-                  </svg>
-                </section>
-              </div>
-              <section class="scan-row">
-                <a
-                  class="qr-link"
-                  href="https://lzl462.github.io/outdoorsafety/"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>WEBSITE</strong
-                  ><img
-                    src="../images/qr-website-print.svg"
-                    alt=""
-                    width="240"
-                    height="240"
-                /></a>
-                <div class="scan-copy">
-                  <h2>EXPLORE THE WEBSITE</h2>
-                  <p>
-                    Clear guides for Sea-to-Sky day trips. Prepare, pack and
-                    know your next step.
-                  </p>
-                  <a
-                    href="https://lzl462.github.io/outdoorsafety/"
-                    target="_blank"
-                    rel="noopener"
-                    >lzl462.github.io/outdoorsafety</a
-                  >
-                </div>
-                <a
-                  class="qr-link"
-                  href="https://www.instagram.com/outdoorsafety48/"
-                  target="_blank"
-                  rel="noopener"
-                  ><strong>INSTAGRAM</strong
-                  ><img
-                    src="../images/qr-instagram.svg"
-                    alt=""
-                    width="240"
-                    height="240"
-                  /><span>@outdoorsafety48</span></a
-                >
-              </section>
-              <footer class="board-footer">
-                <p class="photo-credit">Photo: James Abbott · CC BY 2.0.</p>
-                <p class="site-disclaimer">
-                  This is not an official rescue site. In an emergency, call
-                  9-1-1.
-                </p>
-              </footer>
             </div>
-          </div>
-          <aside class="side-panel right-panel">
-            <section class="side-card">
-              <h2>MY WORK. MY LEARNING.</h2>
+          </article>
+          <article
+            class="art-card project-card"
+            id="card-project"
+            aria-label="5 · The project"
+          >
+            <h2>THE PROJECT</h2>
+            <p class="question">
+              How can I make outdoor safety advice clear and easy to access?
+            </p>
+            <p>
+              A website, checklists, QR codes and social media help people
+              prepare, recognize risks and respond when plans change.
+            </p>
+          </article>
+          <article
+            class="art-card website-card"
+            id="card-website-preview"
+            aria-label="6 · Website preview"
+          >
+            <h2>BEFORE YOUR TRIP</h2>
+            <div class="browser-window">
+              <img
+                src="website-preview.png"
+                width="2320"
+                height="720"
+                alt="Before your trip"
+              />
+            </div>
+            <p class="feature-labels">
+              Online Trip Plan <span aria-hidden="true">↗</span>
+              <span>Printable trip plan</span>
+            </p>
+          </article>
+          <article
+            class="art-card soft"
+            id="card-trip-plan"
+            aria-label="7 · Trip Plan"
+          >
+            <h2>A TRIP PLAN<br />SOMEONE CAN USE</h2>
+            <p>
+              Leave your route and return time with someone reliable. Agree when
+              they should call 9-1-1 if you have not returned or checked in.
+              Copy, email or print your plan; send it yourself. No return
+              monitoring.
+            </p>
+          </article>
+          <article
+            class="art-card soft"
+            id="card-trail"
+            aria-label="8 · Trail-start QR idea"
+          >
+            <h2>THE TRAIL-START<br />QR IDEA</h2>
+            <p>
+              The sign’s QR opens Quick reminders and links to the full guides.
+              It is a design concept; real trail placement is a future idea.
+            </p>
+            <img
+              class="trail-mark"
+              src="../images/mark.svg"
+              width="80"
+              height="80"
+              alt=""
+            />
+          </article>
+          <article
+            class="art-card qr-card"
+            id="card-website-qr"
+            aria-label="9 · Website QR"
+          >
+            <div class="qr-art">
+              <strong>WEBSITE</strong
+              ><img
+                src="../images/qr-website-print.svg"
+                alt=""
+                width="120"
+                height="120"
+              />
+            </div>
+            <div class="qr-copy">
+              <h2>EXPLORE<br />THE WEBSITE</h2>
               <p>
-                I conducted the interviews, worked for many hours on the pages
-                and manage Instagram. AI helped with transcription, wording and
-                code; GitHub tracks changes. I learned to check drafts and
-                improve responsive layouts for different devices.
+                Clear guides for Sea-to-Sky day trips. Prepare, pack and know
+                your next step.
               </p>
-            </section>
-            <section class="side-card next-card">
-              <h2>SKILLS AND NEXT STEPS</h2>
-              <p class="skills-line">
-                Learn · Create &amp; Innovate · Think Critically · Contribute ·
-                Collaborate.
-              </p>
-              <p>
-                Research, communication and digital design are skills I can take
-                into further study. I’m interested in medicine and sport, and
-                possibly volunteering with SAR. Translations are a later project
-                idea.
-              </p>
-            </section>
-          </aside>
+              <a
+                href="https://lzl462.github.io/outdoorsafety/"
+                target="_blank"
+                rel="noopener"
+                >lzl462.github.io/outdoorsafety</a
+              >
+            </div>
+            <p class="site-disclaimer">
+              This is not an official rescue site. In an emergency, call 9-1-1.
+            </p>
+          </article>
+          <article
+            class="art-card qr-card"
+            id="card-instagram-qr"
+            aria-label="10 · Instagram QR"
+          >
+            <div class="qr-art">
+              <strong>INSTAGRAM</strong
+              ><img
+                src="../images/qr-instagram.svg"
+                alt=""
+                width="120"
+                height="120"
+              />
+            </div>
+            <div class="qr-copy">
+              <h2>INSTAGRAM</h2>
+              <p class="handle">@outdoorsafety48</p>
+              <p>Follow @outdoorsafety48 for short outdoor-safety reminders.</p>
+              <a
+                href="https://www.instagram.com/outdoorsafety48/"
+                target="_blank"
+                rel="noopener"
+                >instagram.com/outdoorsafety48</a
+              >
+            </div>
+          </article>
+          <article
+            class="art-card portrait"
+            id="card-work"
+            aria-label="11 · My work and learning"
+          >
+            <h2>MY WORK.<br />MY LEARNING.</h2>
+            <p>
+              I conducted the interviews, worked for many hours on the pages and
+              manage Instagram. AI helped with transcription, wording and code;
+              GitHub tracks changes. I learned to check drafts and improve
+              responsive layouts for different devices.
+            </p>
+            <img
+              class="terrain-mark"
+              src="../images/mark.svg"
+              width="120"
+              height="120"
+              alt=""
+            />
+          </article>
+          <article
+            class="art-card portrait lime"
+            id="card-next"
+            aria-label="12 · Skills and next steps"
+          >
+            <h2>SKILLS AND<br />NEXT STEPS</h2>
+            <p class="skills-line">
+              Learn · Create &amp; Innovate · Think Critically · Contribute ·
+              Collaborate.
+            </p>
+            <p>
+              Research, communication and digital design are skills I can take
+              into further study. I’m interested in medicine and sport, and
+              possibly volunteering with SAR. Translations are a later project
+              idea.
+            </p>
+          </article>
         </div>
       </div>
-      <p class="print-preview-note">
-        A concept preview with three panels. Final board dimensions and printing
-        will be decided later.
-      </p>
+      <section class="print-instructions" aria-labelledby="printing-heading">
+        <h2 id="printing-heading">Printing and assembly</h2>
+        <ol>
+          <li>
+            Print 1–12 in colour, single-sided, on Legal paper (8.5 × 14 in /
+            215.9 × 355.6 mm).
+          </li>
+          <li>
+            Select Actual size / 100%, one page per sheet, in portrait
+            orientation. All twelve PDF pages use the same paper orientation;
+            turn the eight landscape cards after trimming. The PDFs already
+            contain individual pages: use normal printing.
+          </li>
+          <li>
+            Write each card’s number on its back before trimming. Trim on the
+            crop marks and place the cards using their numbers and the assembly
+            guide. Keep every QR code’s white border.
+          </li>
+        </ol>
+        <p>
+          The 100 mm line on each sheet shows the intended scale. Printing and
+          mounting have not been completed.
+        </p>
+      </section>
     </main>
   </body>
 </html>

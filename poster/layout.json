@@ -1,0 +1,115 @@
+{
+  "board": {
+    "heightMm": 1295.4,
+    "leftMm": 241.3,
+    "centreMm": 805.2,
+    "rightMm": 241.3,
+    "rightAssumed": true,
+    "source": "Dimensions transcribed from the supplied annotated photo, 26 Nov 2026."
+  },
+  "paper": {
+    "name": "Legal",
+    "widthMm": 215.9,
+    "heightMm": 355.6,
+    "marginMm": 12.7,
+    "schoolAvailabilityConfirmed": false
+  },
+  "spacing": {
+    "centreColumnGapMm": 38.1,
+    "rowGapMm": 50.8
+  },
+  "cards": [
+    {
+      "id": "title",
+      "number": 1,
+      "label": "Title",
+      "panel": "centre",
+      "row": 0,
+      "column": 0
+    },
+    {
+      "id": "photo",
+      "number": 2,
+      "label": "Local photograph",
+      "panel": "centre",
+      "row": 0,
+      "column": 1
+    },
+    {
+      "id": "why",
+      "number": 3,
+      "label": "Why I chose this",
+      "panel": "left",
+      "row": 0
+    },
+    {
+      "id": "rescuers",
+      "number": 4,
+      "label": "Local rescuers",
+      "panel": "left",
+      "row": 1
+    },
+    {
+      "id": "project",
+      "number": 5,
+      "label": "The project",
+      "panel": "centre",
+      "row": 1,
+      "column": 0
+    },
+    {
+      "id": "website-preview",
+      "number": 6,
+      "label": "Website preview",
+      "panel": "centre",
+      "row": 1,
+      "column": 1
+    },
+    {
+      "id": "trip-plan",
+      "number": 7,
+      "label": "Trip Plan",
+      "panel": "centre",
+      "row": 2,
+      "column": 0
+    },
+    {
+      "id": "trail",
+      "number": 8,
+      "label": "Trail-start QR idea",
+      "panel": "centre",
+      "row": 2,
+      "column": 1
+    },
+    {
+      "id": "website-qr",
+      "number": 9,
+      "label": "Website QR",
+      "panel": "centre",
+      "row": 3,
+      "column": 0
+    },
+    {
+      "id": "instagram-qr",
+      "number": 10,
+      "label": "Instagram QR",
+      "panel": "centre",
+      "row": 3,
+      "column": 1
+    },
+    {
+      "id": "work",
+      "number": 11,
+      "label": "My work and learning",
+      "panel": "right",
+      "row": 0
+    },
+    {
+      "id": "next",
+      "number": 12,
+      "label": "Skills and next steps",
+      "panel": "right",
+      "row": 1
+    }
+  ]
+}

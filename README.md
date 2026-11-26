@@ -49,7 +49,7 @@ The rehearsal page is unlisted: Liz uses her saved bookmark, and no public page/
 
 The account is [@outdoorsafety48](https://www.instagram.com/outdoorsafety48/). [social/instagram/README.md](social/instagram/README.md) provides three finished launch packages (website introduction, preparation and getting lost), plus four further draft topics. PNGs, captions, alt text and artwork source are tracked together; confirmed post URLs/dates are recorded separately from exports. The renderer is repository-relative and regenerates the overview/profile previews. The website footer, About and Print & share link to Instagram; scalable SVG/PNG/PDF QR assets are available for the display.
 
-The [professional project-display draft](poster/display.html) is accessible from Print & share and presentation part 8, with PNG/PDF previews. It replaces the rough hand sketch and presents the project story, research, features and learning. Its canvas proportions are conceptual; [production notes](poster/README.md) record the remaining board measurements, printing method, correctly scaled exports and physical assembly.
+The [project display](poster/display.html) is accessible from Print & share and presentation part 8. Its twelve-card layout uses the supplied board measurements, with a matching right wing assumed until confirmed. A twelve-page Legal print set, a numbered assembly guide and a full-size vector master accompany the PNG/A3 review previews. All print sheets are portrait; eight cards turn after trimming. [Production notes](poster/README.md) explain Actual size / 100%, cropping and placement. Confirming right-wing/paper details and actual printing/mounting remain separate.
 
 ## Images, fonts and printing
 
