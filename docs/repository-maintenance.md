@@ -6,6 +6,8 @@ The current site uses only Liz's first name. The proposal PDF is a redacted publ
 
 History cleanup uses git-filter-repo in a separate clone. Historical text is sanitized, the identified PDF/image blobs are replaced with their verified clean equivalents, and the 26 `a` author/committer identities are mapped to `Liz <287389706+lzl462@users.noreply.github.com>`. The numeric account ID was checked against GitHub's API. Other authors, dates, messages and commit/merge structure are preserved. The public update uses an exact force-with-lease on `main` so a concurrent remote change cannot be silently overwritten. A private recovery copy is kept outside the repository. Existing global Git/SSH/credential configuration is not changed.
 
+The cutover retained all 118 pre-cutover commits and rewrote 39 IDs. Verification compared every historical file/tree, parent, timestamp and message with the intended transformation and scanned 655 historical file blobs, including decoded PDF objects and image metadata. GitHub's commit API confirms that a rewritten former-`a` commit belongs to `lzl462` for both author and committer. The working tree was identical before/after the cutover.
+
 ## Other working copies after the rewrite
 
 Save any uncommitted/unpublished work outside the old checkout. Create a fresh clone, then transfer only the changes still needed and check them for first-name-only attribution. Do not merge or push the old branch history back into the cleaned repository. Old commit hashes in earlier worklog/review entries refer to the pre-cleanup history.
