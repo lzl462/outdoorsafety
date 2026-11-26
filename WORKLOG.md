@@ -127,3 +127,5 @@ Later the same evening, added Liz's submitted 10 Oct portfolio sheet “Connecti
 
 Then filled more presentation placeholders from details Liz gave on 25 Nov, recorded first in content.md: Grade 12 at Howe Sound Secondary School in Squamish, international student from Germany, teacher and mentor Ms. Elyse Cochrane, weekly project time (about 5 × 90 minutes a week from mid-September to the end of November, plus some weekends; roughly 80+ hours, labelled as an estimate), study plans (medicine and/or sport) and possible long-term SAR volunteering. The social media line now says the account is planned. Reason: replace placeholders with Liz's own facts; nothing about a university or place was added. Not committed.
 
+
+- Instagram starter kit added in `social/instagram/` (not linked from the site): profile pictures, 6 posts plus a 3-slide carousel, captions.md, overview.png, a copy of the website QR (qr-website.svg) and the render source in src/. Username idea: outdoorsafety48. All wording from content.md.
