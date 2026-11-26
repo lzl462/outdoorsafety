@@ -1321,6 +1321,10 @@ The shared list is a starting point. Find the activity notes and tickable packin
 
 Image description: A ten-item shared essentials checklist covering light, fire-making, signalling, food and water, clothing, navigation and communication, first aid, shelter, a knife or multi-tool, and sun protection.
 
+Artwork supporting line: The ten shared essentials. Bring personal medication and spare glasses if you need them.
+
+The user requested removing the AdventureSmart name from this Instagram artwork on 26 Nov. Website source attribution and guidance remain unchanged.
+
 #### Instagram 04 — If you are lost
 
 Lost? Stop, stay and call.

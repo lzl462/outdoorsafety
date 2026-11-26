@@ -142,7 +142,7 @@ posts['03-pack-list'] = page(f'''
 <p class="eyebrow">Prepare / Essentials</p>
 <h1 style="font-size:96px;margin-bottom:24px">Pack for the wait, not only for the walk.</h1>
 <div style="display:grid;grid-template-columns:1fr 1fr;column-gap:48px;border-top:2px solid var(--line)">{grid}</div>
-<p style="margin-top:26px;font-size:26px;color:var(--muted);line-height:1.4">The ten shared essentials, from AdventureSmart. Bring personal medication and spare glasses if you need them.</p>
+<p style="margin-top:26px;font-size:26px;color:var(--muted);line-height:1.4">The ten shared essentials. Bring personal medication and spare glasses if you need them.</p>
 <div class="grow"></div>{foot()}''', 'light')
 
 # 4 if lost: immediate priorities, with the unsafe-place exception explicit.
