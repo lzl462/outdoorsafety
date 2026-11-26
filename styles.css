@@ -369,20 +369,6 @@ svg {
   font-weight: 700;
   background: var(--soft);
 }
-.menu-rehearsal {
-  display: flex;
-  align-items: center;
-  min-height: 44px;
-  margin-top: 20px;
-  padding: 10px 8px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 12px;
-  text-decoration: none;
-}
-.menu-rehearsal:hover {
-  text-decoration: underline;
-}
 .eyebrow {
   font-size: 11px;
   line-height: 1.4;

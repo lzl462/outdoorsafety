@@ -1,6 +1,6 @@
 # Approved Capstone proposal and product comparison
 
-[Original proposal — 17 September 2026](capstone-proposal-2026-09-17.pdf), five pages. The user supplied this file on 26 November as the teacher-approved project. Approval is recorded from the user's confirmation; the proposal's date is not inferred to be an approval date.
+[Approved proposal — 17 September 2026, public copy](capstone-proposal-2026-09-17.pdf), five pages. The user supplied the original on 26 November as the teacher-approved project. Liz's surname has been removed from the public PDF and its title metadata at her request; the project wording is retained. Approval is recorded from the user's confirmation; the proposal's date is not inferred to be an approval date.
 
 The document describes an **Outdoor Safety Awareness Campaign** combining a website, QR codes and social media, based on research and interviews. Its aims are preparation, recognizing risks and responding to dangerous or unexpected situations. It uses project-planning questions rather than a separate labelled research question or capstone strand. The presentation's guiding question is a concise formulation of those aims.
 

@@ -118,6 +118,9 @@ def main():
             target, anchor = resolve(path, reference)
             if target is None:
                 continue
+            if (path.name != "presentation.html"
+                    and target == (ROOT / "presentation.html").resolve()):
+                errors.append(f"{label}: rehearsal page must remain unlisted")
             checked += 1
             if not target.is_file():
                 errors.append(f"{label}: missing destination {reference}")

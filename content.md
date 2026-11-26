@@ -32,8 +32,6 @@ Learn
 
 [About this project](about.html) [Common mistakes](mistakes.html) [Quick reminders](tips.html)
 
-[Presentation](presentation.html)
-
 More preparation.
 More perspective.
 
@@ -1559,7 +1557,7 @@ The preview uses a 2400 × 1800 design canvas with side/centre/side panels in 1:
 
 ## Presentation rehearsal
 
-Page: `presentation.html`. This is a flexible English practice outline, not an account of a completed school presentation or a prescribed timing. Since 25 Nov 2026 its order follows the Capstone package and the teacher's five questions: who Liz is, why she chose the project, what she made, which core competencies she practised, and her next steps. The shorter speaking version uses the personal contribution and project approval confirmed on 26 Nov, with optional background notes for follow-up.
+Page: `presentation.html`. This is an unlisted English practice outline, accessible through Liz's saved bookmark but not linked from the public website. It is not an account of a completed school presentation or a prescribed timing. Since 25 Nov 2026 its order follows the Capstone package and the teacher's five questions: who Liz is, why she chose the project, what she made, which core competencies she practised, and her next steps. The shorter speaking version uses the personal contribution and project approval confirmed on 26 Nov, with optional background notes for follow-up.
 
 [Home](index.html) / Presentation
 

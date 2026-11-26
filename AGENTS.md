@@ -9,7 +9,9 @@ This is a small static site. The live site is built from GitHub `main`.
 - When features, navigation or source-based advice change, review `presentation.html` and its `content.md` copy. Keep the detailed speaking notes, demo links and short cue sheet in sync, including the cue sheet's Show prompts. Copied text must come from the visible cue sheet rather than a separate maintained version.
 - Instagram drafts live in `social/instagram/`. Keep affected captions, artwork source and exports aligned with `content.md` and the website advice. Follow that folder's README and record confirmed publication dates/URLs there; prepared files alone do not establish that a post is live.
 - Keep the project-display draft in `poster/display.html` and its PNG/PDF previews aligned with the presentation and confirmed project facts. Its preview canvas is a design proportion; actual board dimensions and the printing route are decided separately.
-- The final subdued `Presentation` menu link is a temporary rehearsal aid, marked with `data-presentation-link` for easy removal after practice.
+- `presentation.html` is an unlisted rehearsal aid accessed through Liz's saved bookmark. Keep its URL and practice features working, but do not link it from public website pages, menus or footers. Retain its `noindex` metadata.
+- Use only Liz's first name in tracked content, filenames, public artwork and document metadata. Check generated PNG/PDF exports as well as editable text when changing attribution.
+- Create commits for this repository as `Liz <287389706+lzl462@users.noreply.github.com>` using command-scoped `git -c user.name=Liz -c user.email=287389706+lzl462@users.noreply.github.com ...`. Do not change global Git/SSH/credential settings or settings for other repositories.
 - Do not invent quotes, stories, or the sentence “rescue is free”.
 - Pack lists are allowed on the site. Build them only from lists already in the repository or from verified sources. Do not invent items.
 - Do not publish until Liz asks.
