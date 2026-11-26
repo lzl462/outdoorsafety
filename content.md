@@ -649,7 +649,7 @@ Biking / An interview account
 
 #### An experienced rider still needed help
 
-In an interview for this project, Ms. Lejeune, a local search and rescue member, described an experienced mountain biker who fell while riding alone. He could not reach the phone in his pocket. Someone passing nearby heard him calling for help and called 9-1-1.
+In an interview for this project, Laure Lejeune, a local search and rescue member, described an experienced mountain biker who fell while riding alone. He could not reach the phone in his pocket. Someone passing nearby heard him calling for help and called 9-1-1.
 
 The story shows why preparation matters even on a familiar ride. Leaving a route and an agreed return or check-in time with someone you trust gives them information to pass on if you do not come back.
 
@@ -659,7 +659,7 @@ The story shows why preparation matters even on a familiar ride. Leaving a route
 
 **Christine Strub**, Prevention Team Coordinator with Squamish Search and Rescue, answered written questions on 27 October 2026. Her answers emphasized realistic planning, training, and preparing to stay warm while waiting for help.
 
-**Ms. Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, shared her experience in an interview for this project. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
+**Laure Lejeune**, a Squamish Search and Rescue member specializing in rope and winter rescue and coordinating the winter team, shared her experience in an interview for this project. She discussed matching a trip to the group, knowing when to turn around, and leaving someone a plan.
 
 ##### Make the trip fit the people
 
@@ -1111,7 +1111,7 @@ This is not an official rescue site. In an emergency, call 9-1-1.
 
 Liz requested direct implementation and publication of the interview-based revision and removed the extra speaker-approval steps. No claim is made that the interviewees reviewed the final website. The rider remains anonymous, with no medical or recovery details. The original audio and working transcripts remain in `interviews/`; the unresolved phrase in the second recording is not used.
 
-- Home quote: Christine Strub, question 12, quoted without changing her wording. Roles and interview dates: Christine's written interview and the first Ms. Lejeune recording.
+- Home quote: Christine Strub, question 12, quoted without changing her wording. Roles and interview dates: Christine's written interview and the first Laure Lejeune recording.
 - Planning, the trusted contact, realistic trip choices, and turnaround: Christine Q5–6 and Q9; first recording 03:00; second recording 00:03–03:03; third recording 00:18–02:14. See also AdventureSmart's three T's and trip-plan guidance.
 - Shared packing basics: existing hiking list and AdventureSmart's essentials. Personal medication and spare glasses/contacts: Christine Q10. Cold after stopping and preparing for a wait: first recording 05:22–07:09 and Christine Q2/Q9. Do not infer a power bank from the ambiguous phrase “Power bar”.
 - Rider story: first recording 01:43–04:25. This is a retelling of an interview account, not Liz's own experience or an independently investigated incident. A trip plan is not said to prevent the fall or guarantee an outcome.
@@ -1148,7 +1148,7 @@ The audience is beginners/visitors preparing Sea-to-Sky day trips, with short em
 
 ## Reported hiking case: Stanislav Volo
 
-Checked 25 Nov 2026. This is separate from the anonymous biker account in Ms. Lejeune's recording. No new quotation, clinical detail, survival technique, search-cost figure or regional incident statistic is added.
+Checked 25 Nov 2026. This is separate from the anonymous biker account in Laure Lejeune's recording. No new quotation, clinical detail, survival technique, search-cost figure or regional incident statistic is added.
 
 - Event chronology and search outcome: [CityNews, 4 September 2026](https://vancouver.citynews.ca/2026/09/04/squamish-hiker-found-alive/). The report dates his departure to 30 August and records a 9-1-1 call on 1 September and contact with rescuers on the Indian Arm Forest Service Road on 4 September.
 - His account of phone failure, continued movement and hearing search aircraft without being spotted: [CityNews interview, 7 September 2026](https://vancouver.citynews.ca/2026/09/07/squamish-bc-missing-hiker-found-shares-story/).
@@ -1190,9 +1190,46 @@ Shared search description: Practical preparation and emergency guidance for Sea-
 
 Accessibility navigation names: Primary navigation; All pages; Get help by situation; Keep learning; On this page.
 
+## Portfolio check-in — 23 Oct 2026 (source for the presentation)
+
+Liz supplied her portfolio check-in on 25 Nov 2026. Only these facts are used in `presentation.html`; the check-in's core-competency and personal-reason parts were not supplied, so those slides keep [Liz: …] placeholders.
+
+- Student: Liz. Mentor: Ms C (Ms. Elyse Cochrane, her capstone teacher). Early project title: “Outdoor awearness – Be awear”.
+- Status on 23 Oct: Active Execution / Product Creation. Self-assessment: 3, On Track. Hours: 7–8 in the two weeks before 23 Oct. Total hours are not recorded; do not extrapolate.
+- Milestones: website creation started; most information included by 15 Oct 2026; interview questions started 20 Oct 2026 and sent to a Search and Rescue member; poster board (cardboard) design started as a rough idea.
+- Plan at that time: complete the website by 30 Oct (needed the interview answers); start a social media account by 30 Oct (post ideas); create and finish the cardboard by 10 Nov (coloured paper, printer, writing material); add pack lists to the website before 30 Oct.
+- Roadblock: missing information while waiting for the interview answers. Question to the mentor: is anything important missing besides the cardboard and the project?
+- Reflection, Liz's words with light typo fixes: “I think I use most of my time effectively. I always work on my website to add information and to create a design. I also started to plan my design for the cardboard as well as my social media posts. Though I need to start working one thing at a time instead of doing everything all the time, to focus on one thing and finish it.”
+- Whether the social media account was started is unverified. The check-in linked `be-aware.html`; the presentation uses the root URL https://lzl462.github.io/outdoorsafety/.
+
+The 2026 rescue-call figures in the presentation's “Why” part come from [Sea to Sky RCMP, 24 June 2026](https://rcmp.ca/en/bc/squamish/news/2026/06/4354387) and [Pique Newsmagazine, 6 August 2026](https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133), both checked 25 Nov 2026. They stay off About, as decided earlier, and are framed as how busy rescue teams were, not as proof that callers were unprepared.
+
+## Portfolio sheet: Connecting Your Competencies — 10 Oct 2026 (source for the presentation)
+
+Liz supplied this already-submitted sheet on 25 Nov 2026 as background. Theme: “Outdoor safety - be aware”. It uses the SD48 competency wheel, which answers the competency-set question: the presentation's competency part uses these categories, with BC Core Competency names in brackets only where they fit. The sheet's printed sample examples (SPCA, shelter animals) are template text, not Liz's. Her answers, with light typo/grammar fixes:
+
+- Learn (communication): communication skills are very important because I need to write clear emails to people, interview them and explain outdoor safety tips on my website. Example: I wrote emails to people involved in search and rescue to explain my capstone project and ask for their time for interviews.
+- Create & Innovate: I am curious about outdoor safety and how search and rescue teams respond to emergencies. The capstone helps me develop creativity and digital skills to create a website that makes safety information clear and interesting. Example: a “What to do if…” section with tips for getting lost or someone getting hurt, and a Before you leave page (now “Before your trip”) so people can prepare for their trip.
+- Think Critically: problem solving; when I find errors on the website, I have to work out how to fix them. Example: when a feature is not working, I find out what went wrong and fix it; sometimes things don't work out as I thought, and I had to change my plan.
+- Contribute: the project's goal is to help people in the Sea-to-Sky area, such as tourists and students, prevent emergencies; I need to connect with people, raise their interest and help them be aware outdoors. Example: someone who wants to go hiking but doesn't know what to pack can use the pack list and even take it with them, and they can plan their trip with the planner.
+- Collaborate: building relationships with people experienced in outdoor safety and search and rescue through interviewing and writing with them. Example: I interviewed people involved in Sea-to-Sky search and rescue about common mistakes and emergency preparation for mountain activities, and learned more about why being prepared in nature matters.
+
+The 23 Oct check-in's self-regulation reflection is used under Learn (personal responsibility, self-regulation). The sheet does not cover Liz's grade/school, post-secondary plans, inquiry question or total hours; those stay as placeholders.
+
+## Liz's presentation details — 25 Nov 2026 (source for the presentation)
+
+Supplied by Liz on 25 Nov 2026 for the presentation only; not added to About.
+
+- Grade 12 at Howe Sound Secondary School in Squamish; an international student from Germany.
+- Capstone teacher and mentor: Ms. Elyse Cochrane (Ms C).
+- Time: she did not count hours exactly. She had 90 minutes, 5 times a week, for the project, plus some weekend time, from mid-September to 30 November. Presentation wording: “about 5 × 90 minutes a week from mid-September to the end of November, plus some weekends”. Rough estimate only, not a counted total: about 11 weeks × 7.5 h ≈ 80+ hours, which is above the Project strand's 40-hour minimum. The 23 Oct check-in recorded 7–8 hours for the two weeks before it, so the estimate must stay labelled as an estimate.
+- Next steps: after school she would like to study medicine or something in sport, or combine medicine and sport. She could also imagine volunteering long-term with a search and rescue team, where the knowledge and experience from this project would help. No university or place is named.
+- Social media account: not created yet; planned for later. Liz will report back. The presentation says it is planned and must not claim it exists.
+- Still open (optional): what the Sea-to-Sky outdoors means to her.
+
 ## Presentation rehearsal
 
-Page: `presentation.html`. This is a flexible English practice outline, not an account of a completed school presentation or a prescribed rubric/timing.
+Page: `presentation.html`. This is a flexible English practice outline, not an account of a completed school presentation or a prescribed timing. Since 25 Nov 2026 its order follows the Capstone package and the teacher's five questions: who Liz is, why she chose the project, what she made, which core competencies she practised, and her next steps. Text marked [Liz: …] is a placeholder for Liz's own words; do not fill it in for her.
 
 [Home](index.html) / Presentation
 
@@ -1200,7 +1237,7 @@ For Liz's school presentation
 
 ### Practise your presentation
 
-A simple English outline. Choose the parts and demos that help you explain your project. Change the words so they sound natural to you.
+A simple English outline. Choose the parts and demos that help you explain your project. Change the words so they sound natural to you. Text marked [Liz: …] is for you to fill in with your own words.
 
 Demo links open a new tab. Come back here to continue practising; no pages open automatically.
 
@@ -1208,52 +1245,92 @@ Demo links open a new tab. Come back here to continue practising; no pages open 
 
 Practise one part · Previous · Next · All parts · Part {number} of {total}: {title}
 
-Parts to practise: [The project](#the-project) · [The audience](#the-audience) · [The sources](#the-sources) · [The page structure](#the-structure) · [The Trip Plan](#the-trip-plan) · [The QR idea](#the-qr-idea) · [Choices and next steps](#choices-and-next-steps)
+Parts to practise: [Who I am](#who-i-am) · [Why this project](#why-this-project) · [My question](#my-question) · [How I did it](#process) · [What rescuers taught me](#the-sources) · [What I made](#what-i-made) · [The Trip Plan](#the-trip-plan) · [QR sign and poster](#the-qr-idea) · [Challenges](#challenges) · [Core competencies](#competencies) · [Next steps](#next-steps) · [Thank you](#thanks) · [Possible questions](#questions)
 
-#### 1. What is this project?
+#### 1. Who am I?
 
-- This is a school project about outdoor safety in British Columbia's Sea-to-Sky area.
-- The aim is to help people prepare for a day trip and find a useful next step if plans change.
-- It is a learning resource, not an official rescue website.
+- Hi, I'm Liz. I made this website as a school capstone project here in the Sea-to-Sky area.
+- I'm in Grade 12 at Howe Sound Secondary School in Squamish, and I'm an international student from Germany.
+- My capstone mentor is my teacher, Ms. Elyse Cochrane (Ms C).
+- [Liz: optional, what the outdoors in the Sea-to-Sky means to you, or which activities you do.]
 
-Show: the preparation links, Trip Plan in the menu, and Help now.
+Show: the start of About, “Why I made this site”.
 
-[Open Home](index.html)
+[Open About: why I made this site](about.html#why-this-site)
 
-#### 2. Who is it for?
+#### 2. Why did I choose this project?
 
-- The main audience is beginners and visitors who may not know the local terrain and conditions.
-- A short distance does not always mean an easy trip. The route needs to fit the people.
-- The site uses English, short headings and direct links, with layouts for small and large screens.
+- I wanted a simple place, in plain words, to help people get ready before going outdoors and know what to do if something goes wrong.
+- I am curious about outdoor safety and how search and rescue teams respond to emergencies. My goal is to help people in the Sea-to-Sky area, such as tourists and students, prevent emergencies and be aware outdoors.
+- A planned day outside can turn into a long wait for help. In August 2026, a hiker near Mount Habrich spent five nights in the mountains after he realized his phone battery would not last the way back. He had left a trip plan with his wife, who called for help when he was overdue.
+- Local rescue teams were very busy in 2026. On 20 June, Sea to Sky RCMP received four rescue calls in seven hours in the Squamish backcountry, and a fifth call the next day. By early August, Pemberton Search and Rescue had already responded to 50 calls, about 40% more than at the same time last year.
+- [Liz: optional, a personal reason in your own words, for example what you noticed about people going out unprepared.]
 
-Show: the planning questions and the conditions links. The full guide headings stay descriptive, while the phone contents labels are shorter.
+Source note: Hiking case: CityNews and The Squamish Chief, listed on About. Rescue calls: [Sea to Sky RCMP, 24 June 2026](https://rcmp.ca/en/bc/squamish/news/2026/06/4354387) and [Pique Newsmagazine, 6 August 2026](https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133). These numbers show how busy rescue teams were. They do not show that everyone was unprepared: the RCMP said the June callers had ways to call for help, and Pemberton SAR gave no single reason for the increase. One of the June calls was fatal, so talk about it respectfully.
 
-[Open Before your trip](checklists.html)
+Show: the hiking case on About.
 
-#### 3. Where did the advice come from?
+[Open About: the hiking case](about.html#hiker-story)
 
-- Christine Strub and Ms. Lejeune, both with Squamish Search and Rescue, shared practical experience for this project.
-- Their advice highlights realistic planning, the group's experience, turning around and preparing to wait for help.
+#### 3. What was my question?
+
+- [Liz: your inquiry question, exactly as in your approved proposal.]
+- My theme on 10 October was “Outdoor safety – be aware”, and an early project title was “Outdoor awearness – Be awear”.
+- [Liz: your capstone strand from the proposal.]
+- My answer is this website: it helps people prepare for a Sea-to-Sky day trip and know what to do if something goes wrong.
+- [Liz: one way the final website matches your proposal, and one thing that changed from the plan.]
+
+Show: [Liz: your proposal or timeline, printed or in your portfolio.]
+
+#### 4. How did I do it?
+
+- 15 September 2026: the first version of the website, checklists and printable cards.
+- By 15 October: most of the information was on the website.
+- 10 October: I connected my project to the core competencies in my portfolio.
+- 20 October: I started my interview questions and sent them to a Search and Rescue member.
+- 23 October check-in: active execution and product creation, about 7–8 hours in the two weeks before, self-assessment 3 (On Track). The poster board design had started as a rough idea.
+- My plan then: finish the website and add pack lists by 30 October, and make the poster board by 10 November.
+- 27 October: Christine Strub answered my written questions. 5 November: I recorded an interview with Laure Lejeune.
+- 16–17 November: printable trip plan sheets.
+- 24–25 November: interview-based content, a full redesign, the online Trip Plan, the QR sign concept and this presentation.
+- AI tools helped turn recordings into text, draft wording, build pages and review changes. The safety advice is linked back to the interviews and public sources.
+- Time: about 5 × 90 minutes a week from mid-September to the end of November, plus some weekends.
+- Rough estimate, not a counted total: about 11 weeks × 7.5 hours, so roughly 80 or more hours. The Project strand in the Capstone package asks for at least 40 hours.
+- [Liz: which parts you did yourself.]
+
+Where the dates come from: The website dates come from the repository history. The October milestones, hours and self-assessment come from your 10 October competency sheet and 23 October portfolio check-in. The interview dates come from About and the recordings. Other work outside the repository, such as your proposal and research, is not included. The weekly time is your own description; the total is an estimate. Your 23 October check-in recorded 7–8 hours for the two weeks before, so say clearly that the total is a rough estimate.
+
+Show: About — What local rescuers shared, or your journal of progress.
+
+[Open About: local rescuers](about.html#interviews)
+
+#### 5. What did local rescuers teach me?
+
+- Christine Strub and Laure Lejeune, both with Squamish Search and Rescue, shared practical experience for this project.
+- Make the trip fit the people. Distance alone is not enough; consider elevation, terrain, the season and everyone's experience.
+- Leave someone a plan, pack for being still while you wait for help, and be ready to turn around.
 - The site also links to public safety guidance. The hiking case uses news reports. The anonymous rider story comes from an interview.
+- Through the interviews I learned a lot more about why being prepared in nature is so important.
+- [Liz: optional, one thing from the interviews that surprised you.]
 
-Optional source note: contributing an interview is not an endorsement of every page by the rescue organizations.
+Optional source note: Contributing an interview is not an endorsement of every page by the rescue organizations.
 
 Show: the interview introductions and source list. Explain how interview accounts and reported news are kept distinct.
 
 [Open About: local rescuers](about.html#interviews) · [Open the source list](about.html#sources)
 
-#### 4. Why these pages?
+#### 6. What did I make?
 
-- Before your trip covers the route, conditions and the person who has your plan.
-- Essentials & activities starts with shared basics, then adds activity notes.
+- A website for beginners and visitors planning Sea-to-Sky day trips. It is a learning resource, not an official rescue website.
+- The pages follow a trip: Before your trip, Essentials & activities, Be aware, then What to do if and No cell service when plans change.
 - You can tick the packing list. The browser can remember your ticks.
-- Be aware covers local risks and turning around. What to do if and No cell service help when plans change.
+- It uses plain English, short headings and layouts for small and large screens. There is also an online Trip Plan, a blank printable plan, a QR sign concept and a poster layout.
 
-Show: the shared essentials and one activity section. Point out a link to the turnaround advice.
+Show: Home, then the planning questions, the shared essentials and one activity section. Point out the turnaround advice and Help now.
 
-[Open Essentials & activities](pack-lists.html#essentials) · [Open turnaround advice](be-aware.html#turn-around)
+[Open Home](index.html) · [Open Before your trip](checklists.html) · [Open Essentials & activities](pack-lists.html#essentials) · [Open turnaround advice](be-aware.html#turn-around)
 
-#### 5. Show the Trip Plan
+#### 7. Show the Trip Plan
 
 - A plan becomes useful when a reliable person has it and knows when to act.
 - Expected return and the agreed calling deadline are separate fields.
@@ -1264,47 +1341,110 @@ Show: use made-up details, review the text and point out the copy, email-draft a
 
 [Open the online Trip Plan](trip-plan.html) · [Open the blank plan](pdfs/before-you-leave.html)
 
-#### 6. Show the QR idea
+#### 8. Show the QR sign and poster
 
 - The sign uses a mountain, a walker, a return arrow and a few words to invite people to prepare.
 - Its QR opens Quick reminders at the same address, so the page can improve without changing the printed code.
-- The page gives a short preparation start and more detailed reminders below. The website can be used at phone and desktop widths.
+- The page gives a short preparation start and more detailed reminders below.
 - This is a sign design; real trail placement is a separate idea.
-
-Show: the sign in Print & share, then the Quick reminders page. A narrower browser window can show the responsive layout.
-
-[Open Print & share](resources.html) · [Open Quick reminders](tips.html)
-
-#### 7. Choices and next steps
-
-- The site keeps preparation and immediate help easy to reach, using simple pages and a small amount of JavaScript.
-- AI tools helped turn recordings into text, draft wording, build pages and review changes. The safety advice is linked back to the interviews and public sources.
-- French, German, Spanish and Italian are possible later additions. Those translations are not available yet.
-
-Optional testing note: email and QR functions were checked and accepted for this project's scope. Browser and PDF checks are recorded. Physical printer tests are excluded.
 
 If you are using a poster: point to its main sections and QR code. You can use the same talking points without a live website demo. A poster layout is available if you need a reference.
 
-[Open the poster layout](pdfs/trifold.html) · [Open About this project](about.html#why-this-site)
+Show: the sign in Print & share, then the Quick reminders page. A narrower browser window can show the responsive layout.
+
+[Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the poster layout](pdfs/trifold.html)
+
+#### 9. What was hard, and how did I solve it?
+
+- In October I was missing information while I waited for the interview answers. Christine Strub answered on 27 October. [Liz: how you kept going while you waited.]
+- In my check-in I wrote that I need to work on one thing at a time instead of doing everything at once, so I can focus on one thing and finish it.
+- The project helped me develop my creativity and digital skills, so I could make a website that makes safety information clear and interesting.
+- Possible topics from the project record, if they were real challenges for you: keeping every safety tip linked to the interviews or public sources without inventing stories; rewriting or removing some earlier emergency instructions after the interviews; deciding what to leave out, such as printing at first.
+
+Show: one before-and-after example, if you have one.
+
+#### 10. Which core competencies did I practise?
+
+- **Learn (Communication):** I need to write clear emails, interview people and explain outdoor safety tips on my website. I wrote emails to people involved in search and rescue to explain my capstone project and ask for their time for interviews.
+- **Learn (Personal awareness and responsibility):** From my 23 October check-in: “I think I use most of my time effectively. I always work on my website to add information and to create a design. I also started to plan my design for the cardboard as well as my social media posts. Though I need to start working one thing at a time instead of doing everything all the time, to focus on one thing and finish it.”
+- **Create & Innovate (Creative thinking):** I am curious about outdoor safety, and the project helps me develop creativity and digital skills. I created the “What to do if…” page with tips for when you get lost or someone gets hurt, and a page so people can prepare before their trip.
+- **Think Critically (Critical and reflective thinking):** When a feature on the website is not working, I find out what went wrong and fix it. Sometimes things did not work out as I thought, and I had to change my plan.
+- **Contribute (Social responsibility):** The goal is to help people in the Sea-to-Sky, such as tourists and students, prevent emergencies. Someone who wants to go hiking but does not know what to pack can use the pack list, even take it with them, and plan their trip with the Trip Plan.
+- **Collaborate:** I built relationships with people who have experience in outdoor safety and search and rescue by interviewing and writing with them. I interviewed people in Sea-to-Sky search and rescue about common mistakes and emergency preparation for mountain activities.
+
+Competency set: These are the SD48 categories from my 10 October portfolio sheet, “Connecting Your Competencies”. BC Core Competency names are in brackets where they fit.
+
+Show: What to do if, Before your trip and Essentials & activities for the examples.
+
+[Open What to do if](if.html) · [Open Before your trip](checklists.html) · [Open Essentials & activities](pack-lists.html)
+
+#### 11. What comes next?
+
+- French, German, Spanish and Italian are possible later additions. Those translations are not available yet.
+- Real trail placement of the sign is a separate idea.
+- A social media account for the project is planned for later.
+- After school I would like to study medicine or something in sport, or combine medicine and sport.
+- I could also imagine volunteering long-term with a search and rescue team. The knowledge and experience from this project would help me there.
+- [Liz: optional, which skills from this project will help you in your studies, for example research, interviewing or writing for an audience.]
+
+Show: About this project, or the poster.
+
+[Open About this project](about.html#why-this-site)
+
+#### 12. Thank you
+
+- Thank you to Christine Strub, Prevention Team Coordinator with Squamish Search and Rescue, and Laure Lejeune, a Squamish Search and Rescue member, for sharing their experience.
+- Thank you to my capstone teacher and mentor, Ms. Elyse Cochrane.
+- [Liz: optional, anyone else who helped.]
+- Scan the QR code or visit lzl462.github.io/outdoorsafety, and try the Trip Plan. I'm happy to answer questions.
+
+Show: the website QR on the poster; invite questions.
+
+[Open the live website](https://lzl462.github.io/outdoorsafety/) · [Open Print & share](resources.html)
+
+#### 13. Possible questions
+
+- **How do you know the advice is correct?** It comes from two Squamish Search and Rescue members and public guidance such as AdventureSmart, E-Comm, BC Parks, Avalanche Canada and the Canadian Red Cross. The sources are on About.
+- **Is this an official rescue website?** No. It is a school learning resource. The interviews are not an endorsement of every page.
+- **Does the Trip Plan send my plan to someone?** No. It does not save or send your entries. You send the plan yourself and confirm it arrived.
+- **What did AI do?** It helped turn recordings into text, draft wording, build pages and review changes. The safety advice is linked back to the interviews and public sources.
+- **Was it tested?** Email and QR functions were checked and accepted for this project's scope. Browser and PDF checks are recorded. Physical printer tests are excluded.
+- **What would you change?** [Liz: your answer.]
+
+Show: only the page you need for the question.
+
+[Open the source list](about.html#sources)
 
 #### Short cue sheet
 
 Practise with the full notes first. Then use these prompts in your own words, or copy them to your phone notes.
 
-1. Project — Sea-to-Sky day trips; prepare and respond.
-   Show: Home — preparation / Help now.
-2. Audience — beginners and visitors; route fits the group.
-   Show: Before your trip — planning / conditions.
-3. Sources — Squamish SAR interviews + public guidance.
-   Show: About — interviews / sources / real stories.
-4. Structure — plan → pack → risks → help; saved packing ticks.
-   Show: Essentials & activities / turnaround advice.
-5. Trip Plan — trusted contact; return ≠ calling deadline. No saved entries or return monitoring.
+1. Who I am — Liz; Grade 12, Howe Sound Secondary, Squamish; international student from Germany; mentor Ms. Elyse Cochrane; [Liz: optional outdoors].
+   Show: About — Why I made this site.
+2. Why — curious about SAR; help tourists and students prevent emergencies; five nights lost; busy 2026 rescue season; [Liz: optional personal reason].
+   Show: About — hiking case.
+3. Question — [Liz: inquiry question]; proposal → website.
+   Show: [Liz: proposal or portfolio].
+4. Process — Sept first site → 23 Oct check-in (On Track) → Oct/Nov interviews → Nov redesign + Trip Plan; AI support; about 5 × 90 min a week + some weekends (roughly 80+ h, estimate).
+   Show: About — local rescuers / journal.
+5. Rescuers — fit the people; leave a plan; pack for waiting; turn around; why preparation matters.
+   Show: About — interviews / sources.
+6. What I made — beginners/visitors; plan → pack → risks → help; saved ticks.
+   Show: Home → Before your trip → Essentials → turnaround.
+7. Trip Plan — trusted contact; return ≠ calling deadline. No saved entries or return monitoring.
    Show: Trip Plan — made-up details; review → copy/email/print.
-6. QR — sign concept → Quick reminders; phone layout.
-   Show: Print & share → Quick reminders.
-7. Choices — clear access; source checks; AI support; translations later.
-   Show: poster layout or About; invite questions.
+8. QR + poster — sign concept → Quick reminders; poster sections.
+   Show: Print & share → Quick reminders → poster.
+9. Challenges — waiting for interview answers; one thing at a time; creativity + digital skills.
+   Show: [Liz: example].
+10. Competencies — Learn: emails, one thing at a time · Create & Innovate: What to do if · Think Critically: fixing features · Contribute: pack list + Trip Plan · Collaborate: SAR interviews.
+   Show: What to do if / Before your trip / Essentials.
+11. Next steps — translations later; sign placement; social media planned; study medicine and/or sport; maybe long-term SAR volunteer.
+   Show: About or poster.
+12. Thanks — Christine Strub, Laure Lejeune, Ms. Elyse Cochrane; invite questions.
+   Show: poster QR; invite questions.
+13. Questions — sources; not official; Trip Plan privacy; AI; testing; [Liz: change].
+   Show: the page for the question.
 
 Copy cue sheet
 
@@ -1312,6 +1452,6 @@ Cue-sheet copy feedback: Copied. Paste the cue sheet into your phone notes. / Co
 
 This is not an official rescue site. In an emergency, call 9-1-1.
 
-Presentation interface descriptions: Presentation parts; Rehearsal controls; Demo links; Speaking points; Show; If you are using a poster; Optional source note; Optional testing note.
+Presentation interface descriptions: Presentation parts; Rehearsal controls; Demo links; Speaking points; Show; If you are using a poster; Source note; Where the dates come from; Optional source note; Ask your teacher; [Liz: …] placeholder.
 
 Poster-layout screen note: This is a draft layout for the poster. Use it as a guide when preparing your board.

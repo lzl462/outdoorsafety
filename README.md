@@ -41,7 +41,7 @@ node --test scripts/test_trip_plan.mjs
 
 ## Presentation practice
 
-`presentation.html` provides seven short English parts, speaking points and named demo links. The default/full-outline view also works without JavaScript. The optional one-part mode has Previous/Next controls; demo pages open deliberately in new tabs so the rehearsal stays in place. A short cue sheet at the end follows the same seven parts with keywords and Show prompts. Its copy button takes text directly from the visible notes for pasting into phone notes, with a manual-selection fallback.
+`presentation.html` provides thirteen short English parts, ordered by the Capstone package and the teacher's five questions (who, why, what, core competencies, next steps), with speaking points and named demo links. Text marked `[Liz: …]` is a highlighted placeholder for Liz's own words. The default/full-outline view also works without JavaScript. The optional one-part mode has Previous/Next controls; demo pages open deliberately in new tabs so the rehearsal stays in place. A short cue sheet at the end follows the same thirteen parts with keywords and Show prompts. Its copy button takes text directly from the visible notes for pasting into phone notes, with a manual-selection fallback.
 
 The final subdued Presentation menu item is a temporary aid, marked `data-presentation-link` in every shared menu. It can be removed later without deleting the page or changing the visitor routes. Review the presentation and its canonical `content.md` section whenever features, navigation or advice change; keep detailed speaking points, demo links and the short cue sheet/Show prompts in sync. A cross-page overlay tour is not part of the current implementation.
 

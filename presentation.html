@@ -20,7 +20,7 @@
       type="font/ttf"
     />
     <link href="styles.css?v=presentation-1" rel="stylesheet" />
-    <link rel="stylesheet" href="presentation.css?v=cue-sheet-1" />
+    <link rel="stylesheet" href="presentation.css?v=capstone-1" />
     <script defer="" src="script.js?v=redesign-1"></script>
     <script type="module" src="presentation.mjs?v=cue-sheet-1"></script>
   </head>
@@ -131,6 +131,8 @@
         <p class="note">
           A simple English outline. Choose the parts and demos that help you
           explain your project. Change the words so they sound natural to you.
+          Text marked <span class="placeholder">[Liz: …]</span> is for you to
+          fill in with your own words.
         </p>
         <p class="presentation-note">
           Demo links open a new tab. Come back here to continue practising; no
@@ -169,103 +171,271 @@
         >
           <p>Parts to practise</p>
           <ol>
-            <li><a href="#the-project">The project</a></li>
-            <li><a href="#the-audience">The audience</a></li>
-            <li><a href="#the-sources">The sources</a></li>
-            <li><a href="#the-structure">The page structure</a></li>
+            <li><a href="#who-i-am">Who I am</a></li>
+            <li><a href="#why-this-project">Why this project</a></li>
+            <li><a href="#my-question">My question</a></li>
+            <li><a href="#process">How I did it</a></li>
+            <li><a href="#the-sources">What rescuers taught me</a></li>
+            <li><a href="#what-i-made">What I made</a></li>
             <li><a href="#the-trip-plan">The Trip Plan</a></li>
-            <li><a href="#the-qr-idea">The QR idea</a></li>
-            <li>
-              <a href="#choices-and-next-steps">Choices and next steps</a>
-            </li>
+            <li><a href="#the-qr-idea">QR sign and poster</a></li>
+            <li><a href="#challenges">Challenges</a></li>
+            <li><a href="#competencies">Core competencies</a></li>
+            <li><a href="#next-steps">Next steps</a></li>
+            <li><a href="#thanks">Thank you</a></li>
+            <li><a href="#questions">Possible questions</a></li>
           </ol>
         </nav>
         <section
           class="presentation-part"
-          id="the-project"
-          aria-labelledby="project-heading"
+          id="who-i-am"
+          aria-labelledby="who-i-am-heading"
         >
-          <p class="eyebrow">1 / The project</p>
-          <h2 id="project-heading" tabindex="-1">What is this project?</h2>
+          <p class="eyebrow">1 / Who I am</p>
+          <h2 id="who-i-am-heading" tabindex="-1">Who am I?</h2>
           <ul class="speaking-points">
             <li>
-              This is a school project about outdoor safety in British
-              Columbia's Sea-to-Sky area.
+              Hi, I'm Liz. I made this website as a school capstone
+              project here in the Sea-to-Sky area.
             </li>
             <li>
-              The aim is to help people prepare for a day trip and find a useful
-              next step if plans change.
+              I'm in Grade 12 at Howe Sound Secondary School in Squamish, and
+              I'm an international student from Germany.
             </li>
-            <li>It is a learning resource, not an official rescue website.</li>
+            <li>
+              My capstone mentor is my teacher, Ms. Elyse Cochrane (Ms C).
+            </li>
+            <li>
+              <span class="placeholder">[Liz: optional, what the outdoors in the Sea-to-Sky means to you,
+              or which activities you do.]</span>
+            </li>
           </ul>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> the preparation links, Trip Plan in the
-              menu, and Help now.
+              <strong>Show:</strong> the start of About, “Why I made this site”.
             </p>
           </aside>
           <div class="demo-links">
-            <a href="index.html" target="_blank" rel="noopener"
-              >Open Home <span aria-hidden="true">↗</span></a
+            <a href="about.html#why-this-site" target="_blank" rel="noopener"
+              >Open About: why I made this site <span aria-hidden="true">↗</span></a
             >
           </div>
         </section>
         <section
           class="presentation-part"
-          id="the-audience"
-          aria-labelledby="audience-heading"
+          id="why-this-project"
+          aria-labelledby="why-this-project-heading"
         >
-          <p class="eyebrow">2 / The audience</p>
-          <h2 id="audience-heading" tabindex="-1">Who is it for?</h2>
+          <p class="eyebrow">2 / Why this project</p>
+          <h2 id="why-this-project-heading" tabindex="-1">Why did I choose this project?</h2>
           <ul class="speaking-points">
             <li>
-              The main audience is beginners and visitors who may not know the
-              local terrain and conditions.
+              I wanted a simple place, in plain words, to help people get ready
+              before going outdoors and know what to do if something goes wrong.
             </li>
             <li>
-              A short distance does not always mean an easy trip. The route
-              needs to fit the people.
+              I am curious about outdoor safety and how search and rescue teams
+              respond to emergencies. My goal is to help people in the
+              Sea-to-Sky area, such as tourists and students, prevent
+              emergencies and be aware outdoors.
             </li>
             <li>
-              The site uses English, short headings and direct links, with
-              layouts for small and large screens.
+              A planned day outside can turn into a long wait for help. In
+              August 2026, a hiker near Mount Habrich spent five nights in the
+              mountains after he realized his phone battery would not last the
+              way back. He had left a trip plan with his wife, who called for
+              help when he was overdue.
+            </li>
+            <li>
+              Local rescue teams were very busy in 2026. On 20 June, Sea to Sky
+              RCMP received four rescue calls in seven hours in the Squamish
+              backcountry, and a fifth call the next day. By early August,
+              Pemberton Search and Rescue had already responded to 50 calls,
+              about 40% more than at the same time last year.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: optional, a personal reason in your own words, for example
+              what you noticed about people going out unprepared.]</span>
+            </li>
+          </ul>
+          <details class="presenter-note">
+            <summary>Source note</summary>
+            <p>
+              Hiking case: CityNews and The Squamish Chief, listed on About.
+              Rescue calls: <a href="https://rcmp.ca/en/bc/squamish/news/2026/06/4354387" target="_blank" rel="noopener">Sea to Sky RCMP, 24 June
+              2026</a> and
+              <a href="https://www.piquenewsmagazine.com/local-news/pemberton-search-and-rescue-calls-climb-40-amid-wildfires-backcountry-emergencies-12631133" target="_blank" rel="noopener">Pique Newsmagazine, 6 August
+              2026</a>.
+              These numbers show how busy rescue teams were. They do not show
+              that everyone was unprepared: the RCMP said the June callers had
+              ways to call for help, and Pemberton SAR gave no single reason for
+              the increase. One of the June calls was fatal, so talk about it
+              respectfully.
+            </p>
+          </details>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the hiking case on About.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="about.html#hiker-story" target="_blank" rel="noopener"
+              >Open About: the hiking case <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="my-question"
+          aria-labelledby="my-question-heading"
+        >
+          <p class="eyebrow">3 / My question</p>
+          <h2 id="my-question-heading" tabindex="-1">What was my question?</h2>
+          <ul class="speaking-points">
+            <li>
+              <span class="placeholder">[Liz: your inquiry question, exactly as in your approved
+              proposal.]</span>
+            </li>
+            <li>
+              My theme on 10 October was “Outdoor safety – be aware”, and an
+              early project title was “Outdoor awearness – Be awear”.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: your capstone strand from the proposal.]</span>
+            </li>
+            <li>
+              My answer is this website: it helps people prepare for a
+              Sea-to-Sky day trip and know what to do if something goes wrong.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: one way the final website matches your proposal, and one
+              thing that changed from the plan.]</span>
             </li>
           </ul>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> the planning questions and the conditions
-              links. The full guide headings stay descriptive, while the phone
-              contents labels are shorter.
+              <strong>Show:</strong> <span class="placeholder">[Liz: your proposal or timeline, printed or in your
+              portfolio.]</span>
+            </p>
+          </aside>
+        </section>
+        <section
+          class="presentation-part"
+          id="process"
+          aria-labelledby="process-heading"
+        >
+          <p class="eyebrow">4 / How I did it</p>
+          <h2 id="process-heading" tabindex="-1">How did I do it?</h2>
+          <ul class="speaking-points">
+            <li>
+              15 September 2026: the first version of the website, checklists
+              and printable cards.
+            </li>
+            <li>
+              By 15 October: most of the information was on the website.
+            </li>
+            <li>
+              10 October: I connected my project to the core competencies in my
+              portfolio.
+            </li>
+            <li>
+              20 October: I started my interview questions and sent them to a
+              Search and Rescue member.
+            </li>
+            <li>
+              23 October check-in: active execution and product creation, about
+              7–8 hours in the two weeks before, self-assessment 3 (On Track).
+              The poster board design had started as a rough idea.
+            </li>
+            <li>
+              My plan then: finish the website and add pack lists by 30 October,
+              and make the poster board by 10 November.
+            </li>
+            <li>
+              27 October: Christine Strub answered my written questions. 5
+              November: I recorded an interview with Laure Lejeune.
+            </li>
+            <li>
+              16–17 November: printable trip plan sheets.
+            </li>
+            <li>
+              24–25 November: interview-based content, a full redesign, the
+              online Trip Plan, the QR sign concept and this presentation.
+            </li>
+            <li>
+              AI tools helped turn recordings into text, draft wording, build
+              pages and review changes. The safety advice is linked back to the
+              interviews and public sources.
+            </li>
+            <li>
+              Time: about 5 × 90 minutes a week from mid-September to the end of
+              November, plus some weekends.
+            </li>
+            <li>
+              Rough estimate, not a counted total: about 11 weeks × 7.5 hours,
+              so roughly 80 or more hours. The Project strand in the Capstone
+              package asks for at least 40 hours.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: which parts you did yourself.]</span>
+            </li>
+          </ul>
+          <details class="presenter-note">
+            <summary>Where the dates come from</summary>
+            <p>
+              The website dates come from the repository history. The October
+              milestones, hours and self-assessment come from your 10 October
+              competency sheet and 23 October portfolio check-in. The interview
+              dates come from About and the recordings. Other work outside the
+              repository, such as your proposal and research, is not included.
+              The weekly time is your own description; the total is an estimate.
+              Your 23 October check-in recorded 7–8 hours for the two weeks
+              before, so say clearly that the total is a rough estimate.
+            </p>
+          </details>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> About — What local rescuers shared, or your journal of
+              progress.
             </p>
           </aside>
           <div class="demo-links">
-            <a href="checklists.html" target="_blank" rel="noopener"
-              >Open Before your trip <span aria-hidden="true">↗</span></a
+            <a href="about.html#interviews" target="_blank" rel="noopener"
+              >Open About: local rescuers <span aria-hidden="true">↗</span></a
             >
           </div>
         </section>
         <section
           class="presentation-part"
           id="the-sources"
-          aria-labelledby="sources-heading"
+          aria-labelledby="the-sources-heading"
         >
-          <p class="eyebrow">3 / The sources</p>
-          <h2 id="sources-heading" tabindex="-1">
-            Where did the advice come from?
-          </h2>
+          <p class="eyebrow">5 / What I learned</p>
+          <h2 id="the-sources-heading" tabindex="-1">What did local rescuers teach me?</h2>
           <ul class="speaking-points">
             <li>
-              Christine Strub and Ms. Lejeune, both with Squamish Search and
+              Christine Strub and Laure Lejeune, both with Squamish Search and
               Rescue, shared practical experience for this project.
             </li>
             <li>
-              Their advice highlights realistic planning, the group's
-              experience, turning around and preparing to wait for help.
+              Make the trip fit the people. Distance alone is not enough;
+              consider elevation, terrain, the season and everyone's experience.
+            </li>
+            <li>
+              Leave someone a plan, pack for being still while you wait for
+              help, and be ready to turn around.
             </li>
             <li>
               The site also links to public safety guidance. The hiking case
               uses news reports. The anonymous rider story comes from an
               interview.
+            </li>
+            <li>
+              Through the interviews I learned a lot more about why being
+              prepared in nature is so important.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: optional, one thing from the interviews that surprised you.]</span>
             </li>
           </ul>
           <details class="presenter-note">
@@ -277,9 +447,8 @@
           </details>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> the interview introductions and source
-              list. Explain how interview accounts and reported news are kept
-              distinct.
+              <strong>Show:</strong> the interview introductions and source list. Explain how
+              interview accounts and reported news are kept distinct.
             </p>
           </aside>
           <div class="demo-links">
@@ -292,39 +461,45 @@
         </section>
         <section
           class="presentation-part"
-          id="the-structure"
-          aria-labelledby="structure-heading"
+          id="what-i-made"
+          aria-labelledby="what-i-made-heading"
         >
-          <p class="eyebrow">4 / The page structure</p>
-          <h2 id="structure-heading" tabindex="-1">Why these pages?</h2>
+          <p class="eyebrow">6 / What I made</p>
+          <h2 id="what-i-made-heading" tabindex="-1">What did I make?</h2>
           <ul class="speaking-points">
             <li>
-              Before your trip covers the route, conditions and the person who
-              has your plan.
+              A website for beginners and visitors planning Sea-to-Sky day
+              trips. It is a learning resource, not an official rescue website.
             </li>
             <li>
-              Essentials &amp; activities starts with shared basics, then adds
-              activity notes.
+              The pages follow a trip: Before your trip, Essentials &amp;
+              activities, Be aware, then What to do if and No cell service when
+              plans change.
             </li>
             <li>
               You can tick the packing list. The browser can remember your
               ticks.
             </li>
             <li>
-              Be aware covers local risks and turning around. What to do if and
-              No cell service help when plans change.
+              It uses plain English, short headings and layouts for small and
+              large screens. There is also an online Trip Plan, a blank
+              printable plan, a QR sign concept and a poster layout.
             </li>
           </ul>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> the shared essentials and one activity
-              section. Point out a link to the turnaround advice.
+              <strong>Show:</strong> Home, then the planning questions, the shared essentials
+              and one activity section. Point out the turnaround advice and Help
+              now.
             </p>
           </aside>
           <div class="demo-links">
-            <a href="pack-lists.html#essentials" target="_blank" rel="noopener"
-              >Open Essentials &amp; activities
-              <span aria-hidden="true">↗</span></a
+            <a href="index.html" target="_blank" rel="noopener"
+              >Open Home <span aria-hidden="true">↗</span></a
+            ><a href="checklists.html" target="_blank" rel="noopener"
+              >Open Before your trip <span aria-hidden="true">↗</span></a
+            ><a href="pack-lists.html#essentials" target="_blank" rel="noopener"
+              >Open Essentials &amp; activities <span aria-hidden="true">↗</span></a
             ><a href="be-aware.html#turn-around" target="_blank" rel="noopener"
               >Open turnaround advice <span aria-hidden="true">↗</span></a
             >
@@ -333,10 +508,10 @@
         <section
           class="presentation-part"
           id="the-trip-plan"
-          aria-labelledby="trip-heading"
+          aria-labelledby="the-trip-plan-heading"
         >
-          <p class="eyebrow">5 / The Trip Plan</p>
-          <h2 id="trip-heading" tabindex="-1">Show the Trip Plan</h2>
+          <p class="eyebrow">7 / The Trip Plan</p>
+          <h2 id="the-trip-plan-heading" tabindex="-1">Show the Trip Plan</h2>
           <ul class="speaking-points">
             <li>
               A plan becomes useful when a reliable person has it and knows when
@@ -357,9 +532,9 @@
           </ul>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> use made-up details, review the text and
-              point out the copy, email-draft and compact print options. The
-              blank one-page plan is also available.
+              <strong>Show:</strong> use made-up details, review the text and point out the
+              copy, email-draft and compact print options. The blank one-page
+              plan is also available.
             </p>
           </aside>
           <div class="demo-links">
@@ -373,10 +548,10 @@
         <section
           class="presentation-part"
           id="the-qr-idea"
-          aria-labelledby="qr-heading"
+          aria-labelledby="the-qr-idea-heading"
         >
-          <p class="eyebrow">6 / The QR idea</p>
-          <h2 id="qr-heading" tabindex="-1">Show the QR idea</h2>
+          <p class="eyebrow">8 / QR sign and poster</p>
+          <h2 id="the-qr-idea-heading" tabindex="-1">Show the QR sign and poster</h2>
           <ul class="speaking-points">
             <li>
               The sign uses a mountain, a walker, a return arrow and a few words
@@ -388,18 +563,23 @@
             </li>
             <li>
               The page gives a short preparation start and more detailed
-              reminders below. The website can be used at phone and desktop
-              widths.
+              reminders below.
             </li>
             <li>
               This is a sign design; real trail placement is a separate idea.
             </li>
           </ul>
+          <aside class="poster-cue">
+            <p>
+              <strong>If you are using a poster:</strong> point to its main sections and QR
+              code. You can use the same talking points without a live website
+              demo. A poster layout is available if you need a reference.
+            </p>
+          </aside>
           <aside class="demo-cue">
             <p>
-              <strong>Show:</strong> the sign in Print &amp; share, then the
-              Quick reminders page. A narrower browser window can show the
-              responsive layout.
+              <strong>Show:</strong> the sign in Print &amp; share, then the Quick reminders
+              page. A narrower browser window can show the responsive layout.
             </p>
           </aside>
           <div class="demo-links">
@@ -407,52 +587,250 @@
               >Open Print &amp; share <span aria-hidden="true">↗</span></a
             ><a href="tips.html" target="_blank" rel="noopener"
               >Open Quick reminders <span aria-hidden="true">↗</span></a
+            ><a href="pdfs/trifold.html" target="_blank" rel="noopener"
+              >Open the poster layout <span aria-hidden="true">↗</span></a
             >
           </div>
         </section>
         <section
           class="presentation-part"
-          id="choices-and-next-steps"
-          aria-labelledby="choices-heading"
+          id="challenges"
+          aria-labelledby="challenges-heading"
         >
-          <p class="eyebrow">7 / Choices and next steps</p>
-          <h2 id="choices-heading" tabindex="-1">Choices and next steps</h2>
+          <p class="eyebrow">9 / Challenges</p>
+          <h2 id="challenges-heading" tabindex="-1">What was hard, and how did I solve it?</h2>
           <ul class="speaking-points">
             <li>
-              The site keeps preparation and immediate help easy to reach, using
-              simple pages and a small amount of JavaScript.
+              In October I was missing information while I waited for the
+              interview answers. Christine Strub answered on 27 October. <span class="placeholder">[Liz:
+              how you kept going while you waited.]</span>
             </li>
             <li>
-              AI tools helped turn recordings into text, draft wording, build
-              pages and review changes. The safety advice is linked back to the
-              interviews and public sources.
+              In my check-in I wrote that I need to work on one thing at a time
+              instead of doing everything at once, so I can focus on one thing
+              and finish it.
             </li>
+            <li>
+              The project helped me develop my creativity and digital skills, so
+              I could make a website that makes safety information clear and
+              interesting.
+            </li>
+            <li>
+              Possible topics from the project record, if they were real
+              challenges for you: keeping every safety tip linked to the
+              interviews or public sources without inventing stories; rewriting
+              or removing some earlier emergency instructions after the
+              interviews; deciding what to leave out, such as printing at first.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> one before-and-after example, if you have one.
+            </p>
+          </aside>
+        </section>
+        <section
+          class="presentation-part"
+          id="competencies"
+          aria-labelledby="competencies-heading"
+        >
+          <p class="eyebrow">10 / Core competencies</p>
+          <h2 id="competencies-heading" tabindex="-1">Which core competencies did I practise?</h2>
+          <ul class="speaking-points">
+            <li>
+              <strong>Learn (Communication):</strong> I need to write clear emails, interview
+              people and explain outdoor safety tips on my website. I wrote
+              emails to people involved in search and rescue to explain my
+              capstone project and ask for their time for interviews.
+            </li>
+            <li>
+              <strong>Learn (Personal awareness and responsibility):</strong> From my 23
+              October check-in: “I think I use most of my time effectively. I
+              always work on my website to add information and to create a
+              design. I also started to plan my design for the cardboard as well
+              as my social media posts. Though I need to start working one thing
+              at a time instead of doing everything all the time, to focus on
+              one thing and finish it.”
+            </li>
+            <li>
+              <strong>Create &amp; Innovate (Creative thinking):</strong> I am curious about
+              outdoor safety, and the project helps me develop creativity and
+              digital skills. I created the “What to do if…” page with tips for
+              when you get lost or someone gets hurt, and a page so people can
+              prepare before their trip.
+            </li>
+            <li>
+              <strong>Think Critically (Critical and reflective thinking):</strong> When a
+              feature on the website is not working, I find out what went wrong
+              and fix it. Sometimes things did not work out as I thought, and I
+              had to change my plan.
+            </li>
+            <li>
+              <strong>Contribute (Social responsibility):</strong> The goal is to help people
+              in the Sea-to-Sky, such as tourists and students, prevent
+              emergencies. Someone who wants to go hiking but does not know what
+              to pack can use the pack list, even take it with them, and plan
+              their trip with the Trip Plan.
+            </li>
+            <li>
+              <strong>Collaborate:</strong> I built relationships with people who have
+              experience in outdoor safety and search and rescue by interviewing
+              and writing with them. I interviewed people in Sea-to-Sky search
+              and rescue about common mistakes and emergency preparation for
+              mountain activities.
+            </li>
+          </ul>
+          <details class="presenter-note">
+            <summary>Competency set</summary>
+            <p>
+              These are the SD48 categories from my 10 October portfolio sheet,
+              “Connecting Your Competencies”. BC Core Competency names are in
+              brackets where they fit.
+            </p>
+          </details>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> What to do if, Before your trip and Essentials &amp;
+              activities for the examples.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="if.html" target="_blank" rel="noopener"
+              >Open What to do if <span aria-hidden="true">↗</span></a
+            ><a href="checklists.html" target="_blank" rel="noopener"
+              >Open Before your trip <span aria-hidden="true">↗</span></a
+            ><a href="pack-lists.html" target="_blank" rel="noopener"
+              >Open Essentials &amp; activities <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="next-steps"
+          aria-labelledby="next-steps-heading"
+        >
+          <p class="eyebrow">11 / Next steps</p>
+          <h2 id="next-steps-heading" tabindex="-1">What comes next?</h2>
+          <ul class="speaking-points">
             <li>
               French, German, Spanish and Italian are possible later additions.
               Those translations are not available yet.
             </li>
+            <li>
+              Real trail placement of the sign is a separate idea.
+            </li>
+            <li>
+              A social media account for the project is planned for later.
+            </li>
+            <li>
+              After school I would like to study medicine or something in sport,
+              or combine medicine and sport.
+            </li>
+            <li>
+              I could also imagine volunteering long-term with a search and
+              rescue team. The knowledge and experience from this project would
+              help me there.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: optional, which skills from this project will help you in
+              your studies, for example research, interviewing or writing for an
+              audience.]</span>
+            </li>
           </ul>
-          <details class="presenter-note">
-            <summary>Optional testing note</summary>
+          <aside class="demo-cue">
             <p>
-              Email and QR functions were checked and accepted for this
-              project's scope. Browser and PDF checks are recorded. Physical
-              printer tests are excluded.
-            </p>
-          </details>
-          <aside class="poster-cue">
-            <p>
-              <strong>If you are using a poster:</strong> point to its main
-              sections and QR code. You can use the same talking points without
-              a live website demo. A poster layout is available if you need a
-              reference.
+              <strong>Show:</strong> About this project, or the poster.
             </p>
           </aside>
           <div class="demo-links">
-            <a href="pdfs/trifold.html" target="_blank" rel="noopener"
-              >Open the poster layout <span aria-hidden="true">↗</span></a
-            ><a href="about.html#why-this-site" target="_blank" rel="noopener"
+            <a href="about.html#why-this-site" target="_blank" rel="noopener"
               >Open About this project <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="thanks"
+          aria-labelledby="thanks-heading"
+        >
+          <p class="eyebrow">12 / Thank you</p>
+          <h2 id="thanks-heading" tabindex="-1">Thank you</h2>
+          <ul class="speaking-points">
+            <li>
+              Thank you to Christine Strub, Prevention Team Coordinator with
+              Squamish Search and Rescue, and Laure Lejeune, a Squamish Search
+              and Rescue member, for sharing their experience.
+            </li>
+            <li>
+              Thank you to my capstone teacher and mentor, Ms. Elyse Cochrane.
+            </li>
+            <li>
+              <span class="placeholder">[Liz: optional, anyone else who helped.]</span>
+            </li>
+            <li>
+              Scan the QR code or visit lzl462.github.io/outdoorsafety, and try
+              the Trip Plan. I'm happy to answer questions.
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> the website QR on the poster; invite questions.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="https://lzl462.github.io/outdoorsafety/" target="_blank" rel="noopener"
+              >Open the live website <span aria-hidden="true">↗</span></a
+            ><a href="resources.html" target="_blank" rel="noopener"
+              >Open Print &amp; share <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </section>
+        <section
+          class="presentation-part"
+          id="questions"
+          aria-labelledby="questions-heading"
+        >
+          <p class="eyebrow">13 / Possible questions</p>
+          <h2 id="questions-heading" tabindex="-1">Possible questions</h2>
+          <ul class="speaking-points">
+            <li>
+              <strong>How do you know the advice is correct?</strong> It comes from two
+              Squamish Search and Rescue members and public guidance such as
+              AdventureSmart, E-Comm, BC Parks, Avalanche Canada and the
+              Canadian Red Cross. The sources are on About.
+            </li>
+            <li>
+              <strong>Is this an official rescue website?</strong> No. It is a school
+              learning resource. The interviews are not an endorsement of every
+              page.
+            </li>
+            <li>
+              <strong>Does the Trip Plan send my plan to someone?</strong> No. It does not
+              save or send your entries. You send the plan yourself and confirm
+              it arrived.
+            </li>
+            <li>
+              <strong>What did AI do?</strong> It helped turn recordings into text, draft
+              wording, build pages and review changes. The safety advice is
+              linked back to the interviews and public sources.
+            </li>
+            <li>
+              <strong>Was it tested?</strong> Email and QR functions were checked and
+              accepted for this project's scope. Browser and PDF checks are
+              recorded. Physical printer tests are excluded.
+            </li>
+            <li>
+              <strong>What would you change?</strong> <span class="placeholder">[Liz: your answer.]</span>
+            </li>
+          </ul>
+          <aside class="demo-cue">
+            <p>
+              <strong>Show:</strong> only the page you need for the question.
+            </p>
+          </aside>
+          <div class="demo-links">
+            <a href="about.html#sources" target="_blank" rel="noopener"
+              >Open the source list <span aria-hidden="true">↗</span></a
             >
           </div>
         </section>
@@ -474,42 +852,64 @@
           <ol class="cue-list" id="cue-list" tabindex="-1">
             <li>
               <p class="cue-topic">
-                <strong>Project</strong> — Sea-to-Sky day trips; prepare and
-                respond.
-              </p>
-              <p class="cue-show">Show: Home — preparation / Help now.</p>
-            </li>
-            <li>
-              <p class="cue-topic">
-                <strong>Audience</strong> — beginners and visitors; route fits
-                the group.
+                <strong>Who I am</strong> — Liz; Grade 12, Howe Sound Secondary,
+                Squamish; international student from Germany; mentor Ms. Elyse
+                Cochrane; <span class="placeholder">[Liz: optional outdoors]</span>.
               </p>
               <p class="cue-show">
-                Show: Before your trip — planning / conditions.
+                Show: About — Why I made this site.
               </p>
             </li>
             <li>
               <p class="cue-topic">
-                <strong>Sources</strong> — Squamish SAR interviews + public
-                guidance.
+                <strong>Why</strong> — curious about SAR; help tourists and students prevent
+                emergencies; five nights lost; busy 2026 rescue season; <span class="placeholder">[Liz:
+                optional personal reason]</span>.
               </p>
               <p class="cue-show">
-                Show: About — interviews / sources / real stories.
+                Show: About — hiking case.
               </p>
             </li>
             <li>
               <p class="cue-topic">
-                <strong>Structure</strong> — plan → pack → risks → help; saved
-                packing ticks.
+                <strong>Question</strong> — <span class="placeholder">[Liz: inquiry question]</span>; proposal → website.
               </p>
               <p class="cue-show">
-                Show: Essentials &amp; activities / turnaround advice.
+                Show: <span class="placeholder">[Liz: proposal or portfolio]</span>.
               </p>
             </li>
             <li>
               <p class="cue-topic">
-                <strong>Trip Plan</strong> — trusted contact; return ≠ calling
-                deadline. No saved entries or return monitoring.
+                <strong>Process</strong> — Sept first site → 23 Oct check-in (On Track) →
+                Oct/Nov interviews → Nov redesign + Trip Plan; AI support; about
+                5 × 90 min a week + some weekends (roughly 80+ h, estimate).
+              </p>
+              <p class="cue-show">
+                Show: About — local rescuers / journal.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Rescuers</strong> — fit the people; leave a plan; pack for waiting;
+                turn around; why preparation matters.
+              </p>
+              <p class="cue-show">
+                Show: About — interviews / sources.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>What I made</strong> — beginners/visitors; plan → pack → risks →
+                help; saved ticks.
+              </p>
+              <p class="cue-show">
+                Show: Home → Before your trip → Essentials → turnaround.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Trip Plan</strong> — trusted contact; return ≠ calling deadline. No
+                saved entries or return monitoring.
               </p>
               <p class="cue-show">
                 Show: Trip Plan — made-up details; review → copy/email/print.
@@ -517,18 +917,59 @@
             </li>
             <li>
               <p class="cue-topic">
-                <strong>QR</strong> — sign concept → Quick reminders; phone
-                layout.
+                <strong>QR + poster</strong> — sign concept → Quick reminders; poster
+                sections.
               </p>
-              <p class="cue-show">Show: Print &amp; share → Quick reminders.</p>
+              <p class="cue-show">
+                Show: Print &amp; share → Quick reminders → poster.
+              </p>
             </li>
             <li>
               <p class="cue-topic">
-                <strong>Choices</strong> — clear access; source checks; AI
-                support; translations later.
+                <strong>Challenges</strong> — waiting for interview answers; one thing at a
+                time; creativity + digital skills.
               </p>
               <p class="cue-show">
-                Show: poster layout or About; invite questions.
+                Show: <span class="placeholder">[Liz: example]</span>.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Competencies</strong> — Learn: emails, one thing at a time · Create
+                &amp; Innovate: What to do if · Think Critically: fixing
+                features · Contribute: pack list + Trip Plan · Collaborate: SAR
+                interviews.
+              </p>
+              <p class="cue-show">
+                Show: What to do if / Before your trip / Essentials.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Next steps</strong> — translations later; sign placement; social
+                media planned; study medicine and/or sport; maybe long-term SAR
+                volunteer.
+              </p>
+              <p class="cue-show">
+                Show: About or poster.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Thanks</strong> — Christine Strub, Laure Lejeune, Ms. Elyse Cochrane;
+                invite questions.
+              </p>
+              <p class="cue-show">
+                Show: poster QR; invite questions.
+              </p>
+            </li>
+            <li>
+              <p class="cue-topic">
+                <strong>Questions</strong> — sources; not official; Trip Plan privacy; AI;
+                testing; <span class="placeholder">[Liz: change]</span>.
+              </p>
+              <p class="cue-show">
+                Show: the page for the question.
               </p>
             </li>
           </ol>
