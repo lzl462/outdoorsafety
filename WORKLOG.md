@@ -140,6 +140,12 @@ Chromium/WebKit checks passed all thirteen practice steps, cue-copy parity with 
 
 On 26 Nov 2026, recorded the user's confirmation that the existing Instagram account is @outdoorsafety48, matching the original suggestion. Closed the missing-handle task and updated canonical copy, the presentation/account link, cue sheet, plan, social documentation and review; actual post publication remains unreported. Reason: keep the confirmed account name consistent throughout the project. All thirteen speaking-point lists and cue topics match content.md, and the site check passes 20 HTML files and 735 local references.
 
+## 2026-11-25 (late evening)
+
+Liz's trifold poster sketch was added as `poster/trifold-sketch-2026-11-25.png` with a short `poster/README.md`. Idea only; no poster built yet.
+
+## 2026-11-26 — Shorter speaking presentation
+
 On 26 Nov 2026, shortened and personalized the presentation after the user confirmed Liz's interviews, many hours working on the pages and current Instagram management. Added a challenge/action/example/learning sequence around new AI tools, GitHub and responsive design, grounded in the recorded shorter planning-guide labels. Moved detailed timeline, hours and source context into optional notes; reduced speaking points from 1,621 to 793 words including Q&A reserve, competencies from 295 to 103, and the cue sheet from 330 to 137. Reason: support a clear spoken presentation with an explicit personal contribution and concise prompts.
 
 The user clarified that the overall project was approved by the teacher. Expressed its purpose as a guiding question and removed the remaining personal placeholders. The approved file will be supplied later for comparing the original plan and final product; that document follow-up is recorded separately in the plan. Canonical wording was written first, then the page, README, plan and review were synchronized. All thirteen stations and twenty-one demo options remain.
