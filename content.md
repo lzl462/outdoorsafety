@@ -1499,23 +1499,31 @@ Byline: Liz · Grade 12 · Howe Sound Secondary School
 
 #### WHY I CHOSE THIS
 
-I’m interested in outdoor sports, health and safety. A local hiker spent five nights in the mountains; a trip plan helped his family raise the alarm. I wanted clear preparation advice for people exploring the Sea-to-Sky.
+My interest in outdoor sports, health and safety led me to this project. The story of a local hiker who spent five nights lost showed me why preparation matters: his trip plan helped his family raise the alarm. I wanted to turn lessons like this into clear advice for people exploring the Sea-to-Sky.
 
 #### LEARNING FROM LOCAL RESCUERS
 
-Christine Strub and Laure Lejeune, both with Squamish Search and Rescue, shared their experience. Their lessons: match the route to the group, leave a plan, prepare for a delay and be ready to turn around.
+Through this project, I connected with Christine Strub and Laure Lejeune from Squamish Search and Rescue. I asked them questions, and they shared their experiences. I used their lessons on the website: match the route to the group, leave a plan, prepare for a delay and be ready to turn around.
 
 #### THE PROJECT
 
-How can I make outdoor safety advice clear and easy to access? A website, checklists, QR codes and social media help people prepare, recognize risks and respond when plans change.
+My guiding question: How can I make outdoor safety advice clear and easy to access?
+
+I created a website with checklists and practical tips for staying safe outdoors. I also created an Instagram account to help people prepare, recognize risks and respond when plans change.
 
 #### A TRIP PLAN SOMEONE CAN USE
 
-Leave your route and return time with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in. Copy, email or print your plan; send it yourself. No return monitoring.
+Leave your route and return time with someone reliable. Agree when they should call 9-1-1 if you have not returned or checked in. Copy, email or print your plan, send it yourself and confirm they received it.
 
-#### THE TRAIL-START QR IDEA
+#### CLEAR ADVICE FOR EACH STEP
 
-The sign’s QR opens Quick reminders and links to the full guides. It is a design concept; real trail placement is a future idea.
+Before your trip: plan your route, check conditions and leave someone a plan.
+
+On the trail: recognize risks and be ready to turn around.
+
+If plans change: find guidance for getting lost, injuries or no cell service.
+
+Explore these guides through the website QR below.
 
 #### EXPLORE THE WEBSITE
 
@@ -1523,11 +1531,22 @@ Clear guides for Sea-to-Sky day trips. Prepare, pack and know your next step.
 
 #### MY WORK. MY LEARNING.
 
-I conducted the interviews, worked for many hours on the pages and manage Instagram. AI helped with transcription, wording and code; GitHub tracks changes. I learned to check drafts and improve responsive layouts for different devices.
+I conducted the interviews, spent many hours improving the pages and manage Instagram. AI helped with transcription, wording and code; GitHub tracks changes.
 
-#### SKILLS AND NEXT STEPS
+What I learned:
 
-Learn · Create & Innovate · Think Critically · Contribute · Collaborate. Research, communication and digital design are skills I can take into further study. I’m interested in medicine and sport, and possibly volunteering with SAR. Translations are a later project idea.
+- Learn: use new tools such as AI and GitHub.
+- Create & Innovate: turn research into a website and checklists.
+- Think Critically: check AI drafts against sources and improve unclear wording.
+
+#### MY LEARNING, CONTINUED
+
+- Contribute: make practical advice easier to access.
+- Collaborate: ask local rescuers questions and learn from their experience.
+
+My reflection: Clear advice takes more than collecting facts. I need to check the information and make it easy for someone else to use.
+
+Next steps: Keep improving the site and Instagram. Research, communication and digital design connect to my interests in medicine and sport. I may explore SAR volunteering; translations are a later idea.
 
 Website qr label: WEBSITE
 
@@ -1545,9 +1564,11 @@ Endorsement line: Interview participation is not an organizational endorsement.
 
 Disclaimer: This is not an official rescue site. In an emergency, call 9-1-1.
 
-Photo credit if chief used: Photo: James Abbott · CC BY 2.0.
+Photo collage: SEA-TO-SKY · Mountains, trails & water. Six regional photographs: Stawamus Chief, Harmony Lakes Loop, Howe Sound and three Shannon Falls Provincial Park views. These are landscape photographs, not images of the incidents or interviews.
 
-Layout note: The twelve-card version retains the eight content roles from Liz’s sketch. The two narrow side panels each hold two portrait cards. The centre holds four pairs of landscape cards: title/photo, project/website preview, Trip Plan/trail-sign idea, and website/Instagram QR destinations. Each card fits on one Legal sheet without dividing text or QR codes across sheets.
+Photo credits: James Abbott / Ruth Hartnup · CC BY 2.0; David Zhang · CC BY-SA 2.0; Natulive Canada · CC BY-SA 4.0. Resized and cropped; licences retained. Photo sources & licences: poster/README.md. Black & white exports also say Greyscale.
+
+Layout note: The two right-hand cards meet to form one learning column, with work, reflection, competency examples and next steps. They remain separate Legal sheets for printing. The centre holds title/photo collage, project/website preview, Trip Plan/advice for each step, and website/Instagram QR destinations. A separate genuine interview or rescue photograph would be useful beside the local-rescuer section if Liz supplies one cleared for use; no stock photograph is presented as her interview.
 
 Conditional credit if a Harmony Lakes website screenshot is used: Photo: Ruth Hartnup · CC BY 2.0.
 
@@ -1557,13 +1578,13 @@ Working measurements transcribed from the supplied annotated photo on 26 Nov: he
 
 Print planning interface: Board measurements · Printing and assembly · Twelve cards · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm). · Select Actual size / 100%, one page per sheet, in portrait orientation. · All twelve PDF pages use the same paper orientation; turn the eight landscape cards after trimming. · The PDFs already contain individual pages: use normal printing. · Trim on the crop marks and place the cards using their numbers and the assembly guide. · Keep every QR code's white border. · Confirm that the loaded paper is Legal, rather than Letter (8.5 × 11 in). · The 100 mm line on each sheet shows the intended scale. · Printing and mounting have not been completed.
 
-Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Local photograph · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Trail-start QR idea · Website QR · Instagram QR · My work and learning · Skills and next steps · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
+Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Regional photo collage · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Advice for each step · Website QR · Instagram QR · My work and learning · My learning, continued · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
 
 Print-set margin labels: Turn this card after trimming · Portrait · Landscape · 100 mm · Legal 8.5 × 14 in · Trim all cards to 19.05 × 33.02 cm, then orient them as shown in the assembly guide.
 
 Black & white printing interface: Black & white printing · Black & white print set · Black & white assembly guide · Black & white preview · White backgrounds, black text and greyscale photographs. Card sizes, numbers and placement are the same as the colour version. · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm).
 
-Black & white photo credit: Photo: James Abbott · CC BY 2.0 · Greyscale.
+Black & white photo credit: Collage credits and licences as above · Greyscale.
 
 Black & white print labels: Black & white · Outdoor Safety — Sea-to-Sky · Black & white · Twelve Legal sheets.
 
@@ -1705,9 +1726,9 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 Extra notes — Using a poster
 
-Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The same talking points work without a live website demo. The project display has a measured twelve-card layout and Legal-paper print sets in colour or black & white. Printing and mounting are the next steps.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The display now shows advice for each step instead of the trail-sign concept, a regional photo collage, and one learning column across two sheets. The separate sign remains a design preview in Print & share. The project display has a measured twelve-card layout and Legal-paper print sets in colour or black & white. Printing and mounting are the next steps.
 
-Show: The sign and Quick reminders, or the twelve-card display and its print sets.
+Show: The display’s advice card, learning column and two QR codes; optionally the separate sign and Quick reminders.
 
 [Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the project display draft](poster/display.html)
 
@@ -1805,7 +1826,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
 7. Trip Plan — deadline; review → copy/email/print; send yourself.
    Show: Trip Plan.
 8. QR — trail tips; display: website + Instagram.
-   Show: Sign / Legal print set.
+   Show: Display advice / learning / QR codes.
 9. Learning — AI + GitHub; shorter labels; check results.
    Show: Guide on phone.
 10. Competencies — learn; create; question; contribute; collaborate.

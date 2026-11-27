@@ -22,14 +22,31 @@ Each card is 19.05 × 33.02 cm after trimming. Four are mounted vertically on th
 
 | Printed page | Content | Mounting position |
 | --- | --- | --- |
-| 01 / 02 | Title / licensed local photograph | Centre, first row |
+| 01 / 02 | Title / six-photo regional collage | Centre, first row |
 | 03 / 04 | Why I chose this / local rescuers | Left, upper / lower |
 | 05 / 06 | The project / website preview | Centre, second row |
-| 07 / 08 | Trip Plan / trail-start QR idea | Centre, third row |
+| 07 / 08 | Trip Plan / advice for each step | Centre, third row |
 | 09 / 10 | Website QR / Instagram QR | Centre, fourth row |
-| 11 / 12 | My work and learning / skills and next steps | Right, upper / lower |
+| 11 / 12 | My work and learning / reflection and next steps | Right, adjoining upper / lower cards |
 
 The layout uses the white cardboard between the separate cards. The cards clear both folds; placement coordinates in the guide are measured from the upper-left corner with the board open and flat. All card art keeps the confirmed project wording, first-name-only student credit and photo/source attribution. The two QR destinations remain distinct.
+
+The right-hand cards meet without a gap to read as one learning column, while each still prints on one Legal sheet. `spacing.rightRowGapMm` controls this placement. The trail-start concept is still available separately in Print & share; the display now introduces actual website advice instead.
+
+## Collage sources
+
+The six photographs provide regional context, not images of Liz's interviews or the reported incidents. All are resized and cropped to fit. The black & white version adds a greyscale modification. The individual image adaptations retain their respective licences; this does not change the licence of the surrounding card text.
+
+| Photograph | Creator | Licence |
+| --- | --- | --- |
+| [Stawamus Chief](https://commons.wikimedia.org/wiki/File:The_Chief,_Stawamus_Chief_Provincial_Park.jpg) | James Abbott | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| [Harmony Lakes Loop trail](https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg) | Ruth Hartnup | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+| [Howe Sound](https://commons.wikimedia.org/wiki/File:Howe_Sound_(54538272996).jpg) | David Zhang | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) |
+| [Shannon Falls Provincial Park 05](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_05.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [Shannon Falls Provincial Park 06](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_06.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| [Shannon Falls Provincial Park 07](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_07.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+
+The new Commons author/licence records were checked on 26 Nov 2026. A separate genuine interview or rescue photo is still pending a suitable image cleared for use from Liz. It would fit beside the rescuers section; a generic photo must not imply it depicts her interview.
 
 ## Printing at school
 
@@ -62,6 +79,8 @@ The old [safety-poster reference](../pdfs/trifold.html) remains separate from th
 ## Regenerate together
 
 Development dependencies are Node.js, Playwright with Chromium, and Python with PyMuPDF. The public site has no build dependency.
+
+The assembler preserves Chromium's embedded font subsets. Do not re-subset the combined document: shared font names across separately exported cards can otherwise lose glyphs in the master and review outputs.
 
 ```bash
 node poster/render-preview.mjs

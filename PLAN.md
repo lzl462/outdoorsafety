@@ -2,11 +2,15 @@
 
 Outdoor Safety — Sea-to-Sky · [Live website](https://lzl462.github.io/outdoorsafety/)
 
-Deadline: Monday 30 Nov 2026. Status updated on 26 Nov after adding the dedicated black & white alternative to the measured Legal print kit.
+Deadline: Monday 30 Nov 2026. Status updated on 26 Nov after implementing Liz's display notes and fixing menu focus handling.
 
 The website's content baseline, interviews, redesign, trip planner, reviewed refinements, revised presentation draft, proposal comparison and Instagram starter kit are complete as repository artifacts. Remaining work is mainly rehearsal, separate portfolio/school deliverables, the physical poster and social publication details. The detailed earlier implementation history is in [the historical plan](docs/history/PLAN-2026-11-25.md).
 
 ## Current scope
+
+Liz's display-preview notes are implemented: personal motivation connects to the existing lost-hiker case; the project and rescuer cards describe her contribution; the Trip Plan card replaces “No return monitoring” with a clear send/receipt instruction; actual website advice replaces the trail-start concept on the board. Six licensed regional photographs sit beside the title. The right-hand cards meet as one learning column with reflection, five competency examples and next steps, while remaining separately printable Legal sheets. Both colour/black & white kits, masters, guides and previews are regenerated. Presentation notes and visible cue-sheet Show prompts match. A separate genuine interview/rescue photograph remains pending a suitable image cleared for use; the collage currently contains landscapes only. On 26 Nov, Liz explicitly authorized committing and pushing this revision to main for GitHub Pages publication.
+
+The menu now closes on actual focus moving outside it, instead of a deferred focusout check against the body. This avoids dismissal before link activation in browsers that do not focus pointer-clicked links. The new browser regression check covers 33 menu destinations across desktop, portrait phone and short landscape viewports, the body-focus transition, Escape/outside-click/focus dismissal and no-JavaScript navigation. Additional native Safari device testing is not claimed.
 
 All eight items from the [follow-up review](reviews/2026-11-25-follow-up.md) are implemented. The latest slice completes R05's source-supported story clarification and R06's shorter contents labels, alongside the compact Quick reminders entry point. The completed visual direction is retained.
 
@@ -45,6 +49,7 @@ The public-launch history cleanup is complete on `main`: all 118 pre-cutover com
 | Liz / decision | Keep the current project name or choose the final one. | Outdoor Safety — Sea-to-Sky is still described as a working title. If it changes, update site branding/page titles and print materials; the old global sidebar no longer exists. |
 | Liz / unverified | Complete or confirm her own interview notes and portfolio interview page. | The source interviews and transcripts are ready. They do not prove that Liz's personal notes or interview page are finished. The portfolio's location is unknown; it is not in the tracked repository. |
 | Liz / final production details | Confirm that the right wing matches the left and that Legal paper is available at school. | The supplied photo gives height/left/centre values. The current kit assumes a matching 24.13 cm right wing and uses Legal 8.5 × 14 in, not Letter. These assumptions are visible in the preview/guide; card positions can be regenerated from layout.json if a value changes. |
+| Liz / optional photo | Supply a genuine interview or rescue photo cleared for display use. | A separate photo beside the rescuer card would support her connection to the interviewees. The current six-image collage contains licensed regional landscapes and does not depict rescue activity or her interviews. |
 | Liz / physical production | Print the twelve Legal sheets, trim, place and mount the cards. | [Print kit and assembly guide](poster/README.md): portrait, Actual size / 100%, one page per sheet, single-sided. Turn eight cards after trimming; keep QR white borders and follow the measured map. Actual printing/mounting remain outstanding. Separate physical-printer tests remain excluded. |
 | Liz / unverified | Complete or confirm thank-you notes to Christine Strub and Laure Lejeune. | No sent-note or completed physical-note evidence is tracked here. This plan is not an instruction to send messages. |
 | Later / optional device access | Additional hands-on Safari/iPhone/iPad checks, if useful. | Chromium and automated WebKit checks are recorded. These additional device checks are not required to reopen the accepted email/QR work. Physical printer tests are excluded. |

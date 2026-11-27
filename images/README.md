@@ -10,4 +10,6 @@ These photographs provide regional context. They do not depict the reported hiki
 
 The cardboard layout in `pdfs/trifold.html` also uses the local 800-pixel Harmony Lakes and Howe Sound versions, retaining their creator/licence captions.
 
+The project display's six-photo collage also uses `shannon-park-05.webp`, `shannon-park-06.webp` and `shannon-park-07.webp`: [Shannon Falls Provincial Park 05](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_05.jpg), [06](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_06.jpg) and [07](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_07.jpg), all by Natulive Canada under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), checked 26 Nov 2026. Local WebP versions are resized; the collage crops them and its monochrome export converts them to greyscale. Each adaptation retains CC BY-SA 4.0. See `poster/README.md` for the complete collage attribution.
+
 Checked 25 Nov 2026 against Commons file metadata. `mark.svg` is the site's code-drawn mountain mark. Earlier unused image files are retained.

@@ -24,7 +24,6 @@ def save(doc, name, title):
     if options.monochrome:
         title += " — Black & white"
     doc.set_metadata({"title": title, "author": "Liz", "subject": "Outdoor Safety — Sea-to-Sky"})
-    doc.subset_fonts()
     output = Path(name)
     doc.save(HERE / (output.stem + SUFFIX + output.suffix), garbage=4, deflate=True)
 

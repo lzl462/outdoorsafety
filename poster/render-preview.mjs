@@ -46,6 +46,7 @@ assert(
 );
 const cards = source.cards.map((card) => {
   const portrait = card.panel !== "centre";
+  const panelRowGap = card.panel === "right" ? (s.rightRowGapMm ?? s.rowGapMm) : s.rowGapMm;
   const widthMm = portrait ? short : long,
     heightMm = portrait ? long : short;
   const panelLeft =
@@ -66,8 +67,8 @@ const cards = source.cards.map((card) => {
       (b.centreMm - centreWidth) / 2 +
       card.column * (long + s.centreColumnGapMm);
   const yMm = portrait
-    ? (b.heightMm - (2 * long + s.rowGapMm)) / 2 +
-      card.row * (long + s.rowGapMm)
+    ? (b.heightMm - (2 * long + panelRowGap)) / 2 +
+      card.row * (long + panelRowGap)
     : (b.heightMm - centreHeight) / 2 + card.row * (short + s.rowGapMm);
   assert(
     xMm >= panelLeft &&
@@ -165,9 +166,7 @@ try {
             }
           }
           const credit = document.querySelector(".photo-card figcaption");
-          if (credit)
-            credit.textContent =
-              credit.textContent.trim().replace(/\.$/, "") + " · Greyscale.";
+          if (credit) credit.append(" · Greyscale.");
         }, base);
       }
       await page.addStyleTag({

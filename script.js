@@ -12,11 +12,8 @@ if (menu) {
   document.addEventListener("click", (event) => {
     if (menu.open && !menu.contains(event.target)) menu.open = false;
   });
-  menu.addEventListener("focusout", () => {
-    requestAnimationFrame(() => {
-      if (menu.open && !menu.contains(document.activeElement))
-        menu.open = false;
-    });
+  document.addEventListener("focusin", (event) => {
+    if (menu.open && !menu.contains(event.target)) menu.open = false;
   });
 }
 document.querySelectorAll("[data-print-guide]").forEach((button) => {

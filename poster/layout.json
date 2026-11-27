@@ -16,7 +16,8 @@
   },
   "spacing": {
     "centreColumnGapMm": 38.1,
-    "rowGapMm": 50.8
+    "rowGapMm": 50.8,
+    "rightRowGapMm": 0
   },
   "cards": [
     {
@@ -30,7 +31,7 @@
     {
       "id": "photo",
       "number": 2,
-      "label": "Local photograph",
+      "label": "Regional photo collage",
       "panel": "centre",
       "row": 0,
       "column": 1
@@ -76,7 +77,7 @@
     {
       "id": "trail",
       "number": 8,
-      "label": "Trail-start QR idea",
+      "label": "Advice for each step",
       "panel": "centre",
       "row": 2,
       "column": 1
@@ -107,7 +108,7 @@
     {
       "id": "next",
       "number": 12,
-      "label": "Skills and next steps",
+      "label": "My learning, continued",
       "panel": "right",
       "row": 1
     }
