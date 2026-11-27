@@ -118,7 +118,7 @@ try {
       [],
       `${target.name}: missing artwork assets`,
     );
-    const clipping = await page.evaluate(() => {
+    const clipping = await page.evaluate((safeBounds) => {
       const walker = document.createTreeWalker(
         document.body,
         NodeFilter.SHOW_TEXT,
@@ -139,17 +139,33 @@ try {
           ) {
             failures.push(node.textContent.trim().slice(0, 90));
           }
+          if (safeBounds && (
+            box.left < safeBounds.left - 0.5 ||
+            box.top < safeBounds.top - 0.5 ||
+            box.right > safeBounds.right + 0.5 ||
+            box.bottom > safeBounds.bottom + 0.5
+          )) failures.push("Outside crop-safe area: " + node.textContent.trim().slice(0, 90));
         }
       }
       return [...new Set(failures)];
-    });
+    }, target.safeBounds);
     assert.deepEqual(clipping, [], `${target.name}: text outside export`);
     await page.screenshot({ path: target.output, animations: "disabled" });
+    if (target.uploadOutput) {
+      await page.screenshot({
+        path: target.uploadOutput,
+        type: "jpeg",
+        quality: 95,
+        animations: "disabled",
+      });
+    }
     results.push({
       name: target.name,
       width: target.width,
       height: target.height,
       clipping,
+      safeBounds: target.safeBounds,
+      uploadOutput: target.uploadOutput,
     });
   }
   assert.deepEqual(errors, [], "Artwork browser errors");

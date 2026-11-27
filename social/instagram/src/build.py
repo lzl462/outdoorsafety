@@ -9,6 +9,7 @@ import os
 import pathlib
 import shutil
 import subprocess
+import zipfile
 
 K = pathlib.Path(__file__).resolve().parents[1]
 S = K / 'src'
@@ -103,8 +104,13 @@ h2{font:700 40px/1.2 DM;letter-spacing:-.02em;margin-bottom:10px}
 .lost-warm p{font-size:36px;line-height:1.35}
 .lost-signal{position:absolute;left:80px;right:76px;top:1095px;font-size:28px;line-height:1.35;color:#c9d4c6}
 '''
+POST_FORMAT_CSS = '''
+html,body{width:1080px;height:1080px;overflow:hidden}
+.post{left:140.4px;top:40.5px;transform:scale(.74);transform-origin:top left}
+'''
 def page(body, cls=''):
-    return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body><div class="post {cls}">{body}</div></body></html>'
+    background = 'var(--pine)' if cls in ('dark', 'launch', 'campaign campaign-dark lost-campaign') else 'var(--paper)'
+    return f'<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{POST_FORMAT_CSS}</style></head><body style="background:{background}"><div class="post {cls}">{body}</div></body></html>'
 def foot(dark=False):
     bg = '#d7ec8b'
     return f'''<div class="foot"><div class="brand">{mark()}<div>OUTDOOR SAFETY<small>SEA-TO-SKY</small></div></div>
@@ -212,7 +218,7 @@ def preview_sheets():
     font = ImageFont.truetype(str(S / 'dm-sans-700.ttf'), 24)
     files = [K / 'posts' / f'{name}.png' for name in posts]
     files += [K / 'profile' / f'{name}.png' for name in prof]
-    columns, tile_width, tile_height, gap = 4, 324, 405, 28
+    columns, tile_width, tile_height, gap = 4, 324, 324, 28
     rows = (len(files) + columns - 1) // columns
     sheet = Image.new('RGB', (gap + columns * (tile_width + gap), gap + rows * (tile_height + 58 + gap)), '#e9eee3')
     draw = ImageDraw.Draw(sheet)
@@ -231,6 +237,36 @@ def preview_sheets():
             caption_font = ImageFont.truetype(str(S / 'dm-sans-700.ttf'), caption_size)
         draw.text((x, y + tile_height + 12), path.name, fill='#192e27', font=caption_font)
     sheet.save(K / 'overview.png', optimize=True)
+
+    grid_columns, grid_width, grid_height = 3, 243, 324
+    grid_sheet = Image.new('RGB', (gap + grid_columns * (grid_width + gap), gap + 3 * (grid_height + 58 + gap)), '#e9eee3')
+    draw = ImageDraw.Draw(grid_sheet)
+    for index, name in enumerate(posts):
+        artwork = Image.open(K / 'posts' / f'{name}.png').convert('RGB')
+        if artwork.size != (1080, 1080):
+            raise SystemExit(f'{name}: rebuild all square post exports before refreshing the grid preview.')
+        artwork = artwork.crop((135, 0, 945, 1080)).resize((grid_width, grid_height), Image.Resampling.LANCZOS)
+        left = gap + index % grid_columns * (grid_width + gap)
+        top = gap + index // grid_columns * (grid_height + 58 + gap)
+        grid_sheet.paste(artwork, (left, top))
+        label_font = font
+        label_size = 24
+        while draw.textbbox((0, 0), name, font=label_font)[2] > grid_width:
+            label_size -= 1
+            label_font = ImageFont.truetype(str(S / 'dm-sans-700.ttf'), label_size)
+        draw.text((left, top + grid_height + 12), name, fill='#192e27', font=label_font)
+    grid_sheet.save(K / 'profile-grid-preview.png', optimize=True)
+
+    with zipfile.ZipFile(K / 'instagram-posts-square.zip', 'w', compression=zipfile.ZIP_STORED) as archive:
+        for name in posts:
+            archive.write(K / 'posts' / f'{name}.png', arcname=f'{name}.png')
+
+    with zipfile.ZipFile(K / 'instagram-upload-square.zip', 'w', compression=zipfile.ZIP_STORED) as archive:
+        for name in posts:
+            upload = K / 'upload-square' / f'{name}-square-1080.jpg'
+            if not upload.is_file():
+                raise SystemExit(f'{name}: render all square JPG files before refreshing the upload ZIP.')
+            archive.write(upload, arcname=upload.name)
 
     crop_sheet = Image.new('RGB', (800, 430), '#e9eee3')
     draw = ImageDraw.Draw(crop_sheet)
@@ -253,17 +289,21 @@ def main():
     parser.add_argument('--playwright-module', default=os.environ.get('PLAYWRIGHT_MODULE'), help='Optional path to an installed Playwright index.mjs.')
     parser.add_argument('--previews-only', action='store_true', help='Rebuild overview/circle previews from existing PNGs.')
     args = parser.parse_args()
-    for folder in [S, K / 'posts', K / 'profile']:
+    for folder in [S, K / 'posts', K / 'profile', K / 'upload-square']:
         folder.mkdir(parents=True, exist_ok=True)
     if args.previews_only:
         preview_sheets()
         return
     targets = []
-    for group, size, folder in [(posts, (1080, 1350), 'posts'), (prof, (1080, 1080), 'profile')]:
+    for group, size, folder in [(posts, (1080, 1080), 'posts'), (prof, (1080, 1080), 'profile')]:
         for name, markup in group.items():
             (S / f'{name}.html').write_text(markup, encoding='utf-8')
             if not args.only or name in args.only:
-                targets.append({'name': name, 'width': size[0], 'height': size[1], 'output': str(K / folder / f'{name}.png')})
+                target = {'name': name, 'width': size[0], 'height': size[1], 'output': str(K / folder / f'{name}.png')}
+                if folder == 'posts':
+                    target['safeBounds'] = {'left': 135, 'top': 24, 'right': 945, 'bottom': 1056}
+                    target['uploadOutput'] = str(K / 'upload-square' / f'{name}-square-1080.jpg')
+                targets.append(target)
     if args.html_only:
         print(f'Wrote {len(posts) + len(prof)} HTML previews under {S}')
         return

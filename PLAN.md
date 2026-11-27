@@ -2,11 +2,17 @@
 
 Outdoor Safety — Sea-to-Sky · [Live website](https://lzl462.github.io/outdoorsafety/)
 
-Deadline: Monday 30 Nov 2026. Status updated on 26 Nov after restoring the large display photograph and expanding the learning and reflection text.
+Deadline: Monday 30 Nov 2026. Status updated on 27 Nov after preparing square Instagram images with crop checks.
 
 The website's content baseline, interviews, redesign, trip planner, reviewed refinements, revised presentation draft, proposal comparison and Instagram starter kit are complete as repository artifacts. Remaining work is mainly rehearsal, separate portfolio/school deliverables, the physical poster and social publication details. The detailed earlier implementation history is in [the historical plan](docs/history/PLAN-2026-11-25.md).
 
 ## Current scope
+
+On 27 Nov, Liz explicitly authorized committing and pushing the square Instagram format revision, matching source/previews and PNG/JPG download packages to main. This publishes the repository assets through GitHub Pages; posting to Instagram and adding the profile link remain separate and unconfirmed.
+
+The 27 Nov format clarification preserves the existing Instagram design and adds an explicit JPG upload handoff: nine 1080 × 1080 images named `*-square-1080.jpg` and `instagram-upload-square.zip`, alongside the matching PNGs. The images are fitted rather than cut down; distinct filenames separate the new exports from older downloads. Text crop checks and review previews still apply. Uploads and live-app cropping are not claimed.
+
+The Instagram cropping follow-up changes all nine post PNGs from 1080 × 1350 to 1080 × 1080 squares. The complete designs are fitted proportionally, with all text inside a centred 3:4 test crop and top/bottom margins. The generator now enforces those text bounds, exports a profile-grid comparison and bundles the nine individual images in a ZIP. Captions, alt text, safety wording and the three-ready/four-draft topic distinction are unchanged. The user reported clipping but has not yet identified whether it occurs in the upload or profile preview; both square exports and the simulated crop are checked, without claiming an observed live-app result. New files remain prepared for manual upload; publication dates/URLs are still unreported.
 
 Latest display wording: the upper right card's heading is restored to “My work. My learning.” Four paragraphs cover the five competencies: Learn & Collaborate now share one paragraph linking communication practice to the local interviews, removing the repeated explanation. The fuller learning/reflection text and large photograph are retained. Matching print exports and source wording are updated locally.
 

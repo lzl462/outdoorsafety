@@ -1266,7 +1266,13 @@ Photograph label if used: Stawamus Chief · Squamish. Photo: James Abbott · CC 
 
 ### Reviewed Instagram captions and image updates
 
+Upload format: The new upload files are 1080 × 1080 JPGs in `social/instagram/upload-square/`, bundled in `social/instagram/instagram-upload-square.zip`. Their names end in `-square-1080.jpg` to distinguish them from older downloads. Extract the ZIP before selecting the individual images. The matching PNGs remain in `social/instagram/posts/` and `social/instagram/instagram-posts-square.zip`. The original design, colours, photographs and wording are retained; the complete artwork is fitted into the square rather than cropped. The overview and profile-grid comparison sheet are review previews, not posts to upload. Text stays inside a centred 3:4 preview area. All three Common mistakes slides use the same square format and belong in one carousel, in order. Keep the complete image selected when uploading, without zooming in. These are feed-post images; Stories and Reels need a separate layout. Captions and alt text remain in their existing files. The upload preview remains the final check for the account's current app.
+
 Profile bio: Sea-to-Sky trip prep. Planning guides, packing lists & practical next steps. Not an official rescue site. Emergency? Call 9-1-1. Website ↓
+
+Profile website URL: https://lzl462.github.io/outdoorsafety/
+
+Suggested profile-link title: Outdoor Safety — Sea-to-Sky
 
 #### Instagram 01 — Website introduction
 
