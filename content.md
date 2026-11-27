@@ -1531,22 +1531,29 @@ Clear guides for Sea-to-Sky day trips. Prepare, pack and know your next step.
 
 #### MY WORK. MY LEARNING.
 
-I conducted the interviews, spent many hours improving the pages and manage Instagram. AI helped with transcription, wording and code; GitHub tracks changes.
+**Learn & Collaborate:** Writing emails, explaining my project and preparing interview questions helped me practise clear communication. I connected with Christine Strub and Laure Lejeune through the interviews. Their experiences helped me connect my research to local situations and decide which lessons to explain on the website.
 
-What I learned:
+**Create & Innovate:** I turned research into website pages, checklists and a Trip Plan. I worked on the wording and design so visitors could find useful information before a trip or when plans changed.
 
-- Learn: use new tools such as AI and GitHub.
-- Create & Innovate: turn research into a website and checklists.
-- Think Critically: check AI drafts against sources and improve unclear wording.
+**Think Critically:** I checked drafts against the interviews and published guidance. When wording was confusing or a feature did not work as expected, I needed to question the result and work on a clearer solution.
 
-#### MY LEARNING, CONTINUED
+**Contribute:** I created a practical resource for students, visitors and other beginners in the Sea-to-Sky. The checklists and trip planner give people tools they can use for their own preparation.
 
-- Contribute: make practical advice easier to access.
-- Collaborate: ask local rescuers questions and learn from their experience.
+#### WHAT I LEARNED
 
-My reflection: Clear advice takes more than collecting facts. I need to check the information and make it easy for someone else to use.
+I learned that outdoor preparation involves more than choosing a route or packing a bag. The interviews showed me why the group’s abilities, a reliable contact and being ready for delays all matter. I used these lessons to shape the website’s advice.
 
-Next steps: Keep improving the site and Instagram. Research, communication and digital design connect to my interests in medicine and sport. I may explore SAR volunteering; translations are a later idea.
+I also learned about AI tools, GitHub and designing for different screens. I conducted the interviews, spent many hours improving individual pages and now manage Instagram. AI supported transcription, wording and code, but I still needed to understand and check the result.
+
+#### MY REFLECTION
+
+The biggest lesson was that collecting information and explaining it clearly are different tasks. A page can contain useful facts and still be difficult to use. Shorter menu labels, clear headings and practical tools helped me focus on what a visitor needs next.
+
+Managing several parts at once was a challenge. In my October check-in, I recognised that I needed to finish one task before moving to another. I want to keep improving this habit and review my work carefully instead of treating the first draft as finished.
+
+#### NEXT STEPS
+
+I want to keep improving the website and Instagram. Research, communication and digital design connect to my interests in medicine and sport; I may also explore SAR volunteering.
 
 Website qr label: WEBSITE
 
@@ -1564,11 +1571,11 @@ Endorsement line: Interview participation is not an organizational endorsement.
 
 Disclaimer: This is not an official rescue site. In an emergency, call 9-1-1.
 
-Photo collage: SEA-TO-SKY · Mountains, trails & water. Six regional photographs: Stawamus Chief, Harmony Lakes Loop, Howe Sound and three Shannon Falls Provincial Park views. These are landscape photographs, not images of the incidents or interviews.
+Main photograph: Stawamus Chief · Squamish. This regional landscape photograph does not depict the incidents or interviews.
 
-Photo credits: James Abbott / Ruth Hartnup · CC BY 2.0; David Zhang · CC BY-SA 2.0; Natulive Canada · CC BY-SA 4.0. Resized and cropped; licences retained. Photo sources & licences: poster/README.md. Black & white exports also say Greyscale.
+Photo credit: Photo: James Abbott · CC BY 2.0. The black & white export adds Greyscale.
 
-Layout note: The two right-hand cards meet to form one learning column, with work, reflection, competency examples and next steps. They remain separate Legal sheets for printing. The centre holds title/photo collage, project/website preview, Trip Plan/advice for each step, and website/Instagram QR destinations. A separate genuine interview or rescue photograph would be useful beside the local-rescuer section if Liz supplies one cleared for use; no stock photograph is presented as her interview.
+Layout note: The two right-hand cards meet to form one learning column. The upper card explains the five core competencies in short paragraphs; the lower card expands what I learned, my reflection and next steps. They remain separate Legal sheets for printing. The centre holds title/large Stawamus Chief photograph, project/website preview, Trip Plan/advice for each step, and website/Instagram QR destinations. A separate genuine interview or rescue photograph would be useful beside the local-rescuer section if Liz supplies one cleared for use; no stock photograph is presented as her interview.
 
 Conditional credit if a Harmony Lakes website screenshot is used: Photo: Ruth Hartnup · CC BY 2.0.
 
@@ -1578,13 +1585,13 @@ Working measurements transcribed from the supplied annotated photo on 26 Nov: he
 
 Print planning interface: Board measurements · Printing and assembly · Twelve cards · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm). · Select Actual size / 100%, one page per sheet, in portrait orientation. · All twelve PDF pages use the same paper orientation; turn the eight landscape cards after trimming. · The PDFs already contain individual pages: use normal printing. · Trim on the crop marks and place the cards using their numbers and the assembly guide. · Keep every QR code's white border. · Confirm that the loaded paper is Legal, rather than Letter (8.5 × 11 in). · The 100 mm line on each sheet shows the intended scale. · Printing and mounting have not been completed.
 
-Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Regional photo collage · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Advice for each step · Website QR · Instagram QR · My work and learning · My learning, continued · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
+Guide labels: Assembly guide · Outdoor Safety — Sea-to-Sky · Based on the supplied measurements · Working layout: right panel assumed equal to left · Twelve Legal sheets · Four portrait and eight landscape · Positions are measured from the upper-left corner of the open, flat board · Trim size · Left · Top · Centre · Right · Card · Fold · Title · Local photograph · Why I chose this · Local rescuers · The project · Website preview · Trip Plan · Advice for each step · Website QR · Instagram QR · My work and learning · Learning and reflection · Print at Actual size / 100% · One page per sheet · Single-sided · Do not use Fit, Poster or Booklet for the twelve-page print set · A3 review preview — not a full-size print file.
 
 Print-set margin labels: Turn this card after trimming · Portrait · Landscape · 100 mm · Legal 8.5 × 14 in · Trim all cards to 19.05 × 33.02 cm, then orient them as shown in the assembly guide.
 
 Black & white printing interface: Black & white printing · Black & white print set · Black & white assembly guide · Black & white preview · White backgrounds, black text and greyscale photographs. Card sizes, numbers and placement are the same as the colour version. · Choose the colour or black & white print set, then print pages 1–12 single-sided on Legal paper (8.5 × 14 in / 215.9 × 355.6 mm).
 
-Black & white photo credit: Collage credits and licences as above · Greyscale.
+Black & white photo credit: Photo: James Abbott · CC BY 2.0 · Greyscale.
 
 Black & white print labels: Black & white · Outdoor Safety — Sea-to-Sky · Black & white · Twelve Legal sheets.
 
@@ -1726,9 +1733,9 @@ Show: Use made-up details in the Trip Plan. Point out the deadline, review and c
 
 Extra notes — Using a poster
 
-Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The display now shows advice for each step instead of the trail-sign concept, a regional photo collage, and one learning column across two sheets. The separate sign remains a design preview in Print & share. The project display has a measured twelve-card layout and Legal-paper print sets in colour or black & white. Printing and mounting are the next steps.
+Point to the main sections and label the two display codes Website and Instagram. Keep the white QR borders. The display shows advice for each step, the large Stawamus Chief photograph, and one learning column across two sheets. The upper card explains the core competencies in short paragraphs; the lower card expands what I learned, my reflection and next steps. These longer display paragraphs are background for discussion, not extra text to read aloud. The separate sign remains a design preview in Print & share. The project display has a measured twelve-card layout and Legal-paper print sets in colour or black & white. Printing and mounting are the next steps.
 
-Show: The display’s advice card, learning column and two QR codes; optionally the separate sign and Quick reminders.
+Show: The display’s advice card, competency and reflection paragraphs, and two QR codes; optionally the separate sign and Quick reminders.
 
 [Open Print & share](resources.html) · [Open Quick reminders](tips.html) · [Open the project display draft](poster/display.html)
 
@@ -1826,7 +1833,7 @@ Practise with the full notes first. Then use these prompts in your own words, or
 7. Trip Plan — deadline; review → copy/email/print; send yourself.
    Show: Trip Plan.
 8. QR — trail tips; display: website + Instagram.
-   Show: Display advice / learning / QR codes.
+   Show: Display advice / competencies / reflection / QR codes.
 9. Learning — AI + GitHub; shorter labels; check results.
    Show: Guide on phone.
 10. Competencies — learn; create; question; contribute; collaborate.

@@ -22,31 +22,28 @@ Each card is 19.05 × 33.02 cm after trimming. Four are mounted vertically on th
 
 | Printed page | Content | Mounting position |
 | --- | --- | --- |
-| 01 / 02 | Title / six-photo regional collage | Centre, first row |
+| 01 / 02 | Title / large Stawamus Chief photograph | Centre, first row |
 | 03 / 04 | Why I chose this / local rescuers | Left, upper / lower |
 | 05 / 06 | The project / website preview | Centre, second row |
 | 07 / 08 | Trip Plan / advice for each step | Centre, third row |
 | 09 / 10 | Website QR / Instagram QR | Centre, fourth row |
-| 11 / 12 | My work and learning / reflection and next steps | Right, adjoining upper / lower cards |
+| 11 / 12 | My work and learning / learning, reflection and next steps | Right, adjoining upper / lower cards |
 
 The layout uses the white cardboard between the separate cards. The cards clear both folds; placement coordinates in the guide are measured from the upper-left corner with the board open and flat. All card art keeps the confirmed project wording, first-name-only student credit and photo/source attribution. The two QR destinations remain distinct.
 
 The right-hand cards meet without a gap to read as one learning column, while each still prints on one Legal sheet. `spacing.rightRowGapMm` controls this placement. The trail-start concept is still available separately in Print & share; the display now introduces actual website advice instead.
 
-## Collage sources
+At Liz's request, the upper right card is headed “My work. My learning.” and covers all five competencies in four short paragraphs. Learn & Collaborate share one paragraph connecting communication practice with the concrete interview example, avoiding two overlapping explanations. The lower card has separate What I learned, My reflection and Next steps sections, also in prose. Examples come from her submitted 10 October competency sheet, 23 October check-in and confirmed contribution; the wording is an edited first-person draft, not a verbatim quotation or completion of the separate teacher reflection.
 
-The six photographs provide regional context, not images of Liz's interviews or the reported incidents. All are resized and cropped to fit. The black & white version adds a greyscale modification. The individual image adaptations retain their respective licences; this does not change the licence of the surrounding card text.
+## Photograph
+
+The single large Stawamus Chief photograph beside the title replaces the six-photo collage at Liz's request. It provides regional context, not an image of her interviews or the reported incidents. It is resized and cropped; the black & white version adds a greyscale modification.
 
 | Photograph | Creator | Licence |
 | --- | --- | --- |
 | [Stawamus Chief](https://commons.wikimedia.org/wiki/File:The_Chief,_Stawamus_Chief_Provincial_Park.jpg) | James Abbott | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
-| [Harmony Lakes Loop trail](https://commons.wikimedia.org/wiki/File:Harmony_Lakes_Loop_trail_(7734111396).jpg) | Ruth Hartnup | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
-| [Howe Sound](https://commons.wikimedia.org/wiki/File:Howe_Sound_(54538272996).jpg) | David Zhang | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) |
-| [Shannon Falls Provincial Park 05](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_05.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| [Shannon Falls Provincial Park 06](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_06.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
-| [Shannon Falls Provincial Park 07](https://commons.wikimedia.org/wiki/File:Shannon_Falls_Provincial_Park_07.jpg) | Natulive Canada | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-The new Commons author/licence records were checked on 26 Nov 2026. A separate genuine interview or rescue photo is still pending a suitable image cleared for use from Liz. It would fit beside the rescuers section; a generic photo must not imply it depicts her interview.
+The earlier collage assets are retained with their licence records in `images/README.md`; image-file cleanup remains deferred. A separate genuine interview or rescue photo is still pending a suitable image cleared for use from Liz. It would fit beside the rescuers section; a generic photo must not imply it depicts her interview.
 
 ## Printing at school
 

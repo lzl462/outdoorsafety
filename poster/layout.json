@@ -31,7 +31,7 @@
     {
       "id": "photo",
       "number": 2,
-      "label": "Regional photo collage",
+      "label": "Local photograph",
       "panel": "centre",
       "row": 0,
       "column": 1
@@ -108,7 +108,7 @@
     {
       "id": "next",
       "number": 12,
-      "label": "My learning, continued",
+      "label": "Learning and reflection",
       "panel": "right",
       "row": 1
     }

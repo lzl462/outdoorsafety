@@ -35,7 +35,7 @@ body.monochrome {
 .monochrome .terrain-mark {
   opacity: 1;
 }
-.monochrome .photo-grid img,
+.monochrome .photo-card > img,
 .monochrome .browser-window img {
   filter: grayscale(1);
 }
